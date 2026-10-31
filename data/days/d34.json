@@ -1,0 +1,156 @@
+{
+ "n": 34,
+ "objectives": [
+  "Eliminar relleno sin perder información.",
+  "Usar verbos directos y frases cortas.",
+  "Mantener un registro formal en menos palabras."
+ ],
+ "vocab": {
+  "theme": "Verbos directos para reportar problemas",
+  "words": [
+   [
+    "report",
+    "verb",
+    "to formally notify",
+    "informar",
+    "I am writing to report a leak."
+   ],
+   [
+    "inspect",
+    "verb",
+    "to examine carefully",
+    "inspeccionar",
+    "Inspect the pipe."
+   ],
+   [
+    "drip",
+    "verb",
+    "to fall in drops",
+    "gotear",
+    "The ceiling drips."
+   ],
+   [
+    "leak",
+    "noun",
+    "an unwanted escape of liquid",
+    "fuga",
+    "A water leak."
+   ],
+   [
+    "damage",
+    "verb",
+    "to harm",
+    "dañar",
+    "The water may damage books."
+   ],
+   [
+    "belongings",
+    "noun",
+    "personal possessions",
+    "pertenencias",
+    "My belongings."
+   ],
+   [
+    "concise",
+    "adj",
+    "short and clear",
+    "conciso",
+    "A concise summary."
+   ],
+   [
+    "redundant",
+    "adj",
+    "unnecessary",
+    "redundante",
+    "Remove redundant words."
+   ],
+   [
+    "currently",
+    "adv",
+    "at present",
+    "actualmente",
+    "Currently unavailable."
+   ],
+   [
+    "promptly",
+    "adv",
+    "quickly",
+    "con prontitud",
+    "Please respond promptly."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d34.md",
+ "videos": {
+  "ids": [
+   "w-email-tips"
+  ],
+  "search": "TOEFL email concise formal sample answer"
+ },
+ "practice": [
+  {
+   "kind": "writing",
+   "task": "email",
+   "id": "d34-p1",
+   "title": "Email: reescribir y acortar un 20 %",
+   "minutes": 15,
+   "minWords": 80,
+   "prompt": "**Situation.** Your friend wrote this draft to the manager of a student apartment building. It is too long and unclear.\n\n*“Hello, I hope that everything is going well for you. I am writing to you in order to inform you of the fact that, at this point in time, there is a leak coming from the ceiling in the bathroom of my apartment, which is number 12B, and this has been going on for a period of about five days now, and I think that it is a problem that is quite serious because it might damage my belongings. I would really like it if somebody could possibly come to take a look at it as soon as it is at all possible. Thank you for your time.”*\n\n**Write a new version** of the email (≈ 80-100 words) that keeps all the information but is **clearer and shorter**. Keep a polite, formal tone.",
+   "vocab": "- *I am writing to report…* → en lugar de *I am writing to you in order to inform you of the fact that…*\n- *currently* → *at this point in time*\n- *for five days* → *for a period of about five days*\n- *Could someone inspect it as soon as possible?*",
+   "template": "1. **Saludo**\n2. **Propósito en 1 frase** con verbo directo (*I am writing to report…*)\n3. **Datos**: número de apartamento, qué, desde cuándo, consecuencia\n4. **Petición** concreta\n5. **Cierre**",
+   "checklist": [
+    "Conservé todos los datos (12B, techo, cinco días, riesgo, petición)",
+    "Eliminé frases innecesarias (in order to inform you of the fact that…)",
+    "Usé verbos directos",
+    "Mantuve cortesía",
+    "Menos de 100 palabras"
+   ],
+   "model": "Dear Manager,\n\nI am writing to report a leak in the bathroom ceiling of apartment 12B. It has been dripping for five days, and I am concerned that it may damage my belongings.\n\nCould someone inspect it as soon as possible?\n\nThank you for your help.\n\nKind regards,\nLucas Ortega",
+   "modelNotes": "**Resultado:** ~55 palabras frente a las 110 del original, sin perder datos. Las tareas del examen premian **claridad y precisión**, no longitud: cumple los puntos con frases directas."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d34-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which phrase is more concise but equivalent?",
+   "options": [
+    "at this point in time",
+    "currently",
+    "in the present moment of time",
+    "right at this moment in time"
+   ],
+   "answer": 1,
+   "explain": "currently."
+  },
+  {
+   "id": "d34-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "\"in order to inform you of the fact that\" can be shortened to",
+   "options": [
+    "to tell you that",
+    "informing facts",
+    "in facts that",
+    "that facts"
+   ],
+   "answer": 0,
+   "explain": "to tell you that / I am writing to inform you that."
+  },
+  {
+   "id": "d34-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A concise email should still include",
+   "options": [
+    "all required information",
+    "only the greeting",
+    "all adjectives",
+    "long sentences"
+   ],
+   "answer": 0,
+   "explain": "La concisión no sacrifica información."
+  }
+ ]
+}

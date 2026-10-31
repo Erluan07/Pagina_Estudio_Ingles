@@ -1,0 +1,344 @@
+{
+ "n": 31,
+ "objectives": [
+  "Dominar la pasiva y las cláusulas de relativo en Build a Sentence.",
+  "Usar whose, the one that y that-clauses.",
+  "Detectar el subjuntivo formal (recommend that… be)."
+ ],
+ "vocab": {
+  "theme": "Verbos de informe y evaluación",
+  "words": [
+   [
+    "demolish",
+    "verb",
+    "to destroy a building",
+    "demoler",
+    "The old hall was demolished."
+   ],
+   [
+    "reversible",
+    "adj",
+    "able to be undone",
+    "reversible",
+    "The effect is reversible."
+   ],
+   [
+    "independent",
+    "adj",
+    "not connected or controlled",
+    "independiente",
+    "Independent studies."
+   ],
+   [
+    "confirm",
+    "verb",
+    "to prove correct",
+    "confirmar",
+    "Results were confirmed."
+   ],
+   [
+    "recommend",
+    "verb",
+    "to suggest",
+    "recomendar",
+    "The report recommends changes."
+   ],
+   [
+    "reliable",
+    "adj",
+    "trustworthy",
+    "fiable",
+    "Reliable data."
+   ],
+   [
+    "seal",
+    "verb",
+    "to close tightly",
+    "sellar",
+    "Seal the doors."
+   ],
+   [
+    "replace",
+    "verb",
+    "to substitute",
+    "reemplazar",
+    "Replace the windows."
+   ],
+   [
+    "extend",
+    "verb",
+    "to make longer",
+    "extender",
+    "Extend the program."
+   ],
+   [
+    "candidate",
+    "noun",
+    "a person who applies",
+    "candidato",
+    "The best candidate."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d31.md",
+ "videos": {
+  "ids": [
+   "w-bas-training"
+  ],
+  "search": "TOEFL Build a Sentence passive relative clauses"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d31-p1",
+   "title": "Build a Sentence (10 ítems)",
+   "minutes": 22,
+   "items": [
+    {
+     "id": "d31-b1",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What happened to the old library?",
+     "words": [
+      "laboratory.",
+      "demolished",
+      "It",
+      "to",
+      "year",
+      "make",
+      "last",
+      "for",
+      "a",
+      "was",
+      "room"
+     ],
+     "answer": "It was demolished last year to make room for a laboratory.",
+     "explain": "Pasiva en pasado + infinitivo de finalidad."
+    },
+    {
+     "id": "d31-b2",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Who is the author of this book?",
+     "words": [
+      "university.",
+      "our",
+      "wrote",
+      "is",
+      "The",
+      "at",
+      "it",
+      "professor",
+      "woman",
+      "a",
+      "who"
+     ],
+     "answer": "The woman who wrote it is a professor at our university.",
+     "explain": "Relativa con who."
+    },
+    {
+     "id": "d31-b3",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Which course did you enjoy the most?",
+     "words": [
+      "was",
+      "my",
+      "Silva",
+      "by",
+      "that",
+      "was",
+      "The",
+      "taught",
+      "one",
+      "favorite.",
+      "Dr."
+     ],
+     "answer": "The one that was taught by Dr. Silva was my favorite.",
+     "explain": "The one that + pasiva."
+    },
+    {
+     "id": "d31-b4",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "How is the new software being used?",
+     "words": [
+      "by",
+      "being",
+      "of",
+      "small",
+      "group",
+      "is",
+      "It",
+      "students.",
+      "a",
+      "tested"
+     ],
+     "answer": "It is being tested by a small group of students.",
+     "explain": "Presente continuo pasivo."
+    },
+    {
+     "id": "d31-b5",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Why did the study receive so much attention?",
+     "words": [
+      "the",
+      "the",
+      "that",
+      "reversible.",
+      "to",
+      "was",
+      "show",
+      "is",
+      "It",
+      "first",
+      "effect"
+     ],
+     "answer": "It was the first to show that the effect is reversible.",
+     "explain": "The first to + infinitivo + that."
+    },
+    {
+     "id": "d31-b6",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What should be done about the noise?",
+     "words": [
+      "doors",
+      "be",
+      "should",
+      "the",
+      "windows",
+      "be",
+      "replaced,",
+      "and",
+      "sealed.",
+      "should",
+      "The"
+     ],
+     "answer": "The windows should be replaced, and the doors should be sealed.",
+     "explain": "Dos pasivas con should."
+    },
+    {
+     "id": "d31-b7",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Whose notes did you use?",
+     "words": [
+      "had",
+      "that",
+      "notes",
+      "I",
+      "the",
+      "roommate",
+      "used",
+      "taken.",
+      "my"
+     ],
+     "answer": "I used the notes that my roommate had taken.",
+     "explain": "Relativa con that + pasado perfecto."
+    },
+    {
+     "id": "d31-b8",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What does the report recommend?",
+     "words": [
+      "It",
+      "that",
+      "another",
+      "for",
+      "program",
+      "the",
+      "recommends",
+      "year.",
+      "be",
+      "extended"
+     ],
+     "answer": "It recommends that the program be extended for another year.",
+     "explain": "Subjuntivo: recommend that + be + participio."
+    },
+    {
+     "id": "d31-b9",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Which candidate was selected?",
+     "words": [
+      "submitted",
+      "one",
+      "first",
+      "The",
+      "was",
+      "was",
+      "application",
+      "whose",
+      "chosen."
+     ],
+     "answer": "The one whose application was submitted first was chosen.",
+     "explain": "whose + sustantivo."
+    },
+    {
+     "id": "d31-b10",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Why are the results considered reliable?",
+     "words": [
+      "confirmed",
+      "studies.",
+      "were",
+      "independent",
+      "They",
+      "by",
+      "several"
+     ],
+     "answer": "They were confirmed by several independent studies.",
+     "explain": "Pasiva con agente (by)."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d31-q1",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "The book which I bought it was expensive.",
+    "The book which I bought was expensive.",
+    "The book I bought it was expensive.",
+    "The book what I bought was expensive."
+   ],
+   "answer": 1,
+   "explain": "No se repite el pronombre en la relativa."
+  },
+  {
+   "id": "d31-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "It is recommended that he attends the session.",
+    "It is recommended that he attend the session.",
+    "It is recommended that he attending the session.",
+    "It is recommend that he attend the session."
+   ],
+   "answer": 1,
+   "explain": "Subjuntivo formal: base."
+  },
+  {
+   "id": "d31-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "The students, who passed the exam, were happy (all of them passed).",
+    "The students who passed the exam were happy (some did not).",
+    "Both correct, with different meanings",
+    "Neither"
+   ],
+   "answer": 2,
+   "explain": "La coma convierte la relativa en no restrictiva: cambia el significado."
+  }
+ ]
+}

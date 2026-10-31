@@ -1,0 +1,92 @@
+{
+ "n": 21,
+ "objectives": [
+  "Hacer un mini-simulacro con proporciones cercanas a las del examen (≈ 40 %).",
+  "Comparar tu banda con el simulacro largo 1.",
+  "Clasificar errores y fijar dos prioridades para la semana 4."
+ ],
+ "vocab": {
+  "theme": "Conectores y expresiones C1",
+  "words": [
+   [
+    "to a large extent",
+    "phrase",
+    "mostly; in a great degree",
+    "en gran medida",
+    "To a large extent, the plan succeeded."
+   ],
+   [
+    "by contrast",
+    "phrase",
+    "used to show a difference",
+    "en contraste",
+    "By contrast, rural areas lost population."
+   ],
+   [
+    "in light of",
+    "phrase",
+    "considering",
+    "a la luz de",
+    "In light of the results, we changed the method."
+   ],
+   [
+    "give rise to",
+    "phrase",
+    "to cause; to produce",
+    "dar lugar a",
+    "Poor planning gave rise to delays."
+   ],
+   [
+    "account for",
+    "phrasal verb",
+    "to explain or make up a proportion",
+    "explicar / representar",
+    "Students account for most of the users."
+   ],
+   [
+    "in terms of",
+    "phrase",
+    "regarding; with respect to",
+    "en cuanto a",
+    "In terms of cost, option B is better."
+   ],
+   [
+    "as opposed to",
+    "phrase",
+    "in contrast with",
+    "en lugar de",
+    "Active learning, as opposed to passive reading, improves recall."
+   ],
+   [
+    "with regard to",
+    "phrase",
+    "concerning",
+    "con respecto a",
+    "With regard to deadlines, nothing changed."
+   ],
+   [
+    "bear in mind",
+    "phrase",
+    "to remember and consider",
+    "tener presente",
+    "Bear in mind that results may vary."
+   ],
+   [
+    "play down",
+    "phrasal verb",
+    "to make something seem less important",
+    "restar importancia",
+    "The manager played down the risks."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d21.md",
+ "videos": {
+  "ids": [
+   "w-mistakes"
+  ],
+  "search": "TOEFL 2026 practice test full"
+ },
+ "practice": [],
+ "quiz": []
+}

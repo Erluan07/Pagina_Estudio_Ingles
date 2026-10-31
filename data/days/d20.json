@@ -1,0 +1,171 @@
+{
+ "n": 20,
+ "objectives": [
+  "Estructurar peticiones y disculpas formales.",
+  "Combinar problema + acción + petición + contrapartida.",
+  "Usar fórmulas corteses sin sonar artificial."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 6 (6/9)",
+  "words": [
+   [
+    "supplement",
+    "verb",
+    "to add to something",
+    "complementar",
+    "Vitamins supplement a diet."
+   ],
+   [
+    "suspend",
+    "verb",
+    "to stop temporarily",
+    "suspender",
+    "Classes were suspended due to snow."
+   ],
+   [
+    "tangible",
+    "adj",
+    "real and noticeable",
+    "tangible",
+    "There are tangible benefits."
+   ],
+   [
+    "terminate",
+    "verb",
+    "to end",
+    "terminar",
+    "The contract was terminated early."
+   ],
+   [
+    "thorough",
+    "adj",
+    "complete and careful",
+    "exhaustivo",
+    "A thorough review found three errors."
+   ],
+   [
+    "transform",
+    "verb",
+    "to change completely",
+    "transformar",
+    "Technology transformed communication."
+   ],
+   [
+    "trigger",
+    "verb",
+    "to cause to start",
+    "desencadenar",
+    "Stress can trigger headaches."
+   ],
+   [
+    "undermine",
+    "verb",
+    "to weaken gradually",
+    "socavar",
+    "Rumors undermined trust."
+   ],
+   [
+    "valid",
+    "adj",
+    "logically or legally acceptable",
+    "válido",
+    "You need a valid ID."
+   ],
+   [
+    "widespread",
+    "adj",
+    "found over a large area",
+    "extendido",
+    "Concern about privacy is widespread."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d20.md",
+ "videos": {
+  "ids": [
+   "w-email-guide",
+   "w-email-sample"
+  ],
+  "search": "TOEFL Write an Email polite request deadline extension"
+ },
+ "practice": [
+  {
+   "kind": "writing",
+   "task": "email",
+   "id": "d20-p1",
+   "title": "Email: pedir una prórroga justificada",
+   "minutes": 12,
+   "minWords": 100,
+   "prompt": "**Situation.** You are enrolled in an advanced statistics course. Your final project is due on Friday, but you have just discovered that the dataset your group received contains serious errors. Your group needs several extra days to obtain a corrected version.\n\n**Write an email to Professor Okafor.** In your email:\n- Explain the problem and what you have already done to address it.\n- Request an extension and propose a new deadline.\n- Offer something in return to show your commitment.",
+   "vocab": "- *I am writing to request…* · *Unfortunately, we discovered that…*\n- *We have already contacted… / we have documented the errors.*\n- *Would it be possible to extend the deadline until…?*\n- *In return, we would be glad to… / I fully understand if this is not possible.*",
+   "checklist": [
+    "Expliqué el problema con datos concretos",
+    "Mencioné lo que ya se hizo",
+    "Propuse una fecha nueva",
+    "Ofrecí algo a cambio",
+    "Tono formal y respetuoso",
+    "Sin frases demasiado largas"
+   ],
+   "model": "Dear Professor Okafor,\n\nI am writing on behalf of my project group to request a short extension for the final statistics project. Unfortunately, we discovered that the dataset we were given contains duplicated and missing values in about a fifth of its records, which makes our analysis unreliable.\n\nWe have already documented the errors and contacted the data provider to ask for a corrected version, but we do not expect a reply before the weekend. Would it be possible to extend the deadline until next Wednesday?\n\nIn return, we would be glad to include a short appendix explaining the data problems, which might be useful for future students. I fully understand if this is not possible.\n\nThank you for your time and consideration.\n\nSincerely,\nElena Ruiz",
+   "modelNotes": "**Por qué funciona:** problema con un dato cuantificado, acciones previas, petición con fecha, contrapartida y cortesía final (*I fully understand if…*)."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d20-q1",
+   "type": "mcq",
+   "qtype": "register",
+   "q": "Which sentence is the most appropriately formal request?",
+   "options": [
+    "I want an extension.",
+    "Could you possibly grant us a short extension?",
+    "Give us more time.",
+    "We need more days, okay?"
+   ],
+   "answer": 1,
+   "explain": "Could you possibly… suaviza la petición."
+  },
+  {
+   "id": "d20-q2",
+   "type": "mcq",
+   "qtype": "register",
+   "q": "Which apology fits a formal email best?",
+   "options": [
+    "My bad, sorry!",
+    "I sincerely apologize for the inconvenience.",
+    "Oops, sorry about that.",
+    "Sorry sorry sorry."
+   ],
+   "answer": 1,
+   "explain": "Registro formal."
+  },
+  {
+   "id": "d20-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "You offer something in return in a request email mainly to",
+   "options": [
+    "fill the word count",
+    "show commitment and make approval easier",
+    "change the topic",
+    "sound informal"
+   ],
+   "answer": 1,
+   "explain": "Demuestra compromiso y da una razón para decir sí."
+  },
+  {
+   "id": "d20-q4",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "I look forward to hear from you.",
+    "I look forward to hearing from you.",
+    "I look forward hear from you.",
+    "I am looking forward to hear you."
+   ],
+   "answer": 1,
+   "explain": "look forward to + gerundio."
+  }
+ ]
+}

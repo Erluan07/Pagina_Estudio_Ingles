@@ -1,0 +1,303 @@
+{
+ "n": 26,
+ "objectives": [
+  "Resolver preguntas NOT/EXCEPT comprobando cada opción.",
+  "Identificar el propósito retórico de un ejemplo o nombre.",
+  "Practicar dos sets de Read in Daily Life (2 y 3 ítems)."
+ ],
+ "vocab": {
+  "theme": "AWL mixto (verbos de estructura textual)",
+  "words": [
+   [
+    "evolve",
+    "verb",
+    "to develop gradually",
+    "evolucionar",
+    "The company evolved into a bank."
+   ],
+   [
+    "establishment",
+    "noun",
+    "an organization or business",
+    "establecimiento",
+    "A famous establishment."
+   ],
+   [
+    "contemporary",
+    "adj",
+    "of the same period; modern",
+    "contemporáneo",
+    "Contemporary accounts say…"
+   ],
+   [
+    "penny",
+    "noun",
+    "a small coin",
+    "penique",
+    "Entry cost a penny."
+   ],
+   [
+    "withdraw",
+    "verb",
+    "to take back",
+    "retirar",
+    "The ban was withdrawn."
+   ],
+   [
+    "approve",
+    "verb",
+    "to consider acceptable",
+    "aprobar",
+    "Not everyone approved."
+   ],
+   [
+    "institution",
+    "noun",
+    "a large organization",
+    "institución",
+    "A financial institution."
+   ],
+   [
+    "pamphlet",
+    "noun",
+    "a short printed booklet",
+    "panfleto",
+    "Pamphlets spread ideas."
+   ],
+   [
+    "insure",
+    "verb",
+    "to protect with a contract against loss",
+    "asegurar",
+    "They insure ships."
+   ],
+   [
+    "criticism",
+    "noun",
+    "expression of disapproval",
+    "crítica",
+    "Public criticism grew."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d26.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL reading NOT EXCEPT questions rhetorical purpose"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d26-p1",
+   "title": "Coffeehouses (≈ 170 palabras)",
+   "minutes": 15,
+   "passage": "In seventeenth-century England, coffeehouses became unusual social spaces. For the price of a penny, a customer could enter, order a cup of coffee, and stay for hours. Because the entry fee was so low, merchants, scholars, and clerks sat side by side, and conversation ranged from business to politics. Contemporaries nicknamed these places \"penny universities,\" suggesting that a visitor could learn as much there as in a classroom.\n\nThe coffeehouses also served practical functions. Newspapers and pamphlets were available for customers to read, and shipping news was posted on boards, so merchants could make business decisions quickly. One famous establishment, run by Edward Lloyd, eventually evolved into a center for insuring ships, a development that gave rise to a major financial institution.\n\nNot everyone approved. In 1675, the king attempted to close the coffeehouses, claiming that they encouraged criticism of the government. The ban was withdrawn within days after widespread protest.",
+   "items": [
+    {
+     "id": "d26-r1",
+     "type": "mcq",
+     "qtype": "negative-fact",
+     "q": "According to the passage, all of the following were available in coffeehouses EXCEPT",
+     "options": [
+      "newspapers",
+      "pamphlets",
+      "shipping news",
+      "printed books for sale"
+     ],
+     "answer": 3,
+     "explain": "El texto menciona periódicos, panfletos y noticias de barcos, no libros en venta."
+    },
+    {
+     "id": "d26-r2",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "Why does the author mention the nickname \"penny universities\"?",
+     "options": [
+      "To show that coffeehouses were cheaper than universities",
+      "To suggest that visitors could learn a great deal there",
+      "To criticize education",
+      "To explain the price of coffee"
+     ],
+     "answer": 1,
+     "explain": "Sugiere que se aprendía tanto como en un aula."
+    },
+    {
+     "id": "d26-r3",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "Why does the author mention Edward Lloyd?",
+     "options": [
+      "To give an example of a coffeehouse that developed into a financial center",
+      "To describe the king's policy",
+      "To explain coffee prices",
+      "To show a protest leader"
+     ],
+     "answer": 0,
+     "explain": "Ejemplo de evolución a un centro de seguros marítimos."
+    },
+    {
+     "id": "d26-r4",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Why did the king try to close the coffeehouses?",
+     "options": [
+      "They were too crowded",
+      "He believed they encouraged criticism of the government",
+      "They sold illegal goods",
+      "They competed with taverns"
+     ],
+     "answer": 1,
+     "explain": "«claiming that they encouraged criticism of the government»."
+    },
+    {
+     "id": "d26-r5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about the 1675 ban?",
+     "options": [
+      "It was strongly supported",
+      "It was quickly reversed because of public opposition",
+      "It lasted for years",
+      "It was proposed by merchants"
+     ],
+     "answer": 1,
+     "explain": "«withdrawn within days after widespread protest»."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d26-p2",
+   "title": "Daily Life · Set 1 (correo)",
+   "minutes": 5,
+   "passage": "Subject: Printer credit update\n\nDear students,\n\nFrom January 4, each student will receive 150 free pages per semester instead of 200. Color pages count as three black-and-white pages. Unused credit does not carry over. Additional pages can be purchased at the Service Desk (€0.05 per page).\n\nIf you believe the system shows an incorrect balance, please send a screenshot to print@unicampus.example by the 15th of the month.\n",
+   "items": [
+    {
+     "id": "d26-a1",
+     "type": "mcq",
+     "qtype": "daily-life",
+     "q": "What is changing in January?",
+     "options": [
+      "The price of printing",
+      "The number of free pages",
+      "The location of printers",
+      "The color options"
+     ],
+     "answer": 1,
+     "explain": "150 en lugar de 200."
+    },
+    {
+     "id": "d26-a2",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "How many free pages are used by printing 10 color pages?",
+     "options": [
+      "10",
+      "20",
+      "30",
+      "45"
+     ],
+     "answer": 2,
+     "explain": "Cada página en color cuenta como 3 en blanco y negro: 30."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d26-p3",
+   "title": "Daily Life · Set 2 (reglas)",
+   "minutes": 6,
+   "passage": "LIBRARY GROUP ROOMS — BOOKING RULES\n• Rooms hold up to six people and may be reserved for a maximum of two hours per day.\n• You must check in at the desk within ten minutes of the start time; otherwise the room is released.\n• Whiteboards must be cleaned and furniture returned to its original position.\n• Groups of two or fewer will be asked to move if others are waiting.",
+   "items": [
+    {
+     "id": "d26-b1",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "What happens if a group arrives 15 minutes late?",
+     "options": [
+      "Nothing",
+      "The room is released",
+      "They pay a fine",
+      "They get extra time"
+     ],
+     "answer": 1,
+     "explain": "Debe registrarse en 10 minutos."
+    },
+    {
+     "id": "d26-b2",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Why may a group of two be asked to move?",
+     "options": [
+      "The room has no whiteboard",
+      "Larger groups may be waiting",
+      "Two people are not allowed",
+      "It is an extra fee"
+     ],
+     "answer": 1,
+     "explain": "«Groups of two or fewer will be asked to move if others are waiting»."
+    },
+    {
+     "id": "d26-b3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What is the maximum booking time per day?",
+     "options": [
+      "One hour",
+      "Two hours",
+      "Three hours",
+      "Unlimited"
+     ],
+     "answer": 1,
+     "explain": "Máximo dos horas por día."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d26-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "In an EXCEPT question you should",
+   "options": [
+    "pick the option that appears most",
+    "check each option against the text and pick the one NOT there",
+    "guess the longest option",
+    "ignore the text"
+   ],
+   "answer": 1,
+   "explain": "Verificar cada opción."
+  },
+  {
+   "id": "d26-q2",
+   "type": "mcq",
+   "qtype": "purpose",
+   "q": "\"Why does the author mention X?\" asks you to identify",
+   "options": [
+    "what X is",
+    "the author's purpose for including X",
+    "the date of X",
+    "the opposite of X"
+   ],
+   "answer": 1,
+   "explain": "Función retórica."
+  },
+  {
+   "id": "d26-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A rhetorical-purpose answer often starts with a verb like",
+   "options": [
+    "to illustrate",
+    "to buy",
+    "to sleep",
+    "to forget"
+   ],
+   "answer": 0,
+   "explain": "to illustrate / to contrast / to support."
+  }
+ ]
+}

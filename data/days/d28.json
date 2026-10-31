@@ -1,0 +1,92 @@
+{
+ "n": 28,
+ "objectives": [
+  "Hacer un simulacro con proporciones cercanas al blueprint oficial (30 huecos, 10 Build a Sentence, 7 Listen and Repeat, 4 entrevistas).",
+  "Comparar con los simulacros 1 y 2.",
+  "Fijar prioridades para la fase de práctica integrada."
+ ],
+ "vocab": {
+  "theme": "Colocaciones académicas de repaso (2)",
+  "words": [
+   [
+    "draw on",
+    "phrasal verb",
+    "to use as a source",
+    "recurrir a",
+    "The study draws on interviews."
+   ],
+   [
+    "shed light on",
+    "phrase",
+    "to clarify",
+    "aclarar",
+    "The results shed light on the process."
+   ],
+   [
+    "give rise to",
+    "phrase",
+    "to cause",
+    "dar lugar a",
+    "Stress gives rise to errors."
+   ],
+   [
+    "keep pace with",
+    "phrase",
+    "to progress at the same speed",
+    "seguir el ritmo de",
+    "Wages must keep pace with prices."
+   ],
+   [
+    "come up with",
+    "phrasal verb",
+    "to produce an idea",
+    "idear",
+    "They came up with a solution."
+   ],
+   [
+    "bring about",
+    "phrasal verb",
+    "to cause",
+    "provocar",
+    "Technology brought about change."
+   ],
+   [
+    "be subject to",
+    "phrase",
+    "to be affected by",
+    "estar sujeto a",
+    "Prices are subject to change."
+   ],
+   [
+    "a growing body of",
+    "phrase",
+    "an increasing amount of",
+    "un creciente conjunto de",
+    "A growing body of evidence."
+   ],
+   [
+    "far-reaching",
+    "adj",
+    "having wide effects",
+    "de gran alcance",
+    "Far-reaching consequences."
+   ],
+   [
+    "at the expense of",
+    "phrase",
+    "harming something else",
+    "a costa de",
+    "Growth at the expense of nature."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d28.md",
+ "videos": {
+  "ids": [
+   "s-full"
+  ],
+  "search": "TOEFL iBT 2026 full-length practice test"
+ },
+ "practice": [],
+ "quiz": []
+}

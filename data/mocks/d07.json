@@ -1,7 +1,7 @@
 {
  "title": "Mini-simulacro 1",
  "day": 7,
- "intro": "Versión reducida del examen con las tareas de la semana 1: ≈ 40 minutos. Tu resultado se guarda en el panel de progreso.",
+ "intro": "Versión muy reducida (≈ 40 minutos) con las tareas de la semana 1; no reproduce las proporciones oficiales (ver simulacros posteriores).",
  "sections": [
   {
    "skill": "reading",

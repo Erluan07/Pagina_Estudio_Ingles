@@ -1,0 +1,211 @@
+{
+ "n": 32,
+ "objectives": [
+  "Comparar opciones con whereas, compared to, on the one hand… on the other.",
+  "Dar una opinión matizada en 45 s.",
+  "Autoevaluar prosodia y desarrollo."
+ ],
+ "vocab": {
+  "theme": "Lenguaje de comparación y opinión",
+  "words": [
+   [
+    "complement",
+    "verb",
+    "to add to and improve",
+    "complementar",
+    "Skills complement each other."
+   ],
+   [
+    "specialize",
+    "verb",
+    "to focus on one area",
+    "especializarse",
+    "She specializes in biology."
+   ],
+   [
+    "broad",
+    "adj",
+    "wide in range",
+    "amplio",
+    "A broad education."
+   ],
+   [
+    "depth",
+    "noun",
+    "degree of detail or understanding",
+    "profundidad",
+    "Depth of knowledge."
+   ],
+   [
+    "whereas",
+    "conj",
+    "while in contrast",
+    "mientras que",
+    "A is slow, whereas B is fast."
+   ],
+   [
+    "compared to",
+    "phrase",
+    "in comparison with",
+    "comparado con",
+    "Compared to last year…"
+   ],
+   [
+    "derive",
+    "verb",
+    "to obtain by reasoning",
+    "derivar",
+    "Derive the formula."
+   ],
+   [
+    "shift",
+    "noun",
+    "a change",
+    "cambio",
+    "A shift in attitude."
+   ],
+   [
+    "realize",
+    "verb",
+    "to understand clearly",
+    "darse cuenta",
+    "I realized my mistake."
+   ],
+   [
+    "lasting",
+    "adj",
+    "continuing for a long time",
+    "duradero",
+    "Lasting knowledge."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d32.md",
+ "videos": {
+  "ids": [
+   "s-interview-guide"
+  ],
+  "search": "TOEFL Take an Interview opinion comparison"
+ },
+ "practice": [
+  {
+   "kind": "speaking",
+   "task": "interview",
+   "id": "d32-p1",
+   "title": "Take an Interview III: opinión y comparación",
+   "minutes": 25,
+   "seconds": 45,
+   "prep": 0,
+   "intro": "Hoy practica el lenguaje de comparación (*whereas, however, compared to, on the one hand… on the other…*) y de opinión matizada.",
+   "questions": [
+    {
+     "q": "Do you think it is better to specialize in one subject or to study a wide range of subjects?",
+     "audio": {
+      "file": "audio/d32-q1.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "Do you think it is better to specialize in one subject or to study a wide range of subjects?"
+       }
+      ]
+     },
+     "model": "I think specializing is better at university, because depth makes you valuable. However, a broad base helps you connect ideas. For example, my physics degree is specialized, but a course on ethics changed how I think about engineering decisions.",
+     "hint": "Postura → comparación o matiz (whereas/however) → ejemplo → cierre."
+    },
+    {
+     "q": "Compare working alone and working in a team. Which do you prefer and why?",
+     "audio": {
+      "file": "audio/d32-q2.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "Compare working alone and working in a team. Which do you prefer and why?"
+       }
+      ]
+     },
+     "model": "I prefer teams for complex projects, because different skills complement each other. Working alone is faster for simple tasks. For instance, in a robotics project, my teammate handled the programming while I built the hardware, and we finished in half the time.",
+     "hint": "Postura → comparación o matiz (whereas/however) → ejemplo → cierre."
+    },
+    {
+     "q": "Some people think that cities are better places to live than villages. What is your opinion?",
+     "audio": {
+      "file": "audio/d32-q3.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "Some people think that cities are better places to live than villages. What is your opinion?"
+       }
+      ]
+     },
+     "model": "I think cities offer more opportunities, such as jobs and education, whereas villages offer peace and community. Personally, I prefer a small city, since it combines both. For example, in my hometown I could walk to the library and still reach the mountains in thirty minutes.",
+     "hint": "Postura → comparación o matiz (whereas/however) → ejemplo → cierre."
+    },
+    {
+     "q": "How has your opinion about studying changed since you were in high school?",
+     "audio": {
+      "file": "audio/d32-q4.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "How has your opinion about studying changed since you were in high school?"
+       }
+      ]
+     },
+     "model": "In high school I studied to pass exams, but now I study to understand. That shift happened when I realized that deep understanding lasts longer. For example, I used to memorize formulas, but now I derive them, and I remember them much better.",
+     "hint": "Postura → comparación o matiz (whereas/however) → ejemplo → cierre."
+    }
+   ],
+   "checklist": [
+    "Di mi postura de inmediato",
+    "Usé al menos un conector de comparación (whereas, however)",
+    "Di un ejemplo específico",
+    "Mantuve el ritmo sin pausas largas",
+    "Terminé con una frase de cierre"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d32-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which phrase is best for comparing two options?",
+   "options": [
+    "whereas, compared to, on the one hand… on the other",
+    "first, second, third",
+    "for example only",
+    "in conclusion only"
+   ],
+   "answer": 0,
+   "explain": "Lenguaje de comparación."
+  },
+  {
+   "id": "d32-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "\"I prefer teams, but it depends on the task.\" This answer shows",
+   "options": [
+    "indecision",
+    "a nuanced opinion",
+    "a mistake",
+    "a refusal"
+   ],
+   "answer": 1,
+   "explain": "Opinión matizada con criterio."
+  },
+  {
+   "id": "d32-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which of these improves prosody (rhythm and intonation)?",
+   "options": [
+    "Pause between ideas and stress key words",
+    "Speak as fast as possible",
+    "Whisper",
+    "Monotone"
+   ],
+   "answer": 0,
+   "explain": "Pausas y acentuación."
+  }
+ ]
+}

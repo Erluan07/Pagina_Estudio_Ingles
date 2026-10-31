@@ -1,0 +1,213 @@
+{
+ "n": 22,
+ "objectives": [
+  "Reconocer patrones causa-efecto y comparación.",
+  "Usar los patrones para predecir la estructura del párrafo.",
+  "Responder preguntas de organización y NOT."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 6-7 (7/9)",
+  "words": [
+   [
+    "abundance",
+    "noun",
+    "a large quantity",
+    "abundancia",
+    "Fish were in abundance."
+   ],
+   [
+    "arid",
+    "adj",
+    "very dry",
+    "árido",
+    "Arid regions receive little rain."
+   ],
+   [
+    "critical",
+    "adj",
+    "decisive; extremely important",
+    "crítico",
+    "Water is a critical resource."
+   ],
+   [
+    "gradual",
+    "adj",
+    "happening slowly",
+    "gradual",
+    "There was a gradual improvement."
+   ],
+   [
+    "humid",
+    "adj",
+    "damp; with high moisture",
+    "húmedo",
+    "A humid climate."
+   ],
+   [
+    "irregular",
+    "adj",
+    "not even or constant",
+    "irregular",
+    "Irregular rainfall harmed crops."
+   ],
+   [
+    "reservoir",
+    "noun",
+    "a store of water or resource",
+    "embalse",
+    "The reservoir supplies the city."
+   ],
+   [
+    "shrink",
+    "verb",
+    "to become smaller",
+    "encoger",
+    "Glaciers shrink each year."
+   ],
+   [
+    "sustain",
+    "verb",
+    "to support over time",
+    "sostener",
+    "Rivers sustain wetlands."
+   ],
+   [
+    "sharply",
+    "adv",
+    "suddenly and by a large amount",
+    "bruscamente",
+    "Prices fell sharply."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d22.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL reading cause and effect compare contrast passage"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d22-p1",
+   "title": "Glaciers and Rivers (≈ 190 palabras)",
+   "minutes": 20,
+   "passage": "Glaciers act as natural reservoirs, storing winter snow and releasing it gradually as meltwater during summer. For centuries, this rhythm has sustained rivers that millions of people depend on for drinking water and irrigation. As temperatures rise, however, the pattern is changing.\n\nIn the short term, accelerated melting actually increases river flow, which can create a false impression of abundance. Downstream communities may build new infrastructure on the assumption that the extra water will last. Yet once a glacier shrinks beyond a critical size, its contribution declines sharply, and rivers become more dependent on irregular rainfall.\n\nThe consequences vary by region. In humid mountain ranges, rainfall can partly compensate for lost meltwater. By contrast, in arid regions such as parts of Central Asia, summer flow relies almost entirely on ice, so its disappearance would be far more severe. Planners therefore emphasize the need to anticipate this \"peak water\" turning point rather than react after it passes.",
+   "items": [
+    {
+     "id": "d22-r1",
+     "type": "mcq",
+     "qtype": "organization",
+     "q": "How is paragraph 3 organized?",
+     "options": [
+      "A comparison of how different regions are affected",
+      "A chronological history of glaciers",
+      "A definition followed by an example",
+      "A list of solutions"
+     ],
+     "answer": 0,
+     "explain": "Contrasta cordilleras húmedas con regiones áridas (By contrast)."
+    },
+    {
+     "id": "d22-r2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "According to paragraph 2, why might rapid melting create a \"false impression of abundance\"?",
+     "options": [
+      "Rainfall increases",
+      "River flow temporarily rises",
+      "Glaciers grow",
+      "New rivers form"
+     ],
+     "answer": 1,
+     "explain": "«accelerated melting actually increases river flow»."
+    },
+    {
+     "id": "d22-r3",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"compensate\" in paragraph 3 is closest in meaning to",
+     "options": [
+      "make up for",
+      "ignore",
+      "delay",
+      "replace entirely"
+     ],
+     "answer": 0,
+     "explain": "compensate for = compensar."
+    },
+    {
+     "id": "d22-r4",
+     "type": "mcq",
+     "qtype": "negative-fact",
+     "q": "Which of the following is NOT mentioned as a use of river water?",
+     "options": [
+      "Drinking water",
+      "Irrigation",
+      "Hydroelectric power",
+      "None of the above (all are mentioned)"
+     ],
+     "answer": 2,
+     "explain": "El texto menciona agua potable e irrigación, no energía hidroeléctrica."
+    },
+    {
+     "id": "d22-r5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about \"peak water\"?",
+     "options": [
+      "It is the point after which meltwater contribution declines",
+      "It happens only in humid regions",
+      "It was caused by new infrastructure",
+      "It increases rainfall"
+     ],
+     "answer": 0,
+     "explain": "Se describe como el punto de inflexión tras el cual la aportación desciende."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d22-q1",
+   "type": "mcq",
+   "qtype": "organization",
+   "q": "Which signal words usually introduce a cause-and-effect relationship?",
+   "options": [
+    "as a result, because, consequently",
+    "however, by contrast",
+    "for instance, such as",
+    "first, second"
+   ],
+   "answer": 0,
+   "explain": "Causa-efecto: because, as a result, consequently."
+  },
+  {
+   "id": "d22-q2",
+   "type": "mcq",
+   "qtype": "organization",
+   "q": "\"X is cheaper than Y, whereas Y is more durable.\" This structure is",
+   "options": [
+    "cause-effect",
+    "comparison/contrast",
+    "chronology",
+    "definition"
+   ],
+   "answer": 1,
+   "explain": "whereas marca contraste."
+  },
+  {
+   "id": "d22-q3",
+   "type": "mcq",
+   "qtype": "inference",
+   "q": "\"Yet once a glacier shrinks beyond a critical size…\" The word \"Yet\" introduces",
+   "options": [
+    "a reinforcing idea",
+    "a limit or contrast",
+    "an example",
+    "a definition"
+   ],
+   "answer": 1,
+   "explain": "Yet = pero/sin embargo."
+  }
+ ]
+}

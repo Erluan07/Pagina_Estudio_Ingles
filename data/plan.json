@@ -204,7 +204,7 @@
    "title": "Referencias, paráfrasis y conectores",
    "focus": "Seguir pronombres, reconocer paráfrasis y conectores de contraste/causa.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 16,
@@ -217,7 +217,7 @@
    "title": "Conversaciones del campus: problema y solución",
    "focus": "Identificar el problema, las opciones y la decisión en diálogos de campus.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 17,
@@ -230,7 +230,7 @@
    "title": "Build a Sentence II: subordinación y preguntas indirectas",
    "focus": "Cláusulas subordinadas, preguntas indirectas y orden de adverbios.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 18,
@@ -243,7 +243,7 @@
    "title": "Listen and Repeat II: oraciones largas",
    "focus": "Memoria de trabajo, reducciones y entonación en oraciones largas.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 19,
@@ -256,7 +256,7 @@
    "title": "Complete the Words II: colocaciones y gramática",
    "focus": "Usar colocaciones y gramática para completar palabras difíciles.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 20,
@@ -269,7 +269,7 @@
    "title": "Email II: peticiones, quejas y disculpas",
    "focus": "Lenguaje de cortesía y registro formal para situaciones delicadas.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 21,
@@ -282,9 +282,9 @@
    "title": "Repaso semanal + mini-simulacro 2",
    "focus": "Repaso espaciado y mini-simulacro con tareas de las semanas 2-3.",
    "minutes": 75,
-   "status": "skeleton",
+   "status": "full",
    "mock": "d21",
-   "mockReady": false
+   "mockReady": true
   },
   {
    "n": 22,
@@ -297,7 +297,7 @@
    "title": "Textos expositivos: causa-efecto y comparación",
    "focus": "Reconocer patrones retóricos y usarlos para predecir el contenido.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 23,
@@ -310,7 +310,7 @@
    "title": "Charla de ciencias naturales",
    "focus": "Seguir una explicación científica con definiciones y ejemplos.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 24,
@@ -323,7 +323,7 @@
    "title": "Academic Discussion II: concesión y contraargumento",
    "focus": "Reconocer otra postura y responder con un contraargumento.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 25,
@@ -336,7 +336,7 @@
    "title": "Interview II: ejemplos y detalles",
    "focus": "Desarrollar ejemplos concretos en 45 segundos.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 26,
@@ -349,7 +349,7 @@
    "title": "Dato NO mencionado y propósito retórico",
    "focus": "Preguntas de exclusión y de «por qué el autor menciona…».",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 27,
@@ -362,7 +362,7 @@
    "title": "Anuncios y avisos del campus",
    "focus": "Detalles, fechas y condiciones en anuncios y mensajes.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 28,
@@ -375,9 +375,9 @@
    "title": "Simulacro largo 2",
    "focus": "Segundo simulacro cronometrado de las cuatro habilidades.",
    "minutes": 120,
-   "status": "skeleton",
+   "status": "full",
    "mock": "d28",
-   "mockReady": false
+   "mockReady": true
   },
   {
    "n": 29,
@@ -390,7 +390,7 @@
    "title": "Humanidades: argumentos y evidencia",
    "focus": "Distinguir tesis, evidencia y contraargumentos.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 30,
@@ -403,7 +403,7 @@
    "title": "Charla de ciencias sociales",
    "focus": "Conceptos, estudios y ejemplos en una charla de ciencias sociales.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 31,
@@ -416,7 +416,7 @@
    "title": "Build a Sentence III: pasiva y relativos",
    "focus": "Voz pasiva, cláusulas de relativo y participios.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 32,
@@ -429,7 +429,7 @@
    "title": "Interview III: opinión y comparaciones",
    "focus": "Dar una opinión matizada y comparar dos opciones.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 33,
@@ -442,7 +442,7 @@
    "title": "Read in Daily Life II: políticas y horarios",
    "focus": "Textos con condiciones, excepciones y fechas límite.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 34,
@@ -455,7 +455,7 @@
    "title": "Email III: tono y concisión",
    "focus": "Recortar y precisar: el mismo mensaje con 20 % menos palabras.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 35,
@@ -468,9 +468,9 @@
    "title": "Repaso semanal + mini-simulacro 3",
    "focus": "Repaso espaciado y mini-simulacro.",
    "minutes": 75,
-   "status": "skeleton",
+   "status": "full",
    "mock": "d35",
-   "mockReady": false
+   "mockReady": true
   },
   {
    "n": 36,

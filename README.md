@@ -14,7 +14,7 @@ Web estática (HTML + CSS + JS sin dependencias) para preparar el **TOEFL iBT** 
 | **Audio** original (TTS local, voces US/UK) con transcripción oculta hasta responder; respaldo con Web Speech API | `audio/` |
 | **Speaking**: grabación local con `MediaRecorder` (temporizador, reproducción; no se sube nada) | en cada tarea de Speaking |
 | **Writing**: temporizador, contador de palabras, análisis automático, respuesta modelo, rúbrica de autoevaluación | en cada tarea de Writing |
-| **Progreso**: racha, minutos, % del plan, banda por habilidad en el tiempo, precisión por tipo de pregunta, palabras aprendidas, proyección vs meta | `#/progreso` |
+| **Progreso**: racha, minutos, % del plan, banda por habilidad en el tiempo, precisión por tipo de pregunta, palabras aprendidas, proyección frente a dos metas editables (objetivo sep-2027 y mínimo feb-2027) | `#/progreso` |
 | **Banco de errores** y **repaso espaciado** (Leitner 1-2-4-8-16-32-64 días) de vocabulario y preguntas falladas | `#/repaso` |
 | **Hoy**: muestra qué toca hoy, días atrasados para recuperar, repasos pendientes | `#/hoy` |
 | **Sobre el examen**: formato 2026, escala 1-6, requisito de Twente, con fecha de consulta y qué no se pudo verificar | `#/examen` |
@@ -26,7 +26,7 @@ Web estática (HTML + CSS + JS sin dependencias) para preparar el **TOEFL iBT** 
 2. Haz el **diagnóstico** (puedes repartirlo en varios días).
 3. Cada día, abre **Hoy** → «Empezar la sesión». Usa el cronómetro de la cabecera. Al terminar, «Marcar día como completado».
 4. Haz el **Repaso** a diario (5-10 min).
-5. **Exporta un respaldo** de vez en cuenta en *Ajustes* (los datos viven solo en tu navegador).
+5. **Exporta un respaldo** de vez en cuando en *Ajustes* (los datos viven solo en tu navegador).
 
 Modo de sesión (60 / 90 / 120 min) en *Ajustes*: controla cuánto «refuerzo personalizado» se añade.
 
@@ -77,7 +77,7 @@ python3 tools/generate_audio.py  # genera los mp3 que falten
 node tools/validate_content.mjs  # valida ids, respuestas, audios, lecciones, videos
 ```
 
-Los días sin JSON se muestran como **esqueleto**: tema + sesión guiada con material del banco general (`prompts.json`, `resources.json`).
+Los días sin JSON se muestran como **esqueleto** (hoy: días 36-75): tema + sesión guiada con material del banco general (`prompts.json`, `resources.json`).
 
 ## Audio (TTS local gratuito)
 
@@ -106,4 +106,4 @@ Comprueba que las vistas cargan sin errores de consola, que se guarda el progres
 
 ## Honestidad sobre lo verificado
 
-Ver el PR y la página «Sobre el examen» para el detalle de qué datos (formato del examen, requisito de Twente, videos, enlaces) se verificaron y cuáles no.
+Los datos del examen (blueprint 2026, escala, requisito de Twente por intake), los canales de los videos y la verificación de enlaces los comprobó **otra sesión de Claude con acceso externo** (31-oct-2026) y se incorporaron aquí tal como se recibieron; la sesión que construyó el sitio no pudo abrir ets.org ni utwente.nl. Ver el PR y «Sobre el examen» para el detalle.

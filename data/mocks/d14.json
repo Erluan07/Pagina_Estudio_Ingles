@@ -1,7 +1,7 @@
 {
  "title": "Simulacro largo 1",
  "day": 14,
- "intro": "Versión larga del examen con las cuatro habilidades (≈ 80 minutos). Incluye una pregunta de resumen (multi-selección) como práctica extra de comprensión. Se compara con tu diagnóstico.",
+ "intro": "Versión REDUCIDA del examen con las cuatro habilidades (≈ 70 minutos): tiene menos ítems que el examen real (30 huecos de Complete the Words, 10 Build a Sentence, 7 Listen and Repeat…). Los simulacros de los días 28 en adelante se acercan más a esas proporciones. Incluye una pregunta de resumen (multi-selección) rotulada como práctica extra: no es formato oficial 2026.",
  "sections": [
   {
    "skill": "reading",
@@ -155,7 +155,7 @@
        "id": "mk-d14-r-9",
        "type": "multi",
        "qtype": "summary",
-       "q": "Select the THREE statements that best summarize the passage.",
+       "q": "[Práctica extra · no es formato oficial 2026] Select the THREE statements that best summarize the passage.",
        "options": [
         "Corals depend on algae for most of their energy.",
         "Coral reefs are the largest ecosystem on Earth.",

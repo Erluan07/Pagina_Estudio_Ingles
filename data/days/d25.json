@@ -1,0 +1,213 @@
+{
+ "n": 25,
+ "objectives": [
+  "Responder 4 preguntas de entrevista con ejemplos específicos.",
+  "Practicar conectores orales (for example, so, that is why).",
+  "Autoevaluar fluidez y desarrollo con la rúbrica."
+ ],
+ "vocab": {
+  "theme": "Verbos y colocaciones de opinión (1/2)",
+  "words": [
+   [
+    "rehearse",
+    "verb",
+    "to practice before a performance",
+    "ensayar",
+    "She rehearsed her talk twice."
+   ],
+   [
+    "memorization",
+    "noun",
+    "learning by heart",
+    "memorización",
+    "Memorization is not understanding."
+   ],
+   [
+    "effective",
+    "adj",
+    "producing the intended result",
+    "eficaz",
+    "An effective teaching method."
+   ],
+   [
+    "struggle",
+    "verb",
+    "to try hard against difficulty",
+    "luchar / tener dificultad",
+    "Many students struggle with grammar."
+   ],
+   [
+    "specialist",
+    "noun",
+    "an expert in one field",
+    "especialista",
+    "A language specialist."
+   ],
+   [
+    "far more",
+    "phrase",
+    "much more",
+    "mucho más",
+    "It is far more efficient."
+   ],
+   [
+    "to a large extent",
+    "phrase",
+    "mostly",
+    "en gran medida",
+    "I agree to a large extent."
+   ],
+   [
+    "rely on",
+    "phrasal verb",
+    "to depend on",
+    "depender de",
+    "Courses rely on exams."
+   ],
+   [
+    "apply",
+    "verb",
+    "to use in practice",
+    "aplicar",
+    "Apply what you know."
+   ],
+   [
+    "motivating",
+    "adj",
+    "giving a reason to act",
+    "motivador",
+    "A motivating project."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d25.md",
+ "videos": {
+  "ids": [
+   "s-interview",
+   "s-interview-guide"
+  ],
+  "search": "TOEFL Take an Interview high score sample 2026"
+ },
+ "practice": [
+  {
+   "kind": "speaking",
+   "task": "interview",
+   "id": "d25-p1",
+   "title": "Take an Interview II: 4 preguntas",
+   "minutes": 25,
+   "seconds": 45,
+   "prep": 0,
+   "intro": "Cuatro preguntas como en el examen (0-5 cada una, puntuadas por IA). Objetivo: 100+ palabras, ejemplo concreto y sin silencios largos.",
+   "questions": [
+    {
+     "q": "Tell me about a time when you had to learn something quickly. How did you handle it?",
+     "audio": {
+      "file": "audio/d25-q1.mp3",
+      "segments": [
+       {
+        "voice": "bf_isabella",
+        "text": "Tell me about a time when you had to learn something quickly. How did you handle it?"
+       }
+      ]
+     },
+     "model": "When I started my internship, I had to learn a new data analysis tool in one week. I followed a plan: first the basics from tutorials, then a small real task each day. By Friday I could produce a full report, and that experience taught me that practice beats passive reading.",
+     "hint": "Respuesta directa → razón → ejemplo concreto (nombre, lugar, cifra) → cierre."
+    },
+    {
+     "q": "What is something you would like to change about the way your country's education system works?",
+     "audio": {
+      "file": "audio/d25-q2.mp3",
+      "segments": [
+       {
+        "voice": "bf_isabella",
+        "text": "What is something you would like to change about the way your country's education system works?"
+       }
+      ]
+     },
+     "model": "I would add more practical projects. Right now, many courses rely on memorization, so students struggle to apply what they know. For example, in my engineering degree, we only built something real in the last year, and I think starting earlier would be far more motivating.",
+     "hint": "Respuesta directa → razón → ejemplo concreto (nombre, lugar, cifra) → cierre."
+    },
+    {
+     "q": "Some people say that learning from failure is more valuable than learning from success. What is your view?",
+     "audio": {
+      "file": "audio/d25-q3.mp3",
+      "segments": [
+       {
+        "voice": "bf_isabella",
+        "text": "Some people say that learning from failure is more valuable than learning from success. What is your view?"
+       }
+      ]
+     },
+     "model": "I agree to a large extent, because failure shows exactly what to improve. For instance, my first presentation went badly, and I realized I had not practiced aloud. Since then I always rehearse, and my results have improved a lot. Success can teach too, but it rarely forces you to rethink.",
+     "hint": "Respuesta directa → razón → ejemplo concreto (nombre, lugar, cifra) → cierre."
+    },
+    {
+     "q": "If you could add one course to your university program, what would it be and why?",
+     "audio": {
+      "file": "audio/d25-q4.mp3",
+      "segments": [
+       {
+        "voice": "bf_isabella",
+        "text": "If you could add one course to your university program, what would it be and why?"
+       }
+      ]
+     },
+     "model": "I would add a course on communication for engineers. Many technical experts struggle to explain their ideas to non-specialists. For example, a good solution is useless if managers cannot understand its benefits, so this skill would make graduates far more effective.",
+     "hint": "Respuesta directa → razón → ejemplo concreto (nombre, lugar, cifra) → cierre."
+    }
+   ],
+   "checklist": [
+    "Respondí directamente en la primera frase",
+    "Di una razón clara",
+    "Di un ejemplo con un detalle específico",
+    "Mis ideas se conectaron (for example, because, so)",
+    "Hablé hasta cerca de los 45 s",
+    "Pronuncié con claridad y ritmo constante"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d25-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which opening is the best for \"Do you prefer studying early or late?\"",
+   "options": [
+    "Umm, I do not know...",
+    "I prefer studying early because my mind is fresher.",
+    "That is a difficult question for everyone.",
+    "Early and late are both options."
+   ],
+   "answer": 1,
+   "explain": "Responde directamente y anticipa la razón."
+  },
+  {
+   "id": "d25-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A good example in an interview is",
+   "options": [
+    "generic and abstract",
+    "specific, with a detail like a name, place or number",
+    "very long",
+    "unrelated to the question"
+   ],
+   "answer": 1,
+   "explain": "Un detalle específico muestra desarrollo del tema."
+  },
+  {
+   "id": "d25-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "If you run out of ideas with 15 seconds left, you should",
+   "options": [
+    "stop speaking",
+    "add another example or a short conclusion",
+    "repeat the question",
+    "apologize"
+   ],
+   "answer": 1,
+   "explain": "Seguir hablando con contenido relevante."
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "n": 33,
+ "objectives": [
+  "Completar 20 huecos con vocabulario C1 (2 párrafos).",
+  "Resolver 3 sets de Read in Daily Life (3 + 2 + 2 ítems).",
+  "Detectar condiciones, exclusiones y plazos."
+ ],
+ "vocab": {
+  "theme": "Políticas, plazos y condiciones",
+  "words": [
+   [
+    "renewal",
+    "noun",
+    "extension of a contract or registration",
+    "renovación",
+    "The renewal form."
+   ],
+   [
+    "priority",
+    "noun",
+    "something regarded as more important",
+    "prioridad",
+    "Students keep priority."
+   ],
+   [
+    "deposit",
+    "noun",
+    "a sum paid as security",
+    "depósito",
+    "A deposit of €250."
+   ],
+   [
+    "refund",
+    "verb",
+    "to give money back",
+    "reembolsar",
+    "The fee is refunded."
+   ],
+   [
+    "provided that",
+    "phrase",
+    "on condition that",
+    "siempre que",
+    "Provided that it is clean."
+   ],
+   [
+    "hold",
+    "noun",
+    "a temporary reservation",
+    "reserva",
+    "A hold on the room."
+   ],
+   [
+    "waiting list",
+    "noun",
+    "a list of people waiting",
+    "lista de espera",
+    "Placed on the waiting list."
+   ],
+   [
+    "deadline",
+    "noun",
+    "the latest time to finish",
+    "plazo",
+    "The deadline is Friday."
+   ],
+   [
+    "collection point",
+    "noun",
+    "a place to return items",
+    "punto de recogida",
+    "A collection point."
+   ],
+   [
+    "apply to",
+    "phrasal verb",
+    "to be relevant for",
+    "aplicarse a",
+    "The rule applies to all."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d33.md",
+ "videos": {
+  "ids": [
+   "r-daily"
+  ],
+  "search": "TOEFL Read in Daily Life practice sets"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d33-p1",
+   "title": "Complete the Words · Apicultura urbana (10)",
+   "minutes": 7,
+   "items": [
+    {
+     "id": "d33-cw1",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "Urban beekeeping has {{expa|nded}} rapidly in many European {{capi|tals}}. Rooftop hives {{prov|ide}} {{pollin|ators}} for city gardens, and the honey they produce often reflects the flowers of {{parti|cular}} {{neighbo|rhoods}}. However, {{ecolo|gists}} caution that an {{exces|sive}} number of hives can {{comp|ete}} with wild insects for limited resources, thereby threatening {{biodiv|ersity}}.",
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "kind": "questions",
+   "id": "d33-p2",
+   "title": "Complete the Words · Sueño (10)",
+   "minutes": 7,
+   "items": [
+    {
+     "id": "d33-cw2",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "Sleep researchers have {{ident|ified}} {{dist|inct}} stages of rest, each {{charact|erized}} by different {{patt|erns}} of brain {{acti|vity}}. During rapid eye {{move|ment}} sleep, for instance, the brain is highly active, and vivid dreams {{frequ|ently}} occur. {{Disrup|tions}} to these cycles, whether caused by noise, stress, or {{irreg|ular}} schedules, can {{imp|air}} memory and mood.",
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d33-p3",
+   "title": "Daily Life · Vivienda",
+   "minutes": 5,
+   "passage": "Subject: Housing renewal — deadline reminder\n\nIf you wish to remain in university housing next year, you must submit the renewal form by March 31. Students who do not renew by this date will lose their priority and be placed on the general waiting list. A deposit of €250 is required with the form; it will be refunded when you move out, provided that the room is left in good condition. Students who plan to study abroad next year may request a temporary hold on their room.",
+   "items": [
+    {
+     "id": "d33-a1",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "What happens to students who miss the March 31 deadline?",
+     "options": [
+      "They lose priority and join the waiting list",
+      "They pay extra",
+      "They are expelled",
+      "They lose their deposit"
+     ],
+     "answer": 0,
+     "explain": "Pierden prioridad."
+    },
+    {
+     "id": "d33-a2",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "When will the deposit be refunded?",
+     "options": [
+      "Immediately",
+      "When the student moves out, if the room is in good condition",
+      "After one year",
+      "Never"
+     ],
+     "answer": 1,
+     "explain": "Condición: buen estado."
+    },
+    {
+     "id": "d33-a3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What can students who plan to study abroad request?",
+     "options": [
+      "A refund",
+      "A temporary hold on their room",
+      "A new room",
+      "A free flight"
+     ],
+     "answer": 1,
+     "explain": "Reserva temporal."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d33-p4",
+   "title": "Daily Life · Cafetería",
+   "minutes": 4,
+   "passage": "CAMPUS CAFÉ — Reusable Cup Program\nBring your own cup and receive 20 cents off every drink. Or borrow one of our reusable cups for a €1 deposit; return it to any collection point on campus and get your deposit back. Cups must be returned within 14 days. The program does not apply to bottled drinks.",
+   "items": [
+    {
+     "id": "d33-b1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "How much is the deposit for a borrowed cup?",
+     "options": [
+      "20 cents",
+      "€1",
+      "€14",
+      "Nothing"
+     ],
+     "answer": 1,
+     "explain": "Depósito de 1 €."
+    },
+    {
+     "id": "d33-b2",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "Which drink is NOT included?",
+     "options": [
+      "Coffee",
+      "Tea",
+      "Bottled drinks",
+      "Hot chocolate"
+     ],
+     "answer": 2,
+     "explain": "No aplica a bebidas embotelladas."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d33-p5",
+   "title": "Daily Life · Mensaje de grupo",
+   "minutes": 4,
+   "passage": "Hi everyone,\n\nQuick update about our study group. Because several of you have exams on Thursday, I'm moving our meeting from Wednesday at 7 p.m. to Friday at 5 p.m., in the same room. If Friday doesn't work for you, please reply by tomorrow noon so I can find another time. Also, please bring the problem sets we discussed; we'll compare solutions. — Dana",
+   "items": [
+    {
+     "id": "d33-c1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Why is the meeting being moved?",
+     "options": [
+      "The room is unavailable",
+      "Several members have exams on Thursday",
+      "Dana is traveling",
+      "It is a holiday"
+     ],
+     "answer": 1,
+     "explain": "Exámenes el jueves."
+    },
+    {
+     "id": "d33-c2",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "What should someone do if Friday does not work?",
+     "options": [
+      "Come anyway",
+      "Reply by tomorrow noon",
+      "Cancel the group",
+      "Email the professor"
+     ],
+     "answer": 1,
+     "explain": "Responder antes de mañana al mediodía."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d33-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "In a policy text, \"provided that\" introduces",
+   "options": [
+    "a condition",
+    "an example",
+    "a result",
+    "a date"
+   ],
+   "answer": 0,
+   "explain": "Condición."
+  },
+  {
+   "id": "d33-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "\"Does not apply to\" means",
+   "options": [
+    "is included",
+    "is excluded",
+    "is required",
+    "is optional"
+   ],
+   "answer": 1,
+   "explain": "Excluye."
+  },
+  {
+   "id": "d33-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "\"characterized by\" is followed by",
+   "options": [
+    "a noun phrase",
+    "a verb base",
+    "an adverb",
+    "nothing"
+   ],
+   "answer": 0,
+   "explain": "characterized by + sustantivo."
+  }
+ ]
+}
