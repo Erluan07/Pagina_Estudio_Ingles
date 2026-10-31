@@ -1,0 +1,331 @@
+{
+ "n": 23,
+ "objectives": [
+  "Seguir un proceso causal en una charla de ciencias.",
+  "Detectar la actitud del hablante ante una propuesta.",
+  "Practicar 4 respuestas cortas más."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 7 (8/9)",
+  "words": [
+   [
+    "aerosol",
+    "noun",
+    "tiny particles suspended in air",
+    "aerosol",
+    "Aerosols reflect sunlight."
+   ],
+   [
+    "disrupt",
+    "verb",
+    "to interrupt or disturb",
+    "alterar",
+    "Storms disrupted flights."
+   ],
+   [
+    "inject",
+    "verb",
+    "to force into",
+    "inyectar",
+    "Volcanoes inject gases into the air."
+   ],
+   [
+    "propose",
+    "verb",
+    "to suggest as a plan",
+    "proponer",
+    "The committee proposed a new rule."
+   ],
+   [
+    "controversial",
+    "adj",
+    "causing public disagreement",
+    "controvertido",
+    "A controversial decision."
+   ],
+   [
+    "artificial",
+    "adj",
+    "made by people",
+    "artificial",
+    "Artificial light affects sleep."
+   ],
+   [
+    "theoretical",
+    "adj",
+    "based on theory not practice",
+    "teórico",
+    "A theoretical model."
+   ],
+   [
+    "roughly",
+    "adv",
+    "approximately",
+    "aproximadamente",
+    "Roughly half the students agreed."
+   ],
+   [
+    "imitate",
+    "verb",
+    "to copy",
+    "imitar",
+    "Engineers imitate natural designs."
+   ],
+   [
+    "unpredictable",
+    "adj",
+    "impossible to forecast",
+    "impredecible",
+    "Weather is unpredictable."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d23.md",
+ "videos": {
+  "ids": [
+   "l-notes-toefl"
+  ],
+  "search": "TOEFL listening academic talk science practice"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d23-p1",
+   "title": "Listen and Choose a Response (4)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d23-c1",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I'd borrow it first and see whether you really need your own copy.",
+      "The textbook has many pages.",
+      "Libraries are usually quiet.",
+      "I bought a new backpack yesterday."
+     ],
+     "answer": 0,
+     "explain": "Pide consejo → recomendación con razón.",
+     "audio": {
+      "file": "audio/d23-c1.mp3",
+      "segments": [
+       {
+        "voice": "am_adam",
+        "text": "Do you think I should buy the textbook or just borrow it from the library?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d23-c2",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I caught a cold last week.",
+      "It's Julia. Nice to meet you.",
+      "The name of the street is long.",
+      "Yes, I know the catch."
+     ],
+     "answer": 1,
+     "explain": "Respuesta natural: decir el nombre.",
+     "audio": {
+      "file": "audio/d23-c2.mp3",
+      "segments": [
+       {
+        "voice": "af_river",
+        "text": "I'm sorry, I didn't catch your name."
+       }
+      ]
+     }
+    },
+    {
+     "id": "d23-c3",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "The admissions office is on Main Street.",
+      "I admitted I was late.",
+      "In my experience, about a week, but it can be longer in busy periods.",
+      "Replies are always welcome."
+     ],
+     "answer": 2,
+     "explain": "Pregunta de duración → estimación.",
+     "audio": {
+      "file": "audio/d23-c3.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "How long does it usually take to get a reply from the admissions office?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d23-c4",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "They are made of cardboard.",
+      "Yes, I broke my hand.",
+      "Boxes are good for storage.",
+      "Sure. Where would you like me to put them?"
+     ],
+     "answer": 3,
+     "explain": "Petición de ayuda → aceptar y preguntar.",
+     "audio": {
+      "file": "audio/d23-c4.mp3",
+      "segments": [
+       {
+        "voice": "af_bella",
+        "text": "Could you give me a hand with these boxes?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d23-p2",
+   "title": "Charla: volcanes y clima (≈ 190 palabras)",
+   "minutes": 15,
+   "audio": {
+    "file": "audio/d23-talk.mp3",
+    "segments": [
+     {
+      "voice": "af_heart",
+      "text": "Today I'd like to discuss how volcanic eruptions can influence the climate. When a large volcano erupts, it doesn't just release lava and ash. It also injects huge amounts of sulfur dioxide into the stratosphere, the layer of the atmosphere about ten to fifty kilometers above the ground."
+     },
+     {
+      "voice": "af_heart",
+      "text": "There, the gas reacts with water vapor and forms tiny droplets of sulfuric acid, called aerosols. These droplets reflect sunlight back into space, so less heat reaches the surface. In 1991, the eruption of Mount Pinatubo in the Philippines lowered the average global temperature by roughly half a degree Celsius for about two years."
+     },
+     {
+      "voice": "af_heart",
+      "text": "Now, you might wonder whether volcanoes could help us fight global warming. Some scientists have proposed imitating this effect by releasing aerosols artificially. But this idea is highly controversial, because it wouldn't reduce carbon dioxide, and it could disrupt rainfall patterns in unpredictable ways. So, for now, it remains a theoretical option rather than a solution."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d23-l1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "What is the talk mainly about?",
+     "options": [
+      "How volcanic eruptions can cool the climate and a related proposal",
+      "The geology of the Philippines",
+      "Why ash is dangerous",
+      "How to measure sulfur"
+     ],
+     "answer": 0,
+     "explain": "Efecto de enfriamiento y propuesta de geoingeniería."
+    },
+    {
+     "id": "d23-l2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What causes the cooling effect after an eruption?",
+     "options": [
+      "Lava reflecting heat",
+      "Aerosols reflecting sunlight",
+      "Ash blocking oceans",
+      "Carbon dioxide absorbing heat"
+     ],
+     "answer": 1,
+     "explain": "Gotas de ácido sulfúrico reflejan la luz solar."
+    },
+    {
+     "id": "d23-l3",
+     "type": "mcq",
+     "qtype": "organization",
+     "q": "Why does the professor mention Mount Pinatubo?",
+     "options": [
+      "To give a real example of the cooling effect",
+      "To discuss the Philippines",
+      "To introduce a new gas",
+      "To contrast two volcanoes"
+     ],
+     "answer": 0,
+     "explain": "Es el ejemplo concreto de 1991."
+    },
+    {
+     "id": "d23-l4",
+     "type": "mcq",
+     "qtype": "attitude",
+     "q": "What is the professor's attitude toward artificially releasing aerosols?",
+     "options": [
+      "Enthusiastic",
+      "Cautious",
+      "Indifferent",
+      "Humorous"
+     ],
+     "answer": 1,
+     "explain": "«highly controversial… remains a theoretical option rather than a solution»."
+    },
+    {
+     "id": "d23-l5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Why wouldn't the proposal fully solve global warming?",
+     "options": [
+      "It would not reduce carbon dioxide",
+      "It would cost nothing",
+      "It works only in summer",
+      "It requires volcanoes"
+     ],
+     "answer": 0,
+     "explain": "«it wouldn't reduce carbon dioxide»."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d23-q1",
+   "type": "mcq",
+   "qtype": "function",
+   "q": "\"Now, you might wonder whether…\" The professor is",
+   "options": [
+    "changing the topic completely",
+    "anticipating a student's question",
+    "ending the talk",
+    "correcting a mistake"
+   ],
+   "answer": 1,
+   "explain": "Introduce una pregunta que se esperaría del oyente."
+  },
+  {
+   "id": "d23-q2",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "For a process (A → B → C), the best notes use",
+   "options": [
+    "full sentences",
+    "arrows and keywords",
+    "only numbers",
+    "a drawing of the lecturer"
+   ],
+   "answer": 1,
+   "explain": "Flechas y palabras clave."
+  },
+  {
+   "id": "d23-q3",
+   "type": "mcq",
+   "qtype": "attitude",
+   "q": "\"remains a theoretical option rather than a solution\" shows",
+   "options": [
+    "strong support",
+    "skepticism",
+    "surprise",
+    "anger"
+   ],
+   "answer": 1,
+   "explain": "Escepticismo."
+  }
+ ]
+}

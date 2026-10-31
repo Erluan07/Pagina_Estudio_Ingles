@@ -1,0 +1,376 @@
+{
+ "n": 2,
+ "objectives": [
+  "Identificar la función de una frase corta antes de ver las opciones.",
+  "Reconocer distractores de sonido y de tema.",
+  "Seguir la estructura problema → opciones → decisión en diálogos de campus."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (2/6)",
+  "words": [
+   [
+    "constitute",
+    "verb",
+    "to form or make up a whole",
+    "constituir",
+    "Women constitute half of the research team."
+   ],
+   [
+    "context",
+    "noun",
+    "the situation or text surrounding a word or event",
+    "contexto",
+    "You can guess the meaning from the context."
+   ],
+   [
+    "contract",
+    "noun",
+    "a written legal agreement",
+    "contrato",
+    "She signed a one-year contract."
+   ],
+   [
+    "create",
+    "verb",
+    "to make something new",
+    "crear",
+    "The architects created a sustainable design."
+   ],
+   [
+    "data",
+    "noun",
+    "facts and numbers collected for analysis",
+    "datos",
+    "The data show a clear trend."
+   ],
+   [
+    "define",
+    "verb",
+    "to explain the exact meaning of something",
+    "definir",
+    "Define the key terms before you begin."
+   ],
+   [
+    "derive",
+    "verb",
+    "to obtain from a source",
+    "derivar / obtener",
+    "The word derives from Latin."
+   ],
+   [
+    "distribute",
+    "verb",
+    "to give out or spread among people",
+    "distribuir",
+    "The university distributes grants every spring."
+   ],
+   [
+    "economy",
+    "noun",
+    "the system of money, trade and industry of a country",
+    "economía",
+    "The economy grew by two percent."
+   ],
+   [
+    "environment",
+    "noun",
+    "the natural world or surroundings",
+    "medio ambiente / entorno",
+    "Plastic waste harms the marine environment."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d02.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL iBT 2026 Listen and Choose a Response strategy"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d02-p1",
+   "title": "Listen and Choose a Response (5 frases)",
+   "minutes": 10,
+   "intro": "Escucha **una vez** cada frase (límite de reproducciones: 2 para practicar) y elige la respuesta más natural.",
+   "items": [
+    {
+     "id": "d02-c1",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Sure, the deadline is next Monday.",
+      "I did not go to the beach.",
+      "Yes, I like pizza.",
+      "At the bus station."
+     ],
+     "answer": 0,
+     "explain": "«When is the essay due?» pide una fecha; solo A la da.",
+     "audio": {
+      "file": "audio/d02-c1.mp3",
+      "segments": [
+       {
+        "voice": "af_bella",
+        "text": "Do you remember when the essay is due?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d02-c2",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I am studying biology.",
+      "Go ahead. I am finished with it.",
+      "The pen is blue.",
+      "No, I borrowed it yesterday."
+     ],
+     "answer": 1,
+     "explain": "«Is anyone using this chair?»/«Can I borrow your notes?» son peticiones; la respuesta debe conceder o negar.",
+     "audio": {
+      "file": "audio/d02-c2.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "Can I borrow your notes from yesterday's class?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d02-c3",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I am afraid the room is already taken.",
+      "I enjoyed the movie.",
+      "It is on my desk.",
+      "Yes, I walked there."
+     ],
+     "answer": 0,
+     "explain": "Quien pregunta si hay salas libres espera disponibilidad; «I'm afraid… taken» es una negativa cortés.",
+     "audio": {
+      "file": "audio/d02-c3.mp3",
+      "segments": [
+       {
+        "voice": "bf_emma",
+        "text": "Is the study room on the second floor available this afternoon?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d02-c4",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Why don't you try the tutoring center?",
+      "The test was yesterday.",
+      "I live near the park.",
+      "Thanks, I already ate."
+     ],
+     "answer": 0,
+     "explain": "Una queja/preocupación («I'm lost in calculus») invita a una sugerencia útil.",
+     "audio": {
+      "file": "audio/d02-c4.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "I'm completely lost in my calculus class, and the exam is next week."
+       }
+      ]
+     }
+    },
+    {
+     "id": "d02-c5",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "It's not a problem. I can wait.",
+      "Yes, I love chocolate.",
+      "The professor has a new car.",
+      "I was born in July."
+     ],
+     "answer": 0,
+     "explain": "Alguien se disculpa por llegar tarde: lo natural es restar importancia.",
+     "audio": {
+      "file": "audio/d02-c5.mp3",
+      "segments": [
+       {
+        "voice": "bm_lewis",
+        "text": "I'm so sorry I'm late. The bus broke down."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d02-p2",
+   "title": "Conversación: problema en la residencia",
+   "minutes": 15,
+   "audio": {
+    "file": "audio/d02-conv.mp3",
+    "segments": [
+     {
+      "voice": "af_sarah",
+      "who": "Student",
+      "text": "Hi, I'm in room 308, and I have a problem with the heating. It hasn't worked since Sunday."
+     },
+     {
+      "voice": "am_adam",
+      "who": "Housing officer",
+      "text": "I'm sorry to hear that. Did you report it online?"
+     },
+     {
+      "voice": "af_sarah",
+      "who": "Student",
+      "text": "I tried, but the website was down. So I'm here in person."
+     },
+     {
+      "voice": "am_adam",
+      "who": "Housing officer",
+      "text": "Okay. I can send a technician tomorrow morning, but he'll need access to the room between nine and eleven. Will you be there?"
+     },
+     {
+      "voice": "af_sarah",
+      "who": "Student",
+      "text": "I have a class at ten, unfortunately. Could he come in the afternoon instead?"
+     },
+     {
+      "voice": "am_adam",
+      "who": "Housing officer",
+      "text": "Let me check. Yes, there's a slot at two o'clock. In the meantime, I can lend you a small heater. You'll have to sign a form for it."
+     },
+     {
+      "voice": "af_sarah",
+      "who": "Student",
+      "text": "That would be great, thank you."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d02-cv1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What is the student's problem?",
+     "options": [
+      "She lost her room key",
+      "The heating in her room does not work",
+      "The website asks for a password",
+      "Her class was cancelled"
+     ],
+     "answer": 1,
+     "explain": "«I have a problem with the heating. It hasn't worked since Sunday»."
+    },
+    {
+     "id": "d02-cv2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Why did the student come in person?",
+     "options": [
+      "She wanted to meet the technician",
+      "The website was not working",
+      "She forgot her password",
+      "The officer asked her to"
+     ],
+     "answer": 1,
+     "explain": "«I tried, but the website was down. So I'm here in person»."
+    },
+    {
+     "id": "d02-cv3",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Why does the student reject the morning appointment?",
+     "options": [
+      "She will be at a class",
+      "She is travelling",
+      "She does not trust the technician",
+      "She prefers a different officer"
+     ],
+     "answer": 0,
+     "explain": "«I have a class at ten» y el técnico necesita acceso entre nueve y once."
+    },
+    {
+     "id": "d02-cv4",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What will the student have to do to get the heater?",
+     "options": [
+      "Pay a deposit",
+      "Sign a form",
+      "Return it tomorrow",
+      "Ask her professor"
+     ],
+     "answer": 1,
+     "explain": "«You'll have to sign a form for it»."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d02-q1",
+   "type": "mcq",
+   "qtype": "function",
+   "q": "In a conversation, the phrase \"I'm afraid we're fully booked\" most likely expresses",
+   "options": [
+    "excitement",
+    "a polite refusal",
+    "a joke",
+    "surprise"
+   ],
+   "answer": 1,
+   "explain": "«I'm afraid…» suaviza una mala noticia."
+  },
+  {
+   "id": "d02-q2",
+   "type": "mcq",
+   "qtype": "choose-response",
+   "q": "\"Would you mind if I sat here?\" Which answer means YES, you can sit?",
+   "options": [
+    "Yes, I do mind.",
+    "Not at all.",
+    "I mind a lot.",
+    "I'm sorry, it's taken."
+   ],
+   "answer": 1,
+   "explain": "«Not at all» = no me molesta = puedes sentarte."
+  },
+  {
+   "id": "d02-q3",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "In a campus conversation, which note is MOST useful?",
+   "options": [
+    "The exact words of every sentence",
+    "Problem – options – decision – deadline",
+    "The speakers' accents",
+    "Only numbers"
+   ],
+   "answer": 1,
+   "explain": "La estructura problema/opciones/decisión resume casi cualquier diálogo."
+  },
+  {
+   "id": "d02-q4",
+   "type": "mcq",
+   "qtype": "choose-response",
+   "q": "\"Do you know where the registration office is?\" Which is a distractor (wrong answer by sound)?",
+   "options": [
+    "It's next to the library.",
+    "I know that she registered late.",
+    "Go straight and turn left.",
+    "Sorry, I'm new here too."
+   ],
+   "answer": 1,
+   "explain": "Repite «register…» pero no responde dónde está la oficina."
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "n": 9,
+ "objectives": [
+  "Tomar notas con palabras clave, símbolos y numeración.",
+  "Detectar señales de contraste, ejemplo y conclusión.",
+  "Escribir una frase resumen antes de ver las preguntas."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 2 (2/5)",
+  "words": [
+   [
+    "consequence",
+    "noun",
+    "a result or effect of an action",
+    "consecuencia",
+    "Poor sleep has serious consequences for health."
+   ],
+   [
+    "construct",
+    "verb",
+    "to build or put together",
+    "construir",
+    "The city plans to construct a new bridge."
+   ],
+   [
+    "consume",
+    "verb",
+    "to use or eat or drink",
+    "consumir",
+    "Modern devices consume less energy."
+   ],
+   [
+    "culture",
+    "noun",
+    "the customs, beliefs and way of life of a group",
+    "cultura",
+    "Language and culture are closely linked."
+   ],
+   [
+    "design",
+    "verb",
+    "to plan how something will look or work",
+    "diseñar",
+    "Engineers designed a more efficient engine."
+   ],
+   [
+    "distinct",
+    "adj",
+    "clearly different or separate",
+    "distinto / claro",
+    "There are two distinct types of memory."
+   ],
+   [
+    "element",
+    "noun",
+    "a basic part of something",
+    "elemento",
+    "Trust is a key element of teamwork."
+   ],
+   [
+    "evaluate",
+    "verb",
+    "to judge the value or quality of something",
+    "evaluar",
+    "We evaluated three possible solutions."
+   ],
+   [
+    "feature",
+    "noun",
+    "an important or typical part",
+    "característica",
+    "A key feature of the app is the timer."
+   ],
+   [
+    "focus",
+    "verb",
+    "to concentrate attention on something",
+    "enfocarse",
+    "Please focus on the main argument."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d09.md",
+ "videos": {
+  "ids": [
+   "l-notes-toefl",
+   "l-notes-1"
+  ],
+  "search": "TOEFL listening note taking"
+ },
+ "practice": [
+  {
+   "kind": "listening",
+   "id": "d09-p1",
+   "title": "Charla: The Forgetting Curve",
+   "minutes": 20,
+   "audio": {
+    "file": "audio/d09-talk.mp3",
+    "segments": [
+     {
+      "voice": "bf_lily",
+      "text": "Good morning, everyone. Today we're going to look at one of the oldest findings in memory research: the forgetting curve. In the 1880s, a German psychologist named Hermann Ebbinghaus decided to study his own memory. He memorized lists of meaningless syllables, such as 'zub' and 'kef', and then tested himself after different delays."
+     },
+     {
+      "voice": "bf_lily",
+      "text": "What he found was striking. Within the first hour, he had forgotten about half of what he learned. After a day, only about a third remained. But the loss then slowed down: after a month, he still remembered a small but stable portion. When graphed, this decline forms a curve that drops steeply and then flattens."
+     },
+     {
+      "voice": "bf_lily",
+      "text": "Now, why does this matter? Ebbinghaus also discovered that review changes the curve. Each time he reviewed the material, the curve became less steep, which means that he forgot more slowly. This is the basis of spaced repetition: reviewing information at increasing intervals, such as after one day, three days, and a week, is far more efficient than studying everything in a single long session."
+     },
+     {
+      "voice": "bf_lily",
+      "text": "So, for your own studies, the lesson is clear. Review soon after learning, and then again just before you are about to forget."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d09-l1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "What is the lecture mainly about?",
+     "options": [
+      "How to memorize lists of syllables",
+      "How memory fades over time and how review slows forgetting",
+      "Why German psychologists studied memory",
+      "The best time of day to study"
+     ],
+     "answer": 1,
+     "explain": "Curva del olvido + efecto de la revisión (repetición espaciada)."
+    },
+    {
+     "id": "d09-l2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "According to the professor, how much of the material remained after one day?",
+     "options": [
+      "About half",
+      "About a third",
+      "Almost all",
+      "Nothing"
+     ],
+     "answer": 1,
+     "explain": "«After a day, only about a third remained»."
+    },
+    {
+     "id": "d09-l3",
+     "type": "mcq",
+     "qtype": "organization",
+     "q": "Why does the professor mention \"zub\" and \"kef\"?",
+     "options": [
+      "To give examples of the meaningless material Ebbinghaus used",
+      "To explain a German word",
+      "To show that syllables are easy to remember",
+      "To introduce a new experiment"
+     ],
+     "answer": 0,
+     "explain": "Son ejemplos de las sílabas sin sentido que usaba para su prueba."
+    },
+    {
+     "id": "d09-l4",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What happened to the curve each time Ebbinghaus reviewed the material?",
+     "options": [
+      "It became steeper",
+      "It became less steep",
+      "It disappeared",
+      "It stayed the same"
+     ],
+     "answer": 1,
+     "explain": "«the curve became less steep, which means that he forgot more slowly»."
+    },
+    {
+     "id": "d09-l5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What would the professor most likely recommend to a student?",
+     "options": [
+      "Study everything in one long session",
+      "Review at increasing intervals",
+      "Avoid reviewing to prevent boredom",
+      "Memorize only before the exam"
+     ],
+     "answer": 1,
+     "explain": "Recomienda repasar a intervalos crecientes (repetición espaciada)."
+    }
+   ],
+   "noteTaking": true
+  },
+  {
+   "kind": "authentic",
+   "id": "d09-p2",
+   "title": "Material auténtico: BBC 6 Minute English",
+   "minutes": 20,
+   "resource": {
+    "name": "BBC Learning English · 6 Minute English",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+    "note": "Elige un episodio sobre ciencia o tecnología.",
+    "verified": true
+   },
+   "steps": [
+    "Escucha una vez sin pausar y toma notas con el formato de hoy (palabras clave, → y ↑↓).",
+    "Escribe en una línea la idea principal.",
+    "Resume en 3 oraciones con tus notas.",
+    "Lee la transcripción: subraya 5 palabras nuevas y añádelas a tu cuaderno."
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d09-q1",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "Which is the best note for \"There are three main causes of soil erosion\"?",
+   "options": [
+    "There are three main causes",
+    "3 causes soil erosion: 1… 2… 3…",
+    "Soil",
+    "Erosion is bad"
+   ],
+   "answer": 1,
+   "explain": "Numerar causas permite recuperar la estructura."
+  },
+  {
+   "id": "d09-q2",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "The symbol \"↑\" in your notes most likely means",
+   "options": [
+    "decreases",
+    "increases",
+    "is equal to",
+    "example"
+   ],
+   "answer": 1,
+   "explain": "↑ = aumenta."
+  },
+  {
+   "id": "d09-q3",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "Which signal word introduces a contrast?",
+   "options": [
+    "for instance",
+    "however",
+    "therefore",
+    "first"
+   ],
+   "answer": 1,
+   "explain": "however = contraste."
+  },
+  {
+   "id": "d09-q4",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Right after the talk, before reading questions, you should",
+   "options": [
+    "write a one-sentence summary of the main idea",
+    "translate your notes into Spanish",
+    "memorize every number",
+    "erase unclear notes"
+   ],
+   "answer": 0,
+   "explain": "Una frase resumen ancla las preguntas globales."
+  }
+ ]
+}

@@ -1,0 +1,1571 @@
+{
+ "title": "Simulacro largo 2 (proporciones oficiales)",
+ "day": 28,
+ "intro": "Proporciones cercanas al blueprint 2026: 30 huecos de Complete the Words, 2 sets de Daily Life, 2 pasajes (10 ítems), 15 respuestas cortas, 2 conversaciones, 2 anuncios y 2 charlas, 10 Build a Sentence, email, discusión, 7 Listen and Repeat y 4 entrevistas. Aproximadamente 70 minutos.",
+ "sections": [
+  {
+   "skill": "reading",
+   "title": "Reading",
+   "minutes": 22,
+   "what": "Complete the Words (30) + 2 sets Daily Life + 2 pasajes",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d28-r-b1",
+     "title": "Complete the Words (30 huecos)",
+     "items": [
+      {
+       "id": "mk-d28-r-cw1",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Public transport systems face a {{persi|stent}} {{chall|enge}}: {{attra|cting}} enough passengers to cover their {{opera|ting}} costs. Cities that provide {{freq|uent}} and reliable services {{gener|ally}} experience higher {{rider|ship}}, whereas {{infre|quent}} buses encourage residents to rely on private vehicles. Researchers also emphasize that {{integ|rated}} ticketing, which allows travelers to switch between trains, trams, and buses with a single payment, significantly improves {{conven|ience}}.",
+       "explain": ""
+      },
+      {
+       "id": "mk-d28-r-cw2",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Children {{acqu|ire}} their first language without formal {{instru|ction}}, yet the process is far from {{ran|dom}}. Infants begin by {{disting|uishing}} the sounds of their native tongue, then produce simple {{sylla|bles}}, and {{event|ually}} {{comb|ine}} words into short sentences. {{Lingu|ists}} continue to debate whether this progress depends mainly on {{inn|ate}} abilities or on the {{intera|ction}} that caregivers provide.",
+       "explain": ""
+      },
+      {
+       "id": "mk-d28-r-cw3",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Bioluminescence, the {{produ|ction}} of light by living {{organ|isms}}, occurs in {{spec|ies}} {{rang|ing}} from fireflies to deep-sea fish. The glow is {{crea|ted}} by a {{chem|ical}} {{reac|tion}} in which an {{enz|yme}} acts on a molecule called luciferin. Many creatures use it to attract mates, while others deploy it to confuse {{preda|tors}} or to lure prey toward their {{mou|ths}}.",
+       "explain": ""
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d28-r-b2",
+     "title": "Daily Life · set 1",
+     "passage": "POSTER — International Students' Welcome Evening\n\nJoin us on Friday, October 23 in the Student Union Hall, 6:00–9:00 p.m.\n• Free dinner (vegetarian options available; register by October 20)\n• Campus tour at 5:30 p.m. (meet at the main gate)\n• Language buddy matching with local students\n\nNo registration is needed for the tour or the matching.",
+     "items": [
+      {
+       "id": "mk-d28-r-1",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "Who must register by October 20?",
+       "options": [
+        "Everyone who joins the tour",
+        "Those who want dinner",
+        "Language buddies",
+        "Local students only"
+       ],
+       "answer": 1,
+       "explain": "«Free dinner… register by October 20». La visita y el emparejamiento no requieren registro."
+      },
+      {
+       "id": "mk-d28-r-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Where does the campus tour begin?",
+       "options": [
+        "The Student Union Hall",
+        "The main gate",
+        "The dining room",
+        "The library"
+       ],
+       "answer": 1,
+       "explain": "«meet at the main gate»."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d28-r-b3",
+     "title": "Daily Life · set 2",
+     "passage": "Subject: Internship applications — important dates\n\nDear students,\n\nApplications for the summer internship program open on January 11 and close on February 5 at noon. Applications received after the deadline will not be considered, with no exceptions. You will need a CV, a motivation letter of no more than one page, and the contact details of one referee.\n\nShortlisted candidates will be invited for interviews between February 15 and 19. Results will be announced by March 1.\n\nCareer Services",
+     "items": [
+      {
+       "id": "mk-d28-r-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is the maximum length of the motivation letter?",
+       "options": [
+        "Half a page",
+        "One page",
+        "Two pages",
+        "No limit"
+       ],
+       "answer": 1,
+       "explain": "«no more than one page»."
+      },
+      {
+       "id": "mk-d28-r-4",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "A student submits her application on February 5 at 2 p.m. What will happen?",
+       "options": [
+        "It will be accepted",
+        "It will not be considered",
+        "She will get an interview",
+        "She will receive a warning"
+       ],
+       "answer": 1,
+       "explain": "El plazo cierra a mediodía."
+      },
+      {
+       "id": "mk-d28-r-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "When will final results be announced?",
+       "options": [
+        "February 19",
+        "By March 1",
+        "January 11",
+        "February 5"
+       ],
+       "answer": 1,
+       "explain": "«Results will be announced by March 1»."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "mk-d28-r-b4",
+     "title": "Academic Passage 1",
+     "passage": "In 1968, ecologist Garrett Hardin popularized the phrase \"the tragedy of the commons\" to describe a situation in which individuals, acting in their own interest, deplete a shared resource. His classic example was a pasture open to all herders. Each herder gains by adding one more animal, yet the cost of overgrazing is shared by everyone, so the incentive to add animals always outweighs the incentive to restrain.\n\nHardin concluded that shared resources inevitably collapse unless access is limited by private ownership or government regulation. Later research, however, challenged this pessimism. The political scientist Elinor Ostrom documented communities in Switzerland, Japan, and the Philippines that had managed forests and irrigation systems collectively for centuries. Their success depended on clear boundaries, local monitoring, and rules that members themselves created and enforced.",
+     "items": [
+      {
+       "id": "mk-d28-r-6",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the passage mainly about?",
+       "options": [
+        "A debate over whether shared resources inevitably collapse",
+        "The history of herding",
+        "Swiss forest laws",
+        "Why private ownership is better"
+       ],
+       "answer": 0,
+       "explain": "Hardin vs. Ostrom."
+      },
+      {
+       "id": "mk-d28-r-7",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "The word \"deplete\" is closest in meaning to",
+       "options": [
+        "use up",
+        "protect",
+        "measure",
+        "share"
+       ],
+       "answer": 0,
+       "explain": "deplete = agotar."
+      },
+      {
+       "id": "mk-d28-r-8",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why does each herder keep adding animals?",
+       "options": [
+        "They gain individually while the cost is shared",
+        "The pasture grows",
+        "The government pays",
+        "Animals are cheap"
+       ],
+       "answer": 0,
+       "explain": "La ganancia es individual; el costo, colectivo."
+      },
+      {
+       "id": "mk-d28-r-9",
+       "type": "mcq",
+       "qtype": "purpose",
+       "q": "Why does the author mention Switzerland, Japan and the Philippines?",
+       "options": [
+        "To show real communities that managed shared resources successfully",
+        "To compare climates",
+        "To show where Hardin lived",
+        "To list countries with pastures"
+       ],
+       "answer": 0,
+       "explain": "Son ejemplos de gestión colectiva exitosa."
+      },
+      {
+       "id": "mk-d28-r-10",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about Ostrom's view?",
+       "options": [
+        "Shared resources can be managed well under certain conditions",
+        "Private ownership is always required",
+        "Governments should ban pastures",
+        "Hardin was correct"
+       ],
+       "answer": 0,
+       "explain": "Su trabajo contradice el pesimismo de Hardin."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "mk-d28-r-b5",
+     "title": "Academic Passage 2",
+     "passage": "Concrete is the most widely used construction material on Earth, but its production is carbon-intensive. Roughly eight percent of global carbon dioxide emissions come from cement, the binding ingredient, because making it requires heating limestone to extremely high temperatures, which releases the gas stored in the rock.\n\nEngineers are exploring alternatives. Some replace part of the cement with industrial by-products such as fly ash, which reduces emissions without weakening the final product. Others experiment with \"self-healing\" concrete containing bacteria that produce limestone when cracks form, extending a structure's lifespan. A third approach captures carbon dioxide and injects it into the mixture, where it becomes permanently mineralized.\n\nAlthough these technologies are promising, adoption is slow, partly because building codes are conservative and partly because the cheapest cement remains the traditional kind.",
+     "items": [
+      {
+       "id": "mk-d28-r-11",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why does making cement release carbon dioxide?",
+       "options": [
+        "Limestone is heated and releases stored gas",
+        "Water evaporates",
+        "Machines burn coal only",
+        "Sand is mined"
+       ],
+       "answer": 0,
+       "explain": "El calentamiento de la caliza libera CO₂."
+      },
+      {
+       "id": "mk-d28-r-12",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "How is the passage organized?",
+       "options": [
+        "Problem followed by possible solutions and a limitation",
+        "Chronology of inventions",
+        "Comparison of two countries",
+        "A single detailed example"
+       ],
+       "answer": 0,
+       "explain": "Problema → alternativas → obstáculos."
+      },
+      {
+       "id": "mk-d28-r-13",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "\"conservative\" in the last paragraph is closest to",
+       "options": [
+        "cautious about change",
+        "very expensive",
+        "environmental",
+        "modern"
+       ],
+       "answer": 0,
+       "explain": "conservative = reacio al cambio."
+      },
+      {
+       "id": "mk-d28-r-14",
+       "type": "mcq",
+       "qtype": "negative-fact",
+       "q": "Which is NOT mentioned as an alternative approach?",
+       "options": [
+        "Fly ash replacement",
+        "Self-healing concrete",
+        "Carbon capture in the mixture",
+        "Wooden skyscrapers"
+       ],
+       "answer": 3,
+       "explain": "Madera no aparece."
+      },
+      {
+       "id": "mk-d28-r-15",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about the traditional cement industry?",
+       "options": [
+        "It will change quickly",
+        "It remains dominant partly due to cost and regulations",
+        "It is no longer used",
+        "It is cleaner than alternatives"
+       ],
+       "answer": 1,
+       "explain": "Se señala el costo y los códigos conservadores."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "listening",
+   "title": "Listening",
+   "minutes": 22,
+   "what": "15 respuestas cortas, 2 conversaciones, 2 anuncios, 2 charlas",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d28-l-b1",
+     "title": "Listen and Choose a Response (15)",
+     "items": [
+      {
+       "id": "mk-d28-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Well, what topics did you enjoy most this semester?",
+        "Final projects are due in December.",
+        "I decided to leave early.",
+        "Yes, I like ideas."
+       ],
+       "answer": 0,
+       "explain": "Pide ideas → pregunta guía.",
+       "audio": {
+        "file": "audio/mk-d28-l-c1.mp3",
+        "segments": [
+         {
+          "voice": "am_michael",
+          "text": "I haven't decided what to do for my final project yet. Any ideas?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "The music was composed in 1990.",
+        "Oh, sorry. I didn't realize it was so loud.",
+        "Yes, I study music.",
+        "I turned the page."
+       ],
+       "answer": 1,
+       "explain": "Petición → disculpa y aceptación.",
+       "audio": {
+        "file": "audio/mk-d28-l-c2.mp3",
+        "segments": [
+         {
+          "voice": "af_nicole",
+          "text": "Would you mind turning down the music a little? I'm trying to study."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I print everything at home.",
+        "Reports are very long.",
+        "Yes, as long as you send it before the deadline.",
+        "It was a great electric car."
+       ],
+       "answer": 2,
+       "explain": "Permiso con condición.",
+       "audio": {
+        "file": "audio/mk-d28-l-c3.mp3",
+        "segments": [
+         {
+          "voice": "bm_daniel",
+          "text": "Is it okay if I submit my report electronically instead of printing it?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c4",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "The airport is huge.",
+        "I weekend in the mountains.",
+        "Shuttles are wet.",
+        "I think it's every hour on the hour, but check the board to be sure."
+       ],
+       "answer": 3,
+       "explain": "Pide horario → dato con cautela.",
+       "audio": {
+        "file": "audio/mk-d28-l-c4.mp3",
+        "segments": [
+         {
+          "voice": "af_river",
+          "text": "What time does the shuttle to the airport leave on weekends?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c5",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "You'll do fine. Have you practiced it out loud?",
+        "Presentations are nervous.",
+        "Tomorrow is a good day.",
+        "I presented her with flowers."
+       ],
+       "answer": 0,
+       "explain": "Preocupación → apoyo y consejo.",
+       "audio": {
+        "file": "audio/mk-d28-l-c5.mp3",
+        "segments": [
+         {
+          "voice": "am_adam",
+          "text": "I'm really nervous about my presentation tomorrow."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c6",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Food runs fast.",
+        "Maybe we should try the place across the street.",
+        "The cafeteria is in Europe.",
+        "I ran a marathon."
+       ],
+       "answer": 1,
+       "explain": "Queja → alternativa.",
+       "audio": {
+        "file": "audio/mk-d28-l-c6.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "I can't believe the cafeteria ran out of food again."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c7",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Posters are decorative.",
+        "I printed my name.",
+        "The copy center on the second floor does large formats.",
+        "Ideas are hard to print."
+       ],
+       "answer": 2,
+       "explain": "Pregunta dónde → lugar concreto.",
+       "audio": {
+        "file": "audio/mk-d28-l-c7.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "Do you have any idea where I can print my poster?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c8",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Meetings are very big.",
+        "Anna is a kind name.",
+        "We began yesterday.",
+        "Let's give her five more minutes."
+       ],
+       "answer": 3,
+       "explain": "Decisión de grupo → propuesta.",
+       "audio": {
+        "file": "audio/mk-d28-l-c8.mp3",
+        "segments": [
+         {
+          "voice": "bm_george",
+          "text": "Shall we begin the meeting, or should we wait for Anna?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c9",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Same here. We could ask the professor to explain it next time.",
+        "Lectures are on Tuesdays.",
+        "The last part is behind us.",
+        "I followed my dog."
+       ],
+       "answer": 0,
+       "explain": "Coincidencia + sugerencia.",
+       "audio": {
+        "file": "audio/mk-d28-l-c9.mp3",
+        "segments": [
+         {
+          "voice": "af_sarah",
+          "text": "The lecture was fascinating, but I couldn't follow the last part."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c10",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Lines are straight.",
+        "No, that's over there, by the window.",
+        "Registration is expensive.",
+        "I desk my homework."
+       ],
+       "answer": 1,
+       "explain": "Pregunta de ubicación.",
+       "audio": {
+        "file": "audio/mk-d28-l-c10.mp3",
+        "segments": [
+         {
+          "voice": "am_eric",
+          "text": "Is this the line for the registration desk?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c11",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Internships are free.",
+        "Exams are conflicts.",
+        "That's a tough decision. Have you talked to your advisor about it?",
+        "I offered her a pen."
+       ],
+       "answer": 2,
+       "explain": "Dilema → sugerencia de apoyo.",
+       "audio": {
+        "file": "audio/mk-d28-l-c11.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "I've been offered an internship, but it conflicts with my exams."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c12",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Remind me of nothing.",
+        "Tomorrow I will be sad.",
+        "The home is warm.",
+        "We have to read chapter six and answer the questions at the end."
+       ],
+       "answer": 3,
+       "explain": "Pide información específica.",
+       "audio": {
+        "file": "audio/mk-d28-l-c12.mp3",
+        "segments": [
+         {
+          "voice": "bm_lewis",
+          "text": "Could you remind me what the homework is for tomorrow?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c13",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "A little, but it's faster and more comfortable.",
+        "Trains are made of steel.",
+        "The bus was blue.",
+        "I thought of you."
+       ],
+       "answer": 0,
+       "explain": "Compara costo/ventaja.",
+       "audio": {
+        "file": "audio/mk-d28-l-c13.mp3",
+        "segments": [
+         {
+          "voice": "bf_isabella",
+          "text": "I'm thinking of taking the train instead of the bus. Is it more expensive?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c14",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I interrupt the weather.",
+        "Of course. Go ahead.",
+        "Questions are quick.",
+        "Assignments are interesting."
+       ],
+       "answer": 1,
+       "explain": "Petición cortés → concederla.",
+       "audio": {
+        "file": "audio/mk-d28-l-c14.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "Sorry to interrupt, but could I ask a quick question about the assignment?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d28-l-c15",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Laptops are heavy.",
+        "I save money every month.",
+        "Try holding the power button for a few seconds. Sometimes it recovers the file.",
+        "Work is a four-letter word."
+       ],
+       "answer": 2,
+       "explain": "Problema técnico → solución.",
+       "audio": {
+        "file": "audio/mk-d28-l-c15.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "My laptop just shut down, and I haven't saved my work."
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b2",
+     "title": "Conversación 1",
+     "audio": {
+      "file": "audio/mk-d28-conv1.mp3",
+      "segments": [
+       {
+        "voice": "af_heart",
+        "who": "Maya",
+        "text": "Hey Tom, did you hear that the study abroad office is offering scholarships for next year?"
+       },
+       {
+        "voice": "am_michael",
+        "who": "Tom",
+        "text": "Really? I didn't know. How much are they?"
+       },
+       {
+        "voice": "af_heart",
+        "who": "Maya",
+        "text": "It depends on the destination. For Europe, it's around two thousand euros, but you have to write a statement explaining why you want to go."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Tom",
+        "text": "Hmm, I'm worried about my grades. I had a bad semester last year."
+       },
+       {
+        "voice": "af_heart",
+        "who": "Maya",
+        "text": "They actually look at your recent performance more than anything. And you can include a letter from a professor who knows you well."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Tom",
+        "text": "That might work. Professor Reed liked my last project. When is the deadline?"
+       },
+       {
+        "voice": "af_heart",
+        "who": "Maya",
+        "text": "March tenth. If you want, we can write our statements together next week."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-1",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What are the speakers mainly discussing?",
+       "options": [
+        "A scholarship for studying abroad",
+        "A bad semester",
+        "Professor Reed's class",
+        "European cities"
+       ],
+       "answer": 0,
+       "explain": "Beca de estudio en el extranjero."
+      },
+      {
+       "id": "mk-d28-l-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What must applicants write?",
+       "options": [
+        "A research paper",
+        "A statement explaining their motivation",
+        "A report on grades",
+        "An email to Europe"
+       ],
+       "answer": 1,
+       "explain": "«write a statement explaining why you want to go»."
+      },
+      {
+       "id": "mk-d28-l-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is Tom worried about?",
+       "options": [
+        "Money",
+        "His grades",
+        "The deadline",
+        "Language"
+       ],
+       "answer": 1,
+       "explain": "Su mal semestre."
+      },
+      {
+       "id": "mk-d28-l-4",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "Why does Maya mention a letter from a professor?",
+       "options": [
+        "It can help offset weak past grades",
+        "It is required",
+        "It replaces the statement",
+        "It costs money"
+       ],
+       "answer": 0,
+       "explain": "Sugiere que ayuda a compensar."
+      },
+      {
+       "id": "mk-d28-l-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What does Maya offer to do?",
+       "options": [
+        "Write Tom's statement",
+        "Work on the statements together next week",
+        "Contact Professor Reed",
+        "Pay the fee"
+       ],
+       "answer": 1,
+       "explain": "«we can write our statements together next week»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b3",
+     "title": "Conversación 2",
+     "audio": {
+      "file": "audio/mk-d28-conv2.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "Excuse me, I'd like to change my seminar, but the system won't let me."
+       },
+       {
+        "voice": "bm_george",
+        "who": "Clerk",
+        "text": "I see. That seminar is full, so you'll need special permission. Have you spoken to the instructor?"
+       },
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "Not yet. I wasn't sure whether to email or visit."
+       },
+       {
+        "voice": "bm_george",
+        "who": "Clerk",
+        "text": "Visiting is better. Instructors can add you to the list on the spot, but only during their office hours, which for Dr. Wu are Tuesday and Thursday afternoons."
+       },
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "Thanks. And is there a deadline for changing seminars?"
+       },
+       {
+        "voice": "bm_george",
+        "who": "Clerk",
+        "text": "Yes, this Friday at five. After that, a change requires approval from the dean's office, which takes weeks."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-6",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "Why does the student go to the office?",
+       "options": [
+        "To change a seminar",
+        "To drop out",
+        "To pay a fee",
+        "To meet Dr. Wu"
+       ],
+       "answer": 0,
+       "explain": "Quiere cambiar de seminario."
+      },
+      {
+       "id": "mk-d28-l-7",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why can't the student change online?",
+       "options": [
+        "The system is down",
+        "The seminar is full",
+        "She forgot her password",
+        "The deadline passed"
+       ],
+       "answer": 1,
+       "explain": "«That seminar is full»."
+      },
+      {
+       "id": "mk-d28-l-8",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "When can the instructor add students?",
+       "options": [
+        "Any time",
+        "During office hours",
+        "Only by email",
+        "Never"
+       ],
+       "answer": 1,
+       "explain": "Solo en horario de atención."
+      },
+      {
+       "id": "mk-d28-l-9",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What happens after Friday at five?",
+       "options": [
+        "Changes need dean's approval",
+        "Changes are free",
+        "Seminars are cancelled",
+        "Students are removed"
+       ],
+       "answer": 0,
+       "explain": "Aprobación del decanato."
+      },
+      {
+       "id": "mk-d28-l-10",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What will the student probably do next?",
+       "options": [
+        "Email the dean",
+        "Visit Dr. Wu during office hours",
+        "Choose another university",
+        "Wait until next year"
+       ],
+       "answer": 1,
+       "explain": "Es la vía más rápida."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b4",
+     "title": "Anuncio 1",
+     "audio": {
+      "file": "audio/mk-d28-ann1.mp3",
+      "segments": [
+       {
+        "voice": "am_adam",
+        "text": "Attention, everyone using the sports center. Due to maintenance work, the swimming pool will be closed from Monday to Wednesday next week. The gym and the tennis courts will remain open at their normal hours. Anyone with a membership that includes pool access will receive an automatic extension of three days. Please do not leave personal items in the lockers overnight, as they will be cleared on Wednesday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-11",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What will be closed next week?",
+       "options": [
+        "The gym",
+        "The tennis courts",
+        "The swimming pool",
+        "The whole center"
+       ],
+       "answer": 2,
+       "explain": "Piscina, de lunes a miércoles."
+      },
+      {
+       "id": "mk-d28-l-12",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What compensation is offered?",
+       "options": [
+        "A refund",
+        "A three-day extension of membership",
+        "Free lessons",
+        "A new locker"
+       ],
+       "answer": 1,
+       "explain": "Extensión automática de tres días."
+      },
+      {
+       "id": "mk-d28-l-13",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What will happen to items left in lockers overnight?",
+       "options": [
+        "They will be cleared on Wednesday",
+        "They will be kept",
+        "They will be returned",
+        "They will be sold"
+       ],
+       "answer": 0,
+       "explain": "Se vaciarán el miércoles."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b5",
+     "title": "Anuncio 2",
+     "audio": {
+      "file": "audio/mk-d28-ann2.mp3",
+      "segments": [
+       {
+        "voice": "af_bella",
+        "text": "Welcome back, everyone. Before we continue with today's lecture, I want to mention that the midterm will take place on the twenty-first, not the fourteenth as listed in the syllabus. I realize that this is a change, but the university has booked the large auditorium for that date. The exam will cover chapters one through five, and you may bring one handwritten page of notes. The review session will be held on Thursday afternoon, and the slides will be posted tonight."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-14",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "When is the midterm?",
+       "options": [
+        "The fourteenth",
+        "The twenty-first",
+        "Thursday",
+        "Tonight"
+       ],
+       "answer": 1,
+       "explain": "Cambió a 21."
+      },
+      {
+       "id": "mk-d28-l-15",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why was the date changed?",
+       "options": [
+        "The auditorium is only available then",
+        "The professor is ill",
+        "It conflicts with a holiday",
+        "Students asked for it"
+       ],
+       "answer": 0,
+       "explain": "«the university has booked the large auditorium for that date»."
+      },
+      {
+       "id": "mk-d28-l-16",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What may students bring to the exam?",
+       "options": [
+        "A textbook",
+        "One handwritten page of notes",
+        "A laptop",
+        "Nothing"
+       ],
+       "answer": 1,
+       "explain": "Una hoja de notas manuscrita."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b6",
+     "title": "Charla 1",
+     "audio": {
+      "file": "audio/mk-d28-talk1.mp3",
+      "segments": [
+       {
+        "voice": "bm_fable",
+        "text": "Let's consider why some words enter a language and others disappear. Linguists call the process lexical change. One major driver is technology. When smartphones appeared, we needed words like 'selfie' and 'texting', and they spread within a few years."
+       },
+       {
+        "voice": "bm_fable",
+        "text": "Another driver is social attitudes. Terms considered acceptable decades ago may now sound offensive, so speakers abandon them. Meanwhile, words can change meaning. 'Awful' once meant 'inspiring awe', but today it means 'very bad'."
+       },
+       {
+        "voice": "bm_fable",
+        "text": "Here's the interesting part. Dictionary editors don't decide which words are legitimate. They record what speakers actually use. So if a word appears frequently across many sources over a period of time, it earns a place. In other words, language belongs to its users."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-17",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the talk mainly about?",
+       "options": [
+        "Why vocabulary changes over time",
+        "How to write dictionaries",
+        "The history of smartphones",
+        "How to avoid offensive words"
+       ],
+       "answer": 0,
+       "explain": "Cambio léxico."
+      },
+      {
+       "id": "mk-d28-l-18",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why does the professor mention \"selfie\" and \"texting\"?",
+       "options": [
+        "To illustrate how technology introduces new words",
+        "To criticize new words",
+        "To describe grammar",
+        "To explain pronunciation"
+       ],
+       "answer": 0,
+       "explain": "Ejemplos de impulso tecnológico."
+      },
+      {
+       "id": "mk-d28-l-19",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What happened to the meaning of \"awful\"?",
+       "options": [
+        "It stayed the same",
+        "It changed from \"inspiring awe\" to \"very bad\"",
+        "It disappeared",
+        "It became formal"
+       ],
+       "answer": 1,
+       "explain": "Ejemplo de cambio de significado."
+      },
+      {
+       "id": "mk-d28-l-20",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What would the professor probably say about dictionary editors?",
+       "options": [
+        "They reflect usage rather than dictate it",
+        "They invent words",
+        "They ignore speakers",
+        "They ban slang"
+       ],
+       "answer": 0,
+       "explain": "«They record what speakers actually use»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d28-l-b7",
+     "title": "Charla 2",
+     "audio": {
+      "file": "audio/mk-d28-talk2.mp3",
+      "segments": [
+       {
+        "voice": "bf_emma",
+        "text": "Today we turn to a famous problem in psychology: why do groups sometimes make worse decisions than individuals? One reason is groupthink, a term coined by Irving Janis in the 1970s. Groupthink occurs when members value harmony so highly that they stop questioning the leader's ideas."
+       },
+       {
+        "voice": "bf_emma",
+        "text": "A classic case is the 1961 Bay of Pigs invasion, planned by a close-knit advisory team. Later analysis showed that several advisors had doubts but kept quiet to avoid disrupting consensus. The plan failed badly."
+       },
+       {
+        "voice": "bf_emma",
+        "text": "How can groups avoid this trap? Janis recommended assigning one member the role of devil's advocate, and inviting outsiders to criticize the plan. Interestingly, studies show that groups with a designated critic reach better decisions, even when the critic's role is only symbolic."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d28-l-21",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the main topic of the talk?",
+       "options": [
+        "Groupthink and how to avoid it",
+        "Famous invasions",
+        "Leadership styles",
+        "Why advisors resign"
+       ],
+       "answer": 0,
+       "explain": "Definición, caso, remedio."
+      },
+      {
+       "id": "mk-d28-l-22",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "Why does the professor discuss the Bay of Pigs?",
+       "options": [
+        "To provide an example of groupthink",
+        "To describe geography",
+        "To criticize a leader",
+        "To teach history only"
+       ],
+       "answer": 0,
+       "explain": "Caso clásico."
+      },
+      {
+       "id": "mk-d28-l-23",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What did Janis recommend?",
+       "options": [
+        "Assign a devil's advocate and invite outsiders",
+        "Reduce group size",
+        "Remove the leader",
+        "Vote secretly"
+       ],
+       "answer": 0,
+       "explain": "Dos remedios."
+      },
+      {
+       "id": "mk-d28-l-24",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred from the final study mentioned?",
+       "options": [
+        "Even a symbolic critic can improve decisions",
+        "Critics make groups slower",
+        "Groups should avoid criticism",
+        "Leaders should decide alone"
+       ],
+       "answer": 0,
+       "explain": "El rol simbólico ya ayuda."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "writing",
+   "title": "Writing",
+   "minutes": 23,
+   "what": "10 Build a Sentence + email + discusión",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d28-w-b1",
+     "title": "Build a Sentence (10)",
+     "items": [
+      {
+       "id": "mk-d28-w-1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What was the main finding of your project?",
+       "words": [
+        "better.",
+        "found",
+        "more",
+        "students",
+        "that",
+        "who",
+        "perform",
+        "We",
+        "sleep"
+       ],
+       "answer": "We found that students who sleep more perform better.",
+       "explain": "found that + cláusula; who sleep more = relativa."
+      },
+      {
+       "id": "mk-d28-w-2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Did you enjoy the field trip?",
+       "words": [
+        "than",
+        "far",
+        "the",
+        "Yes,",
+        "weather",
+        "expected.",
+        "was",
+        "colder",
+        "although"
+       ],
+       "answer": "Yes, although the weather was far colder than expected.",
+       "explain": "although + cláusula; far colder than expected."
+      },
+      {
+       "id": "mk-d28-w-3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Where did you hear about the program?",
+       "words": [
+        "website.",
+        "on",
+        "an",
+        "I",
+        "the",
+        "saw",
+        "university",
+        "advertisement"
+       ],
+       "answer": "I saw an advertisement on the university website.",
+       "explain": "saw + objeto + on + lugar."
+      },
+      {
+       "id": "mk-d28-w-4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What should I do if I miss the deadline?",
+       "words": [
+        "should",
+        "your",
+        "as",
+        "instructor",
+        "as",
+        "contact",
+        "possible.",
+        "soon",
+        "You"
+       ],
+       "answer": "You should contact your instructor as soon as possible.",
+       "explain": "should + base; as soon as possible."
+      },
+      {
+       "id": "mk-d28-w-5",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why are many students interested in data science?",
+       "words": [
+        "offers",
+        "opportunities",
+        "industry.",
+        "excellent",
+        "It",
+        "career",
+        "almost",
+        "every",
+        "in"
+       ],
+       "answer": "It offers excellent career opportunities in almost every industry.",
+       "explain": "offers + objeto + in + sector."
+      },
+      {
+       "id": "mk-d28-w-6",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Has the schedule been changed?",
+       "words": [
+        "exam",
+        "the",
+        "moved",
+        "Yes,",
+        "week.",
+        "has",
+        "to",
+        "following",
+        "the",
+        "been"
+       ],
+       "answer": "Yes, the exam has been moved to the following week.",
+       "explain": "Pasiva en present perfect."
+      },
+      {
+       "id": "mk-d28-w-7",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "How did you manage to finish so quickly?",
+       "words": [
+        "divided",
+        "every",
+        "and",
+        "tasks",
+        "I",
+        "day.",
+        "one",
+        "into",
+        "the",
+        "completed",
+        "work",
+        "small"
+       ],
+       "answer": "I divided the work into small tasks and completed one every day.",
+       "explain": "Dos verbos en pasado coordinados."
+      },
+      {
+       "id": "mk-d28-w-8",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Is the library open during the holidays?",
+       "words": [
+        "limited",
+        "is,",
+        "only",
+        "hours",
+        "reduced",
+        "but",
+        "and",
+        "services.",
+        "It",
+        "with"
+       ],
+       "answer": "It is, but only with limited hours and reduced services.",
+       "explain": "Elipsis + but + only with…"
+      },
+      {
+       "id": "mk-d28-w-9",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What do you think about studying abroad?",
+       "words": [
+        "and",
+        "more",
+        "helps",
+        "independent",
+        "open-minded.",
+        "I",
+        "students",
+        "it",
+        "become",
+        "believe"
+       ],
+       "answer": "I believe it helps students become more independent and open-minded.",
+       "explain": "helps + objeto + base + adjetivos."
+      },
+      {
+       "id": "mk-d28-w-10",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Could you explain how the system works?",
+       "words": [
+        "new",
+        "a",
+        "notification",
+        "uploaded.",
+        "automatically",
+        "sends",
+        "is",
+        "whenever",
+        "a",
+        "document",
+        "It"
+       ],
+       "answer": "It automatically sends a notification whenever a new document is uploaded.",
+       "explain": "whenever + cláusula pasiva."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "mk-d28-w-email",
+     "title": "Write an Email",
+     "minutes": 7,
+     "minWords": 90,
+     "prompt": "**Situation.** You are a member of the university hiking club. The trip planned for Saturday must be cancelled because of a weather warning, and some members have already paid.\n\n**Write an email to all club members.** In your email:\n- Announce the cancellation and explain the reason.\n- Describe how refunds or a new date will be handled.\n- Invite members to share their preferences.",
+     "checklist": [
+      "Anuncié la cancelación con claridad",
+      "Expliqué el motivo",
+      "Describí reembolso/nueva fecha",
+      "Invité a opinar",
+      "Tono amable y organizado"
+     ],
+     "model": "Dear club members,\n\nI am sorry to announce that Saturday's hiking trip has been cancelled. The weather service has issued a storm warning for the mountain area, and we cannot risk anyone's safety.\n\nThose who have already paid will receive a full refund within a week, unless they prefer to keep their payment for a new date. We are considering Saturday, November 14 as a replacement.\n\nPlease let me know by Wednesday whether that date suits you, or suggest another weekend. Your preferences will help us decide.\n\nThank you for your understanding.\n\nBest wishes,\nIrene, Hiking Club Coordinator"
+    },
+    {
+     "kind": "writing",
+     "task": "discussion",
+     "id": "mk-d28-w-disc",
+     "title": "Write for an Academic Discussion",
+     "minutes": 10,
+     "minWords": 110,
+     "prompt": "**Professor Adler:** Many cities are replacing paper tickets and cash with digital payment systems. Do you think this change is beneficial overall?\n\n**Leo:** Yes. Digital payments are faster, cheaper to manage, and reduce crime related to cash.\n\n**Mia:** I disagree. Not everyone has a smartphone or a bank account, and these systems can exclude older people and the poor.\n\n**Write a response** (≥ 110 words) giving your opinion, acknowledging the other side, and supporting your view with an example.",
+     "checklist": [
+      "Postura",
+      "Concesión",
+      "Contraargumento",
+      "Ejemplo",
+      "Referencia a Leo o Mia",
+      "Cierre"
+     ],
+     "model": "I think digital payments are largely beneficial, but cities must protect those who cannot use them. Leo is right that digital systems are efficient. For example, when Stockholm introduced card-only buses, boarding became noticeably faster and operators saved on cash handling.\n\nAdmittedly, Mia raises an important concern about exclusion. Nevertheless, this risk can be reduced if governments keep cash options, provide prepaid cards for those without bank accounts, and offer assistance to older users.\n\nOverall, a gradual, inclusive transition would deliver the advantages of digital payments without leaving anyone behind."
+    }
+   ]
+  },
+  {
+   "skill": "speaking",
+   "title": "Speaking",
+   "minutes": 8,
+   "what": "7 Listen and Repeat + 4 entrevistas",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "mk-d28-s-repeat",
+     "title": "Listen and Repeat (7)",
+     "items": [
+      {
+       "text": "The library has extended its opening hours for the exam period.",
+       "audio": {
+        "file": "audio/mk-d28-r1.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "The library has extended its opening hours for the exam period."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Please remember to bring your student card to every examination.",
+       "audio": {
+        "file": "audio/mk-d28-r2.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "Please remember to bring your student card to every examination."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "The department will announce the schedule for next semester next week.",
+       "audio": {
+        "file": "audio/mk-d28-r3.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "The department will announce the schedule for next semester next week."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Applicants who submitted incomplete forms will be contacted by email.",
+       "audio": {
+        "file": "audio/mk-d28-r4.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "Applicants who submitted incomplete forms will be contacted by email."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Because of road construction, the shuttle service will follow a different route.",
+       "audio": {
+        "file": "audio/mk-d28-r5.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "Because of road construction, the shuttle service will follow a different route."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "The workshop on academic writing is open to all students, regardless of their field of study.",
+       "audio": {
+        "file": "audio/mk-d28-r6.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "The workshop on academic writing is open to all students, regardless of their field of study."
+         }
+        ]
+       },
+       "seconds": 13
+      },
+      {
+       "text": "Although most seminars are held in English, some courses are offered in Dutch for international students.",
+       "audio": {
+        "file": "audio/mk-d28-r7.mp3",
+        "segments": [
+         {
+          "voice": "bf_emma",
+          "text": "Although most seminars are held in English, some courses are offered in Dutch for international students."
+         }
+        ]
+       },
+       "seconds": 13
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "mk-d28-s-interview",
+     "title": "Take an Interview",
+     "seconds": 45,
+     "prep": 0,
+     "questions": [
+      {
+       "q": "What motivates you to keep working when a task becomes difficult?",
+       "audio": {
+        "file": "audio/mk-d28-i1.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "What motivates you to keep working when a task becomes difficult?"
+         }
+        ]
+       },
+       "model": "What motivates me is the idea of seeing a result. When a task becomes difficult, I divide it into small steps and celebrate each one. For example, when I wrote my thesis proposal, I set a goal of two pages a day, and that made the whole project manageable."
+      },
+      {
+       "q": "How do you think technology will change education in the next ten years?",
+       "audio": {
+        "file": "audio/mk-d28-i2.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "How do you think technology will change education in the next ten years?"
+         }
+        ]
+       },
+       "model": "I think technology will personalize education. Software will adapt exercises to each student's level, and teachers will focus on discussion and mentoring. For instance, language apps already adjust difficulty in real time, and this will become common in many subjects."
+      },
+      {
+       "q": "Describe a skill you have that you think is useful for university study.",
+       "audio": {
+        "file": "audio/mk-d28-i3.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "Describe a skill you have that you think is useful for university study."
+         }
+        ]
+       },
+       "model": "I think my ability to organize information is very useful. I make summaries and diagrams of every topic, so I can review quickly. For example, during my last exam period, my diagrams helped me recall three chapters in a single evening."
+      },
+      {
+       "q": "Do you think students should be graded on effort or on results? Explain.",
+       "audio": {
+        "file": "audio/mk-d28-i4.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "Do you think students should be graded on effort or on results? Explain."
+         }
+        ]
+       },
+       "model": "I think results should matter most, but effort deserves some recognition. Results show whether learning actually occurred, whereas effort is hard to measure. For example, a student may study many hours with the wrong method, so the grade should reflect the outcome, perhaps with a small bonus for participation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

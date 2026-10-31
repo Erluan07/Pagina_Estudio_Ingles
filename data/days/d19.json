@@ -1,0 +1,185 @@
+{
+ "n": 19,
+ "objectives": [
+  "Completar 30 huecos (3 párrafos × 10), la cantidad oficial de ítems de Complete the Words.",
+  "Usar morfología, colocaciones y gramática bajo presión.",
+  "Gestionar el tiempo: ≈ 6 s por hueco."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 5 (5/9)",
+  "words": [
+   [
+    "refine",
+    "verb",
+    "to improve by small changes",
+    "refinar",
+    "The team refined the prototype."
+   ],
+   [
+    "reinforce",
+    "verb",
+    "to strengthen",
+    "reforzar",
+    "Evidence reinforces the argument."
+   ],
+   [
+    "rigid",
+    "adj",
+    "stiff; not flexible",
+    "rígido",
+    "The schedule is too rigid."
+   ],
+   [
+    "scenario",
+    "noun",
+    "a possible sequence of events",
+    "escenario",
+    "In the worst-case scenario, we repeat the test."
+   ],
+   [
+    "scope",
+    "noun",
+    "the range of a subject or activity",
+    "alcance",
+    "The scope of the study is limited."
+   ],
+   [
+    "sequence",
+    "noun",
+    "an ordered series",
+    "secuencia",
+    "Follow the sequence of steps."
+   ],
+   [
+    "simulate",
+    "verb",
+    "to imitate a process",
+    "simular",
+    "The software simulates traffic flow."
+   ],
+   [
+    "sole",
+    "adj",
+    "only",
+    "único",
+    "The sole survivor was a young tree."
+   ],
+   [
+    "subsequent",
+    "adj",
+    "coming after",
+    "posterior",
+    "Subsequent studies confirmed the effect."
+   ],
+   [
+    "sufficient",
+    "adj",
+    "enough",
+    "suficiente",
+    "The evidence is not sufficient."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d19.md",
+ "videos": {
+  "ids": [
+   "r-cw",
+   "r-cw-colloc"
+  ],
+  "search": "TOEFL Complete the Words advanced practice"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d19-p1",
+   "title": "Complete the Words · Arqueología (10)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d19-cw1",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "{{Archaeo|logists}} have long debated how the earliest cities emerged. One {{influe|ntial}} theory {{sugg|ests}} that {{agricu|ltural}} surplus allowed some {{indivi|duals}} to {{speci|alize}} in crafts, trade, and {{adminis|tration}}, which {{gradu|ally}} produced complex social hierarchies. However, recent {{excava|tions}} indicate that several {{settle|ments}} grew rapidly without such surplus.",
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "kind": "questions",
+   "id": "d19-p2",
+   "title": "Complete the Words · Ruido urbano (10)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d19-cw2",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "Noise {{pollu|tion}} is {{increa|singly}} {{recog|nized}} as a public health concern. Prolonged {{expo|sure}} to traffic and {{constr|uction}} sounds has been {{assoc|iated}} with sleep {{distur|bance}}, {{elev|ated}} stress hormones, and reduced concentration in children. Consequently, many {{municip|alities}} are introducing quieter pavements and {{restri|cting}} nighttime deliveries.",
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "kind": "questions",
+   "id": "d19-p3",
+   "title": "Complete the Words · Aves migratorias (10)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d19-cw3",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "{{Migra|tory}} birds rely on {{remar|kable}} {{naviga|tional}} abilities. They detect the {{magn|etic}} field of the Earth, observe the {{posi|tion}} of the sun and stars, and even {{memo|rize}} {{landm|arks}} along their routes. Despite these {{sophist|icated}} mechanisms, {{artif|icial}} lighting and tall buildings frequently disrupt their {{orient|ation}} during nocturnal flights.",
+     "explain": ""
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d19-q1",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "The ending \"-ization\" in \"organization\" signals a",
+   "options": [
+    "verb",
+    "noun",
+    "adverb",
+    "adjective"
+   ],
+   "answer": 1,
+   "explain": "-ization forma sustantivos (de verbos en -ize)."
+  },
+  {
+   "id": "d19-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Which form fits? \"The committee is ______ (reluctance) to approve the plan.\"",
+   "options": [
+    "reluctant",
+    "reluctantly",
+    "reluctance",
+    "reluct"
+   ],
+   "answer": 0,
+   "explain": "Tras is: adjetivo → reluctant."
+  },
+  {
+   "id": "d19-q3",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "Which prefix means \"not\" in \"inconclusive\"?",
+   "options": [
+    "in-",
+    "con-",
+    "-ive",
+    "clu-"
+   ],
+   "answer": 0,
+   "explain": "in- = no; inconclusive = no concluyente."
+  }
+ ]
+}

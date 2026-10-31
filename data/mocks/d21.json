@@ -1,0 +1,820 @@
+{
+ "title": "Mini-simulacro 2",
+ "day": 21,
+ "intro": "Proporciones cercanas al blueprint 2026 (≈ 40 %): 10 huecos de Complete the Words, un set de Daily Life, un pasaje, 6 respuestas cortas, conversación, anuncio y charla, 5 Build a Sentence, email, discusión, 7 Listen and Repeat y 2 preguntas de entrevista.",
+ "sections": [
+  {
+   "skill": "reading",
+   "title": "Reading",
+   "minutes": 10,
+   "what": "Complete the Words (10) + Daily Life + pasaje",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d21-r-b1",
+     "title": "Complete the Words",
+     "items": [
+      {
+       "id": "mk-d21-r-cw",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Tides are caused {{prima|rily}} by the {{gravita|tional}} pull of the moon, although the sun also {{contri|butes}}. As the Earth {{rota|tes}}, different coastal {{regi|ons}} pass through the bulges of water created by this {{attra|ction}}, {{resul|ting}} in two high tides and two low tides each day. The height of the tides varies {{consid|erably}} depending on the shape of the {{shore|line}} and the depth of the {{surrou|nding}} sea.",
+       "explain": ""
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d21-r-b2",
+     "title": "Read in Daily Life",
+     "passage": "GREENFIELD FITNESS CENTER — Winter Schedule (Dec 1 – Feb 28)\n\nWeekdays: 6:30 a.m. – 10:00 p.m.\nSaturdays: 8:00 a.m. – 6:00 p.m.\nSundays and public holidays: closed\n\nGroup classes (yoga, spinning, circuit training) require booking through the app up to 48 hours in advance. Bookings can be cancelled free of charge until 3 hours before the class; later cancellations count as attended.\n\nNew members receive one complimentary personal training session. Lockers must be emptied nightly; items left overnight will be removed.",
+     "items": [
+      {
+       "id": "mk-d21-r-1",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "When is the fitness center closed?",
+       "options": [
+        "Saturdays",
+        "Sundays and public holidays",
+        "Weekdays after 8 p.m.",
+        "Every morning"
+       ],
+       "answer": 1,
+       "explain": "«Sundays and public holidays: closed»."
+      },
+      {
+       "id": "mk-d21-r-2",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "A member cancels a spinning class two hours before it starts. What happens?",
+       "options": [
+        "Nothing, it is free",
+        "It counts as attended",
+        "The member is banned",
+        "The class is moved"
+       ],
+       "answer": 1,
+       "explain": "«later cancellations count as attended» (el límite es 3 horas antes)."
+      },
+      {
+       "id": "mk-d21-r-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What do new members receive?",
+       "options": [
+        "A free locker",
+        "A complimentary personal training session",
+        "A discount on classes",
+        "A free app"
+       ],
+       "answer": 1,
+       "explain": "«one complimentary personal training session»."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "mk-d21-r-b3",
+     "title": "Read an Academic Passage",
+     "passage": "When farmland is abandoned, nature does not simply return to its former state. Ecologists studying such \"rewilded\" landscapes in Europe have found that the pace and direction of recovery depend heavily on what animals remain nearby. Where large grazers such as wild horses or bison are reintroduced, the grass stays short and open habitats persist, which benefits insects and ground-nesting birds. Without grazers, shrubs quickly dominate and eventually form dense woodland.\n\nNeither outcome is inherently better; each supports different species. Consequently, conservationists increasingly regard rewilding not as a single formula but as a set of choices that should reflect local goals. Critics worry that unmanaged landscapes may increase wildfire risk or conflict with farmers, though supporters respond that carefully planned grazing can reduce both concerns.",
+     "items": [
+      {
+       "id": "mk-d21-r-4",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the passage mainly about?",
+       "options": [
+        "How rewilded land develops and why management choices matter",
+        "The history of European agriculture",
+        "Why bison are endangered",
+        "How farmers prevent wildfires"
+       ],
+       "answer": 0,
+       "explain": "Desarrolla cómo evoluciona la tierra y por qué las decisiones importan."
+      },
+      {
+       "id": "mk-d21-r-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "According to the passage, what happens where large grazers are absent?",
+       "options": [
+        "Grassland expands",
+        "Shrubs soon dominate and woodland forms",
+        "Insects increase",
+        "Farmers return"
+       ],
+       "answer": 1,
+       "explain": "«Without grazers, shrubs quickly dominate and eventually form dense woodland»."
+      },
+      {
+       "id": "mk-d21-r-6",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "The word \"inherently\" is closest in meaning to",
+       "options": [
+        "by its nature",
+        "recently",
+        "rarely",
+        "slowly"
+       ],
+       "answer": 0,
+       "explain": "inherently = por naturaleza."
+      },
+      {
+       "id": "mk-d21-r-7",
+       "type": "mcq",
+       "qtype": "purpose",
+       "q": "Why does the author mention critics in paragraph 2?",
+       "options": [
+        "To show that the approach has concerns that supporters answer",
+        "To prove rewilding has failed",
+        "To introduce a new species",
+        "To compare Europe with Asia"
+       ],
+       "answer": 0,
+       "explain": "Presenta una objeción y la respuesta de los partidarios."
+      },
+      {
+       "id": "mk-d21-r-8",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about the author's view of rewilding?",
+       "options": [
+        "It should follow one fixed method",
+        "Its results depend on local goals and choices",
+        "It is dangerous and should stop",
+        "It only helps insects"
+       ],
+       "answer": 1,
+       "explain": "Presenta el rewilding como «a set of choices that should reflect local goals»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "listening",
+   "title": "Listening",
+   "minutes": 12,
+   "what": "6 respuestas cortas, conversación, anuncio y charla",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d21-l-b1",
+     "title": "Listen and Choose a Response",
+     "items": [
+      {
+       "id": "mk-d21-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Are you sure? Maybe you should talk to your instructor first.",
+        "French is spoken in many countries.",
+        "I dropped my keys earlier.",
+        "The class is held in a different building."
+       ],
+       "answer": 0,
+       "explain": "Ante una decisión impulsiva, se sugiere cautela.",
+       "audio": {
+        "file": "audio/mk-d21-l-c1.mp3",
+        "segments": [
+         {
+          "voice": "af_sarah",
+          "text": "I think I'm going to drop the French class. It's just too much work."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d21-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I mind the weather a lot.",
+        "Not at all. It's in my bag.",
+        "It was fully charged yesterday.",
+        "The charger is made of plastic."
+       ],
+       "answer": 1,
+       "explain": "«Do you mind if…?» → «Not at all» = sí puedes.",
+       "audio": {
+        "file": "audio/mk-d21-l-c2.mp3",
+        "segments": [
+         {
+          "voice": "am_eric",
+          "text": "Do you mind if I borrow your charger for a few minutes?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d21-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I registered for a tennis club.",
+        "Websites have many colors.",
+        "Have you tried contacting the help desk? They might be able to process it manually.",
+        "I pay in cash at the market."
+       ],
+       "answer": 2,
+       "explain": "Queja técnica → alternativa útil.",
+       "audio": {
+        "file": "audio/mk-d21-l-c3.mp3",
+        "segments": [
+         {
+          "voice": "bf_isabella",
+          "text": "The registration website keeps crashing whenever I try to pay."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d21-l-c4",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "The lecture was about economics.",
+        "Nobody ate the cancelled cake.",
+        "I told you the idea was great.",
+        "The professor sent an email last night, but it might have gone to your spam folder."
+       ],
+       "answer": 3,
+       "explain": "Pregunta el motivo → explicación plausible.",
+       "audio": {
+        "file": "audio/mk-d21-l-c4.mp3",
+        "segments": [
+         {
+          "voice": "am_adam",
+          "text": "I had no idea the lecture was cancelled. Why didn't anyone tell us?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d21-l-c5",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "For me, yes. It's faster, although it doesn't pass the library anymore.",
+        "The bus is yellow and big.",
+        "I took the old route yesterday.",
+        "New routes need new passengers."
+       ],
+       "answer": 0,
+       "explain": "Pide una valoración → respuesta con opinión y matiz.",
+       "audio": {
+        "file": "audio/mk-d21-l-c5.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "Would you say the new bus route is better than the old one?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d21-l-c6",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Fridays are the best day of the week.",
+        "Why don't we split the analysis section? That would save you a lot of time.",
+        "The lab was cleaned last week.",
+        "I wrote a report yesterday on whales."
+       ],
+       "answer": 1,
+       "explain": "Preocupación → ofrecimiento de ayuda concreta.",
+       "audio": {
+        "file": "audio/mk-d21-l-c6.mp3",
+        "segments": [
+         {
+          "voice": "bm_lewis",
+          "text": "I'm worried that I won't finish the lab report before Friday."
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d21-l-b2",
+     "title": "Conversación",
+     "audio": {
+      "file": "audio/mk-d21-conv.mp3",
+      "segments": [
+       {
+        "voice": "af_nicole",
+        "who": "Student",
+        "text": "Professor Allen, I wanted to ask about the field trip next week. I just found out I have a medical appointment on the same day."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Professor",
+        "text": "I see. Unfortunately, the trip is mandatory, since it's part of the assessment. But we can look for an alternative."
+       },
+       {
+        "voice": "af_nicole",
+        "who": "Student",
+        "text": "Could I go with the other section instead? I think they leave the following Monday."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Professor",
+        "text": "That would work, but that group has a limited number of spaces. Let me check with the coordinator and email you tomorrow."
+       },
+       {
+        "voice": "af_nicole",
+        "who": "Student",
+        "text": "Thank you. Should I register for the trip online in the meantime?"
+       },
+       {
+        "voice": "am_michael",
+        "who": "Professor",
+        "text": "No, wait until I confirm, otherwise the system will charge you twice."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d21-l-1",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "Why does the student talk to the professor?",
+       "options": [
+        "To propose a new field trip",
+        "To ask for a different date for a mandatory trip",
+        "To complain about a grade",
+        "To cancel her course"
+       ],
+       "answer": 1,
+       "explain": "Tiene una cita médica el mismo día."
+      },
+      {
+       "id": "mk-d21-l-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What problem could prevent the student from joining the other section?",
+       "options": [
+        "It is on the same day",
+        "It has limited spaces",
+        "It costs more",
+        "It is not part of the assessment"
+       ],
+       "answer": 1,
+       "explain": "«that group has a limited number of spaces»."
+      },
+      {
+       "id": "mk-d21-l-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What will the professor do?",
+       "options": [
+        "Register the student online",
+        "Check with the coordinator and email her",
+        "Cancel the trip",
+        "Change her grade"
+       ],
+       "answer": 1,
+       "explain": "«Let me check with the coordinator and email you tomorrow»."
+      },
+      {
+       "id": "mk-d21-l-4",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why should the student wait before registering?",
+       "options": [
+        "The website is closed",
+        "She might be charged twice",
+        "The trip is free",
+        "The deadline passed"
+       ],
+       "answer": 1,
+       "explain": "«otherwise the system will charge you twice»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d21-l-b3",
+     "title": "Anuncio",
+     "audio": {
+      "file": "audio/mk-d21-ann.mp3",
+      "segments": [
+       {
+        "voice": "af_bella",
+        "text": "Good morning, everyone. A quick announcement before we begin. Tomorrow's chemistry lab has been moved from Room 204 to Room 118, because the ventilation system in 204 is being repaired. Please bring your safety goggles and a printed copy of the procedure, as the printers in the new room are out of order. Also, the quiz scheduled for Thursday will cover only the first two units, not the third, as previously stated."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d21-l-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why has the lab been moved?",
+       "options": [
+        "The room is too small",
+        "The ventilation system is being repaired",
+        "There is a quiz",
+        "The goggles are missing"
+       ],
+       "answer": 1,
+       "explain": "«the ventilation system in 204 is being repaired»."
+      },
+      {
+       "id": "mk-d21-l-6",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What should students bring?",
+       "options": [
+        "A laptop",
+        "Safety goggles and a printed procedure",
+        "A lab coat only",
+        "Their quiz results"
+       ],
+       "answer": 1,
+       "explain": "«safety goggles and a printed copy of the procedure»."
+      },
+      {
+       "id": "mk-d21-l-7",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What has changed about the quiz?",
+       "options": [
+        "Its date",
+        "It will cover only two units",
+        "It will be online",
+        "It is cancelled"
+       ],
+       "answer": 1,
+       "explain": "«will cover only the first two units, not the third»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d21-l-b4",
+     "title": "Charla académica",
+     "audio": {
+      "file": "audio/mk-d21-talk.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "text": "Let's talk about the placebo effect, which occurs when a patient improves after receiving a treatment that contains no active ingredient. Researchers once assumed this was just imagination, but brain scans suggest otherwise. When patients expect pain relief, their brains release natural painkillers called endorphins."
+       },
+       {
+        "voice": "bf_alice",
+        "text": "Interestingly, the effect depends on presentation. In one study, patients received identical sugar pills, but those told they were expensive reported greater relief than those told they were cheap. Even more surprising, some patients improved when they were told honestly that the pills were placebos."
+       },
+       {
+        "voice": "bf_alice",
+        "text": "What does this mean for medicine? Doctors cannot simply prescribe placebos, because that would involve deception. However, they can improve outcomes by communicating clearly and showing empathy, since expectations shape the body's response."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d21-l-8",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the main point of the talk?",
+       "options": [
+        "Placebos cure serious disease",
+        "Expectations can produce real physiological effects",
+        "Sugar is a painkiller",
+        "Doctors should use deception"
+       ],
+       "answer": 1,
+       "explain": "Expectativas → endorfinas → alivio real."
+      },
+      {
+       "id": "mk-d21-l-9",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What did brain scans suggest?",
+       "options": [
+        "The effect is imaginary",
+        "The brain releases natural painkillers",
+        "Pills have no effect",
+        "Expensive pills contain endorphins"
+       ],
+       "answer": 1,
+       "explain": "«their brains release natural painkillers called endorphins»."
+      },
+      {
+       "id": "mk-d21-l-10",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "Why does the professor describe the study with expensive and cheap pills?",
+       "options": [
+        "To show the effect depends on presentation",
+        "To compare two drugs",
+        "To criticize pharmacies",
+        "To explain pricing"
+       ],
+       "answer": 0,
+       "explain": "Es evidencia de que la presentación modifica el efecto."
+      },
+      {
+       "id": "mk-d21-l-11",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What would the professor most likely advise doctors?",
+       "options": [
+        "Prescribe placebos secretly",
+        "Communicate clearly and show empathy",
+        "Avoid explaining treatments",
+        "Use only expensive drugs"
+       ],
+       "answer": 1,
+       "explain": "Conclusión final."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "writing",
+   "title": "Writing",
+   "minutes": 14,
+   "what": "5 Build a Sentence + email + discusión",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d21-w-b1",
+     "title": "Build a Sentence",
+     "items": [
+      {
+       "id": "mk-d21-w-1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why did you move to a new apartment?",
+       "words": [
+        "without",
+        "rent",
+        "My",
+        "landlord",
+        "any",
+        "increased",
+        "the",
+        "old",
+        "warning."
+       ],
+       "answer": "My old landlord increased the rent without any warning.",
+       "explain": "Sujeto + verbo + objeto + without + sustantivo."
+      },
+      {
+       "id": "mk-d21-w-2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What are you planning to do after graduation?",
+       "words": [
+        "environmental",
+        "an",
+        "hoping",
+        "to",
+        "am",
+        "work",
+        "for",
+        "organization.",
+        "I"
+       ],
+       "answer": "I am hoping to work for an environmental organization.",
+       "explain": "hope to + base; for + organización."
+      },
+      {
+       "id": "mk-d21-w-3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Did the experiment work as expected?",
+       "words": [
+        "but",
+        "we",
+        "Not",
+        "great",
+        "really,",
+        "a",
+        "from",
+        "learned",
+        "it.",
+        "deal"
+       ],
+       "answer": "Not really, but we learned a great deal from it.",
+       "explain": "Respuesta corta + but + cláusula."
+      },
+      {
+       "id": "mk-d21-w-4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Do you know why the seminar was postponed?",
+       "words": [
+        "minute.",
+        "the",
+        "to",
+        "speaker",
+        "cancel",
+        "at",
+        "had",
+        "I",
+        "last",
+        "that",
+        "heard",
+        "the"
+       ],
+       "answer": "I heard that the speaker had to cancel at the last minute.",
+       "explain": "heard that + pasado perfecto simple."
+      },
+      {
+       "id": "mk-d21-w-5",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "How can the city reduce traffic?",
+       "words": [
+        "cheaper",
+        "reliable",
+        "invest",
+        "public",
+        "transportation.",
+        "in",
+        "and",
+        "more",
+        "It",
+        "could"
+       ],
+       "answer": "It could invest in cheaper and more reliable public transportation.",
+       "explain": "could + verbo; coordinación cheaper and more reliable."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "mk-d21-w-email",
+     "title": "Write an Email",
+     "minutes": 7,
+     "minWords": 80,
+     "prompt": "**Situation.** You ordered a textbook from the university bookstore two weeks ago, but it has not arrived, and the exam is next week.\n\n**Write an email to the bookstore manager.** In your email:\n- Describe the problem and your order.\n- Explain why you need the book soon.\n- Ask for a specific solution.",
+     "checklist": [
+      "Pedido y problema claros",
+      "Razón de la urgencia",
+      "Solución específica",
+      "Tono firme pero cortés"
+     ],
+     "model": "Dear Bookstore Manager,\n\nI am writing about an order I placed on October 14 for the textbook Principles of Thermodynamics (order number 5521). Although I was told it would arrive within five days, I have not received it after two weeks.\n\nI urgently need the book because I have an exam next Thursday, and no copies are available in the library. Could you please let me know where my order is and, if it cannot arrive before Tuesday, arrange for me to pick up a copy from another branch or receive a refund?\n\nThank you for your prompt attention.\n\nSincerely,\nMarta Silva"
+    },
+    {
+     "kind": "writing",
+     "task": "discussion",
+     "id": "mk-d21-w-disc",
+     "title": "Write for an Academic Discussion",
+     "minutes": 10,
+     "minWords": 100,
+     "prompt": "**Professor Silva:** Some universities now provide free meals to all students. Is this a worthwhile use of resources?\n\n**Ahmed:** Absolutely. Hungry students cannot concentrate, so free meals improve learning.\n\n**Grace:** I disagree. Funds should go to teaching and research, and students who can pay should do so.\n\n**Write a response** (≥ 100 words) giving your opinion with a reason and an example, and refer to Ahmed or Grace.",
+     "checklist": [
+      "Postura clara",
+      "Razón + ejemplo",
+      "Referencia a Ahmed o Grace",
+      "Conectores variados"
+     ],
+     "model": "I partly agree with Ahmed. Hunger does reduce concentration, and I have seen classmates skip meals during exams because they were short of money. Free meals for students who need them could therefore improve results.\n\nHowever, Grace is right that resources are limited. A universal program would also feed students who can easily pay. A better option would be to offer free or subsidized meals based on need, as several Dutch universities do with meal vouchers.\n\nIn this way, the university would support learning while keeping money for teaching and research."
+    }
+   ]
+  },
+  {
+   "skill": "speaking",
+   "title": "Speaking",
+   "minutes": 6,
+   "what": "7 Listen and Repeat + 2 preguntas",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "mk-d21-s-repeat",
+     "title": "Listen and Repeat (7)",
+     "items": [
+      {
+       "text": "Please silence your phones before the lecture begins.",
+       "audio": {
+        "file": "audio/mk-d21-r1.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "Please silence your phones before the lecture begins."
+         }
+        ]
+       },
+       "seconds": 10
+      },
+      {
+       "text": "The deadline for the housing application is next Friday.",
+       "audio": {
+        "file": "audio/mk-d21-r2.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "The deadline for the housing application is next Friday."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Students are advised to check their email regularly for updates.",
+       "audio": {
+        "file": "audio/mk-d21-r3.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "Students are advised to check their email regularly for updates."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "The new laboratory will be equipped with advanced measuring instruments.",
+       "audio": {
+        "file": "audio/mk-d21-r4.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "The new laboratory will be equipped with advanced measuring instruments."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "If you have difficulty accessing the online portal, contact the technical support team.",
+       "audio": {
+        "file": "audio/mk-d21-r5.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "If you have difficulty accessing the online portal, contact the technical support team."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "The conference on sustainable transportation will bring together experts from twelve countries.",
+       "audio": {
+        "file": "audio/mk-d21-r6.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "The conference on sustainable transportation will bring together experts from twelve countries."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "Although registration is free, participants must confirm their attendance by the end of the month.",
+       "audio": {
+        "file": "audio/mk-d21-r7.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "Although registration is free, participants must confirm their attendance by the end of the month."
+         }
+        ]
+       },
+       "seconds": 13
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "mk-d21-s-interview",
+     "title": "Take an Interview",
+     "seconds": 45,
+     "prep": 0,
+     "questions": [
+      {
+       "q": "What advice would you give to a student who has trouble managing time?",
+       "model": "I would suggest planning each week in advance and breaking big tasks into small steps. For example, I use a calendar with fixed study blocks, and that has stopped me from leaving work for the last minute."
+      },
+      {
+       "q": "Do you think it is better to read the news every day or to focus only on topics you study?",
+       "model": "I think a balance is best. Reading the news broadens your perspective, but your studies need deep focus. For instance, I read the headlines in the morning and then concentrate on my courses."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "n": 30,
+ "objectives": [
+  "Seguir una charla de ciencias sociales con concepto + estudio + implicación.",
+  "Detectar estructuras «creencia común → evidencia contraria».",
+  "Practicar 4 respuestas cortas."
+ ],
+ "vocab": {
+  "theme": "Ciencias sociales",
+  "words": [
+   [
+    "acquaintance",
+    "noun",
+    "a person you know slightly",
+    "conocido",
+    "He is an acquaintance, not a friend."
+   ],
+   [
+    "network",
+    "noun",
+    "a group of connected people",
+    "red",
+    "A professional network."
+   ],
+   [
+    "concept",
+    "noun",
+    "an idea",
+    "concepto",
+    "The concept of weak ties."
+   ],
+   [
+    "survey",
+    "verb",
+    "to examine or ask many people",
+    "encuestar",
+    "They surveyed workers."
+   ],
+   [
+    "emotional",
+    "adj",
+    "related to feelings",
+    "emocional",
+    "Emotional support."
+   ],
+   [
+    "casual",
+    "adj",
+    "informal",
+    "informal",
+    "Casual contacts."
+   ],
+   [
+    "opportunity",
+    "noun",
+    "a chance",
+    "oportunidad",
+    "Job opportunities."
+   ],
+   [
+    "assume",
+    "verb",
+    "to take for granted",
+    "suponer",
+    "Most people assume…"
+   ],
+   [
+    "surprising",
+    "adj",
+    "unexpected",
+    "sorprendente",
+    "A surprising finding."
+   ],
+   [
+    "tend to",
+    "phrase",
+    "to be likely to",
+    "tender a",
+    "Friends tend to know each other."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d30.md",
+ "videos": {
+  "ids": [
+   "l-notes-1"
+  ],
+  "search": "TOEFL listening academic talk social sciences"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d30-p1",
+   "title": "Listen and Choose a Response (4)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d30-c1",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "As far as I know, yes. It was posted on the course page this morning.",
+      "Professors are extended.",
+      "The deadline is a line.",
+      "I heard it in the morning only."
+     ],
+     "answer": 0,
+     "explain": "Pide confirmación → confirmación con fuente.",
+     "audio": {
+      "file": "audio/d30-c1.mp3",
+      "segments": [
+       {
+        "voice": "bf_emma",
+        "text": "I heard the professor extended the deadline. Is that true?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d30-c2",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Courses are first-year.",
+      "It's demanding, but if you like math, you'll enjoy it.",
+      "I recommend nothing.",
+      "The student is first-rate."
+     ],
+     "answer": 1,
+     "explain": "Pide recomendación → valoración con matiz.",
+     "audio": {
+      "file": "audio/d30-c2.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "Would you recommend this course to a first-year student?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d30-c3",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Quiet is a noun.",
+      "I suggest the weather.",
+      "The reading room on the fourth floor is usually empty.",
+      "Places are studied."
+     ],
+     "answer": 2,
+     "explain": "Pide sugerencias → lugar concreto.",
+     "audio": {
+      "file": "audio/d30-c3.mp3",
+      "segments": [
+       {
+        "voice": "af_river",
+        "text": "I need to find a quiet place to study. Any suggestions?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d30-c4",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I sit very quickly.",
+      "Anyone is here.",
+      "Excuse is not here.",
+      "No, please go ahead."
+     ],
+     "answer": 3,
+     "explain": "Pregunta de cortesía.",
+     "audio": {
+      "file": "audio/d30-c4.mp3",
+      "segments": [
+       {
+        "voice": "bm_lewis",
+        "text": "Excuse me, is anyone sitting here?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d30-p2",
+   "title": "Charla: la fuerza de los lazos débiles (≈ 190 palabras)",
+   "minutes": 15,
+   "audio": {
+    "file": "audio/d30-talk.mp3",
+    "segments": [
+     {
+      "voice": "am_adam",
+      "text": "In sociology, there's a concept called the 'strength of weak ties'. Most people assume that our closest friends are the most useful when we look for a job. But in the 1970s, the sociologist Mark Granovetter interviewed workers in Boston and found something surprising."
+     },
+     {
+      "voice": "am_adam",
+      "text": "Most of them had found their jobs through acquaintances, people they saw only occasionally, rather than through close friends. Why? Because close friends tend to know the same people and the same information as we do. Acquaintances, on the other hand, belong to different networks, so they can introduce us to opportunities we would never hear about otherwise."
+     },
+     {
+      "voice": "am_adam",
+      "text": "This doesn't mean close friends are unimportant. They provide emotional support, which weak ties rarely do. But when the goal is to find new information, a wide network of casual contacts is often more valuable. So, the next time you attend a conference or a campus event, remember that a brief conversation with a stranger could open a door."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d30-l1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "What is the talk mainly about?",
+     "options": [
+      "The usefulness of weak social ties for finding opportunities",
+      "How to keep close friends",
+      "Boston's job market",
+      "Why people dislike strangers"
+     ],
+     "answer": 0,
+     "explain": "Concepto de Granovetter."
+    },
+    {
+     "id": "d30-l2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Why are acquaintances often more helpful than close friends in job searches?",
+     "options": [
+      "They belong to different networks with different information",
+      "They are richer",
+      "They are older",
+      "They work in Boston"
+     ],
+     "answer": 0,
+     "explain": "Explicación central."
+    },
+    {
+     "id": "d30-l3",
+     "type": "mcq",
+     "qtype": "organization",
+     "q": "Why does the professor mention emotional support?",
+     "options": [
+      "To show a limit of weak ties and the value of close friends",
+      "To change the topic",
+      "To criticize sociologists",
+      "To end the talk"
+     ],
+     "answer": 0,
+     "explain": "Matiza que los lazos fuertes tienen valor."
+    },
+    {
+     "id": "d30-l4",
+     "type": "mcq",
+     "qtype": "attitude",
+     "q": "What is the professor's attitude toward casual conversations at events?",
+     "options": [
+      "Encouraging",
+      "Dismissive",
+      "Worried",
+      "Confused"
+     ],
+     "answer": 0,
+     "explain": "Recomienda aprovecharlas."
+    },
+    {
+     "id": "d30-l5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Which person is most likely to benefit from the concept?",
+     "options": [
+      "A student attending many networking events",
+      "Someone avoiding all contact",
+      "A hermit",
+      "A person with no friends"
+     ],
+     "answer": 0,
+     "explain": "Aplicación del concepto."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d30-q1",
+   "type": "mcq",
+   "qtype": "organization",
+   "q": "\"Most assume X. But in the 1970s…\" Which structure is this?",
+   "options": [
+    "Common belief followed by contradicting evidence",
+    "Chronology only",
+    "Definition only",
+    "List"
+   ],
+   "answer": 0,
+   "explain": "Creencia común → evidencia contraria."
+  },
+  {
+   "id": "d30-q2",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "Best note for \"weak ties = acquaintances → different networks → new info\"?",
+   "options": [
+    "weak ties → diff networks → new info",
+    "every word",
+    "only \"weak\"",
+    "nothing"
+   ],
+   "answer": 0,
+   "explain": "Flechas y palabras clave."
+  },
+  {
+   "id": "d30-q3",
+   "type": "mcq",
+   "qtype": "attitude",
+   "q": "\"could open a door\" is",
+   "options": [
+    "literal",
+    "a metaphor for creating an opportunity",
+    "a complaint",
+    "a doubt"
+   ],
+   "answer": 1,
+   "explain": "Metáfora."
+  }
+ ]
+}

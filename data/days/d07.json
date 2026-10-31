@@ -1,0 +1,92 @@
+{
+ "n": 7,
+ "objectives": [
+  "Repasar vocabulario y errores de la semana.",
+  "Hacer un mini-simulacro con condiciones de examen.",
+  "Clasificar tus errores por causa para corregir la estrategia."
+ ],
+ "vocab": {
+  "theme": "Conectores y frases académicas",
+  "words": [
+   [
+    "in addition",
+    "phrase",
+    "used to add another point",
+    "además",
+    "In addition, the study included older participants."
+   ],
+   [
+    "however",
+    "adv",
+    "used to introduce a contrast",
+    "sin embargo",
+    "The plan is cheap; however, it takes time."
+   ],
+   [
+    "for instance",
+    "phrase",
+    "used to give an example",
+    "por ejemplo",
+    "Many animals hibernate; for instance, bears."
+   ],
+   [
+    "as a result",
+    "phrase",
+    "used to show a consequence",
+    "como resultado",
+    "Rents rose. As a result, fewer students stayed."
+   ],
+   [
+    "on the other hand",
+    "phrase",
+    "used to show an opposite point of view",
+    "por otro lado",
+    "Cars are fast; on the other hand, they pollute."
+   ],
+   [
+    "in contrast",
+    "phrase",
+    "used to show a clear difference",
+    "en cambio",
+    "In contrast, the second group improved."
+   ],
+   [
+    "according to",
+    "phrase",
+    "used to report what a source says",
+    "según",
+    "According to the report, sales fell."
+   ],
+   [
+    "in other words",
+    "phrase",
+    "used to restate an idea more simply",
+    "en otras palabras",
+    "Demand fell. In other words, fewer people bought."
+   ],
+   [
+    "although",
+    "conj",
+    "used to introduce a concession",
+    "aunque",
+    "Although it was late, she kept working."
+   ],
+   [
+    "therefore",
+    "adv",
+    "used to give a logical conclusion",
+    "por lo tanto",
+    "The test failed; therefore, we repeated it."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d07.md",
+ "videos": {
+  "ids": [
+   "w-mistakes"
+  ],
+  "search": "TOEFL 2026 study plan review mistakes"
+ },
+ "practice": [],
+ "quiz": []
+}

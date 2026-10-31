@@ -1,0 +1,227 @@
+{
+ "n": 12,
+ "objectives": [
+  "Deducir el significado de una palabra por contexto y morfología.",
+  "Distinguir una inferencia sólida de una exageración.",
+  "Controlar palabras de certeza (may, likely, will)."
+ ],
+ "vocab": {
+  "theme": "AWL mixto (5/5 sublista 2 + 3)",
+  "words": [
+   [
+    "select",
+    "verb",
+    "to choose carefully",
+    "seleccionar",
+    "Select the best answer from the list."
+   ],
+   [
+    "strategy",
+    "noun",
+    "a plan to achieve a goal",
+    "estrategia",
+    "A good strategy saves time on the exam."
+   ],
+   [
+    "survey",
+    "noun",
+    "a set of questions asked to many people",
+    "encuesta",
+    "The survey received 200 responses."
+   ],
+   [
+    "tradition",
+    "noun",
+    "a long-established custom",
+    "tradición",
+    "Holiday traditions differ from country to country."
+   ],
+   [
+    "transfer",
+    "verb",
+    "to move from one place to another",
+    "transferir / trasladar",
+    "She transferred to another university."
+   ],
+   [
+    "conduct",
+    "verb",
+    "to carry out",
+    "realizar",
+    "They conducted an experiment last spring."
+   ],
+   [
+    "credit",
+    "noun",
+    "recognition or points awarded for work",
+    "crédito",
+    "This course is worth five credits."
+   ],
+   [
+    "final",
+    "adj",
+    "last in a series",
+    "final",
+    "The final results will be published in May."
+   ],
+   [
+    "journal",
+    "noun",
+    "an academic magazine or a diary",
+    "revista académica",
+    "The study was published in a medical journal."
+   ],
+   [
+    "site",
+    "noun",
+    "a place where something happens or is located",
+    "sitio",
+    "The construction site is closed on weekends."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d12.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL reading inference questions strategy"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d12-p1",
+   "title": "Remote Work After 2020",
+   "minutes": 25,
+   "passage": "Before 2020, working from home was a privilege granted to a small share of employees, mostly in technology and consulting. The sudden closure of offices during the pandemic forced millions of companies to adapt overnight, and the experiment turned out to be more successful than many managers had predicted. Productivity, as measured by output per employee, remained steady or even rose in many sectors.\n\nNevertheless, remote work is not a perfect solution. Researchers have found that employees working from home often struggle to sustain the informal conversations that lead to new ideas. A hallway chat or a quick question to a colleague is much harder to replicate on a video call. Younger workers, in particular, report that they miss the guidance they would normally absorb simply by observing experienced coworkers.\n\nAs a result, many organizations now prefer a hybrid model in which employees are required to be in the office two or three days per week. Supporters argue that this arrangement preserves the flexibility that workers value while avoiding the erosion of team cohesion. Critics, however, claim that hybrid schedules can be confusing, since colleagues are rarely present on the same days.\n\nEconomists caution that the long-term effects on cities are still uncertain. Downtown businesses that depended on daily commuters may struggle, whereas suburban shops and cafés could benefit. What seems certain is that the abrupt shift of 2020 has permanently altered expectations about where, and how, work is done.",
+   "items": [
+    {
+     "id": "d12-r1",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"abrupt\" in paragraph 4 is closest in meaning to",
+     "options": [
+      "gradual",
+      "sudden",
+      "expensive",
+      "temporary"
+     ],
+     "answer": 1,
+     "explain": "«the abrupt shift of 2020» contrasta con «overnight» del párrafo 1: súbito."
+    },
+    {
+     "id": "d12-r2",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"sustain\" in paragraph 2 is closest in meaning to",
+     "options": [
+      "maintain",
+      "forget",
+      "prevent",
+      "hide"
+     ],
+     "answer": 0,
+     "explain": "«struggle to sustain the informal conversations» = mantener."
+    },
+    {
+     "id": "d12-r3",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"erosion\" in paragraph 3 is closest in meaning to",
+     "options": [
+      "improvement",
+      "gradual weakening",
+      "measurement",
+      "celebration"
+     ],
+     "answer": 1,
+     "explain": "«avoiding the erosion of team cohesion»: debilitamiento gradual de la cohesión."
+    },
+    {
+     "id": "d12-r4",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about managers' expectations before 2020?",
+     "options": [
+      "They expected remote work to fail",
+      "They expected remote work to be very successful",
+      "They did not expect it to be as successful as it was",
+      "They had already adopted hybrid work"
+     ],
+     "answer": 2,
+     "explain": "«more successful than many managers had predicted» implica expectativas más bajas."
+    },
+    {
+     "id": "d12-r5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What does the passage suggest about younger workers?",
+     "options": [
+      "They benefit most from remote work",
+      "They may learn less from coworkers when working remotely",
+      "They dislike hybrid schedules",
+      "They are more productive than older workers"
+     ],
+     "answer": 1,
+     "explain": "Dicen que echan de menos la orientación que absorben al observar a compañeros experimentados."
+    },
+    {
+     "id": "d12-r6",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Which of the following is the author most likely to agree with?",
+     "options": [
+      "The effects of remote work on cities are not yet clear",
+      "Hybrid work is clearly the best option",
+      "Office work will disappear completely",
+      "Productivity always falls when people work from home"
+     ],
+     "answer": 0,
+     "explain": "Párrafo 4: «still uncertain». B y C exageran; D contradice el párrafo 1."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d12-q1",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "Context: \"Unlike his reserved brother, Tom is quite outgoing.\" \"Outgoing\" most nearly means",
+   "options": [
+    "shy",
+    "sociable",
+    "tired",
+    "angry"
+   ],
+   "answer": 1,
+   "explain": "«Unlike… reserved» marca contraste: outgoing = sociable."
+  },
+  {
+   "id": "d12-q2",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "Context: \"The data were ambiguous; they could be interpreted in two ways.\" \"Ambiguous\" means",
+   "options": [
+    "clear",
+    "open to more than one meaning",
+    "false",
+    "incomplete"
+   ],
+   "answer": 1,
+   "explain": "La explicación tras el punto y coma define la palabra."
+  },
+  {
+   "id": "d12-q3",
+   "type": "mcq",
+   "qtype": "inference",
+   "q": "\"Few students passed the exam.\" What is a valid inference?",
+   "options": [
+    "Most students did not pass.",
+    "Every student failed.",
+    "The exam was easy.",
+    "The teacher was strict."
+   ],
+   "answer": 0,
+   "explain": "«Few» implica que la mayoría no aprobó; B exagera; C y D requieren datos extra."
+  }
+ ]
+}

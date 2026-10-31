@@ -1,0 +1,249 @@
+{
+ "n": 13,
+ "objectives": [
+  "Identificar la función de una frase repetida.",
+  "Detectar actitud por vocabulario y entonación.",
+  "Responder preguntas de recomendación final."
+ ],
+ "vocab": {
+  "theme": "AWL mixto (verbos de argumentación)",
+  "words": [
+   [
+    "attribute",
+    "verb",
+    "to say that something is caused by",
+    "atribuir",
+    "Scientists attribute the change to climate."
+   ],
+   [
+    "capable",
+    "adj",
+    "having the ability to do something",
+    "capaz",
+    "Is the system capable of handling more users?"
+   ],
+   [
+    "circumstance",
+    "noun",
+    "a condition or fact connected with an event",
+    "circunstancia",
+    "Under these circumstances, the plan makes sense."
+   ],
+   [
+    "contribute",
+    "verb",
+    "to give or add to a result",
+    "contribuir",
+    "Many factors contribute to success."
+   ],
+   [
+    "demonstrate",
+    "verb",
+    "to show clearly",
+    "demostrar",
+    "The experiment demonstrates how heat spreads."
+   ],
+   [
+    "emphasis",
+    "noun",
+    "special importance given to something",
+    "énfasis",
+    "The course puts emphasis on speaking."
+   ],
+   [
+    "ensure",
+    "verb",
+    "to make certain that something happens",
+    "asegurar",
+    "Double-check your work to ensure accuracy."
+   ],
+   [
+    "expand",
+    "verb",
+    "to become larger",
+    "expandir",
+    "The university plans to expand its campus."
+   ],
+   [
+    "hypothesis",
+    "noun",
+    "an idea to be tested",
+    "hipótesis",
+    "The data supported our hypothesis."
+   ],
+   [
+    "illustrate",
+    "verb",
+    "to explain with examples or pictures",
+    "ilustrar",
+    "This graph illustrates the trend."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d13.md",
+ "videos": {
+  "ids": [
+   "l-notes-2"
+  ],
+  "search": "TOEFL listening speaker attitude purpose questions"
+ },
+ "practice": [
+  {
+   "kind": "listening",
+   "id": "d13-p1",
+   "title": "Charla: social loafing",
+   "minutes": 20,
+   "audio": {
+    "file": "audio/d13-talk.mp3",
+    "segments": [
+     {
+      "voice": "bm_fable",
+      "text": "Let's talk about teamwork. Now, you might think that when more people work on a task, the group naturally becomes more productive. Well, believe it or not, research suggests the opposite can happen."
+     },
+     {
+      "voice": "bm_fable",
+      "text": "In the early 1900s, an engineer named Max Ringelmann asked people to pull on a rope, first alone and then in groups. He expected the total force to increase with every added person. Instead, each person pulled a little less hard as the group grew. Psychologists now call this effect social loafing."
+     },
+     {
+      "voice": "bm_fable",
+      "text": "Why does it happen? Partly because individual effort becomes harder to see in a crowd. People think, 'Nobody will notice if I relax a little.' Fortunately, the effect is not inevitable. When each member has a clear, visible responsibility, social loafing nearly disappears. So the next time you work on a group project, don't just divide the topic. Assign names to specific tasks."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d13-l1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "What is the main point of the talk?",
+     "options": [
+      "Group work always increases productivity",
+      "People may reduce their effort in groups unless responsibilities are clear",
+      "Engineers study rope strength",
+      "Teams should avoid projects"
+     ],
+     "answer": 1,
+     "explain": "Social loafing y cómo evitarlo asignando tareas visibles."
+    },
+    {
+     "id": "d13-l2",
+     "type": "mcq",
+     "qtype": "speaker-purpose",
+     "q": "Listen again to part of the talk. Why does the professor say this?",
+     "options": [
+      "To correct a common assumption",
+      "To end the lecture",
+      "To introduce a student's question",
+      "To express boredom"
+     ],
+     "answer": 0,
+     "explain": "«you might think… Well, believe it or not…» introduce una idea intuitiva que luego se corrige.",
+     "audio": {
+      "file": "audio/d13-r1.mp3",
+      "segments": [
+       {
+        "voice": "bm_fable",
+        "text": "Now, you might think that when more people work on a task, the group naturally becomes more productive. Well, believe it or not, research suggests the opposite can happen."
+       }
+      ]
+     }
+    },
+    {
+     "id": "d13-l3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What did Ringelmann's experiment show?",
+     "options": [
+      "Groups pulled harder than individuals",
+      "Each person pulled less as the group grew",
+      "Alone, people could not pull the rope",
+      "Engineers are stronger than psychologists"
+     ],
+     "answer": 1,
+     "explain": "«each person pulled a little less hard as the group grew»."
+    },
+    {
+     "id": "d13-l4",
+     "type": "mcq",
+     "qtype": "attitude",
+     "q": "Listen again. What is the professor's attitude toward social loafing?",
+     "options": [
+      "He thinks it cannot be prevented",
+      "He is optimistic that it can be reduced",
+      "He believes it is a myth",
+      "He is indifferent"
+     ],
+     "answer": 1,
+     "explain": "«Fortunately, the effect is not inevitable… nearly disappears» muestra optimismo.",
+     "audio": {
+      "file": "audio/d13-r2.mp3",
+      "segments": [
+       {
+        "voice": "bm_fable",
+        "text": "Fortunately, the effect is not inevitable. When each member has a clear, visible responsibility, social loafing nearly disappears."
+       }
+      ]
+     }
+    },
+    {
+     "id": "d13-l5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What would the professor most likely advise a student leading a group project?",
+     "options": [
+      "Give each member a specific named task",
+      "Ask the group to vote on everything",
+      "Work alone to avoid problems",
+      "Choose the largest possible group"
+     ],
+     "answer": 0,
+     "explain": "Recomendación final: «Assign names to specific tasks»."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d13-q1",
+   "type": "mcq",
+   "qtype": "speaker-purpose",
+   "q": "A professor says: \"Where was I?\" Her purpose is most likely to",
+   "options": [
+    "resume her train of thought",
+    "end the class",
+    "ask a student a question",
+    "introduce a new topic"
+   ],
+   "answer": 0,
+   "explain": "«Where was I?» sirve para retomar el hilo."
+  },
+  {
+   "id": "d13-q2",
+   "type": "mcq",
+   "qtype": "attitude",
+   "q": "Which phrase most clearly shows doubt?",
+   "options": [
+    "That's definitely true.",
+    "I'm not sure that's the whole story.",
+    "Everyone agrees on this.",
+    "It is obvious."
+   ],
+   "answer": 1,
+   "explain": "Marca duda y matiz."
+  },
+  {
+   "id": "d13-q3",
+   "type": "mcq",
+   "qtype": "attitude",
+   "q": "A speaker's voice rises with emphasis on \"surprisingly\". The attitude is probably",
+   "options": [
+    "surprise",
+    "boredom",
+    "anger",
+    "fear"
+   ],
+   "answer": 0,
+   "explain": "La palabra y la entonación marcan sorpresa."
+  }
+ ]
+}

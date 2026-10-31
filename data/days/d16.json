@@ -1,0 +1,361 @@
+{
+ "n": 16,
+ "objectives": [
+  "Identificar problema, causa y solución en una conversación de campus.",
+  "Escoger la respuesta pragmática en Listen and Choose a Response.",
+  "Captar la función de frases corteses de rechazo y ayuda."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 4-5 (2/9)",
+  "words": [
+   [
+    "comprise",
+    "verb",
+    "to consist of",
+    "constar de",
+    "The course comprises twelve modules."
+   ],
+   [
+    "coincide",
+    "verb",
+    "to happen at the same time",
+    "coincidir",
+    "The exam coincides with a public holiday."
+   ],
+   [
+    "compensate",
+    "verb",
+    "to make up for a loss or disadvantage",
+    "compensar",
+    "Higher salaries compensate for long hours."
+   ],
+   [
+    "constrain",
+    "verb",
+    "to limit or restrict",
+    "limitar",
+    "Budget cuts constrain our options."
+   ],
+   [
+    "controversy",
+    "noun",
+    "public disagreement",
+    "controversia",
+    "The policy caused great controversy."
+   ],
+   [
+    "deficit",
+    "noun",
+    "the amount by which a total is too small",
+    "déficit",
+    "The country has a trade deficit."
+   ],
+   [
+    "diminish",
+    "verb",
+    "to become or make smaller",
+    "disminuir",
+    "Interest in the topic has diminished."
+   ],
+   [
+    "enhance",
+    "verb",
+    "to improve the quality of",
+    "mejorar",
+    "Exercise enhances concentration."
+   ],
+   [
+    "fluctuate",
+    "verb",
+    "to change irregularly",
+    "fluctuar",
+    "Prices fluctuate during the year."
+   ],
+   [
+    "inevitable",
+    "adj",
+    "certain to happen",
+    "inevitable",
+    "Some delays were inevitable."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d16.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL 2026 Listen to a Conversation campus strategy"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d16-p1",
+   "title": "Listen and Choose a Response (5)",
+   "minutes": 10,
+   "items": [
+    {
+     "id": "d16-c1",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "It should be, but let me check the schedule for you.",
+      "I always take the seminar notes.",
+      "The map is printed on thick paper.",
+      "No, the buildings are very tall."
+     ],
+     "answer": 0,
+     "explain": "La persona está perdida; la respuesta ofrece ayuda concreta.",
+     "audio": {
+      "file": "audio/d16-c1.mp3",
+      "segments": [
+       {
+        "voice": "af_nicole",
+        "text": "I can't find my seminar room on the map. Is it in this building?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d16-c2",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Yes, I submitted it yesterday.",
+      "That depends on the instructor, so you should ask her directly.",
+      "The assignment was about economics.",
+      "I love late-night classes."
+     ],
+     "answer": 1,
+     "explain": "Petición de permiso → respuesta que indica a quién preguntar.",
+     "audio": {
+      "file": "audio/d16-c2.mp3",
+      "segments": [
+       {
+        "voice": "am_michael",
+        "text": "Would it be possible to submit the assignment a day late?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d16-c3",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "The cafeteria serves pasta.",
+      "Sundays are my favorite day of the week.",
+      "There's a small place by the station that stays open.",
+      "I closed the door a moment ago."
+     ],
+     "answer": 2,
+     "explain": "Pregunta por una alternativa.",
+     "audio": {
+      "file": "audio/d16-c3.mp3",
+      "segments": [
+       {
+        "voice": "bf_emma",
+        "text": "The cafeteria is closed again. Where do you usually eat on Sundays?"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d16-c4",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "Alone is spelled with two syllables.",
+      "I prefer the professor's office.",
+      "Groups of birds are called flocks.",
+      "Maybe you could propose dividing the tasks so you work independently most of the time."
+     ],
+     "answer": 3,
+     "explain": "Expresa un conflicto; responde con una solución intermedia.",
+     "audio": {
+      "file": "audio/d16-c4.mp3",
+      "segments": [
+       {
+        "voice": "bm_daniel",
+        "text": "I'd rather work alone on this project, but the professor insists on groups."
+       }
+      ]
+     }
+    },
+    {
+     "id": "d16-c5",
+     "type": "mcq",
+     "qtype": "choose-response",
+     "q": "Listen and choose the best response.",
+     "options": [
+      "I read somewhere that it will stay open until midnight.",
+      "I finished the book last Tuesday.",
+      "Yes, the finals are heavy.",
+      "The hours are measured in minutes."
+     ],
+     "answer": 0,
+     "explain": "«I wonder whether…» pide información; la respuesta aporta un dato.",
+     "audio": {
+      "file": "audio/d16-c5.mp3",
+      "segments": [
+       {
+        "voice": "af_heart",
+        "text": "I wonder whether the library will extend its hours during finals."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d16-p2",
+   "title": "Conversación: una beca retenida",
+   "minutes": 12,
+   "audio": {
+    "file": "audio/d16-conv.mp3",
+    "segments": [
+     {
+      "voice": "af_river",
+      "who": "Student",
+      "text": "Hi, I'm here about my scholarship. I got an email saying that my payment has been put on hold."
+     },
+     {
+      "voice": "am_adam",
+      "who": "Advisor",
+      "text": "Let me take a look. Ah, I see. The system says we haven't received your enrollment confirmation for next semester."
+     },
+     {
+      "voice": "af_river",
+      "who": "Student",
+      "text": "That's strange. I submitted it online two weeks ago, and I even got a receipt."
+     },
+     {
+      "voice": "am_adam",
+      "who": "Advisor",
+      "text": "Do you still have it? Sometimes the upload fails even though the receipt is generated."
+     },
+     {
+      "voice": "af_river",
+      "who": "Student",
+      "text": "I think so. Yes, here, a screenshot on my phone."
+     },
+     {
+      "voice": "am_adam",
+      "who": "Advisor",
+      "text": "Perfect. I can forward this to the finance office right now, and they'll release the payment within three working days. If you don't hear from them by Thursday, come back and we'll call them together."
+     },
+     {
+      "voice": "af_river",
+      "who": "Student",
+      "text": "Great. Thanks a lot. I was getting a bit anxious about rent."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d16-cv1",
+     "type": "mcq",
+     "qtype": "speaker-purpose",
+     "q": "Why does the student visit the advisor?",
+     "options": [
+      "To cancel her scholarship",
+      "To resolve a payment that was put on hold",
+      "To enroll in a new course",
+      "To ask about rent prices"
+     ],
+     "answer": 1,
+     "explain": "«my payment has been put on hold»."
+    },
+    {
+     "id": "d16-cv2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "According to the advisor, what may have caused the problem?",
+     "options": [
+      "The student missed a deadline",
+      "An upload may have failed even though a receipt was generated",
+      "The student changed her address",
+      "The finance office closed"
+     ],
+     "answer": 1,
+     "explain": "«Sometimes the upload fails even though the receipt is generated»."
+    },
+    {
+     "id": "d16-cv3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What will the advisor do?",
+     "options": [
+      "Call the student's landlord",
+      "Forward the receipt to the finance office",
+      "Submit a new form online",
+      "Cancel the semester"
+     ],
+     "answer": 1,
+     "explain": "«I can forward this to the finance office right now»."
+    },
+    {
+     "id": "d16-cv4",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "Why does the student say she was \"getting a bit anxious about rent\"?",
+     "options": [
+      "Her payment determines whether she can pay rent",
+      "She dislikes her apartment",
+      "She wants to move",
+      "The rent is free"
+     ],
+     "answer": 0,
+     "explain": "La beca retenida afecta su capacidad de pagar el alquiler (inferencia)."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d16-q1",
+   "type": "mcq",
+   "qtype": "function",
+   "q": "\"I'm afraid that's not possible.\" The speaker is",
+   "options": [
+    "offering help",
+    "politely refusing",
+    "asking a question",
+    "agreeing"
+   ],
+   "answer": 1,
+   "explain": "«I'm afraid…» suaviza una negativa."
+  },
+  {
+   "id": "d16-q2",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "For a problem-solution conversation, the most useful note structure is",
+   "options": [
+    "dates only",
+    "Problem → options → decision → next step",
+    "every adjective",
+    "speaker names only"
+   ],
+   "answer": 1,
+   "explain": "La estructura recoge lo que se pregunta."
+  },
+  {
+   "id": "d16-q3",
+   "type": "mcq",
+   "qtype": "function",
+   "q": "\"Come back and we'll call them together\" shows the advisor is",
+   "options": [
+    "unhelpful",
+    "willing to follow up",
+    "angry",
+    "uncertain about the policy"
+   ],
+   "answer": 1,
+   "explain": "Ofrece seguimiento personal."
+  }
+ ]
+}

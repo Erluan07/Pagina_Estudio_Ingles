@@ -1,0 +1,311 @@
+{
+ "n": 27,
+ "objectives": [
+  "Capturar fechas, horas, lugares y condiciones en anuncios.",
+  "Distinguir lo que cambia de lo que se mantiene.",
+  "Responder preguntas de detalle e inferencia en 3 anuncios."
+ ],
+ "vocab": {
+  "theme": "Vocabulario de campus y anuncios",
+  "words": [
+   [
+    "beforehand",
+    "adv",
+    "before an event",
+    "de antemano",
+    "Tell us beforehand."
+   ],
+   [
+    "exceptional",
+    "adj",
+    "unusual; special",
+    "excepcional",
+    "Only in exceptional cases."
+   ],
+   [
+    "reminder",
+    "noun",
+    "something that helps remember",
+    "recordatorio",
+    "A friendly reminder."
+   ],
+   [
+    "permit",
+    "noun",
+    "an official document allowing something",
+    "permiso",
+    "A residence permit."
+   ],
+   [
+    "post",
+    "verb",
+    "to publish or display",
+    "publicar",
+    "Grades were posted online."
+   ],
+   [
+    "bookable",
+    "adj",
+    "that can be reserved",
+    "reservable",
+    "Bookable rooms."
+   ],
+   [
+    "contactless",
+    "adj",
+    "without physical contact",
+    "sin contacto",
+    "Contactless payment."
+   ],
+   [
+    "redesigned",
+    "adj",
+    "changed in design",
+    "rediseñado",
+    "A redesigned website."
+   ],
+   [
+    "exchange",
+    "noun",
+    "an organized swap or meeting",
+    "intercambio",
+    "A language exchange."
+   ],
+   [
+    "upload",
+    "verb",
+    "to send a file to a website",
+    "subir",
+    "Upload your slides."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d27.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL listen to an announcement practice"
+ },
+ "practice": [
+  {
+   "kind": "listening",
+   "id": "d27-p1",
+   "title": "Anuncio 1: Student Services",
+   "minutes": 7,
+   "audio": {
+    "file": "audio/d27-a1.mp3",
+    "segments": [
+     {
+      "voice": "am_eric",
+      "text": "Good afternoon, students. This is a reminder that the Student Services office will close early on Friday, at one o'clock instead of five, because of staff training. If you need to submit documents for your residence permit, please do so before Thursday evening. Also, the free language exchange that usually meets on Fridays will be moved to Monday, same time, same room."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d27-a1-1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Why will the office close early on Friday?",
+     "options": [
+      "A holiday",
+      "Staff training",
+      "A power failure",
+      "A strike"
+     ],
+     "answer": 1,
+     "explain": "«because of staff training»."
+    },
+    {
+     "id": "d27-a1-2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "By when should students submit residence-permit documents?",
+     "options": [
+      "Friday at one",
+      "Thursday evening",
+      "Monday morning",
+      "Friday at five"
+     ],
+     "answer": 1,
+     "explain": "«before Thursday evening»."
+    },
+    {
+     "id": "d27-a1-3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What is changing about the language exchange?",
+     "options": [
+      "The room",
+      "The day",
+      "The language",
+      "The cost"
+     ],
+     "answer": 1,
+     "explain": "Se mueve del viernes al lunes (misma hora y sala)."
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d27-p2",
+   "title": "Anuncio 2: clase",
+   "minutes": 7,
+   "audio": {
+    "file": "audio/d27-a2.mp3",
+    "segments": [
+     {
+      "voice": "af_sarah",
+      "text": "Before we start today's class, a few reminders. Your group presentations will take place next Tuesday and Wednesday, and the order has been posted on the course website. Each group will have twelve minutes, followed by three minutes for questions. If a member of your group is absent, please inform me by email beforehand, since I can only reschedule in exceptional cases. And finally, remember that your slides must be uploaded by Monday midnight."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d27-a2-1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "How long is each group's presentation, excluding questions?",
+     "options": [
+      "Three minutes",
+      "Twelve minutes",
+      "Fifteen minutes",
+      "Twenty minutes"
+     ],
+     "answer": 1,
+     "explain": "Doce minutos + tres de preguntas."
+    },
+    {
+     "id": "d27-a2-2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What should students do if a group member will be absent?",
+     "options": [
+      "Reschedule online",
+      "Email the instructor beforehand",
+      "Ask a classmate to replace him",
+      "Skip the presentation"
+     ],
+     "answer": 1,
+     "explain": "Avisar por email."
+    },
+    {
+     "id": "d27-a2-3",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about rescheduling?",
+     "options": [
+      "It is easy to get",
+      "It is granted only exceptionally",
+      "It is automatic",
+      "It is paid"
+     ],
+     "answer": 1,
+     "explain": "«only in exceptional cases»."
+    }
+   ]
+  },
+  {
+   "kind": "listening",
+   "id": "d27-p3",
+   "title": "Anuncio 3: biblioteca",
+   "minutes": 7,
+   "audio": {
+    "file": "audio/d27-a3.mp3",
+    "segments": [
+     {
+      "voice": "bf_alice",
+      "text": "Welcome to the university library. Starting this semester, the third floor will be a silent study area, with no talking or phone calls permitted at any time. Group work should take place on the first floor or in the bookable rooms. The self-service machines now accept contactless payment, and the library's online catalog has been redesigned to make searching easier. If you have difficulty finding a source, our librarians are available every weekday from nine to five."
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "d27-a3-1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What is the new rule for the third floor?",
+     "options": [
+      "Group work only",
+      "Silence at all times",
+      "Open 24 hours",
+      "Food allowed"
+     ],
+     "answer": 1,
+     "explain": "Zona de estudio en silencio."
+    },
+    {
+     "id": "d27-a3-2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Which change involves payment?",
+     "options": [
+      "Machines accept contactless payment",
+      "Fines are reduced",
+      "Printing is free",
+      "Cards are required"
+     ],
+     "answer": 0,
+     "explain": "«now accept contactless payment»."
+    },
+    {
+     "id": "d27-a3-3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "When can students get help from librarians?",
+     "options": [
+      "Weekends only",
+      "Every weekday from nine to five",
+      "Evenings",
+      "By appointment only"
+     ],
+     "answer": 1,
+     "explain": "«every weekday from nine to five»."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d27-q1",
+   "type": "mcq",
+   "qtype": "note-taking",
+   "q": "In an announcement, the details most often tested are",
+   "options": [
+    "adjectives",
+    "dates, times, places and conditions",
+    "names of speakers",
+    "jokes"
+   ],
+   "answer": 1,
+   "explain": "Datos prácticos."
+  },
+  {
+   "id": "d27-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "You hear \"instead of five.\" You should note",
+   "options": [
+    "5 only",
+    "1 (not 5)",
+    "the word \"instead\"",
+    "nothing"
+   ],
+   "answer": 1,
+   "explain": "Anotar el cambio: 1 en lugar de 5."
+  },
+  {
+   "id": "d27-q3",
+   "type": "mcq",
+   "qtype": "function",
+   "q": "\"If a member is absent, please inform me beforehand.\" The speaker is",
+   "options": [
+    "giving a rule",
+    "making a joke",
+    "asking a favor",
+    "changing a date"
+   ],
+   "answer": 0,
+   "explain": "Es una norma/instrucción."
+  }
+ ]
+}

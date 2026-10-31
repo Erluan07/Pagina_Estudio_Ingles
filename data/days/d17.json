@@ -1,0 +1,331 @@
+{
+ "n": 17,
+ "objectives": [
+  "Resolver 10 ítems de Build a Sentence (como en el blueprint).",
+  "Dominar preguntas indirectas, condicionales y relativas.",
+  "Detectar errores de orden en las opciones."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 4-5 (3/9)",
+  "words": [
+   [
+    "inherent",
+    "adj",
+    "existing as a natural part",
+    "inherente",
+    "Risk is inherent in any investment."
+   ],
+   [
+    "integrate",
+    "verb",
+    "to combine into a whole",
+    "integrar",
+    "The app integrates several tools."
+   ],
+   [
+    "intervene",
+    "verb",
+    "to step in to change an outcome",
+    "intervenir",
+    "The government intervened to stabilize prices."
+   ],
+   [
+    "justify",
+    "verb",
+    "to show to be reasonable",
+    "justificar",
+    "How can you justify this expense?"
+   ],
+   [
+    "modify",
+    "verb",
+    "to change slightly",
+    "modificar",
+    "They modified the design to cut costs."
+   ],
+   [
+    "monitor",
+    "verb",
+    "to observe and check over time",
+    "supervisar",
+    "Sensors monitor air quality."
+   ],
+   [
+    "neutral",
+    "adj",
+    "not supporting either side",
+    "neutral",
+    "Keep a neutral tone in the report."
+   ],
+   [
+    "norm",
+    "noun",
+    "a standard or typical pattern",
+    "norma",
+    "Remote work has become the norm."
+   ],
+   [
+    "notion",
+    "noun",
+    "an idea or belief",
+    "noción",
+    "The notion of fairness varies by culture."
+   ],
+   [
+    "obvious",
+    "adj",
+    "easy to see or understand",
+    "evidente",
+    "The answer is not always obvious."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d17.md",
+ "videos": {
+  "ids": [
+   "w-bas-training"
+  ],
+  "search": "TOEFL Build a Sentence practice 2026"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d17-p1",
+   "title": "Build a Sentence (10 ítems)",
+   "minutes": 22,
+   "intro": "Diez ítems, como en la sección oficial. Hoy sin tiempo; apunta a < 40 s por ítem.",
+   "items": [
+    {
+     "id": "d17-b1",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Why did you choose this university?",
+     "words": [
+      "program.",
+      "a",
+      "strong",
+      "it",
+      "I",
+      "it",
+      "offers",
+      "because",
+      "engineering",
+      "chose"
+     ],
+     "answer": "I chose it because it offers a strong engineering program.",
+     "explain": "because + cláusula; strong engineering program = sustantivo compuesto."
+    },
+    {
+     "id": "d17-b2",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Have the results been published yet?",
+     "words": [
+      "end",
+      "They",
+      "be",
+      "of",
+      "will",
+      "month.",
+      "at",
+      "the",
+      "announced",
+      "the"
+     ],
+     "answer": "They will be announced at the end of the month.",
+     "explain": "Futuro pasivo: will be + participio."
+    },
+    {
+     "id": "d17-b3",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Do you know when the next train leaves?",
+     "words": [
+      "not",
+      "am",
+      "departs.",
+      "I",
+      "what",
+      "time",
+      "it",
+      "sure"
+     ],
+     "answer": "I am not sure what time it departs.",
+     "explain": "Pregunta indirecta: what time it departs (orden afirmativo)."
+    },
+    {
+     "id": "d17-b4",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What would you do if you had more free time?",
+     "words": [
+      "join",
+      "I",
+      "the",
+      "a",
+      "group",
+      "at",
+      "research",
+      "university.",
+      "would"
+     ],
+     "answer": "I would join a research group at the university.",
+     "explain": "Condicional tipo 2: would + verbo base."
+    },
+    {
+     "id": "d17-b5",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Who gave the presentation?",
+     "words": [
+      "in",
+      "gave",
+      "student",
+      "The",
+      "the",
+      "it.",
+      "who",
+      "works",
+      "lab"
+     ],
+     "answer": "The student who works in the lab gave it.",
+     "explain": "Cláusula de relativo: who works in the lab modifica a student."
+    },
+    {
+     "id": "d17-b6",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Why is the library so crowded today?",
+     "words": [
+      "preparing",
+      "exams.",
+      "students",
+      "for",
+      "final",
+      "Many",
+      "are",
+      "their"
+     ],
+     "answer": "Many students are preparing for their final exams.",
+     "explain": "Presente continuo + preposición for."
+    },
+    {
+     "id": "d17-b7",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "How did you hear about the scholarship?",
+     "words": [
+      "about",
+      "friend",
+      "of",
+      "mine",
+      "A",
+      "told",
+      "it.",
+      "me"
+     ],
+     "answer": "A friend of mine told me about it.",
+     "explain": "Sujeto + verbo + objeto indirecto + about."
+    },
+    {
+     "id": "d17-b8",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What does the report suggest?",
+     "words": [
+      "emissions",
+      "significantly.",
+      "suggests",
+      "reduced",
+      "It",
+      "could",
+      "that",
+      "be"
+     ],
+     "answer": "It suggests that emissions could be reduced significantly.",
+     "explain": "suggests that + cláusula con modal pasivo."
+    },
+    {
+     "id": "d17-b9",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Could you tell me where the lecture takes place?",
+     "words": [
+      "I",
+      "the",
+      "main",
+      "it",
+      "auditorium.",
+      "in",
+      "believe",
+      "place",
+      "takes"
+     ],
+     "answer": "I believe it takes place in the main auditorium.",
+     "explain": "Pregunta indirecta + lugar al final."
+    },
+    {
+     "id": "d17-b10",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Is the deadline negotiable?",
+     "words": [
+      "reason.",
+      "have",
+      "valid",
+      "a",
+      "unless",
+      "you",
+      "Not"
+     ],
+     "answer": "Not unless you have a valid reason.",
+     "explain": "Respuesta corta elíptica: not unless + sujeto + verbo."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d17-q1",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "I wonder where is the office.",
+    "I wonder where the office is.",
+    "I wonder where does the office is.",
+    "I wonder the office where is."
+   ],
+   "answer": 1,
+   "explain": "Pregunta indirecta: where + sujeto + verbo."
+  },
+  {
+   "id": "d17-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "If I had known, I would told you.",
+    "If I had known, I would have told you.",
+    "If I knew, I would have told you.",
+    "If I would know, I told you."
+   ],
+   "answer": 1,
+   "explain": "Condicional tipo 3: had + participio → would have + participio."
+  },
+  {
+   "id": "d17-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "The man whom I spoke yesterday is a professor.",
+    "The man to whom I spoke yesterday is a professor.",
+    "The man who I spoke to him yesterday is a professor.",
+    "The man that to I spoke is a professor."
+   ],
+   "answer": 1,
+   "explain": "Preposición + whom, o «whom/who I spoke to»; no repetir pronombre «him»."
+  }
+ ]
+}

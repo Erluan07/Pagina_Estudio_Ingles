@@ -1,0 +1,212 @@
+{
+ "n": 11,
+ "objectives": [
+  "Aplicar PREP en 45 segundos.",
+  "Usar ejemplos concretos y conectores orales.",
+  "Controlar silencios y muletillas."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 2 (4/5)",
+  "words": [
+   [
+    "previous",
+    "adj",
+    "coming before in time or order",
+    "previo / anterior",
+    "Her previous job was in finance."
+   ],
+   [
+    "primary",
+    "adj",
+    "most important; first",
+    "principal / primario",
+    "The primary goal is to reduce costs."
+   ],
+   [
+    "purchase",
+    "verb",
+    "to buy",
+    "comprar",
+    "Students can purchase tickets online."
+   ],
+   [
+    "range",
+    "noun",
+    "the variety or extent of something",
+    "rango / gama",
+    "The course covers a wide range of topics."
+   ],
+   [
+    "region",
+    "noun",
+    "a large area of a country or the world",
+    "región",
+    "This region has a mild climate."
+   ],
+   [
+    "regulate",
+    "verb",
+    "to control by rules",
+    "regular / controlar",
+    "Governments regulate food safety."
+   ],
+   [
+    "relevant",
+    "adj",
+    "closely connected to the subject",
+    "relevante",
+    "Include only relevant examples."
+   ],
+   [
+    "resource",
+    "noun",
+    "something useful that can be used",
+    "recurso",
+    "Water is a valuable resource."
+   ],
+   [
+    "restrict",
+    "verb",
+    "to limit",
+    "restringir",
+    "The rules restrict access to the lab."
+   ],
+   [
+    "secure",
+    "adj",
+    "safe; protected",
+    "seguro",
+    "Use a secure password."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d11.md",
+ "videos": {
+  "ids": [
+   "s-interview",
+   "s-interview-guide"
+  ],
+  "search": "TOEFL Take an Interview sample answers"
+ },
+ "practice": [
+  {
+   "kind": "speaking",
+   "task": "interview",
+   "id": "d11-p1",
+   "title": "Take an Interview: 4 preguntas",
+   "minutes": 25,
+   "seconds": 45,
+   "prep": 0,
+   "intro": "Escucha la pregunta (puedes repetirla) y responde en **45 segundos** con la plantilla PREP. Graba, escucha tu grabación y compara con el modelo.",
+   "questions": [
+    {
+     "q": "What are the most important qualities of a good teacher?",
+     "audio": {
+      "file": "audio/d11-q1.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "text": "What are the most important qualities of a good teacher?"
+       }
+      ]
+     },
+     "model": "I think the most important quality is patience, because students learn at different speeds. For example, my math teacher in high school explained the same idea in three different ways until everyone understood. That kind of patience makes students confident enough to ask questions.",
+     "hint": "Plantilla: punto → razón → ejemplo → cierre."
+    },
+    {
+     "q": "How do you decide whether to buy something or save your money?",
+     "audio": {
+      "file": "audio/d11-q2.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "text": "How do you decide whether to buy something or save your money?"
+       }
+      ]
+     },
+     "model": "I usually ask myself whether I will use it regularly. If the answer is yes, I buy it; otherwise, I save the money. For instance, I wanted a new tablet last year, but I waited two months to be sure, and in the end I realized my laptop was enough.",
+     "hint": "Plantilla: punto → razón → ejemplo → cierre."
+    },
+    {
+     "q": "Do you think living in a dormitory or in an apartment is better for students?",
+     "audio": {
+      "file": "audio/d11-q3.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "text": "Do you think living in a dormitory or in an apartment is better for students?"
+       }
+      ]
+     },
+     "model": "I think a dormitory is better in the first year because it helps you make friends quickly. For example, I met most of my classmates in the dorm kitchen. Later, an apartment gives more privacy and quiet for studying.",
+     "hint": "Plantilla: punto → razón → ejemplo → cierre."
+    },
+    {
+     "q": "Tell me about a place in your hometown that you would recommend to visitors.",
+     "audio": {
+      "file": "audio/d11-q4.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "text": "Tell me about a place in your hometown that you would recommend to visitors."
+       }
+      ]
+     },
+     "model": "I would recommend the old market near the river, because it shows local culture and food. For example, you can try fresh fruit juices and watch artists selling handmade crafts. It is also free, which makes it perfect for visitors on a budget.",
+     "hint": "Plantilla: punto → razón → ejemplo → cierre."
+    }
+   ],
+   "checklist": [
+    "Respondí directamente en la primera frase",
+    "Di una razón con because",
+    "Di un ejemplo con detalle concreto",
+    "Hablé casi los 45 segundos",
+    "No dejé silencios largos"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d11-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "In the PREP template, the first thing you do is",
+   "options": [
+    "give an example",
+    "state your point directly",
+    "end with a summary",
+    "ask for clarification"
+   ],
+   "answer": 1,
+   "explain": "PREP = Point – Reason – Example – Point."
+  },
+  {
+   "id": "d11-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "You do not have a real personal example. What should you do?",
+   "options": [
+    "Stay silent",
+    "Invent a plausible example",
+    "Repeat your reason",
+    "Stop speaking"
+   ],
+   "answer": 1,
+   "explain": "No se evalúa la veracidad: un ejemplo plausible mantiene la fluidez."
+  },
+  {
+   "id": "d11-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which filler is the most appropriate in a formal interview?",
+   "options": [
+    "umm... ehh... like...",
+    "Well, let me think for a moment.",
+    "Yeah, so, yeah.",
+    "You know, whatever."
+   ],
+   "answer": 1,
+   "explain": "Una muletilla breve y elegante es aceptable."
+  }
+ ]
+}

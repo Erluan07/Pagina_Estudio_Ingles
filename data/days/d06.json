@@ -1,0 +1,172 @@
+{
+ "n": 6,
+ "objectives": [
+  "Escribir un correo con 5 bloques y registro adecuado.",
+  "Cubrir todos los puntos del enunciado.",
+  "Usar fórmulas de petición cortés (Would you be able to…?)."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (6/6)",
+  "words": [
+   [
+    "role",
+    "noun",
+    "the function or position of someone in a situation",
+    "papel / rol",
+    "Teachers play a key role in motivation."
+   ],
+   [
+    "section",
+    "noun",
+    "one of the parts into which something is divided",
+    "sección",
+    "Read the first section of the article."
+   ],
+   [
+    "sector",
+    "noun",
+    "a distinct part of the economy or society",
+    "sector",
+    "The energy sector employs many engineers."
+   ],
+   [
+    "significant",
+    "adj",
+    "large or important enough to matter",
+    "significativo",
+    "There was a significant increase in sales."
+   ],
+   [
+    "similar",
+    "adj",
+    "almost the same but not identical",
+    "similar",
+    "The two proposals are similar in several ways."
+   ],
+   [
+    "source",
+    "noun",
+    "a place, person or thing that provides something",
+    "fuente",
+    "Always cite your sources."
+   ],
+   [
+    "specific",
+    "adj",
+    "clearly defined or particular",
+    "específico",
+    "Please give a specific example."
+   ],
+   [
+    "structure",
+    "noun",
+    "the way parts are arranged to form a whole",
+    "estructura",
+    "The structure of the essay is clear."
+   ],
+   [
+    "theory",
+    "noun",
+    "a set of ideas that explain something",
+    "teoría",
+    "The theory of evolution explains biological change."
+   ],
+   [
+    "vary",
+    "verb",
+    "to be different or to change",
+    "variar",
+    "Prices vary from shop to shop."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d06.md",
+ "videos": {
+  "ids": [
+   "w-email-guide",
+   "w-email-tips"
+  ],
+  "search": "TOEFL Write an Email 2026 sample"
+ },
+ "practice": [
+  {
+   "kind": "writing",
+   "task": "email",
+   "id": "d06-p1",
+   "title": "Write an Email: revisión de una calificación",
+   "minutes": 15,
+   "minWords": 90,
+   "prompt": "**Situation.** You received your grade for the midterm report in the course *Environmental Systems*. You believe that one of your answers was marked incorrectly, because the feedback says you did not include a source, but you did cite it on page 3.\n\n**Write an email to your teaching assistant, Mr. Collins.** In your email:\n- Explain which grade or comment you want to discuss.\n- Describe why you think the comment may be a mistake.\n- Ask politely whether he could review your report and say when you could meet.",
+   "vocab": "- *I am writing regarding…* · *I would like to ask whether…*\n- *I believe there may be a misunderstanding.*\n- *As you can see on page 3…* · *I have attached a copy.*\n- *Would you be able to review…?* · *I would be grateful if…*\n- *I am available on… / Please let me know what time suits you.*",
+   "template": "1. **Greeting**: Dear Mr. Collins,\n2. **Purpose**: I am writing regarding the feedback on my midterm report.\n3. **Detail**: The comment says… / However, on page 3 I…\n4. **Request + availability**: Would you be able to… / I am free on…\n5. **Close**: Thank you for your time. Kind regards, Name",
+   "checklist": [
+    "Saludo adecuado (Dear Mr. Collins)",
+    "Propósito claro en la primera oración",
+    "Los tres puntos del enunciado cubiertos",
+    "Petición cortés con could/would",
+    "Disponibilidad concreta",
+    "Cierre y nombre"
+   ],
+   "model": "Dear Mr. Collins,\n\nI am writing regarding the feedback on my midterm report for Environmental Systems. The comment on question 4 says that I did not include a source for my data on river pollution.\n\nHowever, I believe there may be a misunderstanding, because I cited the 2021 national water report on page 3, and I listed it in the reference list as well. I have attached a copy of the report in case it is useful.\n\nWould you be able to review my answer again? I am available on Tuesday after 3:00 p.m. or on Wednesday morning, if you would like to discuss it in person.\n\nThank you very much for your time.\n\nKind regards,\nMaría Fernández",
+   "modelNotes": "**Por qué funciona:** cubre los 3 puntos en 3 párrafos, usa fórmulas corteses (*Would you be able to…*), da un dato concreto (página 3) y propone dos horarios."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d06-q1",
+   "type": "mcq",
+   "qtype": "register",
+   "q": "Which sentence is the most appropriate for an email to a professor you do not know well?",
+   "options": [
+    "Hey, can you give me more time?",
+    "I was wondering whether it would be possible to receive a short extension.",
+    "Give me an extension, please.",
+    "I want more time for the essay."
+   ],
+   "answer": 1,
+   "explain": "«I was wondering whether it would be possible…» es cortés y formal."
+  },
+  {
+   "id": "d06-q2",
+   "type": "mcq",
+   "qtype": "register",
+   "q": "Which closing is appropriate in a formal email?",
+   "options": [
+    "See ya!",
+    "Kind regards,",
+    "Cheers mate,",
+    "Bye bye"
+   ],
+   "answer": 1,
+   "explain": "Kind regards / Sincerely / Best regards son cierres formales."
+  },
+  {
+   "id": "d06-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the best sentence.",
+   "options": [
+    "I am write to ask about the deadline.",
+    "I am writing to ask about the deadline.",
+    "I writing to ask about the deadline.",
+    "I am wrote to ask about the deadline."
+   ],
+   "answer": 1,
+   "explain": "I am writing to + verbo base: presente continuo para el propósito del correo."
+  },
+  {
+   "id": "d06-q4",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "The prompt lists three points to cover. The best way to organize your email is to",
+   "options": [
+    "write one long paragraph with all ideas mixed",
+    "cover each point in order, using one or two sentences each",
+    "focus only on the most interesting point",
+    "copy the wording of the prompt"
+   ],
+   "answer": 1,
+   "explain": "Cubrir cada punto en orden asegura «cumple la tarea»."
+  }
+ ]
+}

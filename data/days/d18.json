@@ -1,0 +1,238 @@
+{
+ "n": 18,
+ "objectives": [
+  "Repetir 7 oraciones de hasta 20 palabras como en el blueprint (7 ítems, 0-5 c/u).",
+  "Reconocer reducciones y acentuación en palabras de contenido.",
+  "Recuperarse de un fallo sin perder el ritmo."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 5 (4/9)",
+  "words": [
+   [
+    "offset",
+    "verb",
+    "to balance or cancel out",
+    "compensar",
+    "Savings offset the higher rent."
+   ],
+   [
+    "ongoing",
+    "adj",
+    "continuing",
+    "en curso",
+    "There is an ongoing debate on the issue."
+   ],
+   [
+    "overlap",
+    "verb",
+    "to partly cover or share",
+    "solaparse",
+    "The two courses overlap in content."
+   ],
+   [
+    "persist",
+    "verb",
+    "to continue despite difficulty",
+    "persistir",
+    "The problem persisted for months."
+   ],
+   [
+    "phenomenon",
+    "noun",
+    "a notable fact or event",
+    "fenómeno",
+    "El Niño is a natural phenomenon."
+   ],
+   [
+    "predominantly",
+    "adv",
+    "mainly",
+    "predominantemente",
+    "The area is predominantly agricultural."
+   ],
+   [
+    "prohibit",
+    "verb",
+    "to forbid",
+    "prohibir",
+    "The law prohibits smoking indoors."
+   ],
+   [
+    "pursue",
+    "verb",
+    "to follow or try to achieve",
+    "perseguir",
+    "She decided to pursue a master's degree."
+   ],
+   [
+    "rational",
+    "adj",
+    "based on reason",
+    "racional",
+    "Make a rational decision, not an emotional one."
+   ],
+   [
+    "reluctant",
+    "adj",
+    "unwilling",
+    "reacio",
+    "He was reluctant to change his plan."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d18.md",
+ "videos": {
+  "ids": [
+   "s-repeat-train",
+   "s-repeat-3ways"
+  ],
+  "search": "TOEFL Listen and Repeat long sentences practice"
+ },
+ "practice": [
+  {
+   "kind": "speaking",
+   "task": "repeat",
+   "id": "d18-p1",
+   "title": "Listen and Repeat: visita a un museo (7 oraciones)",
+   "minutes": 25,
+   "intro": "Siete oraciones, cada vez más largas. En el examen cada frase se oye una sola vez y no hay preparación.",
+   "items": [
+    {
+     "text": "Welcome to the Museum of Science and Industry.",
+     "audio": {
+      "file": "audio/d18-r1.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "Welcome to the Museum of Science and Industry."
+       }
+      ]
+     },
+     "seconds": 10
+    },
+    {
+     "text": "The exhibition on renewable energy is located on the second floor.",
+     "audio": {
+      "file": "audio/d18-r2.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "The exhibition on renewable energy is located on the second floor."
+       }
+      ]
+     },
+     "seconds": 11
+    },
+    {
+     "text": "Visitors are kindly asked not to touch the displays.",
+     "audio": {
+      "file": "audio/d18-r3.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "Visitors are kindly asked not to touch the displays."
+       }
+      ]
+     },
+     "seconds": 11
+    },
+    {
+     "text": "Our guide will lead the first group in about ten minutes.",
+     "audio": {
+      "file": "audio/d18-r4.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "Our guide will lead the first group in about ten minutes."
+       }
+      ]
+     },
+     "seconds": 11
+    },
+    {
+     "text": "If you would like to take photographs, please turn off your flash.",
+     "audio": {
+      "file": "audio/d18-r5.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "If you would like to take photographs, please turn off your flash."
+       }
+      ]
+     },
+     "seconds": 12
+    },
+    {
+     "text": "The interactive laboratory allows children to conduct simple experiments with magnets and water.",
+     "audio": {
+      "file": "audio/d18-r6.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "The interactive laboratory allows children to conduct simple experiments with magnets and water."
+       }
+      ]
+     },
+     "seconds": 12
+    },
+    {
+     "text": "Although the museum closes at five, the gift shop remains open until half past six for late visitors.",
+     "audio": {
+      "file": "audio/d18-r7.mp3",
+      "segments": [
+       {
+        "voice": "bm_george",
+        "text": "Although the museum closes at five, the gift shop remains open until half past six for late visitors."
+       }
+      ]
+     },
+     "seconds": 14
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d18-q1",
+   "type": "mcq",
+   "qtype": "pronunciation",
+   "q": "In connected speech, \"want to\" is commonly pronounced like",
+   "options": [
+    "wanna",
+    "wantoo",
+    "wont two",
+    "won't to"
+   ],
+   "answer": 0,
+   "explain": "Reducción habitual: /ˈwɑnə/."
+  },
+  {
+   "id": "d18-q2",
+   "type": "mcq",
+   "qtype": "pronunciation",
+   "q": "Which words are normally STRESSED in \"The exhibition is located on the second floor\"?",
+   "options": [
+    "the, is, on, the",
+    "exhibition, located, second, floor",
+    "only exhibition",
+    "only floor"
+   ],
+   "answer": 1,
+   "explain": "Se acentúan palabras de contenido (sustantivos, verbos, adjetivos, numerales)."
+  },
+  {
+   "id": "d18-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "You forget the last words of a long sentence. The best reaction is to",
+   "options": [
+    "stop and start over",
+    "say what you remember and keep a natural rhythm",
+    "stay silent",
+    "repeat the first word"
+   ],
+   "answer": 1,
+   "explain": "Una frase parcial con ritmo natural suma más que el silencio."
+  }
+ ]
+}

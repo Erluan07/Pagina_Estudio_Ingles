@@ -1,0 +1,292 @@
+{
+ "n": 5,
+ "objectives": [
+  "Usar el formato y las preguntas para escanear textos cotidianos.",
+  "Distinguir condiciones, excepciones y fechas límite.",
+  "Responder preguntas de propósito, detalle e inferencia en < 90 s por texto."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (5/6)",
+  "words": [
+   [
+    "occur",
+    "verb",
+    "to happen",
+    "ocurrir",
+    "Errors can occur when data is entered manually."
+   ],
+   [
+    "percent",
+    "noun",
+    "one part in every hundred",
+    "por ciento",
+    "About forty percent of students work part-time."
+   ],
+   [
+    "period",
+    "noun",
+    "a length of time",
+    "periodo",
+    "During this period the city grew rapidly."
+   ],
+   [
+    "policy",
+    "noun",
+    "a plan or rule adopted by an organization",
+    "política (normativa)",
+    "The university has a strict attendance policy."
+   ],
+   [
+    "principle",
+    "noun",
+    "a basic rule or belief",
+    "principio",
+    "The principle of fairness guides the decision."
+   ],
+   [
+    "proceed",
+    "verb",
+    "to continue or go forward",
+    "proceder",
+    "You may proceed to the next section."
+   ],
+   [
+    "process",
+    "noun",
+    "a series of steps to achieve a result",
+    "proceso",
+    "Photosynthesis is a natural process."
+   ],
+   [
+    "require",
+    "verb",
+    "to need or make necessary",
+    "requerir",
+    "This course requires prior knowledge of statistics."
+   ],
+   [
+    "research",
+    "noun",
+    "careful study to discover new information",
+    "investigación",
+    "Her research focuses on water quality."
+   ],
+   [
+    "respond",
+    "verb",
+    "to answer or react",
+    "responder / reaccionar",
+    "Please respond to the email by Friday."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d05.md",
+ "videos": {
+  "ids": [
+   "r-daily"
+  ],
+  "search": "TOEFL Read in Daily Life practice 2026"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d05-p1",
+   "title": "Texto 1 · Aviso de residencia",
+   "minutes": 8,
+   "passage": "NOTICE TO RESIDENTS — Block C Kitchen Cleaning\n\nStarting Monday, November 9, the shared kitchen on each floor of Block C will be cleaned by an outside company every Tuesday and Friday between 8:00 and 10:00 a.m. During these hours the kitchen will be closed.\n\nPlease remove all personal items from the counters and the drying rack by 7:45 a.m. on cleaning days. Items left on surfaces will be placed in the \"lost and found\" box at the front desk and kept for two weeks.\n\nFood in the refrigerators must be labeled with your name and the date. Unlabeled items will be thrown away every Friday.\n\nQuestions? Email residence@campushousing.example.",
+   "items": [
+    {
+     "id": "d05-a1",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "What is the main purpose of the notice?",
+     "options": [
+      "To announce a new cleaning schedule and rules for the kitchens",
+      "To advertise a new cleaning company",
+      "To ask residents to cook less",
+      "To report a problem with the refrigerators"
+     ],
+     "answer": 0,
+     "explain": "El aviso informa de horarios de limpieza y normas para los residentes."
+    },
+    {
+     "id": "d05-a2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What should residents do by 7:45 a.m. on cleaning days?",
+     "options": [
+      "Wash their dishes in their rooms",
+      "Remove personal items from the counters and drying rack",
+      "Email the housing office",
+      "Label all refrigerator items"
+     ],
+     "answer": 1,
+     "explain": "«remove all personal items from the counters and the drying rack by 7:45 a.m.»."
+    },
+    {
+     "id": "d05-a3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What happens to unlabeled food in the refrigerators?",
+     "options": [
+      "It is moved to the front desk",
+      "It is thrown away every Friday",
+      "It is kept for two weeks",
+      "It is returned to the owner"
+     ],
+     "answer": 1,
+     "explain": "«Unlabeled items will be thrown away every Friday»."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d05-p2",
+   "title": "Texto 2 · Correo de un profesor",
+   "minutes": 8,
+   "passage": "Subject: Change of office hours this week\n\nDear students in ENG-204,\n\nBecause I will be attending a conference on Wednesday, my regular office hours (2:00–4:00 p.m.) are cancelled this week. Instead, I will be available on Thursday from 10:00 a.m. to 12:00 noon in Room B-112. If you cannot come then, you are welcome to send me your questions by email by Wednesday at noon, and I will reply by Thursday evening.\n\nPlease remember that the draft of your research proposal is due next Monday. I strongly recommend that you bring your draft to office hours so that we can discuss the structure and your research question.\n\nBest regards,\nProf. Anita Rao",
+   "items": [
+    {
+     "id": "d05-b1",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "Why is Professor Rao writing to the students?",
+     "options": [
+      "To cancel the research proposal",
+      "To announce a change in her office hours",
+      "To invite them to a conference",
+      "To give feedback on drafts"
+     ],
+     "answer": 1,
+     "explain": "Asunto y primer párrafo: cambia el horario de atención."
+    },
+    {
+     "id": "d05-b2",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "When can students meet the professor this week?",
+     "options": [
+      "Wednesday from 2:00 to 4:00 p.m.",
+      "Thursday from 10:00 a.m. to noon",
+      "Monday morning",
+      "Thursday from 2:00 to 4:00 p.m."
+     ],
+     "answer": 1,
+     "explain": "«I will be available on Thursday from 10:00 a.m. to 12:00 noon»."
+    },
+    {
+     "id": "d05-b3",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about students who send questions by email?",
+     "options": [
+      "They will not receive an answer",
+      "They must send them before Wednesday noon to get a reply by Thursday evening",
+      "They should send the proposal draft",
+      "They need to visit Room B-112"
+     ],
+     "answer": 1,
+     "explain": "La condición: preguntas hasta el miércoles a mediodía → respuesta el jueves por la noche."
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "subtype": "daily",
+   "id": "d05-p3",
+   "title": "Texto 3 · Promoción de cafetería",
+   "minutes": 8,
+   "passage": "FRESH BITES CAFÉ — Autumn Student Offer\n\nShow your student card and get:\n• 15% off any hot drink before 11:00 a.m. (Monday–Friday)\n• A free cookie with any sandwich purchased after 2:00 p.m.\n• Double stamps on your loyalty card every Wednesday\n\nOffers cannot be combined. The free cookie offer is not valid on public holidays. Loyalty cards with 10 stamps can be exchanged for a free drink of any size. This promotion ends on December 18.",
+   "items": [
+    {
+     "id": "d05-c1",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "Which offer is available only after 2:00 p.m.?",
+     "options": [
+      "15% off hot drinks",
+      "A free cookie with a sandwich",
+      "Double stamps on Wednesdays",
+      "A free drink with 10 stamps"
+     ],
+     "answer": 1,
+     "explain": "«A free cookie with any sandwich purchased after 2:00 p.m.»."
+    },
+    {
+     "id": "d05-c2",
+     "type": "mcq",
+     "qtype": "condition",
+     "q": "A student buys a hot drink at 9:30 a.m. on a Saturday. What will happen?",
+     "options": [
+      "She will get 15% off",
+      "She will get a free cookie",
+      "She will not get the discount",
+      "She will get double stamps"
+     ],
+     "answer": 2,
+     "explain": "El 15 % es de lunes a viernes; sábado no cuenta."
+    },
+    {
+     "id": "d05-c3",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about the promotion?",
+     "options": [
+      "It is permanent",
+      "It will end in December",
+      "It is only for new customers",
+      "It is valid on holidays"
+     ],
+     "answer": 1,
+     "explain": "«This promotion ends on December 18»."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d05-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Before reading a daily-life text, it is most useful to",
+   "options": [
+    "read the questions to know what to look for",
+    "translate every word",
+    "memorize the sender's name",
+    "skip the subject line"
+   ],
+   "answer": 0,
+   "explain": "Leer las preguntas dirige el escaneo."
+  },
+  {
+   "id": "d05-q2",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "In a notice, \"mandatory\" means",
+   "options": [
+    "optional",
+    "required",
+    "free",
+    "late"
+   ],
+   "answer": 1,
+   "explain": "mandatory = obligatorio."
+  },
+  {
+   "id": "d05-q3",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "\"No later than Friday\" means",
+   "options": [
+    "on Friday or earlier",
+    "after Friday",
+    "only on Friday",
+    "before Thursday"
+   ],
+   "answer": 0,
+   "explain": "no later than = como máximo el viernes."
+  }
+ ]
+}

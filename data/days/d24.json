@@ -1,0 +1,157 @@
+{
+ "n": 24,
+ "objectives": [
+  "Incorporar una concesión y un contraargumento.",
+  "Usar conectores de contraste de nivel C1.",
+  "Escribir 110+ palabras en 12 minutos."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 8 (9/9)",
+  "words": [
+   [
+    "admittedly",
+    "adv",
+    "used to recognise a point",
+    "es cierto que",
+    "Admittedly, the plan has flaws."
+   ],
+   [
+    "concede",
+    "verb",
+    "to admit that something is true",
+    "conceder",
+    "I concede that the data are limited."
+   ],
+   [
+    "legitimate",
+    "adj",
+    "reasonable; valid",
+    "legítimo",
+    "A legitimate concern."
+   ],
+   [
+    "convincing",
+    "adj",
+    "able to persuade",
+    "convincente",
+    "A convincing argument."
+   ],
+   [
+    "provided",
+    "conj",
+    "on condition that",
+    "siempre que",
+    "Provided it is planned, it works."
+   ],
+   [
+    "acknowledge",
+    "verb",
+    "to accept the truth of",
+    "reconocer",
+    "Acknowledge the limits of your study."
+   ],
+   [
+    "overall",
+    "adv",
+    "taking everything into account",
+    "en general",
+    "Overall, results were positive."
+   ],
+   [
+    "motivated",
+    "adj",
+    "having a strong desire",
+    "motivado",
+    "Motivated students persist."
+   ],
+   [
+    "secure",
+    "verb",
+    "to obtain with effort",
+    "asegurar",
+    "She secured a scholarship."
+   ],
+   [
+    "structured",
+    "adj",
+    "organized in a clear way",
+    "estructurado",
+    "A structured plan helps."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d24.md",
+ "videos": {
+  "ids": [
+   "w-discussion"
+  ],
+  "search": "TOEFL Writing for an Academic Discussion concession counterargument"
+ },
+ "practice": [
+  {
+   "kind": "writing",
+   "task": "discussion",
+   "id": "d24-p1",
+   "title": "Academic Discussion: ¿año sabático antes de la universidad?",
+   "minutes": 12,
+   "minWords": 110,
+   "prompt": "**Professor Moreno:** Some students take a gap year between school and university to work or travel. Do you think this is beneficial for most students?\n\n**Isabel:** Definitely. A year of real-world experience helps students choose a field they actually like and return more motivated.\n\n**Daniel:** I'm not convinced. After a year away, many students lose study habits and some never return to education.\n\n**Write a response** (≥ 110 words). Give your opinion, **acknowledge the other side** (concession) and answer it with a counterargument.",
+   "vocab": "- *Admittedly, … / It is true that… / I concede that…*\n- *Nevertheless, … / Even so, … / That said, …*\n- *A more convincing argument is that…* · *This risk can be reduced by…*",
+   "template": "1. **Postura**\n2. **Razón 1 + ejemplo**\n3. **Concesión**: *Admittedly, Daniel is right that…*\n4. **Contraargumento**: *Nevertheless, this risk can be reduced if…*\n5. **Cierre**",
+   "checklist": [
+    "Postura clara",
+    "Una concesión explícita (Admittedly/It is true that)",
+    "Un contraargumento con Nevertheless/However",
+    "Un ejemplo",
+    "Referencia a Isabel o Daniel",
+    "Cierre en una oración"
+   ],
+   "model": "I believe that a gap year benefits most students, provided it is planned. Isabel is right that real-world experience clarifies one's interests. For example, a friend of mine worked in a hospital for a year and then decided to study nursing with far more confidence than before.\n\nAdmittedly, Daniel raises a legitimate concern: some students find it hard to return to a study routine. Nevertheless, this risk can be reduced if students enrol in a course or secure a university place before they take the year off. In that way, the break remains a pause, not an exit.\n\nOverall, a structured gap year can combine maturity with motivation.",
+   "modelNotes": "**Por qué funciona:** concesión (*Admittedly*) + contraargumento (*Nevertheless… can be reduced if…*), ejemplo concreto y solución. Es la estructura que más impresiona en C1."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d24-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A concession means",
+   "options": [
+    "ignoring the other opinion",
+    "acknowledging a valid point of the other side",
+    "changing your opinion completely",
+    "repeating the professor"
+   ],
+   "answer": 1,
+   "explain": "Concesión = reconocer algo válido y luego rebatir."
+  },
+  {
+   "id": "d24-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the best connector: \"Isabel makes a fair point; ______, I think the risk is bigger.\"",
+   "options": [
+    "therefore",
+    "nevertheless",
+    "for example",
+    "in addition"
+   ],
+   "answer": 1,
+   "explain": "Nevertheless contrasta con la concesión."
+  },
+  {
+   "id": "d24-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Where should the concession usually appear?",
+   "options": [
+    "At the very start",
+    "After your main reason, before the counterargument",
+    "After the conclusion",
+    "It should not appear"
+   ],
+   "answer": 1,
+   "explain": "Razón → concesión → contraargumento."
+  }
+ ]
+}

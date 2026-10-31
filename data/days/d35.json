@@ -1,0 +1,92 @@
+{
+ "n": 35,
+ "objectives": [
+  "Mini-simulacro con proporciones cercanas al blueprint (≈ 45 %).",
+  "Comparar con los simulacros 1-2 (días 14, 21, 28).",
+  "Revisar el banco de errores acumulado."
+ ],
+ "vocab": {
+  "theme": "Verbos de argumentación académica",
+  "words": [
+   [
+    "assert",
+    "verb",
+    "to state firmly",
+    "afirmar",
+    "The author asserts that…"
+   ],
+   [
+    "imply",
+    "verb",
+    "to suggest indirectly",
+    "implicar",
+    "The text implies a risk."
+   ],
+   [
+    "claim",
+    "verb",
+    "to say something is true",
+    "alegar",
+    "Critics claim that…"
+   ],
+   [
+    "refute",
+    "verb",
+    "to prove wrong",
+    "refutar",
+    "Data refute the idea."
+   ],
+   [
+    "endorse",
+    "verb",
+    "to publicly support",
+    "respaldar",
+    "Experts endorse the plan."
+   ],
+   [
+    "dispute",
+    "verb",
+    "to question the truth of",
+    "cuestionar",
+    "They dispute the figures."
+   ],
+   [
+    "highlight",
+    "verb",
+    "to emphasize",
+    "destacar",
+    "The report highlights risks."
+   ],
+   [
+    "outline",
+    "verb",
+    "to describe the main points",
+    "esbozar",
+    "Outline your argument."
+   ],
+   [
+    "justify",
+    "verb",
+    "to give a reason for",
+    "justificar",
+    "Justify your choice."
+   ],
+   [
+    "undermine",
+    "verb",
+    "to weaken",
+    "socavar",
+    "The error undermines trust."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d35.md",
+ "videos": {
+  "ids": [
+   "w-mistakes"
+  ],
+  "search": "TOEFL 2026 how to analyse practice test results"
+ },
+ "practice": [],
+ "quiz": []
+}

@@ -1,0 +1,822 @@
+{
+ "title": "Mini-simulacro 3",
+ "day": 35,
+ "intro": "Proporciones cercanas al blueprint 2026 (≈ 45 %): 10 huecos de Complete the Words, un set de Daily Life, un pasaje, 6 respuestas cortas, una conversación, un anuncio y una charla, 5 Build a Sentence, email, discusión, 7 Listen and Repeat y 2 preguntas de entrevista.",
+ "sections": [
+  {
+   "skill": "reading",
+   "title": "Reading",
+   "minutes": 10,
+   "what": "Complete the Words (10) + Daily Life + pasaje",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d35-r-b1",
+     "title": "Complete the Words",
+     "items": [
+      {
+       "id": "mk-d35-r-cw",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Desalination plants {{conv|ert}} seawater into drinking water, an {{increa|singly}} important process in arid {{coas|tal}} regions. The most {{com|mon}} method, {{reve|rse}} osmosis, forces water through {{extre|mely}} fine {{membr|anes}} that block salt. Although the technology has {{impr|oved}} considerably, the energy required remains {{substa|ntial}}, and the {{concen|trated}} brine discharged into the sea can harm marine ecosystems.",
+       "explain": ""
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d35-r-b2",
+     "title": "Read in Daily Life",
+     "passage": "Subject: Parking permits for the spring semester\n\nDear staff and students,\nParking permits for the spring semester can be purchased online from December 10. The price is €90 for students and €140 for staff. Permits are valid only in the zone indicated on the permit, and vehicles parked in other zones will be fined €35. Electric vehicles are eligible for a 50% discount, upon presentation of the registration document at the Service Desk. Permits cannot be transferred to another vehicle, but you may register up to two vehicles under one name (only one can be used at a time).",
+     "items": [
+      {
+       "id": "mk-d35-r-1",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "How much does a student permit cost?",
+       "options": [
+        "€35",
+        "€70",
+        "€90",
+        "€140"
+       ],
+       "answer": 2,
+       "explain": "90 euros."
+      },
+      {
+       "id": "mk-d35-r-2",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "What must a driver of an electric vehicle do to receive the discount?",
+       "options": [
+        "Show the registration document at the Service Desk",
+        "Buy online only",
+        "Park in all zones",
+        "Pay in cash"
+       ],
+       "answer": 0,
+       "explain": "Presentar el documento."
+      },
+      {
+       "id": "mk-d35-r-3",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about registering two vehicles?",
+       "options": [
+        "Both can be used simultaneously",
+        "Only one may be used at a time",
+        "It is not allowed",
+        "It is free"
+       ],
+       "answer": 1,
+       "explain": "«only one can be used at a time»."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "mk-d35-r-b3",
+     "title": "Read an Academic Passage",
+     "passage": "The domestication of wheat about ten thousand years ago is often described as a leap forward, but some archaeologists now question that view. Skeletons from early farming communities show more signs of malnutrition and disease than those of earlier hunter-gatherers, suggesting that the shift to agriculture may initially have lowered living standards.\n\nWhy, then, did farming spread? One explanation is that farming could support far more people per unit of land. Even if individuals were less healthy, populations grew, and larger groups could displace smaller foraging bands. Another explanation emphasizes storage: grain could be saved, enabling communities to survive bad seasons, though it also created inequality, since those who controlled the stores gained power.",
+     "items": [
+      {
+       "id": "mk-d35-r-4",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the passage mainly about?",
+       "options": [
+        "Why farming spread even though it may have lowered individual health",
+        "How wheat is cooked",
+        "The history of skeletons",
+        "Hunter-gatherer diets"
+       ],
+       "answer": 0,
+       "explain": "Paradoja de la agricultura."
+      },
+      {
+       "id": "mk-d35-r-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What do early farmers' skeletons show?",
+       "options": [
+        "More signs of malnutrition and disease",
+        "Greater height",
+        "Fewer injuries",
+        "More teeth"
+       ],
+       "answer": 0,
+       "explain": "Mal nutrición y enfermedades."
+      },
+      {
+       "id": "mk-d35-r-6",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "\"displace\" is closest in meaning to",
+       "options": [
+        "push out",
+        "reward",
+        "feed",
+        "study"
+       ],
+       "answer": 0,
+       "explain": "displace = desplazar."
+      },
+      {
+       "id": "mk-d35-r-7",
+       "type": "mcq",
+       "qtype": "purpose",
+       "q": "Why does the author mention storage?",
+       "options": [
+        "To give a second explanation for the spread of farming",
+        "To criticize archaeologists",
+        "To describe seasons",
+        "To define wheat"
+       ],
+       "answer": 0,
+       "explain": "Segunda explicación."
+      },
+      {
+       "id": "mk-d35-r-8",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about grain stores?",
+       "options": [
+        "They could concentrate power in the hands of a few",
+        "They harmed communities directly",
+        "They were free",
+        "They were unimportant"
+       ],
+       "answer": 0,
+       "explain": "Crearon desigualdad."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "listening",
+   "title": "Listening",
+   "minutes": 12,
+   "what": "6 respuestas cortas, conversación, anuncio y charla",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d35-l-b1",
+     "title": "Listen and Choose a Response",
+     "items": [
+      {
+       "id": "mk-d35-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I think it's the end of the third week, but check the academic calendar.",
+        "A penalty is a kick.",
+        "I drop things often.",
+        "Courses are long."
+       ],
+       "answer": 0,
+       "explain": "Pide plazo → dato con cautela.",
+       "audio": {
+        "file": "audio/mk-d35-l-c1.mp3",
+        "segments": [
+         {
+          "voice": "af_nicole",
+          "text": "Do you know if there's a deadline for dropping a course without a penalty?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d35-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Slides are fun.",
+        "Sure. Send them over and I'll look at them tonight.",
+        "I feed back soon.",
+        "Presentations are gifts."
+       ],
+       "answer": 1,
+       "explain": "Petición → aceptar con compromiso.",
+       "audio": {
+        "file": "audio/mk-d35-l-c2.mp3",
+        "segments": [
+         {
+          "voice": "am_adam",
+          "text": "Can you give me feedback on my presentation slides?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d35-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Labs are cold.",
+        "I like to switch lights.",
+        "You'd need to ask the coordinator, but the Tuesday section still has openings.",
+        "Sections are fruit."
+       ],
+       "answer": 2,
+       "explain": "Petición → información útil.",
+       "audio": {
+        "file": "audio/mk-d35-l-c3.mp3",
+        "segments": [
+         {
+          "voice": "bf_isabella",
+          "text": "I'd like to switch to a different lab section. Is that possible?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d35-l-c4",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Sites are locked in forests.",
+        "I registered a lock.",
+        "Accounts are in banks.",
+        "You can unlock it by resetting your password, or I can call IT with you."
+       ],
+       "answer": 3,
+       "explain": "Problema → soluciones.",
+       "audio": {
+        "file": "audio/mk-d35-l-c4.mp3",
+        "segments": [
+         {
+          "voice": "bm_george",
+          "text": "The registration site says my account is locked."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d35-l-c5",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "That's a good idea. How about tomorrow after class?",
+        "Presentations are wonderful.",
+        "I meet people often.",
+        "Again is a word."
+       ],
+       "answer": 0,
+       "explain": "Propuesta → aceptación con detalle.",
+       "audio": {
+        "file": "audio/mk-d35-l-c5.mp3",
+        "segments": [
+         {
+          "voice": "af_river",
+          "text": "I wonder if we should meet again before the presentation."
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d35-l-c6",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Honesty is the best policy.",
+        "Me too. Maybe we could go through it together before class.",
+        "Reading is on the shelf.",
+        "Quite is silent."
+       ],
+       "answer": 1,
+       "explain": "Confidencia → empatía + oferta.",
+       "audio": {
+        "file": "audio/mk-d35-l-c6.mp3",
+        "segments": [
+         {
+          "voice": "am_michael",
+          "text": "Honestly, I found the reading quite difficult."
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d35-l-b2",
+     "title": "Conversación",
+     "audio": {
+      "file": "audio/mk-d35-conv.mp3",
+      "segments": [
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "Hi, I'm doing a project about energy use on campus, and I was told you manage the buildings. Could I ask a few questions?"
+       },
+       {
+        "voice": "am_adam",
+        "who": "Manager",
+        "text": "Sure. What would you like to know?"
+       },
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "First, is there data on how much electricity each building uses?"
+       },
+       {
+        "voice": "am_adam",
+        "who": "Manager",
+        "text": "We do collect it, but it's not public. If you send me a formal request, I can share monthly figures for three buildings."
+       },
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "That would be perfect. I'm focusing on the library, the sports center and the science building."
+       },
+       {
+        "voice": "am_adam",
+        "who": "Manager",
+        "text": "Good choices. Just so you know, the science building uses by far the most, mainly because of the laboratory equipment."
+       },
+       {
+        "voice": "bf_alice",
+        "who": "Student",
+        "text": "Interesting. I'll mention that in my report. Thank you!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d35-l-1",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "Why does the student talk to the manager?",
+       "options": [
+        "To get information for a project",
+        "To report a problem",
+        "To apply for a job",
+        "To complain about energy bills"
+       ],
+       "answer": 0,
+       "explain": "Proyecto sobre consumo de energía."
+      },
+      {
+       "id": "mk-d35-l-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What must the student do to obtain the data?",
+       "options": [
+        "Pay a fee",
+        "Send a formal request",
+        "Visit the library",
+        "Attend a meeting"
+       ],
+       "answer": 1,
+       "explain": "«send me a formal request»."
+      },
+      {
+       "id": "mk-d35-l-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Which building uses the most electricity?",
+       "options": [
+        "The library",
+        "The sports center",
+        "The science building",
+        "The dormitory"
+       ],
+       "answer": 2,
+       "explain": "Science building."
+      },
+      {
+       "id": "mk-d35-l-4",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "Why does the science building use so much energy?",
+       "options": [
+        "Its laboratory equipment",
+        "It is old",
+        "It has many students",
+        "It is open 24 hours"
+       ],
+       "answer": 0,
+       "explain": "«mainly because of the laboratory equipment»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d35-l-b3",
+     "title": "Anuncio",
+     "audio": {
+      "file": "audio/mk-d35-ann.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "Hello, everyone. Just a quick update about the group project. The submission deadline has been moved from Friday to the following Monday, but the peer evaluation forms are still due on Friday. I'll be unavailable on Thursday, so any questions about the assignment should be sent by email before Wednesday evening. And remember, the final report should not exceed twelve pages, excluding references."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d35-l-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is the new submission deadline?",
+       "options": [
+        "Friday",
+        "The following Monday",
+        "Wednesday",
+        "Thursday"
+       ],
+       "answer": 1,
+       "explain": "Lunes siguiente."
+      },
+      {
+       "id": "mk-d35-l-6",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is still due on Friday?",
+       "options": [
+        "The final report",
+        "The peer evaluation forms",
+        "The references",
+        "Nothing"
+       ],
+       "answer": 1,
+       "explain": "Formularios de evaluación entre pares."
+      },
+      {
+       "id": "mk-d35-l-7",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is the page limit?",
+       "options": [
+        "Ten pages",
+        "Twelve pages, excluding references",
+        "Twenty pages",
+        "No limit"
+       ],
+       "answer": 1,
+       "explain": "12 sin referencias."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d35-l-b4",
+     "title": "Charla académica",
+     "audio": {
+      "file": "audio/mk-d35-talk.mp3",
+      "segments": [
+       {
+        "voice": "af_heart",
+        "text": "Let's examine how cities can reduce flooding. Traditionally, engineers relied on gray infrastructure: concrete drains, tunnels and pumps. These are effective but expensive, and they only move water elsewhere. A growing alternative is called green infrastructure, which uses natural features to absorb rainwater."
+       },
+       {
+        "voice": "af_heart",
+        "text": "A good example is the 'rain garden', a shallow depression filled with plants that soak up runoff from roofs and roads. In Philadelphia, thousands of such gardens have reduced the amount of water entering sewers by about a third. They also lower temperatures and provide habitats."
+       },
+       {
+        "voice": "af_heart",
+        "text": "Of course, green infrastructure isn't a miracle cure. During extreme storms, it can be overwhelmed, so most cities use a mix of both approaches. The key is to plan them together, so that each compensates for the other's weaknesses."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d35-l-8",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the talk mainly about?",
+       "options": [
+        "Using natural features and traditional systems to reduce urban flooding",
+        "The history of pumps",
+        "Why concrete is bad",
+        "Philadelphia's climate"
+       ],
+       "answer": 0,
+       "explain": "Verde + gris."
+      },
+      {
+       "id": "mk-d35-l-9",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What is a limitation of gray infrastructure?",
+       "options": [
+        "It is expensive and only moves water elsewhere",
+        "It is ugly",
+        "It is illegal",
+        "It uses plants"
+       ],
+       "answer": 0,
+       "explain": "Dicho al principio."
+      },
+      {
+       "id": "mk-d35-l-10",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "Why does the professor mention Philadelphia?",
+       "options": [
+        "To provide evidence of green infrastructure working",
+        "To discuss tourism",
+        "To contrast two cities",
+        "To introduce a law"
+       ],
+       "answer": 0,
+       "explain": "Evidencia: una tercera parte menos de agua."
+      },
+      {
+       "id": "mk-d35-l-11",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What would the professor most likely recommend?",
+       "options": [
+        "Combining both approaches",
+        "Using only rain gardens",
+        "Ignoring storms",
+        "Building more tunnels only"
+       ],
+       "answer": 0,
+       "explain": "«use a mix of both»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "writing",
+   "title": "Writing",
+   "minutes": 14,
+   "what": "5 Build a Sentence + email + discusión",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d35-w-b1",
+     "title": "Build a Sentence",
+     "items": [
+      {
+       "id": "mk-d35-w-1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What did the survey reveal?",
+       "words": [
+        "that",
+        "preferred",
+        "revealed",
+        "most",
+        "schedules.",
+        "It",
+        "flexible",
+        "respondents"
+       ],
+       "answer": "It revealed that most respondents preferred flexible schedules.",
+       "explain": "revealed that + cláusula con preferred."
+      },
+      {
+       "id": "mk-d35-w-2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why was the experiment repeated?",
+       "words": [
+        "had",
+        "results",
+        "affected",
+        "by",
+        "The",
+        "been",
+        "calibration",
+        "first",
+        "a",
+        "error."
+       ],
+       "answer": "The first results had been affected by a calibration error.",
+       "explain": "Pasado perfecto pasivo."
+      },
+      {
+       "id": "mk-d35-w-3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Who will present the findings?",
+       "words": [
+        "will",
+        "the",
+        "collected",
+        "them.",
+        "team",
+        "The",
+        "researcher",
+        "whose",
+        "data",
+        "present"
+       ],
+       "answer": "The researcher whose team collected the data will present them.",
+       "explain": "whose + sustantivo."
+      },
+      {
+       "id": "mk-d35-w-4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Is the new policy popular?",
+       "words": [
+        "although",
+        "benefits.",
+        "It",
+        "about",
+        "is,",
+        "its",
+        "some",
+        "employees",
+        "skeptical",
+        "remain"
+       ],
+       "answer": "It is, although some employees remain skeptical about its benefits.",
+       "explain": "although + cláusula."
+      },
+      {
+       "id": "mk-d35-w-5",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What can be done to improve attendance?",
+       "words": [
+        "the",
+        "Classes",
+        "scheduled",
+        "be",
+        "morning.",
+        "in",
+        "could",
+        "later"
+       ],
+       "answer": "Classes could be scheduled later in the morning.",
+       "explain": "could be + participio."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "mk-d35-w-email",
+     "title": "Write an Email",
+     "minutes": 7,
+     "minWords": 80,
+     "prompt": "**Situation.** You are the organizer of a student conference. A guest speaker has just informed you that she cannot attend because of illness. The conference is in three days.\n\n**Write an email to the conference participants.** In your email:\n- Inform them about the change.\n- Explain what will replace her session.\n- Reassure them and tell them where to find updates.",
+     "checklist": [
+      "Cambio comunicado con claridad",
+      "Explicación del reemplazo",
+      "Información de actualizaciones",
+      "Tono empático y profesional"
+     ],
+     "model": "Dear participants,\n\nI regret to inform you that our guest speaker, Dr. Hall, cannot attend the conference because of illness. We wish her a quick recovery.\n\nHer keynote will be replaced by a panel discussion with three faculty members, who will address the same topic at the same time on Friday at 10:00 a.m.\n\nAll other sessions remain unchanged, and any further updates will be posted on the conference website and sent by email. Thank you for your understanding, and we look forward to seeing you on Friday.\n\nBest regards,\nThe Organizing Committee"
+    },
+    {
+     "kind": "writing",
+     "task": "discussion",
+     "id": "mk-d35-w-disc",
+     "title": "Write for an Academic Discussion",
+     "minutes": 10,
+     "minWords": 110,
+     "prompt": "**Professor Patel:** Many universities now offer degrees entirely online. Do you think an online degree is as valuable as a traditional one?\n\n**Sofia:** Yes, if the courses are well designed. Online degrees give access to people who cannot move or who must work.\n\n**James:** I disagree. Campus life, labs, and personal contact with professors can't be replaced by a screen.\n\n**Write a response** (≥ 110 words) with your opinion, a concession and a counterargument.",
+     "checklist": [
+      "Postura",
+      "Concesión",
+      "Contraargumento",
+      "Ejemplo",
+      "Referencia a Sofia o James"
+     ],
+     "model": "I believe an online degree can be as valuable as a traditional one in many fields, though not in all. Sofia is right that online programs widen access. For example, a colleague of mine completed a business degree online while working full-time, and she is now a manager.\n\nAdmittedly, James is correct that laboratory work and personal contact matter. Nevertheless, many programs now combine online lectures with short on-campus periods, which keeps the benefits of both.\n\nTherefore, the value of a degree depends less on the format than on the quality of the program and the support it offers."
+    }
+   ]
+  },
+  {
+   "skill": "speaking",
+   "title": "Speaking",
+   "minutes": 6,
+   "what": "7 Listen and Repeat + 2 preguntas",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "mk-d35-s-repeat",
+     "title": "Listen and Repeat (7)",
+     "items": [
+      {
+       "text": "Please submit your assignments through the online platform.",
+       "audio": {
+        "file": "audio/mk-d35-r1.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "Please submit your assignments through the online platform."
+         }
+        ]
+       },
+       "seconds": 10
+      },
+      {
+       "text": "The final exam will take place in the sports hall.",
+       "audio": {
+        "file": "audio/mk-d35-r2.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "The final exam will take place in the sports hall."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Students are reminded to return all borrowed equipment by Friday.",
+       "audio": {
+        "file": "audio/mk-d35-r3.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "Students are reminded to return all borrowed equipment by Friday."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "The research center is looking for volunteers to participate in a short study.",
+       "audio": {
+        "file": "audio/mk-d35-r4.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "The research center is looking for volunteers to participate in a short study."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "If you cannot attend the session, please notify your instructor in advance.",
+       "audio": {
+        "file": "audio/mk-d35-r5.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "If you cannot attend the session, please notify your instructor in advance."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "The university has introduced a new scholarship program for students from developing countries.",
+       "audio": {
+        "file": "audio/mk-d35-r6.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "The university has introduced a new scholarship program for students from developing countries."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "Although the deadline has passed, late applications will be considered in exceptional circumstances.",
+       "audio": {
+        "file": "audio/mk-d35-r7.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "Although the deadline has passed, late applications will be considered in exceptional circumstances."
+         }
+        ]
+       },
+       "seconds": 12
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "mk-d35-s-interview",
+     "title": "Take an Interview",
+     "seconds": 45,
+     "prep": 0,
+     "questions": [
+      {
+       "q": "What is the biggest difference between studying at university and studying at school?",
+       "model": "The biggest difference is independence. At university, nobody checks whether you do your homework, so you must organize your own time. For example, in my first semester I missed a deadline because I underestimated a project, and that taught me to plan ahead."
+      },
+      {
+       "q": "Do you think young people today read less than previous generations? Why or why not?",
+       "model": "I think they read differently rather than less. Instead of books, they read articles, messages and social media. However, long, deep reading has declined, which is a concern. For example, my younger cousin reads constantly online but struggles with long texts."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

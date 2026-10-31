@@ -1,0 +1,92 @@
+{
+ "n": 14,
+ "objectives": [
+  "Hacer un simulacro con las cuatro habilidades en condiciones de examen.",
+  "Compararlo con el diagnóstico.",
+  "Elegir dos tipos de pregunta prioritarios para las siguientes dos semanas."
+ ],
+ "vocab": {
+  "theme": "Colocaciones académicas de repaso",
+  "words": [
+   [
+    "conduct research",
+    "phrase",
+    "to carry out a study",
+    "realizar una investigación",
+    "The team conducted research on soil quality."
+   ],
+   [
+    "draw a conclusion",
+    "phrase",
+    "to decide after examining evidence",
+    "sacar una conclusión",
+    "It is too early to draw a conclusion."
+   ],
+   [
+    "play a role",
+    "phrase",
+    "to have an influence",
+    "desempeñar un papel",
+    "Diet plays a role in sleep quality."
+   ],
+   [
+    "take into account",
+    "phrase",
+    "to consider when making a decision",
+    "tener en cuenta",
+    "Planners must take costs into account."
+   ],
+   [
+    "carry out",
+    "phrasal verb",
+    "to perform or complete",
+    "llevar a cabo",
+    "They carried out a survey of 300 students."
+   ],
+   [
+    "point out",
+    "phrasal verb",
+    "to draw attention to",
+    "señalar",
+    "The professor pointed out an error in the data."
+   ],
+   [
+    "rely on",
+    "phrasal verb",
+    "to depend on",
+    "depender de",
+    "Many cities rely on tourism."
+   ],
+   [
+    "result in",
+    "phrasal verb",
+    "to cause",
+    "provocar / tener como resultado",
+    "Heavy rain resulted in flooding."
+   ],
+   [
+    "a wide range of",
+    "phrase",
+    "many different kinds of",
+    "una amplia gama de",
+    "The library offers a wide range of resources."
+   ],
+   [
+    "on average",
+    "phrase",
+    "typically; calculating the mean",
+    "en promedio",
+    "On average, students sleep seven hours."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d14.md",
+ "videos": {
+  "ids": [
+   "s-full"
+  ],
+  "search": "TOEFL 2026 full practice test"
+ },
+ "practice": [],
+ "quiz": []
+}

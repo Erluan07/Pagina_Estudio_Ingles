@@ -1,0 +1,216 @@
+{
+ "n": 15,
+ "objectives": [
+  "Resolver referencias pronominales y frases «the former/the latter».",
+  "Reconocer la función de conectores de contraste y consecuencia.",
+  "Elegir la paráfrasis fiel y descartar exageraciones."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 3-4 (1/9)",
+  "words": [
+   [
+    "accumulate",
+    "verb",
+    "to gradually increase in quantity",
+    "acumular",
+    "Debt accumulates when payments are late."
+   ],
+   [
+    "accurate",
+    "adj",
+    "correct and exact",
+    "preciso",
+    "The forecast was surprisingly accurate."
+   ],
+   [
+    "adapt",
+    "verb",
+    "to change to suit new conditions",
+    "adaptarse",
+    "Species must adapt to a warming climate."
+   ],
+   [
+    "allocate",
+    "verb",
+    "to distribute for a specific purpose",
+    "asignar",
+    "The department allocated funds to research."
+   ],
+   [
+    "alter",
+    "verb",
+    "to change",
+    "alterar",
+    "The results altered our understanding."
+   ],
+   [
+    "anticipate",
+    "verb",
+    "to expect and prepare for",
+    "anticipar",
+    "Engineers anticipated heavy traffic."
+   ],
+   [
+    "bias",
+    "noun",
+    "an unfair preference or distortion",
+    "sesgo",
+    "The survey showed a clear gender bias."
+   ],
+   [
+    "crucial",
+    "adj",
+    "extremely important",
+    "crucial",
+    "Early diagnosis is crucial."
+   ],
+   [
+    "deduce",
+    "verb",
+    "to reach a conclusion by reasoning",
+    "deducir",
+    "We can deduce the cause from the pattern."
+   ],
+   [
+    "undergo",
+    "verb",
+    "to experience a change or process",
+    "someterse a",
+    "The bridge underwent major repairs."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d15.md",
+ "videos": {
+  "ids": [
+   "r-daily"
+  ],
+  "search": "TOEFL reading pronoun reference paraphrase connectors"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d15-p1",
+   "title": "Microplastics (≈ 180 palabras)",
+   "minutes": 20,
+   "passage": "Microplastics, fragments smaller than five millimeters, have been found everywhere from mountain snow to deep-sea sediment. Some originate as larger items that gradually break apart; others, such as the tiny beads once added to cosmetics, are manufactured at that size. Although many countries have banned the latter, the former continue to accumulate.\n\nThe risks are not yet fully understood. Laboratory studies indicate that these particles can carry toxic chemicals, which then enter the food chain when small animals ingest them. Nevertheless, evidence of harm to humans remains inconclusive, partly because measuring exposure is difficult.\n\nResearchers therefore disagree about priorities. Some argue that cleanup should come first, whereas others contend that preventing new pollution is far more efficient, since removing particles from oceans is extremely costly. The second group points out that filters installed in washing machines already capture a significant share of synthetic fibers.",
+   "items": [
+    {
+     "id": "d15-r1",
+     "type": "mcq",
+     "qtype": "reference",
+     "q": "In paragraph 1, \"the latter\" refers to",
+     "options": [
+      "larger items that break apart",
+      "tiny manufactured beads",
+      "mountain snow",
+      "cosmetics companies"
+     ],
+     "answer": 1,
+     "explain": "«the latter» = el último de los dos elementos mencionados: las microperlas fabricadas (manufactured at that size)."
+    },
+    {
+     "id": "d15-r2",
+     "type": "mcq",
+     "qtype": "connection",
+     "q": "The word \"Nevertheless\" in paragraph 2 signals",
+     "options": [
+      "a result",
+      "a contrast with the previous idea",
+      "an example",
+      "a definition"
+     ],
+     "answer": 1,
+     "explain": "Nevertheless introduce un contraste: aunque pueden transportar químicos tóxicos, la evidencia en humanos no es concluyente."
+    },
+    {
+     "id": "d15-r3",
+     "type": "mcq",
+     "qtype": "paraphrase",
+     "q": "Which sentence best expresses the essential information of the sentence \"Laboratory studies indicate that these particles can carry toxic chemicals, which then enter the food chain when small animals ingest them\"?",
+     "options": [
+      "Small animals produce toxic chemicals that pollute laboratories.",
+      "Particles may transport harmful substances into food chains once animals swallow them.",
+      "Laboratories have proved that animals are poisoned by plastic.",
+      "Toxic chemicals are only found in small animals."
+     ],
+     "answer": 1,
+     "explain": "Paráfrasis fiel: transportan sustancias dañinas y entran a la cadena alimentaria al ser ingeridas. C exagera («proved»)."
+    },
+    {
+     "id": "d15-r4",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"inconclusive\" in paragraph 2 is closest in meaning to",
+     "options": [
+      "not leading to a firm conclusion",
+      "very recent",
+      "completely false",
+      "widely accepted"
+     ],
+     "answer": 0,
+     "explain": "inconclusive = que no permite sacar una conclusión firme."
+    },
+    {
+     "id": "d15-r5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What can be inferred about washing machine filters?",
+     "options": [
+      "They eliminate all microplastics",
+      "They support the argument that prevention is practical",
+      "They are banned in many countries",
+      "They are mainly used in cosmetics"
+     ],
+     "answer": 1,
+     "explain": "El segundo grupo los cita como prueba de que prevenir ya funciona; no «eliminan todo» (A exagera)."
+    }
+   ],
+   "intro": "Pasaje corto, como en el examen real (hasta ≈ 200 palabras)."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d15-q1",
+   "type": "mcq",
+   "qtype": "reference",
+   "q": "\"Studies of sleep and memory are numerous. These have mostly used students as participants.\" \"These\" refers to",
+   "options": [
+    "sleep",
+    "memory",
+    "studies",
+    "students"
+   ],
+   "answer": 2,
+   "explain": "El pronombre demostrativo apunta al sustantivo plural previo: studies."
+  },
+  {
+   "id": "d15-q2",
+   "type": "mcq",
+   "qtype": "connection",
+   "q": "Which connector expresses contrast?",
+   "options": [
+    "whereas",
+    "therefore",
+    "for instance",
+    "moreover"
+   ],
+   "answer": 0,
+   "explain": "whereas = mientras que (contraste)."
+  },
+  {
+   "id": "d15-q3",
+   "type": "mcq",
+   "qtype": "paraphrase",
+   "q": "\"Few findings have been replicated\" is closest to",
+   "options": [
+    "Most findings have been repeated.",
+    "Hardly any results have been confirmed by repetition.",
+    "Many findings are new.",
+    "No study was published."
+   ],
+   "answer": 1,
+   "explain": "few = casi ninguno; replicated = repetido para confirmar."
+  }
+ ]
+}

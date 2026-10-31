@@ -1,0 +1,213 @@
+{
+ "n": 29,
+ "objectives": [
+  "Distinguir tesis, evidencia y contraargumento.",
+  "Entender lenguaje de debate académico (revisionist, point out, contend).",
+  "Resolver 5 preguntas de un pasaje de humanidades de 150 palabras."
+ ],
+ "vocab": {
+  "theme": "Humanidades y debate académico",
+  "words": [
+   [
+    "rupture",
+    "noun",
+    "a sudden break",
+    "ruptura",
+    "A rupture with tradition."
+   ],
+   [
+    "scholarship",
+    "noun",
+    "academic study or research",
+    "erudición / estudios",
+    "Recent scholarship challenges this idea."
+   ],
+   [
+    "subtle",
+    "adj",
+    "not obvious; delicate",
+    "sutil",
+    "A subtle difference."
+   ],
+   [
+    "appreciably",
+    "adv",
+    "noticeably",
+    "apreciablemente",
+    "Prices rose appreciably."
+   ],
+   [
+    "representative",
+    "adj",
+    "typical of a group",
+    "representativo",
+    "A representative sample."
+   ],
+   [
+    "contend",
+    "verb",
+    "to argue",
+    "sostener",
+    "Critics contend that…"
+   ],
+   [
+    "prosperity",
+    "noun",
+    "economic success",
+    "prosperidad",
+    "Shared prosperity."
+   ],
+   [
+    "obscure",
+    "verb",
+    "to hide or make unclear",
+    "oscurecer",
+    "Averages obscure differences."
+   ],
+   [
+    "revisionist",
+    "adj",
+    "reinterpreting accepted views",
+    "revisionista",
+    "A revisionist account."
+   ],
+   [
+    "disagreement",
+    "noun",
+    "lack of consensus",
+    "desacuerdo",
+    "A public disagreement."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d29.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL reading humanities passage argument evidence strategy"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d29-p1",
+   "title": "The Industrial Revolution reconsidered (≈ 150 palabras)",
+   "minutes": 18,
+   "passage": "Historians once treated the Industrial Revolution as a sudden rupture, a moment when steam engines abruptly transformed England. More recent scholarship paints a subtler picture. Economic historians point out that productivity grew slowly for decades, and that many workers continued to labor in small workshops rather than in factories.\n\nTheir evidence comes from wage records, trade statistics, and parish registers, which show that living standards for ordinary families did not rise appreciably until the middle of the nineteenth century. This delay, sometimes called \"Engels' pause,\" suggests that technological change alone does not guarantee shared prosperity.\n\nCritics of this revisionist view respond that focusing on averages obscures regional contrasts. In textile towns, they argue, the transformation was indeed dramatic. The disagreement illustrates a broader point about historical argument: conclusions depend on which evidence is considered representative.",
+   "items": [
+    {
+     "id": "d29-r1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "What is the main idea of the passage?",
+     "options": [
+      "Historians now see the Industrial Revolution as more gradual, though the interpretation remains debated",
+      "Steam engines caused immediate prosperity",
+      "Wage records are unreliable",
+      "Textile towns were unimportant"
+     ],
+     "answer": 0,
+     "explain": "Cambio de visión + debate."
+    },
+    {
+     "id": "d29-r2",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"obscures\" is closest in meaning to",
+     "options": [
+      "hides",
+      "improves",
+      "measures",
+      "repeats"
+     ],
+     "answer": 0,
+     "explain": "obscure = ocultar."
+    },
+    {
+     "id": "d29-r3",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "What evidence do economic historians use?",
+     "options": [
+      "Wage records, trade statistics and parish registers",
+      "Diaries only",
+      "Photographs",
+      "Factory blueprints"
+     ],
+     "answer": 0,
+     "explain": "Segundo párrafo."
+    },
+    {
+     "id": "d29-r4",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "Why does the author mention \"Engels' pause\"?",
+     "options": [
+      "To name the delay in rising living standards",
+      "To introduce a new invention",
+      "To criticize Engels",
+      "To describe textile towns"
+     ],
+     "answer": 0,
+     "explain": "Nombra el retraso."
+    },
+    {
+     "id": "d29-r5",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What does the final sentence imply?",
+     "options": [
+      "Different evidence can lead to different conclusions",
+      "History has no evidence",
+      "All historians agree",
+      "Averages are always correct"
+     ],
+     "answer": 0,
+     "explain": "La conclusión depende de qué evidencia se considere representativa."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d29-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "In an argumentative passage, the thesis is usually found",
+   "options": [
+    "in the first paragraph or after a contrast signal",
+    "in the last word",
+    "in the title only",
+    "nowhere"
+   ],
+   "answer": 0,
+   "explain": "Suele estar al principio o tras «however»."
+  },
+  {
+   "id": "d29-q2",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "\"revisionist\" in \"revisionist view\" means",
+   "options": [
+    "a view that reconsiders earlier accepted ideas",
+    "a very old view",
+    "a legal view",
+    "a mistaken view"
+   ],
+   "answer": 0,
+   "explain": "Revisa interpretaciones anteriores."
+  },
+  {
+   "id": "d29-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A counterargument is often introduced by",
+   "options": [
+    "critics argue that",
+    "for example",
+    "firstly",
+    "as a result"
+   ],
+   "answer": 0,
+   "explain": "Critics argue / opponents claim."
+  }
+ ]
+}

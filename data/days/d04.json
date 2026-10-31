@@ -1,0 +1,259 @@
+{
+ "n": 4,
+ "objectives": [
+  "Dividir oraciones en chunks y recordar 2-3 bloques.",
+  "Reconocer reducciones comunes (gonna, wanna).",
+  "Repetir oraciones de 5 a 19 palabras sin perder palabras funcionales."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (4/6)",
+  "words": [
+   [
+    "indicate",
+    "verb",
+    "to show or point out",
+    "indicar",
+    "The graph indicates a steady rise in temperature."
+   ],
+   [
+    "individual",
+    "noun",
+    "a single person, considered separately",
+    "individuo",
+    "Each individual has a different learning style."
+   ],
+   [
+    "interpret",
+    "verb",
+    "to explain the meaning of something",
+    "interpretar",
+    "How do you interpret these results?"
+   ],
+   [
+    "involve",
+    "verb",
+    "to include or require as a necessary part",
+    "implicar / involucrar",
+    "The project involves students from three countries."
+   ],
+   [
+    "issue",
+    "noun",
+    "an important topic or problem",
+    "asunto / tema",
+    "Climate change is a global issue."
+   ],
+   [
+    "labour",
+    "noun",
+    "work, especially physical or the workers as a group",
+    "trabajo / mano de obra",
+    "Manual labour is being replaced by machines."
+   ],
+   [
+    "legal",
+    "adj",
+    "allowed or required by law",
+    "legal",
+    "You need a legal document to rent an apartment."
+   ],
+   [
+    "legislate",
+    "verb",
+    "to make laws",
+    "legislar",
+    "Governments legislate to protect personal data."
+   ],
+   [
+    "major",
+    "adj",
+    "very large or important",
+    "importante / principal",
+    "There was a major change in the policy."
+   ],
+   [
+    "method",
+    "noun",
+    "a particular way of doing something",
+    "método",
+    "The researchers used a new method for collecting data."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d04.md",
+ "videos": {
+  "ids": [
+   "s-repeat-train",
+   "s-repeat-3ways"
+  ],
+  "search": "TOEFL Listen and Repeat 2026"
+ },
+ "practice": [
+  {
+   "kind": "speaking",
+   "task": "repeat",
+   "id": "d04-p1",
+   "title": "Listen and Repeat: orientación en el campus (7 oraciones)",
+   "minutes": 25,
+   "intro": "Escenario: una charla de orientación. Las oraciones se alargan. **Máx. 2 escuchas hoy** (en el examen: una).",
+   "items": [
+    {
+     "text": "Welcome to the campus orientation.",
+     "audio": {
+      "file": "audio/d04-r1.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "Welcome to the campus orientation."
+       }
+      ]
+     },
+     "seconds": 8,
+     "tip": "Chunk: Welcome / to the campus orientation."
+    },
+    {
+     "text": "The student center is open every day until nine.",
+     "audio": {
+      "file": "audio/d04-r2.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "The student center is open every day until nine."
+       }
+      ]
+     },
+     "seconds": 8,
+     "tip": "Chunks: the student center / is open / every day / until nine."
+    },
+    {
+     "text": "You can pick up your student card at the main desk.",
+     "audio": {
+      "file": "audio/d04-r3.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "You can pick up your student card at the main desk."
+       }
+      ]
+     },
+     "seconds": 10,
+     "tip": "Chunks: you can pick up / your student card / at the main desk."
+    },
+    {
+     "text": "Please bring a photo ID and your confirmation letter.",
+     "audio": {
+      "file": "audio/d04-r4.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "Please bring a photo ID and your confirmation letter."
+       }
+      ]
+     },
+     "seconds": 10,
+     "tip": "Chunks: please bring / a photo ID / and your confirmation letter."
+    },
+    {
+     "text": "If you have any questions about housing, ask one of the volunteers in the blue shirts.",
+     "audio": {
+      "file": "audio/d04-r5.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "If you have any questions about housing, ask one of the volunteers in the blue shirts."
+       }
+      ]
+     },
+     "seconds": 12,
+     "tip": "Chunks: if you have any questions / about housing / ask one of the volunteers / in the blue shirts."
+    },
+    {
+     "text": "The library offers free workshops on research skills throughout the first month of the semester.",
+     "audio": {
+      "file": "audio/d04-r6.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "The library offers free workshops on research skills throughout the first month of the semester."
+       }
+      ]
+     },
+     "seconds": 12,
+     "tip": "Chunks: the library offers / free workshops / on research skills / throughout the first month / of the semester."
+    },
+    {
+     "text": "After the tour, we will gather in the auditorium so that the director can introduce the new academic programs.",
+     "audio": {
+      "file": "audio/d04-r7.mp3",
+      "segments": [
+       {
+        "voice": "am_eric",
+        "text": "After the tour, we will gather in the auditorium so that the director can introduce the new academic programs."
+       }
+      ]
+     },
+     "seconds": 14,
+     "tip": "Chunks: after the tour / we will gather / in the auditorium / so that the director / can introduce / the new academic programs."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d04-q1",
+   "type": "mcq",
+   "qtype": "pronunciation",
+   "q": "Which syllable carries the main stress in the word \"economy\"?",
+   "options": [
+    "e-",
+    "-con-",
+    "-o-",
+    "-my"
+   ],
+   "answer": 1,
+   "explain": "e-CON-o-my: el acento cae en la segunda sílaba."
+  },
+  {
+   "id": "d04-q2",
+   "type": "mcq",
+   "qtype": "pronunciation",
+   "q": "Which word is stressed on the SECOND syllable?",
+   "options": [
+    "method",
+    "develop",
+    "policy",
+    "sector"
+   ],
+   "answer": 1,
+   "explain": "de-VEL-op (acento en la 2ª sílaba); ME-thod, PO-li-cy y SEC-tor se acentúan en la primera."
+  },
+  {
+   "id": "d04-q3",
+   "type": "mcq",
+   "qtype": "pronunciation",
+   "q": "In natural speech, \"going to\" is often pronounced like",
+   "options": [
+    "gonna",
+    "goin two",
+    "go-to",
+    "gone to"
+   ],
+   "answer": 0,
+   "explain": "Reducción habitual en inglés hablado: /ˈɡʌnə/."
+  },
+  {
+   "id": "d04-q4",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "The best way to remember a long sentence in Listen and Repeat is to",
+   "options": [
+    "memorize each word in order",
+    "group it into meaningful chunks",
+    "repeat only the nouns",
+    "speak very slowly"
+   ],
+   "answer": 1,
+   "explain": "Los chunks reducen la carga de memoria y conservan el ritmo."
+  }
+ ]
+}

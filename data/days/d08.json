@@ -1,0 +1,256 @@
+{
+ "n": 8,
+ "objectives": [
+  "Distinguir tema e idea principal.",
+  "Reconocer estructuras (cronológica, causa-efecto…) y su vocabulario señal.",
+  "Responder preguntas de función y NOT/EXCEPT."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 2 (1/5)",
+  "words": [
+   [
+    "achieve",
+    "verb",
+    "to succeed in reaching a goal",
+    "lograr",
+    "She achieved a high score on the exam."
+   ],
+   [
+    "acquire",
+    "verb",
+    "to get or gain something",
+    "adquirir",
+    "Children acquire language naturally."
+   ],
+   [
+    "affect",
+    "verb",
+    "to have an influence on",
+    "afectar",
+    "Noise can affect concentration."
+   ],
+   [
+    "appropriate",
+    "adj",
+    "suitable for a particular situation",
+    "apropiado",
+    "Choose an appropriate title for the report."
+   ],
+   [
+    "aspect",
+    "noun",
+    "a particular part or feature",
+    "aspecto",
+    "Consider every aspect of the problem."
+   ],
+   [
+    "assist",
+    "verb",
+    "to help",
+    "ayudar / asistir",
+    "Volunteers assist visitors at the front desk."
+   ],
+   [
+    "category",
+    "noun",
+    "a group of things with shared features",
+    "categoría",
+    "Sort the words into three categories."
+   ],
+   [
+    "community",
+    "noun",
+    "a group of people living or working together",
+    "comunidad",
+    "The local community supported the project."
+   ],
+   [
+    "complex",
+    "adj",
+    "made of many connected parts; complicated",
+    "complejo",
+    "The immune system is extremely complex."
+   ],
+   [
+    "conclude",
+    "verb",
+    "to decide or finish after thinking",
+    "concluir",
+    "The study concluded that exercise helps memory."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d08.md",
+ "videos": {
+  "ids": [],
+  "search": "TOEFL reading main idea organization academic passage 2026"
+ },
+ "practice": [
+  {
+   "kind": "reading",
+   "id": "d08-p1",
+   "title": "Living with Water",
+   "minutes": 25,
+   "passage": "For centuries, the people of the Netherlands have lived with a simple fact: about a quarter of their country lies below sea level. Rather than abandoning these lands, they built an elaborate system of dikes, canals, and pumps. Early farmers piled up earth mounds called terps to protect their homes from floods, and windmills, introduced in the fifteenth century, pumped water out of low-lying fields.\n\nAfter a catastrophic storm flood in 1953 killed more than 1,800 people, the government launched the Delta Works, a series of dams and storm-surge barriers designed to shorten the coastline and reduce the risk of future floods. The project took more than forty years and is often described as one of the greatest feats of civil engineering.\n\nIn recent decades, however, engineers have changed their philosophy. Instead of only building higher walls, they now follow the principle of \"Room for the River.\" Along several rivers, dikes have been moved inland and floodplains lowered so that rising water has space to spread out harmlessly. In some places, farmland has been converted into temporary wetlands. This approach is less expensive in the long term and also creates habitats for wildlife.\n\nExperts believe that the Dutch experience offers valuable lessons for other countries facing rising seas, because it demonstrates that adaptation can be combined with nature rather than set against it.",
+   "items": [
+    {
+     "id": "d08-r1",
+     "type": "mcq",
+     "qtype": "main-idea",
+     "q": "Which statement best expresses the main idea of the passage?",
+     "options": [
+      "The Netherlands built the Delta Works after a 1953 flood.",
+      "Dutch water management has shifted from only blocking water to working with natural processes.",
+      "Windmills were the most important invention in Dutch history.",
+      "Wetlands are cheaper than dikes everywhere in the world."
+     ],
+     "answer": 1,
+     "explain": "Es la idea que unifica los tres primeros párrafos: de diques y barreras a «Room for the River». A y C son detalles; D generaliza demasiado."
+    },
+    {
+     "id": "d08-r2",
+     "type": "mcq",
+     "qtype": "organization",
+     "q": "How is the passage mainly organized?",
+     "options": [
+      "A comparison of two countries",
+      "A description of how an approach has changed over time",
+      "A list of problems without solutions",
+      "An argument against building dikes"
+     ],
+     "answer": 1,
+     "explain": "Cronológico: terps y molinos → Delta Works (1953) → «Room for the River»."
+    },
+    {
+     "id": "d08-r3",
+     "type": "mcq",
+     "qtype": "purpose",
+     "q": "Why does the author mention terps in paragraph 1?",
+     "options": [
+      "To show an early example of protecting homes from floods",
+      "To criticize traditional farming",
+      "To explain how windmills work",
+      "To compare the Netherlands with other countries"
+     ],
+     "answer": 0,
+     "explain": "Terps son el primer ejemplo histórico de protección frente a inundaciones."
+    },
+    {
+     "id": "d08-r4",
+     "type": "mcq",
+     "qtype": "vocab",
+     "q": "The word \"feats\" in paragraph 2 is closest in meaning to",
+     "options": [
+      "mistakes",
+      "achievements",
+      "plans",
+      "experiments"
+     ],
+     "answer": 1,
+     "explain": "«one of the greatest feats of civil engineering» = grandes logros."
+    },
+    {
+     "id": "d08-r5",
+     "type": "mcq",
+     "qtype": "detail",
+     "q": "According to paragraph 3, what does \"Room for the River\" involve?",
+     "options": [
+      "Raising dikes along every river",
+      "Giving rising water space to spread out",
+      "Building new pumps near the coast",
+      "Moving farms to cities"
+     ],
+     "answer": 1,
+     "explain": "«dikes have been moved inland and floodplains lowered so that rising water has space to spread out»."
+    },
+    {
+     "id": "d08-r6",
+     "type": "mcq",
+     "qtype": "negative-fact",
+     "q": "All of the following are mentioned in the passage EXCEPT",
+     "options": [
+      "windmills",
+      "the Delta Works",
+      "a flood in 1953",
+      "solar panels"
+     ],
+     "answer": 3,
+     "explain": "Solar panels no aparecen. Molinos (p.1), Delta Works y la inundación de 1953 (p.2) sí."
+    },
+    {
+     "id": "d08-r7",
+     "type": "mcq",
+     "qtype": "inference",
+     "q": "What does the author imply about the \"Room for the River\" approach?",
+     "options": [
+      "It is likely to be more sustainable in the long term",
+      "It has failed in several places",
+      "It is only useful in the Netherlands",
+      "It was proposed before the Delta Works"
+     ],
+     "answer": 0,
+     "explain": "Es «less expensive in the long term» y crea hábitats; el autor lo presenta como una lección valiosa."
+    }
+   ],
+   "intro": "Primero lee y escribe en una línea la idea principal; luego contesta."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d08-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which part of a paragraph most often states its main point?",
+   "options": [
+    "The topic sentence, often the first",
+    "The last example only",
+    "The longest sentence",
+    "The title of the book"
+   ],
+   "answer": 0,
+   "explain": "La oración temática suele abrir el párrafo."
+  },
+  {
+   "id": "d08-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "The signal \"In recent decades, however…\" usually announces",
+   "options": [
+    "an example",
+    "a change or contrast",
+    "a definition",
+    "a list"
+   ],
+   "answer": 1,
+   "explain": "«however» + marca temporal anuncian un giro importante."
+  },
+  {
+   "id": "d08-q3",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A \"NOT/EXCEPT\" question asks you to find the option that",
+   "options": [
+    "is true",
+    "is mentioned most",
+    "does not appear in the passage",
+    "is the main idea"
+   ],
+   "answer": 2,
+   "explain": "Tres opciones aparecen; una no."
+  },
+  {
+   "id": "d08-q4",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "A good main-idea answer is",
+   "options": [
+    "one specific detail",
+    "a complete statement covering the whole passage",
+    "a topic with no verb",
+    "the first sentence only"
+   ],
+   "answer": 1,
+   "explain": "Debe cubrir todo el pasaje sin ser demasiado amplia ni estrecha."
+  }
+ ]
+}

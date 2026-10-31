@@ -1,0 +1,198 @@
+{
+ "n": 1,
+ "objectives": [
+  "Aplicar un método de 4 pasos a Complete the Words.",
+  "Reconocer terminaciones y prefijos para deducir letras.",
+  "Aprender 10 palabras de la Academic Word List (sublista 1)."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (1/6)",
+  "words": [
+   [
+    "analyse",
+    "verb",
+    "to examine something carefully in order to understand it",
+    "analizar",
+    "Researchers analyse the data before drawing conclusions."
+   ],
+   [
+    "approach",
+    "noun",
+    "a way of dealing with a problem or task",
+    "enfoque",
+    "Her approach to studying is very systematic."
+   ],
+   [
+    "area",
+    "noun",
+    "a particular field or region",
+    "área / ámbito",
+    "His research area is renewable energy."
+   ],
+   [
+    "assess",
+    "verb",
+    "to judge the quality or amount of something",
+    "evaluar",
+    "Teachers assess students with projects and exams."
+   ],
+   [
+    "assume",
+    "verb",
+    "to accept something as true without proof",
+    "suponer",
+    "Do not assume that the first answer is correct."
+   ],
+   [
+    "authority",
+    "noun",
+    "the power or right to give orders; an expert source",
+    "autoridad",
+    "The city authorities approved the new bike lanes."
+   ],
+   [
+    "available",
+    "adj",
+    "able to be used or obtained",
+    "disponible",
+    "The software is available to all students."
+   ],
+   [
+    "benefit",
+    "noun",
+    "an advantage or good effect",
+    "beneficio",
+    "Exercise has many benefits for concentration."
+   ],
+   [
+    "concept",
+    "noun",
+    "an abstract idea",
+    "concepto",
+    "Entropy is a difficult concept in physics."
+   ],
+   [
+    "consistent",
+    "adj",
+    "always behaving or happening in the same way; compatible",
+    "coherente / constante",
+    "The results were consistent across all experiments."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d01.md",
+ "videos": {
+  "ids": [
+   "r-cw",
+   "r-cw-colloc"
+  ],
+  "search": "TOEFL 2026 Complete the Words strategy"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d01-p1",
+   "title": "Complete the Words · Texto A (café)",
+   "minutes": 8,
+   "intro": "Escribe **solo las letras que faltan**. Dispones de ~3 minutos.",
+   "items": [
+    {
+     "id": "d01-cw1",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "Coffee is one of the most {{wid|ely}} {{consu|med}} drinks in the world. Its {{ori|gin}} is usually traced to Ethiopia, where farmers first noticed the {{stimul|ating}} effect of the berries. Over several {{centu|ries}}, the plant spread to Arabia and later to Europe. Today, millions of people depend on coffee {{produc|tion}} for their income, and climate change is becoming a {{ser|ious}} {{thr|eat}} to the crop.",
+     "explain": "Pista: wid-ely (adverbio antes de un participio), consu-med (participio pasivo), stimul-ating (adjetivo de -ate), centu-ries (plural de century), produc-tion (sustantivo tras «coffee»), ser-ious y thr-eat (adjetivo + sustantivo)."
+    }
+   ]
+  },
+  {
+   "kind": "questions",
+   "id": "d01-p2",
+   "title": "Complete the Words · Texto B (ciudades y bicicletas)",
+   "minutes": 8,
+   "items": [
+    {
+     "id": "d01-cw2",
+     "type": "cloze",
+     "qtype": "complete-words",
+     "q": "Completa las palabras (escribe solo las letras que faltan).",
+     "text": "Many cities are {{encour|aging}} {{resid|ents}} to use bicycles instead of cars. Cycling reduces traffic {{conges|tion}} and air {{pollu|tion}}, and it {{impr|oves}} public health. However, cyclists need safe {{infrastr|ucture}}, such as {{prot|ected}} lanes and secure parking. Without these {{facil|ities}}, many people feel that riding a bicycle is too dangerous.",
+     "explain": "Pista: «are encouraging» (presente continuo), «residents» (plural), congestion/pollution (sustantivos en -tion), «it improves» (3ª persona), «protected lanes» (participio como adjetivo), «these facilities» (plural de facility)."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d01-q1",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "The word \"unpredictable\" most nearly means",
+   "options": [
+    "easy to explain",
+    "impossible to know in advance",
+    "very popular",
+    "completely new"
+   ],
+   "answer": 1,
+   "explain": "un- (no) + predict + -able (que se puede) = que no se puede predecir."
+  },
+  {
+   "id": "d01-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "The company's rapid ______ surprised its competitors. (expand)",
+   "options": [
+    "expand",
+    "expansion",
+    "expansive",
+    "expandingly"
+   ],
+   "answer": 1,
+   "explain": "Tras un adjetivo (rapid) y un posesivo falta un sustantivo: expansion."
+  },
+  {
+   "id": "d01-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Each of the researchers ______ a notebook during the field trip.",
+   "options": [
+    "carry",
+    "carries",
+    "are carrying",
+    "have carried"
+   ],
+   "answer": 1,
+   "explain": "«Each of» + sustantivo plural lleva verbo singular: carries."
+  },
+  {
+   "id": "d01-q4",
+   "type": "mcq",
+   "qtype": "vocab",
+   "q": "Which word forms a natural collocation with \"research\"?",
+   "options": [
+    "do a decision",
+    "conduct",
+    "take",
+    "spend"
+   ],
+   "answer": 1,
+   "explain": "conduct research es la colocación académica estándar (también carry out research)."
+  },
+  {
+   "id": "d01-q5",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "The ending \"-ment\" usually signals which part of speech?",
+   "options": [
+    "verb",
+    "adverb",
+    "noun",
+    "preposition"
+   ],
+   "answer": 2,
+   "explain": "-ment forma sustantivos: government, development, agreement."
+  }
+ ]
+}
