@@ -197,6 +197,8 @@ export async function viewDay(parts) {
   // 2. Mini-lección (+ videos)
   list.push({ id: 'lesson', title: 'Mini-lección', minutes: 15, build: async (done) => {
     const box = h('div');
+    const band = ['reading', 'listening', 'writing', 'speaking'].includes(d.skill) ? S.skillBand(d.skill) : null;
+    if (band !== null && band >= 5) box.append(h('div', { class: 'notice good' }, `Tu nivel estimado en ${SKILL_SHORT[d.skill]} ya es alto (banda ${band}). Si el tema te resulta familiar, ojea la lección, márcala como vista y ve directo a la práctica.`));
     if (content?.lesson) box.append(h('div', { class: 'md', html: renderMarkdown(await fetchText(content.lesson)) }));
     else box.append(h('div', { class: 'md' }, h('p', null, h('strong', null, 'Tema: '), d.focus), h('p', null, 'La lección escrita de este día aún no está disponible. Mientras tanto, mira un video sobre el tema y toma notas de 3 estrategias clave.')));
     const vb = content?.videos || { ids: [], search: `TOEFL iBT 2026 ${d.title}` };
