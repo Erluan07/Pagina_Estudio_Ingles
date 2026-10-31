@@ -55,6 +55,61 @@ await page.waitForSelector('.notice.good');
 state = await page.evaluate(() => JSON.parse(localStorage.getItem('toefl-twente-v1')));
 ok(state.attempts.length === exported.data.attempts.length, 'la importación restaura el progreso');
 
+
+// 5. Día 1: calentamiento de vocabulario, Complete the Words y racha
+await go('dia/1', '?today=2026-11-01');
+await page.waitForSelector('#step-warmup .flash');
+for (let i = 0; i < 10; i++) {
+  await page.getByRole('button', { name: 'Mostrar significado' }).click();
+  await page.getByRole('button', { name: 'La sabía' }).click();
+}
+ok(await page.locator('#step-warmup.done').count() === 1, 'Día 1: el calentamiento queda marcado como hecho');
+state = await page.evaluate(() => JSON.parse(localStorage.getItem('toefl-twente-v1')));
+ok(Object.keys(state.vocab).length === 10, 'Día 1: 10 palabras añadidas al repaso espaciado');
+const day1 = JSON.parse(fs.readFileSync(new URL('../data/days/d01.json', import.meta.url), 'utf8'));
+await page.locator('#step-practice-d01-p1 > summary').click();
+const blanks = [...day1.practice[0].items[0].text.matchAll(/\{\{([^|]*)\|([^}]*)\}\}/g)].map((m) => m[2]);
+const inputs = page.locator('#step-practice-d01-p1 .cloze input');
+for (let i = 0; i < blanks.length; i++) await inputs.nth(i).fill(blanks[i]);
+await page.locator('#step-practice-d01-p1').getByRole('button', { name: 'Comprobar respuestas' }).click();
+ok((await page.locator('#step-practice-d01-p1 .qresult').innerText()).includes('100 %'), 'Día 1: Complete the Words se califica al 100 %');
+await page.fill('#min-input', '80');
+await page.getByRole('button', { name: 'Marcar día como completado' }).click();
+await page.waitForSelector('.notice.good');
+state = await page.evaluate(() => JSON.parse(localStorage.getItem('toefl-twente-v1')));
+ok(state.days['1'] && state.days['1'].done && state.minutesByDate['2026-11-01'] >= 80, 'Día 1: el día se completa y registra minutos');
+
+// 6. Día 2: reproductor de audio presente y mp3 accesible
+await go('dia/2', '?today=2026-11-02');
+await page.locator('#step-practice-d02-p1 > summary').click();
+await page.waitForSelector('#step-practice-d02-p1 .player');
+const mp3 = await page.request.get(BASE + 'audio/d02-c1.mp3');
+ok(mp3.ok() && (await mp3.body()).length > 5000, 'Día 2: el mp3 existe y se sirve');
+
+// 7. Simulacro mini 1 de punta a punta
+await go('simulacro/d07', '?today=2026-11-07');
+await page.getByRole('button', { name: 'Empezar el simulacro' }).click();
+for (let i = 0; i < 4; i++) {
+  await page.waitForSelector('.timer-display');
+  await page.getByRole('button', { name: /Terminar (sección|simulacro)/ }).click();
+}
+await page.waitForSelector('text=Resultado del simulacro');
+ok(true, 'Simulacro: llega al resumen');
+
+// 8. Grabación local con micrófono falso
+await go('diagnostico/speaking', '?today=2026-11-07');
+await page.getByRole('button', { name: '● Grabar' }).first().click();
+await page.waitForTimeout(1500);
+await page.getByRole('button', { name: '■ Detener' }).first().click();
+await page.waitForSelector('.rec audio:not([hidden])');
+ok(true, 'Speaking: la grabación local se reproduce');
+
+// 9. Progreso y repaso con datos
+await go('progreso', '?today=2026-11-07');
+ok(await page.locator('svg.chart').count() > 0, 'Progreso: se dibuja la gráfica');
+await go('repaso', '?today=2026-11-07&tab=errores');
+ok(await page.locator('main h1').count() > 0, 'Repaso de errores se renderiza');
+
 console.log('\nErrores de consola:', errors.length ? '\n' + errors.join('\n') : 'ninguno');
 await browser.close();
 process.exit(failed || errors.length ? 1 : 0);

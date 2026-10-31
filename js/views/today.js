@@ -34,8 +34,8 @@ export async function viewToday() {
 
   const diagDone = Object.values(s.diagnostic).filter(Boolean).length;
   if (diagDone < 4) {
-    root.append(h('div', { class: 'notice info' }, h('strong', null, diagDone === 0 ? 'Empieza por el diagnóstico. ' : `Diagnóstico: ${diagDone}/4 partes. `),
-      'Son ~50 minutos repartidos en 4 partes (puedes hacerlas en días distintos). Con el resultado la app ajusta cuánto tiempo dedicas a cada habilidad. ', h('a', { href: '#/diagnostico' }, 'Ir al diagnóstico →')));
+    root.append(h('div', { class: 'notice info' }, h('strong', null, diagDone === 0 ? 'Empieza por aquí: el diagnóstico. ' : `Diagnóstico: ${diagDone}/4 partes. `),
+      'Son ~50 minutos en 4 partes (puedes hacerlas en días distintos). La app mide tu nivel por habilidad y ajusta el tiempo de refuerzo; el plan no enseña gramática básica, y si ya dominas una mini-lección puedes marcarla como vista y pasar a la práctica. ', h('a', { href: '#/diagnostico' }, 'Ir al diagnóstico →')));
   }
 
   if (!d) {
@@ -165,7 +165,7 @@ export async function viewDay(parts) {
   root.append(h('div', { class: 'btn-row', style: 'margin-top:0' }, pillFor(d), h('span', { class: 'pill' }, fmtDate(d.date, { weekday: 'long', day: 'numeric', month: 'long' })), h('span', { class: 'pill' }, d.phase), d.status === 'skeleton' ? h('span', { class: 'pill warn' }, 'Esqueleto: contenido pendiente') : h('span', { class: 'pill good' }, 'Contenido completo')));
 
   if (d.type === 'rest') {
-    root.append(await restDay());
+    root.append(await restDay(n));
     return root;
   }
 
@@ -174,7 +174,7 @@ export async function viewDay(parts) {
 
   // Simulacros
   if (d.mock) {
-    const mockExists = await fetch(`data/mocks/${d.mock}.json`, { method: 'HEAD' }).then((r) => r.ok).catch(() => false);
+    const mockExists = !!d.mockReady;
     root.append(h('div', { class: 'card' }, h('h2', null, d.type === 'mock-long' ? 'Simulacro largo' : 'Mini-simulacro'),
       mockExists ? h('p', null, 'Hazlo en un lugar tranquilo, con auriculares, sin pausar. Cada sección tiene su propio temporizador.') : h('div', { class: 'notice' }, 'El contenido de este simulacro aún no está escrito. Mientras tanto, haz un simulacro oficial gratuito de práctica en la página de ETS (ver Recursos) y registra aquí lo que falló.'),
       mockExists ? h('a', { class: 'btn', href: `#/simulacro/${d.mock}` }, 'Abrir simulacro') : h('a', { class: 'btn btn-secondary', href: '#/recursos' }, 'Ir a Recursos')));
@@ -275,9 +275,9 @@ function refuerzoGeneric(d, prompts, resources) {
   };
 }
 
-async function restDay() {
+async function restDay(n) {
   const tips = await fetchText('data/lessons/exam-day.md');
   return h('div', null, h('div', { class: 'notice good' }, 'Hoy descansa: nada de estudio nuevo. Repasar 15 minutos de vocabulario es opcional.'),
     h('div', { class: 'card md', html: renderMarkdown(tips) }),
-    h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onclick: () => { store.update((st) => { st.days[75] = { done: true, steps: {}, completedAt: today(), minutes: 0 }; }); window.toefl.toast('¡Todo listo! Mucho éxito mañana.'); } }, 'Marcar día de descanso como hecho')));
+    h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onclick: () => { store.update((st) => { st.days[n] = { done: true, steps: {}, completedAt: today(), minutes: 0 }; }); window.toefl.toast('¡Todo listo! Mucho éxito mañana.'); } }, 'Marcar día de descanso como hecho')));
 }

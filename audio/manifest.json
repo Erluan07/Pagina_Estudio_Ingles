@@ -1,4 +1,152 @@
 {
+ "audio/d02-c1.mp3": {
+  "hash": "e578488b75691437",
+  "seconds": 2.0,
+  "voices": [
+   "af_bella"
+  ]
+ },
+ "audio/d02-c2.mp3": {
+  "hash": "8d5d630b8159d342",
+  "seconds": 2.7,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d02-c3.mp3": {
+  "hash": "14884e1e25edaed5",
+  "seconds": 3.4,
+  "voices": [
+   "bf_emma"
+  ]
+ },
+ "audio/d02-c4.mp3": {
+  "hash": "e48de174e91552a1",
+  "seconds": 5.1,
+  "voices": [
+   "am_michael"
+  ]
+ },
+ "audio/d02-c5.mp3": {
+  "hash": "8bde7fb60f5d1791",
+  "seconds": 3.1,
+  "voices": [
+   "bm_lewis"
+  ]
+ },
+ "audio/d02-conv.mp3": {
+  "hash": "360cbf26552c499f",
+  "seconds": 36.7,
+  "voices": [
+   "af_sarah",
+   "am_adam"
+  ]
+ },
+ "audio/d04-r1.mp3": {
+  "hash": "3604f67fecc6812a",
+  "seconds": 2.2,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r2.mp3": {
+  "hash": "123220c1a0d94e0d",
+  "seconds": 2.9,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r3.mp3": {
+  "hash": "5ee4f715f206a0f6",
+  "seconds": 2.6,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r4.mp3": {
+  "hash": "681501e9b3fc2db9",
+  "seconds": 3.0,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r5.mp3": {
+  "hash": "30bfcbcd3933f970",
+  "seconds": 4.4,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r6.mp3": {
+  "hash": "1e731bce12e02b38",
+  "seconds": 4.7,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d04-r7.mp3": {
+  "hash": "df143ef2d8354ef3",
+  "seconds": 5.9,
+  "voices": [
+   "am_eric"
+  ]
+ },
+ "audio/d09-talk.mp3": {
+  "hash": "7563a6aaa3867da8",
+  "seconds": 67.1,
+  "voices": [
+   "bf_lily"
+  ]
+ },
+ "audio/d11-q1.mp3": {
+  "hash": "d6b227bbe452a5bd",
+  "seconds": 3.2,
+  "voices": [
+   "bf_alice"
+  ]
+ },
+ "audio/d11-q2.mp3": {
+  "hash": "489ed9f84a9e1eed",
+  "seconds": 3.6,
+  "voices": [
+   "bf_alice"
+  ]
+ },
+ "audio/d11-q3.mp3": {
+  "hash": "755b643d421ae1a1",
+  "seconds": 4.7,
+  "voices": [
+   "bf_alice"
+  ]
+ },
+ "audio/d11-q4.mp3": {
+  "hash": "9e47ab409302fdaf",
+  "seconds": 4.1,
+  "voices": [
+   "bf_alice"
+  ]
+ },
+ "audio/d13-r1.mp3": {
+  "hash": "c91081e3e0c5685f",
+  "seconds": 9.4,
+  "voices": [
+   "bm_fable"
+  ]
+ },
+ "audio/d13-r2.mp3": {
+  "hash": "6ec521761d979cc0",
+  "seconds": 8.2,
+  "voices": [
+   "bm_fable"
+  ]
+ },
+ "audio/d13-talk.mp3": {
+  "hash": "24f9e3399d9f9412",
+  "seconds": 49.3,
+  "voices": [
+   "bm_fable"
+  ]
+ },
  "audio/dg-l-c1.mp3": {
   "hash": "20fc389c6bf0d7ea",
   "seconds": 2.9,
@@ -61,6 +209,134 @@
   "seconds": 4.1,
   "voices": [
    "bm_daniel"
+  ]
+ },
+ "audio/mk-d07-c1.mp3": {
+  "hash": "a1495695925abafc",
+  "seconds": 3.5,
+  "voices": [
+   "af_river"
+  ]
+ },
+ "audio/mk-d07-c2.mp3": {
+  "hash": "32679df49b85f4bb",
+  "seconds": 3.1,
+  "voices": [
+   "am_liam"
+  ]
+ },
+ "audio/mk-d07-c3.mp3": {
+  "hash": "3f97503af78b3aec",
+  "seconds": 2.5,
+  "voices": [
+   "bf_alice"
+  ]
+ },
+ "audio/mk-d07-conv.mp3": {
+  "hash": "ee52348e82439c1d",
+  "seconds": 52.0,
+  "voices": [
+   "af_nicole",
+   "am_michael"
+  ]
+ },
+ "audio/mk-d07-r1.mp3": {
+  "hash": "0f3c2d0700f3c9db",
+  "seconds": 3.5,
+  "voices": [
+   "af_jessica"
+  ]
+ },
+ "audio/mk-d07-r2.mp3": {
+  "hash": "a8d8b5ada47d7eb8",
+  "seconds": 3.3,
+  "voices": [
+   "af_jessica"
+  ]
+ },
+ "audio/mk-d07-r3.mp3": {
+  "hash": "f700ac0941493ff1",
+  "seconds": 4.9,
+  "voices": [
+   "af_jessica"
+  ]
+ },
+ "audio/mk-d07-r4.mp3": {
+  "hash": "6370bc19f087d38e",
+  "seconds": 5.3,
+  "voices": [
+   "af_jessica"
+  ]
+ },
+ "audio/mk-d14-ann.mp3": {
+  "hash": "24c6e87d0c317a8b",
+  "seconds": 27.5,
+  "voices": [
+   "af_bella"
+  ]
+ },
+ "audio/mk-d14-c1.mp3": {
+  "hash": "889e995b46b86919",
+  "seconds": 4.1,
+  "voices": [
+   "am_adam"
+  ]
+ },
+ "audio/mk-d14-c2.mp3": {
+  "hash": "c2c4e3eb5f8a8841",
+  "seconds": 3.0,
+  "voices": [
+   "af_heart"
+  ]
+ },
+ "audio/mk-d14-c3.mp3": {
+  "hash": "ec2bcd9d29043d22",
+  "seconds": 3.6,
+  "voices": [
+   "bm_daniel"
+  ]
+ },
+ "audio/mk-d14-conv.mp3": {
+  "hash": "1db242c98866fbd0",
+  "seconds": 37.5,
+  "voices": [
+   "am_eric",
+   "bf_isabella"
+  ]
+ },
+ "audio/mk-d14-r1.mp3": {
+  "hash": "8926cffcc88ee291",
+  "seconds": 3.3,
+  "voices": [
+   "af_kore"
+  ]
+ },
+ "audio/mk-d14-r2.mp3": {
+  "hash": "d8a73d0f7795b4a5",
+  "seconds": 4.7,
+  "voices": [
+   "af_kore"
+  ]
+ },
+ "audio/mk-d14-r3.mp3": {
+  "hash": "777a6c0d4782bb73",
+  "seconds": 4.5,
+  "voices": [
+   "af_kore"
+  ]
+ },
+ "audio/mk-d14-r4.mp3": {
+  "hash": "7aa615479cf3c052",
+  "seconds": 6.5,
+  "voices": [
+   "af_kore"
+  ]
+ },
+ "audio/mk-d14-talk.mp3": {
+  "hash": "6f1f5cbc3c2a4a53",
+  "seconds": 65.3,
+  "voices": [
+   "bm_lewis"
   ]
  }
 }

@@ -1,0 +1,301 @@
+{
+ "n": 3,
+ "objectives": [
+  "Construir oraciones con el orden sujeto-verbo-objeto-lugar-tiempo.",
+  "Colocar correctamente adverbios y auxiliares.",
+  "Evitar el orden de pregunta en preguntas indirectas."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 1 (3/6)",
+  "words": [
+   [
+    "establish",
+    "verb",
+    "to set up or start something that will last",
+    "establecer",
+    "The university was established in 1961."
+   ],
+   [
+    "estimate",
+    "verb",
+    "to roughly calculate the value or amount",
+    "estimar",
+    "Experts estimate that costs will double."
+   ],
+   [
+    "evident",
+    "adj",
+    "clearly seen or understood",
+    "evidente",
+    "It was evident that she had prepared well."
+   ],
+   [
+    "export",
+    "verb",
+    "to sell goods to another country",
+    "exportar",
+    "The country exports wind turbines."
+   ],
+   [
+    "factor",
+    "noun",
+    "one of several things that influence a result",
+    "factor",
+    "Sleep is a key factor in learning."
+   ],
+   [
+    "finance",
+    "noun",
+    "the management of money",
+    "finanzas",
+    "He studies finance at the business school."
+   ],
+   [
+    "formula",
+    "noun",
+    "a mathematical rule or a fixed method",
+    "fórmula",
+    "Use this formula to calculate the area."
+   ],
+   [
+    "function",
+    "noun",
+    "the purpose or role of something",
+    "función",
+    "The function of the heart is to pump blood."
+   ],
+   [
+    "identify",
+    "verb",
+    "to recognise or find out what something is",
+    "identificar",
+    "Students must identify the main argument."
+   ],
+   [
+    "income",
+    "noun",
+    "money received regularly, especially from work",
+    "ingresos",
+    "Their average income has risen."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d03.md",
+ "videos": {
+  "ids": [
+   "w-bas-training",
+   "w-bas-steps"
+  ],
+  "search": "TOEFL Build a Sentence 2026"
+ },
+ "practice": [
+  {
+   "kind": "questions",
+   "id": "d03-p1",
+   "title": "Build a Sentence (8 ítems)",
+   "minutes": 20,
+   "intro": "Toca los fragmentos para formarlos en orden. Puedes quitarlos tocándolos de nuevo. Sin límite hoy; en el examen tendrás poco tiempo por ítem.",
+   "items": [
+    {
+     "id": "d03-b1",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Where did you leave your laptop?",
+     "words": [
+      "I",
+      "left",
+      "it",
+      "in",
+      "the",
+      "library."
+     ],
+     "answer": "I left it in the library.",
+     "explain": "Sujeto + verbo + objeto + lugar."
+    },
+    {
+     "id": "d03-b2",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What does the professor usually do after class?",
+     "words": [
+      "She",
+      "usually",
+      "answers",
+      "questions",
+      "from",
+      "students."
+     ],
+     "answer": "She usually answers questions from students.",
+     "explain": "El adverbio de frecuencia va antes del verbo principal (usually answers)."
+    },
+    {
+     "id": "d03-b3",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Has the project been submitted?",
+     "words": [
+      "Not",
+      "yet,",
+      "but",
+      "it",
+      "will",
+      "be",
+      "submitted",
+      "tomorrow."
+     ],
+     "answer": "Not yet, but it will be submitted tomorrow.",
+     "explain": "Respuesta corta natural: «Not yet» + coma + cláusula en futuro pasivo (will be submitted).",
+     "accept": []
+    },
+    {
+     "id": "d03-b4",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Why are you late?",
+     "words": [
+      "because",
+      "missed",
+      "I",
+      "the",
+      "bus."
+     ],
+     "answer": "Because I missed the bus.",
+     "explain": "Because + sujeto + verbo + objeto."
+    },
+    {
+     "id": "d03-b5",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Could you explain what the assignment is about?",
+     "words": [
+      "is",
+      "The",
+      "assignment",
+      "a",
+      "comparison",
+      "of",
+      "two",
+      "theories."
+     ],
+     "answer": "The assignment is a comparison of two theories.",
+     "explain": "Sujeto + be + complemento nominal con of."
+    },
+    {
+     "id": "d03-b6",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "Do you know when the results will be announced?",
+     "words": [
+      "I",
+      "think",
+      "they",
+      "will",
+      "be",
+      "announced",
+      "on",
+      "Friday."
+     ],
+     "answer": "I think they will be announced on Friday.",
+     "explain": "Pasiva futura: will be + participio; fecha al final."
+    },
+    {
+     "id": "d03-b7",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "How long have you been studying English?",
+     "words": [
+      "for",
+      "I",
+      "have",
+      "studied",
+      "it",
+      "six",
+      "years."
+     ],
+     "answer": "I have studied it for six years.",
+     "explain": "Present perfect + for + periodo.",
+     "accept": [
+      "I have studied it for six years."
+     ]
+    },
+    {
+     "id": "d03-b8",
+     "type": "order",
+     "qtype": "build-sentence",
+     "context": "What did you learn from the experiment?",
+     "words": [
+      "we",
+      "learned",
+      "that",
+      "small",
+      "changes",
+      "can",
+      "have",
+      "large",
+      "effects."
+     ],
+     "answer": "We learned that small changes can have large effects.",
+     "explain": "learned that + cláusula completa (sujeto + modal + verbo + objeto)."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d03-q1",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "I don't know what time does the lecture start.",
+    "I don't know what time the lecture starts.",
+    "I don't know what time starts the lecture.",
+    "I don't know what time the lecture does start."
+   ],
+   "answer": 1,
+   "explain": "En una pregunta indirecta el orden vuelve a ser afirmativo: sujeto + verbo."
+  },
+  {
+   "id": "d03-q2",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "She reads often scientific articles.",
+    "She often reads scientific articles.",
+    "She reads scientific often articles.",
+    "Often she scientific reads articles."
+   ],
+   "answer": 1,
+   "explain": "Adverbio de frecuencia antes del verbo principal."
+  },
+  {
+   "id": "d03-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "They have not finished yet the report.",
+    "They have not yet finished the report.",
+    "They not have finished yet the report.",
+    "They have finished not the report yet."
+   ],
+   "answer": 1,
+   "explain": "have not yet finished…; el auxiliar siempre antes de not."
+  },
+  {
+   "id": "d03-q4",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Which is the best order?  \"interested / am / I / in / environmental / policy\"",
+   "options": [
+    "I am interested in environmental policy.",
+    "Interested I am environmental policy in.",
+    "I am in interested environmental policy.",
+    "Environmental I am interested in policy."
+   ],
+   "answer": 0,
+   "explain": "Sujeto + be + adjetivo + preposición + complemento."
+  }
+ ]
+}

@@ -18,7 +18,7 @@
    "title": "Complete the Words: contexto y morfología",
    "focus": "Completar palabras usando prefijos, sufijos y pistas del contexto.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 2,
@@ -31,7 +31,7 @@
    "title": "Listen and Choose a Response + campus",
    "focus": "Responder a frases cortas y entender conversaciones del campus.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 3,
@@ -44,7 +44,7 @@
    "title": "Build a Sentence: orden de palabras",
    "focus": "Construir oraciones correctas a partir de fragmentos desordenados.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 4,
@@ -57,7 +57,7 @@
    "title": "Listen and Repeat: ritmo y chunks",
    "focus": "Repetir oraciones exactas agrupando en bloques (chunks) y con ritmo natural.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 5,
@@ -70,7 +70,7 @@
    "title": "Read in Daily Life: avisos y correos",
    "focus": "Leer textos cotidianos (avisos, emails, anuncios) y extraer lo esencial.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 6,
@@ -83,7 +83,7 @@
    "title": "Write an Email: registro y estructura",
    "focus": "Escribir un correo claro y cortés con saludo, propósito, detalles y cierre.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 7,
@@ -96,8 +96,9 @@
    "title": "Repaso semanal + mini-simulacro 1",
    "focus": "Repaso espaciado, banco de errores y mini-simulacro de las tareas vistas.",
    "minutes": 75,
-   "status": "skeleton",
-   "mock": "d07"
+   "status": "full",
+   "mock": "d07",
+   "mockReady": true
   },
   {
    "n": 8,
@@ -110,7 +111,7 @@
    "title": "Pasaje académico: idea principal y estructura",
    "focus": "Identificar la idea principal y cómo se organiza un párrafo académico.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 9,
@@ -123,7 +124,7 @@
    "title": "Charlas académicas: toma de notas",
    "focus": "Tomar notas útiles de una charla corta y reconstruir las ideas.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 10,
@@ -136,7 +137,7 @@
    "title": "Academic Discussion: opinión y razones",
    "focus": "Contribuir a un foro académico con una opinión, dos razones y un ejemplo.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 11,
@@ -149,7 +150,7 @@
    "title": "Take an Interview: estructura de respuesta",
    "focus": "Responder preguntas de entrevista con respuesta directa + razón + ejemplo.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 12,
@@ -162,7 +163,7 @@
    "title": "Vocabulario en contexto e inferencias",
    "focus": "Deducir significados y conclusiones que el texto sugiere sin decirlas.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 13,
@@ -175,7 +176,7 @@
    "title": "Propósito y actitud del hablante",
    "focus": "Captar para qué habla alguien y qué siente o piensa.",
    "minutes": 90,
-   "status": "skeleton"
+   "status": "full"
   },
   {
    "n": 14,
@@ -188,8 +189,9 @@
    "title": "Simulacro largo 1",
    "focus": "Reading, Listening, Writing y Speaking en condiciones cronometradas.",
    "minutes": 120,
-   "status": "skeleton",
-   "mock": "d14"
+   "status": "full",
+   "mock": "d14",
+   "mockReady": true
   },
   {
    "n": 15,
@@ -281,7 +283,8 @@
    "focus": "Repaso espaciado y mini-simulacro con tareas de las semanas 2-3.",
    "minutes": 75,
    "status": "skeleton",
-   "mock": "d21"
+   "mock": "d21",
+   "mockReady": false
   },
   {
    "n": 22,
@@ -373,7 +376,8 @@
    "focus": "Segundo simulacro cronometrado de las cuatro habilidades.",
    "minutes": 120,
    "status": "skeleton",
-   "mock": "d28"
+   "mock": "d28",
+   "mockReady": false
   },
   {
    "n": 29,
@@ -465,7 +469,8 @@
    "focus": "Repaso espaciado y mini-simulacro.",
    "minutes": 75,
    "status": "skeleton",
-   "mock": "d35"
+   "mock": "d35",
+   "mockReady": false
   },
   {
    "n": 36,
@@ -557,7 +562,8 @@
    "focus": "Tercer simulacro cronometrado.",
    "minutes": 120,
    "status": "skeleton",
-   "mock": "d42"
+   "mock": "d42",
+   "mockReady": false
   },
   {
    "n": 43,
@@ -649,7 +655,8 @@
    "focus": "Repaso espaciado y mini-simulacro.",
    "minutes": 75,
    "status": "skeleton",
-   "mock": "d49"
+   "mock": "d49",
+   "mockReady": false
   },
   {
    "n": 50,
@@ -741,7 +748,8 @@
    "focus": "Cuarto simulacro cronometrado.",
    "minutes": 120,
    "status": "skeleton",
-   "mock": "d56"
+   "mock": "d56",
+   "mockReady": false
   },
   {
    "n": 57,
@@ -833,7 +841,8 @@
    "focus": "Repaso espaciado y mini-simulacro.",
    "minutes": 75,
    "status": "skeleton",
-   "mock": "d63"
+   "mock": "d63",
+   "mockReady": false
   },
   {
    "n": 64,
@@ -925,7 +934,8 @@
    "focus": "Simulacro completo con condiciones de examen.",
    "minutes": 120,
    "status": "skeleton",
-   "mock": "d70"
+   "mock": "d70",
+   "mockReady": false
   },
   {
    "n": 71,
@@ -952,7 +962,8 @@
    "focus": "Último simulacro completo, a nivel de examen.",
    "minutes": 120,
    "status": "skeleton",
-   "mock": "d72"
+   "mock": "d72",
+   "mockReady": false
   },
   {
    "n": 73,

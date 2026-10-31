@@ -1,0 +1,445 @@
+{
+ "title": "Mini-simulacro 1",
+ "day": 7,
+ "intro": "Versión reducida del examen con las tareas de la semana 1: ≈ 40 minutos. Tu resultado se guarda en el panel de progreso.",
+ "sections": [
+  {
+   "skill": "reading",
+   "title": "Reading",
+   "minutes": 9,
+   "what": "Complete the Words + Read in Daily Life",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d07-r-b1",
+     "title": "Complete the Words",
+     "items": [
+      {
+       "id": "mk-d07-r-cw",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Solar panels {{conv|ert}} sunlight into electricity using materials called {{semicon|ductors}}. Over the past {{dec|ade}}, the cost of {{produ|cing}} panels has fallen {{shar|ply}}, which has made solar power {{afford|able}} for many households. However, the amount of energy {{gener|ated}} depends on the weather, so engineers are developing better {{batt|eries}} to store electricity.",
+       "explain": ""
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d07-r-b2",
+     "title": "Read in Daily Life",
+     "passage": "Subject: Your university password expires in 7 days\n\nDear user,\n\nYour university password will expire on November 20. To avoid losing access to email, Wi-Fi and course materials, please change it before that date using the Self-Service portal.\n\nNew passwords must contain at least 12 characters, including one number and one symbol. If you forget your password, you can reset it online only if you have registered a mobile number. Otherwise, visit the IT help desk in Room A-020 with your student card. The help desk is open Monday to Friday, 9:00-17:00.\n\nIT Services",
+     "items": [
+      {
+       "id": "mk-d07-r-1",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "Why did IT Services send this message?",
+       "options": [
+        "To announce a new Wi-Fi network",
+        "To remind users to change a password that will expire",
+        "To ask users for their mobile numbers",
+        "To close the help desk"
+       ],
+       "answer": 1,
+       "explain": "Asunto y primer párrafo: la contraseña caduca el 20 de noviembre."
+      },
+      {
+       "id": "mk-d07-r-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Which is required in a new password?",
+       "options": [
+        "At least 8 characters and no symbols",
+        "At least 12 characters, one number and one symbol",
+        "The user's student card number",
+        "A mobile number"
+       ],
+       "answer": 1,
+       "explain": "«at least 12 characters, including one number and one symbol»."
+      },
+      {
+       "id": "mk-d07-r-3",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "What should a user do who forgot the password and has no registered mobile number?",
+       "options": [
+        "Reset it online anyway",
+        "Wait until November 20",
+        "Go to the IT help desk with a student card",
+        "Send an email to the professor"
+       ],
+       "answer": 2,
+       "explain": "«Otherwise, visit the IT help desk… with your student card»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "listening",
+   "title": "Listening",
+   "minutes": 9,
+   "what": "3 respuestas cortas + 1 conversación (una escucha)",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d07-l-b1",
+     "title": "Listen and Choose a Response",
+     "items": [
+      {
+       "id": "mk-d07-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "No, but you could check the lost and found office.",
+        "I like the color of it.",
+        "It is going to rain tomorrow.",
+        "Yes, I have lectures every day."
+       ],
+       "answer": 0,
+       "explain": "Quien pregunta si has visto su paraguas espera una respuesta sobre el objeto perdido y, mejor, una sugerencia.",
+       "audio": {
+        "file": "audio/mk-d07-c1.mp3",
+        "segments": [
+         {
+          "voice": "af_river",
+          "text": "I think I left my umbrella in the lecture hall. Have you seen it?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d07-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I passed the chemistry quiz.",
+        "Sure. Should we meet in the library at six?",
+        "Chemistry is a science.",
+        "No, the library is closed in summer."
+       ],
+       "answer": 1,
+       "explain": "Invitación a estudiar juntos → aceptación + propuesta concreta.",
+       "audio": {
+        "file": "audio/mk-d07-c2.mp3",
+        "segments": [
+         {
+          "voice": "am_liam",
+          "text": "Do you want to study together for the chemistry quiz tomorrow?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d07-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I do not print very often.",
+        "There is another one on the third floor that works fine.",
+        "The paper is too heavy.",
+        "Yes, it was on sale."
+       ],
+       "answer": 1,
+       "explain": "Ante una queja sobre la impresora, lo natural es ofrecer una alternativa.",
+       "audio": {
+        "file": "audio/mk-d07-c3.mp3",
+        "segments": [
+         {
+          "voice": "bf_alice",
+          "text": "The printer on this floor keeps jamming."
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d07-l-b2",
+     "title": "Conversación",
+     "audio": {
+      "file": "audio/mk-d07-conv.mp3",
+      "segments": [
+       {
+        "voice": "af_nicole",
+        "who": "Maya",
+        "text": "Okay, so our presentation on renewable energy is due in ten days. We should decide who does what."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Ben",
+        "text": "I can take the section on wind power. I did a project on it last year."
+       },
+       {
+        "voice": "af_nicole",
+        "who": "Maya",
+        "text": "Great. Then I'll do solar. What about the introduction and the conclusion?"
+       },
+       {
+        "voice": "am_michael",
+        "who": "Ben",
+        "text": "Maybe Lena can handle those. She's good at public speaking, and she hasn't picked a topic yet."
+       },
+       {
+        "voice": "af_nicole",
+        "who": "Maya",
+        "text": "True. Should we meet this Thursday to practice together? I have a lab until four, so any time after that."
+       },
+       {
+        "voice": "am_michael",
+        "who": "Ben",
+        "text": "Thursday is tricky for me. I work in the cafeteria until six. How about Friday at noon?"
+       },
+       {
+        "voice": "af_nicole",
+        "who": "Maya",
+        "text": "Friday works. I'll book a room in the library."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d07-l-1",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "What are the speakers mainly doing?",
+       "options": [
+        "Choosing a topic for a research paper",
+        "Planning how to divide a group presentation",
+        "Complaining about a lab schedule",
+        "Practicing public speaking"
+       ],
+       "answer": 1,
+       "explain": "Reparten secciones y organizan un ensayo."
+      },
+      {
+       "id": "mk-d07-l-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Which part of the presentation will Maya prepare?",
+       "options": [
+        "Wind power",
+        "Solar power",
+        "The introduction",
+        "The conclusion"
+       ],
+       "answer": 1,
+       "explain": "«Then I'll do solar»."
+      },
+      {
+       "id": "mk-d07-l-3",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "Why does Ben say Thursday is \"tricky\"?",
+       "options": [
+        "He has a lab",
+        "He works until six",
+        "He has an exam",
+        "He will be traveling"
+       ],
+       "answer": 1,
+       "explain": "«I work in the cafeteria until six»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "writing",
+   "title": "Writing",
+   "minutes": 12,
+   "what": "4 Build a Sentence + 1 email",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d07-w-b1",
+     "title": "Build a Sentence",
+     "items": [
+      {
+       "id": "mk-d07-w-1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "How was your weekend?",
+       "words": [
+        "I",
+        "spent",
+        "most",
+        "of",
+        "it",
+        "studying",
+        "for",
+        "exams."
+       ],
+       "answer": "I spent most of it studying for exams.",
+       "explain": "spend + tiempo + V-ing."
+      },
+      {
+       "id": "mk-d07-w-2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Has the library changed its hours?",
+       "words": [
+        "Yes,",
+        "it",
+        "now",
+        "closes",
+        "at",
+        "eleven",
+        "on",
+        "weekdays."
+       ],
+       "answer": "Yes, it now closes at eleven on weekdays.",
+       "explain": "Adverbio now antes del verbo principal; lugar/tiempo al final."
+      },
+      {
+       "id": "mk-d07-w-3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What do you think of the new schedule?",
+       "words": [
+        "I",
+        "would",
+        "prefer",
+        "to",
+        "have",
+        "classes",
+        "in",
+        "the",
+        "morning."
+       ],
+       "answer": "I would prefer to have classes in the morning.",
+       "explain": "would prefer to + verbo base."
+      },
+      {
+       "id": "mk-d07-w-4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why did the experiment fail?",
+       "words": [
+        "The",
+        "samples",
+        "had",
+        "been",
+        "stored",
+        "at",
+        "the",
+        "wrong",
+        "temperature."
+       ],
+       "answer": "The samples had been stored at the wrong temperature.",
+       "explain": "Pasado perfecto pasivo: had been + participio."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "mk-d07-w-email",
+     "title": "Write an Email",
+     "minutes": 7,
+     "minWords": 70,
+     "prompt": "**Situation.** Dr. Patel's research group is looking for student volunteers. You study environmental engineering and would like to help.\n\n**Write an email to Dr. Patel.** In your email:\n- Introduce yourself and say why you are interested.\n- Describe one relevant skill or experience.\n- Ask how many hours per week the volunteers are expected to work.",
+     "checklist": [
+      "Presentación y motivo",
+      "Una habilidad o experiencia concreta",
+      "Pregunta sobre las horas semanales",
+      "Tono cortés y cierre"
+     ],
+     "model": "Dear Dr. Patel,\n\nMy name is Lucía Gómez, and I am a second-year student of environmental engineering. I am writing because I am very interested in your research on water quality, and I would like to volunteer in your group.\n\nLast summer I worked in a laboratory where I tested river samples and recorded the results in spreadsheets, so I am comfortable with basic lab procedures and data entry.\n\nCould you tell me how many hours per week volunteers are expected to work? I would also be glad to send my CV.\n\nThank you for your time.\n\nSincerely,\nLucía Gómez"
+    }
+   ]
+  },
+  {
+   "skill": "speaking",
+   "title": "Speaking",
+   "minutes": 8,
+   "what": "Listen and Repeat (4) + 2 preguntas de entrevista",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "mk-d07-s-repeat",
+     "title": "Listen and Repeat",
+     "items": [
+      {
+       "text": "The deadline for the scholarship application has been extended.",
+       "audio": {
+        "file": "audio/mk-d07-r1.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "The deadline for the scholarship application has been extended."
+         }
+        ]
+       },
+       "seconds": 9
+      },
+      {
+       "text": "Students who live off campus can apply for a parking permit.",
+       "audio": {
+        "file": "audio/mk-d07-r2.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "Students who live off campus can apply for a parking permit."
+         }
+        ]
+       },
+       "seconds": 9
+      },
+      {
+       "text": "The seminar on renewable energy will begin at two o'clock in the main auditorium.",
+       "audio": {
+        "file": "audio/mk-d07-r3.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "The seminar on renewable energy will begin at two o'clock in the main auditorium."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Although the lab is usually crowded, you can reserve a time slot through the university website.",
+       "audio": {
+        "file": "audio/mk-d07-r4.mp3",
+        "segments": [
+         {
+          "voice": "af_jessica",
+          "text": "Although the lab is usually crowded, you can reserve a time slot through the university website."
+         }
+        ]
+       },
+       "seconds": 13
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "mk-d07-s-interview",
+     "title": "Take an Interview",
+     "seconds": 45,
+     "prep": 0,
+     "questions": [
+      {
+       "q": "What is your favorite way to learn something new?",
+       "model": "I learn best by doing. For example, when I wanted to learn programming, I built a small project instead of only watching videos. Making mistakes showed me what I did not understand yet."
+      },
+      {
+       "q": "Do you think students should be required to take courses outside their major? Why?",
+       "model": "Yes, I do, because other fields teach different ways of thinking. For instance, an engineering student who takes a writing course learns to explain ideas clearly, which is useful in any career."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

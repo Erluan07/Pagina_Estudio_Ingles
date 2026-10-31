@@ -1,0 +1,713 @@
+{
+ "title": "Simulacro largo 1",
+ "day": 14,
+ "intro": "Versión larga del examen con las cuatro habilidades (≈ 80 minutos). Incluye una pregunta de resumen (multi-selección) como práctica extra de comprensión. Se compara con tu diagnóstico.",
+ "sections": [
+  {
+   "skill": "reading",
+   "title": "Reading",
+   "minutes": 20,
+   "what": "Complete the Words, Read in Daily Life y pasaje académico (6 preguntas)",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d14-r-b1",
+     "title": "Complete the Words",
+     "items": [
+      {
+       "id": "mk-d14-r-cw",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Urban gardening has become {{increas|ingly}} popular in many cities. Residents {{trans|form}} unused rooftops and {{vac|ant}} lots into small farms that produce fresh {{veget|ables}}. These projects not only provide healthy food but also {{streng|then}} {{neighbor|hood}} relationships, because people work together and share the {{har|vest}}. In addition, plants {{abs|orb}} carbon dioxide and help to cool the surrounding buildings.",
+       "explain": ""
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "mk-d14-r-b2",
+     "title": "Read in Daily Life",
+     "passage": "Subject: Temporary changes to Bus Line 12\n\nDue to road works on Mill Street, Bus Line 12 will follow a different route from Monday, December 7, until further notice. The stops at Mill Street, Central Library and Town Hall will not be served.\n\nPassengers should use the temporary stops on Harbor Road, which are marked with orange signs. Buses will run every 15 minutes between 7:00 a.m. and 7:00 p.m., and every 30 minutes after that. Monthly passes remain valid.\n\nFor real-time information, download the TransitNow app or call 555-0142.",
+     "items": [
+      {
+       "id": "mk-d14-r-1",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "What is the main purpose of the message?",
+       "options": [
+        "To announce a fare increase",
+        "To inform passengers about a temporary route change",
+        "To advertise a mobile app",
+        "To close Bus Line 12 permanently"
+       ],
+       "answer": 1,
+       "explain": "El mensaje comunica un cambio temporal de ruta por obras."
+      },
+      {
+       "id": "mk-d14-r-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "How often will buses run after 7:00 p.m.?",
+       "options": [
+        "Every 15 minutes",
+        "Every 30 minutes",
+        "Every hour",
+        "They will not run"
+       ],
+       "answer": 1,
+       "explain": "«every 30 minutes after that»."
+      },
+      {
+       "id": "mk-d14-r-3",
+       "type": "mcq",
+       "qtype": "condition",
+       "q": "A passenger usually boards at Central Library. What should this passenger do?",
+       "options": [
+        "Use a different bus line only",
+        "Walk to the temporary stops on Harbor Road",
+        "Wait for the bus at the library",
+        "Buy a new monthly pass"
+       ],
+       "answer": 1,
+       "explain": "Central Library no tendrá servicio: hay que usar las paradas temporales en Harbor Road."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "mk-d14-r-b3",
+     "title": "Read an Academic Passage: Coral Bleaching",
+     "passage": "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. Their vibrant colors come from microscopic algae called zooxanthellae, which live inside the coral's tissues. The coral gives the algae shelter and the chemicals they need for photosynthesis; in return, the algae supply the coral with up to ninety percent of its energy.\n\nWhen water temperatures rise even one or two degrees above normal for several weeks, this partnership breaks down. Stressed corals expel their algae, and without them the corals turn white, a condition known as bleaching. A bleached coral is not dead, but it is starving. If conditions improve quickly, algae can return and the coral may recover. If the heat persists, the coral dies, and the reef structure slowly crumbles.\n\nThe consequences extend beyond the reef itself. Fish that depend on corals for food and shelter decline, and coastal communities lose a natural barrier that protects them from waves. Tourism and fishing, which provide income for millions of people, are also threatened.\n\nScientists are exploring several remedies. Some are breeding heat-tolerant coral strains in laboratories and transplanting them to damaged reefs. Others are testing shade cloths and cooling pumps over small areas. However, most researchers emphasize that these interventions can only buy time; reducing greenhouse gas emissions remains the only way to address the underlying cause.",
+     "items": [
+      {
+       "id": "mk-d14-r-4",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the passage mainly about?",
+       "options": [
+        "The causes and consequences of coral bleaching and possible responses",
+        "The best way to breed fish",
+        "How tourism affects coastal towns",
+        "The chemistry of photosynthesis"
+       ],
+       "answer": 0,
+       "explain": "Cubre la relación coral-alga, el blanqueamiento, las consecuencias y los remedios."
+      },
+      {
+       "id": "mk-d14-r-5",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "According to paragraph 1, what do algae provide to corals?",
+       "options": [
+        "Shelter",
+        "Most of the coral's energy",
+        "Protection from waves",
+        "Heat"
+       ],
+       "answer": 1,
+       "explain": "«up to ninety percent of its energy»."
+      },
+      {
+       "id": "mk-d14-r-6",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "The word \"vibrant\" in paragraph 1 is closest in meaning to",
+       "options": [
+        "dull",
+        "bright",
+        "fragile",
+        "small"
+       ],
+       "answer": 1,
+       "explain": "«vibrant colors» = colores vivos."
+      },
+      {
+       "id": "mk-d14-r-7",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about a bleached coral?",
+       "options": [
+        "It is already dead",
+        "It may recover if conditions improve",
+        "It cannot be saved",
+        "It no longer needs energy"
+       ],
+       "answer": 1,
+       "explain": "«A bleached coral is not dead… If conditions improve quickly, algae can return and the coral may recover»."
+      },
+      {
+       "id": "mk-d14-r-8",
+       "type": "mcq",
+       "qtype": "reference",
+       "q": "In the last paragraph, \"these interventions\" refers to",
+       "options": [
+        "reducing greenhouse gases",
+        "breeding corals, shade cloths and cooling pumps",
+        "tourism and fishing",
+        "coastal barriers"
+       ],
+       "answer": 1,
+       "explain": "Se refiere a las medidas descritas justo antes."
+      },
+      {
+       "id": "mk-d14-r-9",
+       "type": "multi",
+       "qtype": "summary",
+       "q": "Select the THREE statements that best summarize the passage.",
+       "options": [
+        "Corals depend on algae for most of their energy.",
+        "Coral reefs are the largest ecosystem on Earth.",
+        "Warm water can cause corals to expel algae and bleach.",
+        "Bleaching harms fish, coastal communities and economies.",
+        "Shade cloths have solved the problem of bleaching.",
+        "Reducing emissions is considered essential for a lasting solution."
+       ],
+       "answer": [
+        0,
+        2,
+        5
+       ],
+       "explain": "Resume las ideas centrales: dependencia de las algas (A), causa del blanqueamiento (C) y solución de fondo (F). B no aparece; D es consecuencia secundaria; E contradice el texto."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "listening",
+   "title": "Listening",
+   "minutes": 20,
+   "what": "3 respuestas cortas, conversación, anuncio y charla académica",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d14-l-b1",
+     "title": "Listen and Choose a Response",
+     "items": [
+      {
+       "id": "mk-d14-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Maybe you should talk to your advisor before deciding.",
+        "Yes, I study economics every day.",
+        "The course is on Mondays.",
+        "I dropped my pen."
+       ],
+       "answer": 0,
+       "explain": "Alguien pide consejo; lo natural es sugerir una acción prudente.",
+       "audio": {
+        "file": "audio/mk-d14-c1.mp3",
+        "segments": [
+         {
+          "voice": "am_adam",
+          "text": "I'm thinking about dropping the economics course. Do you think that's a good idea?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d14-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Yes, it's the third stop after the bridge.",
+        "I love riding bicycles.",
+        "The science campus is old.",
+        "It costs two dollars to eat."
+       ],
+       "answer": 0,
+       "explain": "Pregunta sobre una ruta: la respuesta indica dónde queda la parada.",
+       "audio": {
+        "file": "audio/mk-d14-c2.mp3",
+        "segments": [
+         {
+          "voice": "af_heart",
+          "text": "Excuse me, does this bus go to the science campus?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "mk-d14-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "I know. It's a lot of work. Do you want to compare notes?",
+        "The lab is on the first floor.",
+        "Yes, I submitted it yesterday morning.",
+        "I never write reports."
+       ],
+       "answer": 0,
+       "explain": "Queja compartida → empatía + oferta de ayuda.",
+       "audio": {
+        "file": "audio/mk-d14-c3.mp3",
+        "segments": [
+         {
+          "voice": "bm_daniel",
+          "text": "I can't believe we have to submit the lab report by tomorrow."
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d14-l-b2",
+     "title": "Conversación",
+     "audio": {
+      "file": "audio/mk-d14-conv.mp3",
+      "segments": [
+       {
+        "voice": "bf_isabella",
+        "who": "Student",
+        "text": "Professor Kim, do you have a minute? I'm having trouble choosing a topic for my thesis."
+       },
+       {
+        "voice": "am_eric",
+        "who": "Professor",
+        "text": "Of course. What are you interested in?"
+       },
+       {
+        "voice": "bf_isabella",
+        "who": "Student",
+        "text": "I like both renewable energy and urban planning, but I don't know how to combine them."
+       },
+       {
+        "voice": "am_eric",
+        "who": "Professor",
+        "text": "That's actually a great combination. Have you thought about studying how solar panels could be integrated into public buildings?"
+       },
+       {
+        "voice": "bf_isabella",
+        "who": "Student",
+        "text": "I haven't, but it sounds interesting. Is there enough research on it?"
+       },
+       {
+        "voice": "am_eric",
+        "who": "Professor",
+        "text": "There is some, but not much in our region, which means your work could be original. I'd suggest reading two or three recent papers first, then meeting me again next week with a proposal."
+       },
+       {
+        "voice": "bf_isabella",
+        "who": "Student",
+        "text": "I'll do that. Thanks!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d14-l-1",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "Why does the student go to see the professor?",
+       "options": [
+        "To ask for a letter of recommendation",
+        "To get help choosing a thesis topic",
+        "To complain about a grade",
+        "To report a problem in the lab"
+       ],
+       "answer": 1,
+       "explain": "«I'm having trouble choosing a topic for my thesis»."
+      },
+      {
+       "id": "mk-d14-l-2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "Why does the professor think the solar panel topic is promising?",
+       "options": [
+        "It is easy to finish quickly",
+        "There is little research on it in the region",
+        "It was suggested by the department",
+        "It requires no laboratory work"
+       ],
+       "answer": 1,
+       "explain": "«not much in our region, which means your work could be original»."
+      },
+      {
+       "id": "mk-d14-l-3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What should the student do before the next meeting?",
+       "options": [
+        "Write the full thesis",
+        "Read recent papers and prepare a proposal",
+        "Visit a solar plant",
+        "Change her major"
+       ],
+       "answer": 1,
+       "explain": "«reading two or three recent papers first, then meeting me again next week with a proposal»."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d14-l-b3",
+     "title": "Anuncio del campus",
+     "audio": {
+      "file": "audio/mk-d14-ann.mp3",
+      "segments": [
+       {
+        "voice": "af_bella",
+        "text": "Attention, students. The campus career fair will take place this Thursday from ten a.m. to four p.m. in the Sports Hall, not in the main auditorium as originally announced, because of a scheduling conflict. More than forty companies will attend, including several from the engineering and technology sectors. Bring several copies of your résumé, and remember that the dress code is business casual. Free coffee will be served near the entrance until noon."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d14-l-4",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What has changed about the career fair?",
+       "options": [
+        "The date",
+        "The location",
+        "The number of companies",
+        "The dress code"
+       ],
+       "answer": 1,
+       "explain": "Cambia de la sala principal al Sports Hall."
+      },
+      {
+       "id": "mk-d14-l-5",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "Why are students told to bring several copies of their résumé?",
+       "options": [
+        "To give them to company representatives",
+        "To decorate the Sports Hall",
+        "To receive free coffee",
+        "To register for the fair"
+       ],
+       "answer": 0,
+       "explain": "Es un evento de empleo: se entregan a las empresas."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "mk-d14-l-b4",
+     "title": "Charla académica",
+     "audio": {
+      "file": "audio/mk-d14-talk.mp3",
+      "segments": [
+       {
+        "voice": "bm_lewis",
+        "text": "Today we'll look at an engineering approach called biomimicry, which means solving human problems by imitating nature. A classic example is Velcro. In 1941, a Swiss engineer named George de Mestral noticed burrs sticking to his dog's fur after a walk. Under a microscope, he saw tiny hooks that caught on loops in the fur. He copied this design, and Velcro was born."
+       },
+       {
+        "voice": "bm_lewis",
+        "text": "A more recent example involves the Japanese bullet train. Early versions of the train created a loud boom whenever they exited tunnels. An engineer who enjoyed bird watching realized that the kingfisher dives from air into water with hardly a splash, thanks to its long, narrow beak. By reshaping the front of the train to resemble this beak, engineers reduced noise and used about fifteen percent less electricity."
+       },
+       {
+        "voice": "bm_lewis",
+        "text": "The point is that nature has been testing designs for millions of years, so it is a rich source of solutions. In your own projects, ask: has nature already solved a similar problem?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "mk-d14-l-6",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the talk mainly about?",
+       "options": [
+        "The history of Swiss engineering",
+        "Using natural designs to solve engineering problems",
+        "How to train dogs",
+        "Reducing noise in cities"
+       ],
+       "answer": 1,
+       "explain": "Biomimética: imitar la naturaleza."
+      },
+      {
+       "id": "mk-d14-l-7",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "Why does the professor mention burrs on a dog's fur?",
+       "options": [
+        "To explain a medical problem",
+        "To show how an observation led to an invention",
+        "To describe a hobby",
+        "To criticize Velcro"
+       ],
+       "answer": 1,
+       "explain": "Es el primer ejemplo: la observación inspiró el Velcro."
+      },
+      {
+       "id": "mk-d14-l-8",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What were the two benefits of the redesigned train?",
+       "options": [
+        "Higher speed and lower price",
+        "Less noise and less electricity use",
+        "More seats and new tunnels",
+        "Less weight and better color"
+       ],
+       "answer": 1,
+       "explain": "«reduced noise and used about fifteen percent less electricity»."
+      },
+      {
+       "id": "mk-d14-l-9",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What would the professor most likely advise students working on a design project?",
+       "options": [
+        "Look for existing solutions in nature",
+        "Avoid imitating anything",
+        "Work only with microscopes",
+        "Copy a competitor's product"
+       ],
+       "answer": 0,
+       "explain": "Conclusión final: «has nature already solved a similar problem?»"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "skill": "writing",
+   "title": "Writing",
+   "minutes": 23,
+   "what": "5 Build a Sentence + email + discusión académica",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "mk-d14-w-b1",
+     "title": "Build a Sentence",
+     "items": [
+      {
+       "id": "mk-d14-w-1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What did the committee decide?",
+       "words": [
+        "The",
+        "committee",
+        "decided",
+        "to",
+        "postpone",
+        "the",
+        "meeting",
+        "until",
+        "next",
+        "week."
+       ],
+       "answer": "The committee decided to postpone the meeting until next week.",
+       "explain": "decide to + verbo base; until + tiempo."
+      },
+      {
+       "id": "mk-d14-w-2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Is the lab open on weekends?",
+       "words": [
+        "Only",
+        "if",
+        "you",
+        "have",
+        "a",
+        "special",
+        "permit."
+       ],
+       "answer": "Only if you have a special permit.",
+       "explain": "Respuesta corta con condición: only if + cláusula."
+      },
+      {
+       "id": "mk-d14-w-3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why are you changing your major?",
+       "words": [
+        "I",
+        "realized",
+        "that",
+        "my",
+        "real",
+        "interest",
+        "is",
+        "in",
+        "biology."
+       ],
+       "answer": "I realized that my real interest is in biology.",
+       "explain": "realized that + cláusula completa."
+      },
+      {
+       "id": "mk-d14-w-4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "How can students reduce stress during exams?",
+       "words": [
+        "They",
+        "can",
+        "sleep",
+        "well,",
+        "exercise",
+        "regularly,",
+        "and",
+        "take",
+        "short",
+        "breaks."
+       ],
+       "answer": "They can sleep well, exercise regularly, and take short breaks.",
+       "explain": "Lista paralela de tres verbos tras can."
+      },
+      {
+       "id": "mk-d14-w-5",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Could you tell me when the application is due?",
+       "words": [
+        "I",
+        "am",
+        "not",
+        "certain,",
+        "but",
+        "I",
+        "believe",
+        "it",
+        "is",
+        "due",
+        "on",
+        "the",
+        "fifth."
+       ],
+       "answer": "I am not certain, but I believe it is due on the fifth.",
+       "explain": "Dos cláusulas unidas por but; orden afirmativo."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "mk-d14-w-email",
+     "title": "Write an Email",
+     "minutes": 8,
+     "minWords": 80,
+     "prompt": "**Situation.** You rent an apartment. The kitchen faucet has been leaking for three days, and water is collecting under the sink.\n\n**Write an email to your landlord, Mr. Alvarez.** In your email:\n- Describe the problem and how long it has lasted.\n- Explain why it needs attention soon.\n- Offer times when you will be home so a repair person can visit.",
+     "checklist": [
+      "Describí el problema con datos",
+      "Expliqué la urgencia",
+      "Ofrecí horarios concretos",
+      "Tono cortés y cierre"
+     ],
+     "model": "Dear Mr. Alvarez,\n\nI am writing to let you know about a problem in the kitchen. The faucet has been leaking for three days, and water is now collecting under the sink.\n\nI am worried that the cabinet could be damaged and that the water bill may increase if the problem continues. For these reasons, I would appreciate it if the repair could be done as soon as possible.\n\nI will be home on Tuesday and Thursday after 4:00 p.m. and all day on Saturday, so a repair person could visit at any of those times.\n\nThank you for your help.\n\nBest regards,\nDaniel Reyes"
+    },
+    {
+     "kind": "writing",
+     "task": "discussion",
+     "id": "mk-d14-w-disc",
+     "title": "Write for an Academic Discussion",
+     "minutes": 10,
+     "minWords": 100,
+     "prompt": "**Professor Ellis:** Some companies have introduced a four-day work week with no reduction in salary. Do you think this should become standard? Why or why not?\n\n**Nina:** Yes. Employees are happier and more productive when they have more rest, and companies even save money on office costs.\n\n**Omar:** I am not convinced. Hospitals, shops and public services cannot simply close for an extra day, so the model would be unfair.\n\n**Write a response** (≥ 100 words) with your opinion, a reason and an example, and mention Nina or Omar.",
+     "checklist": [
+      "Postura clara",
+      "Razón y ejemplo",
+      "Mencioné a Nina u Omar",
+      "Conectores variados",
+      "Cierre breve"
+     ],
+     "model": "I believe that a four-day work week can be a good option, but it should not be required for every sector. Nina is right that rest improves productivity. For example, a trial in Iceland found that workers felt less stressed while their output stayed the same.\n\nHowever, Omar raises a valid concern about essential services. A hospital cannot close on Fridays, so those employers would need to organize shifts differently, which could be expensive.\n\nTherefore, governments should encourage the four-day week where it works, offering support for sectors that need continuous service. In this way, more workers would benefit without disrupting public life."
+    }
+   ]
+  },
+  {
+   "skill": "speaking",
+   "title": "Speaking",
+   "minutes": 10,
+   "what": "Listen and Repeat (4) + entrevista (3 preguntas)",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "mk-d14-s-repeat",
+     "title": "Listen and Repeat",
+     "items": [
+      {
+       "text": "The exhibition will be open to the public on weekends.",
+       "audio": {
+        "file": "audio/mk-d14-r1.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "The exhibition will be open to the public on weekends."
+         }
+        ]
+       },
+       "seconds": 8
+      },
+      {
+       "text": "Please remember to return your library books before the end of the semester.",
+       "audio": {
+        "file": "audio/mk-d14-r2.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "Please remember to return your library books before the end of the semester."
+         }
+        ]
+       },
+       "seconds": 10
+      },
+      {
+       "text": "Students who wish to change their schedule must speak with an advisor first.",
+       "audio": {
+        "file": "audio/mk-d14-r3.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "Students who wish to change their schedule must speak with an advisor first."
+         }
+        ]
+       },
+       "seconds": 11
+      },
+      {
+       "text": "Because the weather forecast predicts heavy snow, the outdoor ceremony has been moved to the gymnasium.",
+       "audio": {
+        "file": "audio/mk-d14-r4.mp3",
+        "segments": [
+         {
+          "voice": "af_kore",
+          "text": "Because the weather forecast predicts heavy snow, the outdoor ceremony has been moved to the gymnasium."
+         }
+        ]
+       },
+       "seconds": 13
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "mk-d14-s-interview",
+     "title": "Take an Interview",
+     "seconds": 45,
+     "prep": 0,
+     "questions": [
+      {
+       "q": "Describe a person who has influenced you.",
+       "model": "My grandmother has influenced me the most, because she taught me that hard work and kindness go together. For example, she ran a small bakery for thirty years and always gave bread to neighbors in need. Because of her, I try to help others whenever I can."
+      },
+      {
+       "q": "What do you think is the most important invention of the last fifty years?",
+       "model": "I think the internet is the most important, because it changed how we learn, work and communicate. For instance, I can attend a lecture from another continent without leaving home. It has also made information available to people who could never afford books."
+      },
+      {
+       "q": "Do you think studying abroad is worth the cost?",
+       "model": "Yes, I think it is worth it if you plan carefully. You gain independence, language skills and international contacts. For example, a cousin of mine studied in Germany and got a job in his field right after graduating."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

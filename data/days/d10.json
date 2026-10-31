@@ -1,0 +1,172 @@
+{
+ "n": 10,
+ "objectives": [
+  "Estructurar una respuesta en 4 movimientos.",
+  "Referirte a un compañero y añadir una idea nueva.",
+  "Usar conectores y un ejemplo concreto."
+ ],
+ "vocab": {
+  "theme": "AWL sublista 2 (3/5)",
+  "words": [
+   [
+    "impact",
+    "noun",
+    "a strong effect on something",
+    "impacto",
+    "Social media has a big impact on young people."
+   ],
+   [
+    "institute",
+    "noun",
+    "an organization for research or education",
+    "instituto",
+    "She works at a research institute."
+   ],
+   [
+    "invest",
+    "verb",
+    "to put money or effort into something for future benefit",
+    "invertir",
+    "Cities should invest in public transport."
+   ],
+   [
+    "maintain",
+    "verb",
+    "to keep in good condition or continue",
+    "mantener",
+    "It is hard to maintain motivation for months."
+   ],
+   [
+    "normal",
+    "adj",
+    "usual or typical",
+    "normal",
+    "It is normal to feel nervous before an exam."
+   ],
+   [
+    "obtain",
+    "verb",
+    "to get",
+    "obtener",
+    "You can obtain the form at the office."
+   ],
+   [
+    "participate",
+    "verb",
+    "to take part in an activity",
+    "participar",
+    "Students are encouraged to participate in discussions."
+   ],
+   [
+    "perceive",
+    "verb",
+    "to notice or understand in a certain way",
+    "percibir",
+    "People perceive risk differently."
+   ],
+   [
+    "positive",
+    "adj",
+    "good or helpful; certain",
+    "positivo",
+    "The trial had positive results."
+   ],
+   [
+    "potential",
+    "adj",
+    "possible in the future",
+    "potencial",
+    "Wind energy has huge potential."
+   ]
+  ]
+ },
+ "lesson": "data/lessons/d10.md",
+ "videos": {
+  "ids": [
+   "w-discussion",
+   "w-overview"
+  ],
+  "search": "TOEFL Writing for an Academic Discussion sample"
+ },
+ "practice": [
+  {
+   "kind": "writing",
+   "task": "discussion",
+   "id": "d10-p1",
+   "title": "Academic Discussion: coches en el centro de la ciudad",
+   "minutes": 12,
+   "minWords": 100,
+   "prompt": "**Professor Hughes:** Several European cities have banned private cars from their historic centers. Do you think this is a good idea? Explain why or why not.\n\n**Ravi:** I support the ban. Fewer cars mean cleaner air and quieter streets, which makes the city more pleasant for everyone.\n\n**Chloe:** I disagree. Small shops depend on customers who arrive by car, and people with disabilities may find it much harder to reach the center.\n\n**Write a response** (≥ 100 words) that gives your opinion, supports it with at least one reason and one example, and refers to Ravi or Chloe.",
+   "vocab": "- *historic center* · *air quality* · *public transport* · *accessibility* · *foot traffic*\n- *I agree with Ravi that… / Chloe raises a fair point, but…*\n- *One solution would be to… / Exceptions could be made for…*",
+   "template": "1. **Postura + referencia**: I support the ban, although Chloe is right that…\n2. **Razón 1 + ejemplo**: First, … For example, in … \n3. **Razón 2 / matiz**: In addition, … To address Chloe's concern, …\n4. **Cierre**: For these reasons, …",
+   "checklist": [
+    "Postura clara en las 2 primeras oraciones",
+    "Mencioné a Ravi o Chloe y añadí algo nuevo",
+    "Al menos un ejemplo concreto",
+    "Usé 3+ conectores distintos",
+    "Cierre de una oración",
+    "Revisé concordancia y artículos"
+   ],
+   "model": "I support limiting cars in city centers, although I think Chloe raises an important point about accessibility. The main reason is health. Air pollution from traffic causes respiratory problems, and a car-free center removes much of it. For example, when Oslo reduced traffic downtown, air quality improved noticeably within a year.\n\nIn addition, pedestrian zones can actually help small shops. Shoppers who walk tend to stop more often and spend more time in the area than people driving through.\n\nHowever, to address Chloe's concern, the city should keep special access for people with disabilities and for deliveries. In this way, the center becomes cleaner and more pleasant without excluding anyone.",
+   "modelNotes": "**Estructura:** postura + concesión → razón 1 con ejemplo → razón 2 → solución al contraargumento. Referencia explícita a Chloe y conectores variados (*for example, in addition, however, in this way*)."
+  }
+ ],
+ "quiz": [
+  {
+   "id": "d10-q1",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "What is the best way to start a response in an academic discussion?",
+   "options": [
+    "With a long summary of both students",
+    "With a clear opinion, ideally linked to a student's idea",
+    "With a question to the professor",
+    "With a quote from the internet"
+   ],
+   "answer": 1,
+   "explain": "La postura clara en las primeras oraciones asegura enfoque."
+  },
+  {
+   "id": "d10-q2",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "To \"add something new\" to the discussion you should",
+   "options": [
+    "repeat what Ravi said",
+    "offer a new reason or example",
+    "copy the professor's question",
+    "write only one sentence"
+   ],
+   "answer": 1,
+   "explain": "Se valora aportar un argumento o ejemplo nuevo."
+  },
+  {
+   "id": "d10-q3",
+   "type": "mcq",
+   "qtype": "grammar",
+   "q": "Choose the best sentence.",
+   "options": [
+    "I agree with Ravi, but I am thinking that the ban is too strict.",
+    "I agree with Ravi up to a point, but I think the ban may be too strict.",
+    "I am agree with Ravi, but the ban too strict.",
+    "I agree to Ravi but ban is strict."
+   ],
+   "answer": 1,
+   "explain": "Opinión matizada y gramaticalmente correcta."
+  },
+  {
+   "id": "d10-q4",
+   "type": "mcq",
+   "qtype": "strategy",
+   "q": "Which connector introduces an example?",
+   "options": [
+    "therefore",
+    "for instance",
+    "however",
+    "although"
+   ],
+   "answer": 1,
+   "explain": "for instance = por ejemplo."
+  }
+ ]
+}

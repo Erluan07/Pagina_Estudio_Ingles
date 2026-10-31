@@ -109,7 +109,7 @@ const days = T.map(([skill, type, title, focus], i) => {
   const file = path.join(root, 'data/days', `d${String(n).padStart(2, '0')}.json`);
   const dow = new Date(date + 'T12:00:00Z').getUTCDay();
   const d = { n, date, dow: dayName[dow], week: Math.ceil(n / 7), phase: phaseOf(n), skill, type, title, focus, minutes: MIN[type], status: fs.existsSync(file) ? 'full' : 'skeleton' };
-  if (type.startsWith('mock')) d.mock = `d${String(n).padStart(2, '0')}`;
+  if (type.startsWith('mock')) { d.mock = `d${String(n).padStart(2, '0')}`; d.mockReady = fs.existsSync(path.join(root, 'data/mocks', `${d.mock}.json`)); }
   return d;
 });
 const out = { meta: { start: START, end: days[days.length - 1].date, exam: EXAM, total: days.length, generated: 'node tools/build_plan.mjs' }, days };
