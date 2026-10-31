@@ -1,0 +1,66 @@
+{
+ "audio/dg-l-c1.mp3": {
+  "hash": "20fc389c6bf0d7ea",
+  "seconds": 2.9,
+  "voices": [
+   "am_adam"
+  ]
+ },
+ "audio/dg-l-c2.mp3": {
+  "hash": "9168f0fc43a28e6c",
+  "seconds": 6.4,
+  "voices": [
+   "af_nicole"
+  ]
+ },
+ "audio/dg-l-c3.mp3": {
+  "hash": "354993ba52beba4a",
+  "seconds": 2.8,
+  "voices": [
+   "bm_george"
+  ]
+ },
+ "audio/dg-l-conv.mp3": {
+  "hash": "9bce62ddc77c444d",
+  "seconds": 44.3,
+  "voices": [
+   "af_heart",
+   "bm_george"
+  ]
+ },
+ "audio/dg-l-talk.mp3": {
+  "hash": "202e8220876b1c08",
+  "seconds": 50.4,
+  "voices": [
+   "bf_emma"
+  ]
+ },
+ "audio/dg-s-r1.mp3": {
+  "hash": "2e91eef0eaef151d",
+  "seconds": 2.8,
+  "voices": [
+   "am_michael"
+  ]
+ },
+ "audio/dg-s-r2.mp3": {
+  "hash": "109a62ffa7a722bd",
+  "seconds": 3.5,
+  "voices": [
+   "af_sarah"
+  ]
+ },
+ "audio/dg-s-r3.mp3": {
+  "hash": "55aa5251afe4968b",
+  "seconds": 4.5,
+  "voices": [
+   "bf_isabella"
+  ]
+ },
+ "audio/dg-s-r4.mp3": {
+  "hash": "fcedeef342e89fc9",
+  "seconds": 4.1,
+  "voices": [
+   "bm_daniel"
+  ]
+ }
+}

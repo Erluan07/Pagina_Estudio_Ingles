@@ -1,0 +1,667 @@
+{
+ "intro": "Un test de unos 50 minutos dividido en 4 partes que puedes hacer en días distintos. Imita el formato 2026 del TOEFL iBT (Reading, Listening, Writing, Speaking). Con tus resultados la app estima tu nivel por habilidad y reparte más tiempo de refuerzo a lo más débil.",
+ "honesty": "Cómo se mide: Reading y Listening se califican automáticamente; en Writing y Speaking te autoevalúas con una rúbrica y comparas con respuestas modelo. Es una estimación orientativa: pocas preguntas, material original (no de ETS) y autoevaluación subjetiva. Haz cada parte en silencio y sin ayudas para que el perfil sea útil.",
+ "parts": {
+  "reading": {
+   "title": "Reading",
+   "prefix": "dg-r-",
+   "minutes": 15,
+   "maxPlays": 2,
+   "intro": "Tres tareas: Complete the Words, Read in Daily Life y un pasaje académico.",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "dg-r-b1",
+     "title": "Task 1 · Complete the Words",
+     "timing": "≈ 3 min",
+     "items": [
+      {
+       "id": "dg-r-cw1",
+       "type": "cloze",
+       "qtype": "complete-words",
+       "q": "Completa las palabras (escribe solo las letras que faltan).",
+       "text": "Honeybees are among the most important {{pollin|ators}} in the world. A single colony can contain tens of {{thous|ands}} of insects, and each one has a {{spec|ific}} job. The queen lays eggs, the workers {{col|lect}} nectar, and the guards protect the {{entr|ance}}. When food becomes {{sca|rce}}, the colony may reduce its {{acti|vity}} to save energy. Scientists study these insects because their cooperation can teach us about efficient {{organi|zation}}.",
+       "explain": "Cada hueco es la segunda mitad de una palabra; el contexto y la longitud indican cuál es. Esta tarea de Complete the Words mide vocabulario y gramática a la vez."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "subtype": "daily",
+     "id": "dg-r-b2",
+     "title": "Task 2 · Read in Daily Life",
+     "timing": "≈ 3 min",
+     "passage": "Subject: Changes to Library Hours During Exam Period\nFrom: University Library Services\n\nDear students,\n\nFrom December 1 to December 19, the Main Library will extend its opening hours. It will be open from 7:30 a.m. to midnight on weekdays and from 9:00 a.m. to 9:00 p.m. on weekends. The Science Branch will keep its regular hours.\n\nGroup study rooms must be booked online at least 24 hours in advance, and a booking will be cancelled if nobody arrives within 15 minutes. Food is not allowed in the quiet zone on the second floor, but drinks with lids are permitted.\n\nIf you need help finding resources, librarians will be available at the information desk until 6 p.m.\n\nThank you,\nLibrary Services",
+     "items": [
+      {
+       "id": "dg-r-dl1",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "What is the main purpose of this message?",
+       "options": [
+        "To announce a new library building",
+        "To inform students about temporary changes in hours and rules",
+        "To ask students to return overdue books",
+        "To advertise a study skills workshop"
+       ],
+       "answer": 1,
+       "explain": "El mensaje informa de horarios ampliados y normas para el periodo de exámenes (Subject + primer párrafo)."
+      },
+      {
+       "id": "dg-r-dl2",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "Until what time will the Main Library be open on weekends during the exam period?",
+       "options": [
+        "6 p.m.",
+        "7:30 p.m.",
+        "9:00 p.m.",
+        "Midnight"
+       ],
+       "answer": 2,
+       "explain": "«from 9:00 a.m. to 9:00 p.m. on weekends». Midnight es el cierre entre semana; 6 p.m. es el horario de los bibliotecarios."
+      },
+      {
+       "id": "dg-r-dl3",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "What will happen if a student does not arrive at a booked study room within fifteen minutes?",
+       "options": [
+        "The student must pay a fee",
+        "The student will lose access to the library",
+        "The booking will be cancelled",
+        "The librarian will call the student"
+       ],
+       "answer": 2,
+       "explain": "«a booking will be cancelled if nobody arrives within 15 minutes»."
+      },
+      {
+       "id": "dg-r-dl4",
+       "type": "mcq",
+       "qtype": "daily-life",
+       "q": "Which of the following is NOT allowed in the second-floor quiet zone?",
+       "options": [
+        "Drinks with lids",
+        "Laptops",
+        "Food",
+        "Group study notes"
+       ],
+       "answer": 2,
+       "explain": "«Food is not allowed in the quiet zone»; las bebidas con tapa sí se permiten."
+      }
+     ]
+    },
+    {
+     "kind": "reading",
+     "id": "dg-r-b3",
+     "title": "Task 3 · Read an Academic Passage: Urban Heat Islands",
+     "timing": "≈ 9 min",
+     "passage": "Cities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island effect. The main cause is the materials that cities are built from. Dark surfaces such as asphalt and roofing tiles absorb most of the sunlight that reaches them and release it slowly as heat, long after sunset. In contrast, fields and forests reflect more light and cool down quickly because plants release water vapor, a process called evapotranspiration.\n\nThe shape of cities adds to the problem. Tall buildings placed close together trap warm air between them and reduce the wind that would normally carry it away. In addition, cars, air conditioners, and factories release extra heat directly into the air.\n\nThe consequences are not trivial. Higher temperatures raise electricity demand, because people use more air conditioning, and this in turn produces more emissions. Heat waves are also more dangerous in dense neighborhoods, especially for elderly residents who lack cooling at home.\n\nPlanners have developed several responses. Painting roofs white can reflect up to eighty percent of sunlight, and planting trees along streets provides both shade and evaporative cooling. Some cities have also created green roofs, layers of vegetation on top of buildings, which insulate the structures below. Although none of these measures eliminates the heat island entirely, studies suggest that combining them can lower neighborhood temperatures by several degrees.",
+     "items": [
+      {
+       "id": "dg-r-ac1",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the passage mainly about?",
+       "options": [
+        "The history of city planning",
+        "Why cities are warmer than surrounding areas and how to reduce the effect",
+        "How plants produce water vapor",
+        "The advantages of air conditioning"
+       ],
+       "answer": 1,
+       "explain": "El pasaje explica causas (materiales, forma de la ciudad), consecuencias y soluciones del efecto isla de calor."
+      },
+      {
+       "id": "dg-r-ac2",
+       "type": "mcq",
+       "qtype": "vocab",
+       "q": "The word \"trivial\" in paragraph 3 is closest in meaning to",
+       "options": [
+        "unimportant",
+        "sudden",
+        "expensive",
+        "harmful"
+       ],
+       "answer": 0,
+       "explain": "«not trivial» = no son poca cosa; trivial = unimportant. Sustituye: «The consequences are not unimportant»."
+      },
+      {
+       "id": "dg-r-ac3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "According to the passage, why do fields and forests cool down quickly at night?",
+       "options": [
+        "They contain more asphalt",
+        "Plants release water vapor",
+        "Tall buildings block the sun",
+        "They absorb more sunlight"
+       ],
+       "answer": 1,
+       "explain": "«fields and forests reflect more light and cool down quickly because plants release water vapor»."
+      },
+      {
+       "id": "dg-r-ac4",
+       "type": "mcq",
+       "qtype": "purpose",
+       "q": "Why does the author mention elderly residents in paragraph 3?",
+       "options": [
+        "To show that older people prefer cooler cities",
+        "To give an example of a group at greater risk during heat waves",
+        "To argue that elderly people use too much electricity",
+        "To explain why trees are planted along streets"
+       ],
+       "answer": 1,
+       "explain": "Se cita como ejemplo de un grupo vulnerable: «more dangerous... especially for elderly residents who lack cooling»."
+      },
+      {
+       "id": "dg-r-ac5",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What can be inferred about green roofs from the passage?",
+       "options": [
+        "They are cheaper than white roofs",
+        "They may help keep buildings from heating up inside",
+        "They eliminate the heat island effect",
+        "They are only used in forests"
+       ],
+       "answer": 1,
+       "explain": "Si «insulate the structures below», es razonable inferir que reducen el calentamiento interior. El texto dice que ninguna medida elimina el efecto por completo (descarta C)."
+      }
+     ]
+    }
+   ]
+  },
+  "listening": {
+   "title": "Listening",
+   "prefix": "dg-l-",
+   "minutes": 15,
+   "maxPlays": 2,
+   "intro": "Usa auriculares. Puedes escuchar cada audio hasta 2 veces (en el examen real es 1). Tres respuestas cortas, una conversación y una charla académica.",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "dg-l-b1",
+     "title": "Task 1 · Listen and Choose a Response",
+     "timing": "≈ 3 min",
+     "items": [
+      {
+       "id": "dg-l-c1",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Yes, until ten tonight.",
+        "I borrowed three books.",
+        "It is a very old building.",
+        "No, I will not be there."
+       ],
+       "answer": 0,
+       "explain": "La pregunta es si la biblioteca sigue abierta; la respuesta natural da el horario.",
+       "audio": {
+        "file": "audio/dg-l-c1.mp3",
+        "segments": [
+         {
+          "voice": "am_adam",
+          "text": "Excuse me, do you know if the library is still open?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "dg-l-c2",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Yes, I always print in color.",
+        "You could email it to her and explain the situation.",
+        "The report was due last year.",
+        "I think the printer is cheap."
+       ],
+       "answer": 1,
+       "explain": "La frase plantea un problema (impresora rota); la respuesta útil propone una solución.",
+       "audio": {
+        "file": "audio/dg-l-c2.mp3",
+        "segments": [
+         {
+          "voice": "af_nicole",
+          "text": "I was supposed to hand in my report today, but the printer is broken."
+         }
+        ]
+       }
+      },
+      {
+       "id": "dg-l-c3",
+       "type": "mcq",
+       "qtype": "choose-response",
+       "q": "Listen and choose the best response.",
+       "options": [
+        "Yes, I would love to join you.",
+        "The window is made of glass.",
+        "Not at all. It is quite warm in here.",
+        "I opened it with a key."
+       ],
+       "answer": 2,
+       "explain": "«Would you mind if...?» pide permiso; «Not at all» significa «no me molesta», es decir, sí puedes.",
+       "audio": {
+        "file": "audio/dg-l-c3.mp3",
+        "segments": [
+         {
+          "voice": "bm_george",
+          "text": "Would you mind if I opened the window?"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "dg-l-b2",
+     "title": "Task 2 · Conversation (campus)",
+     "timing": "≈ 4 min",
+     "audio": {
+      "file": "audio/dg-l-conv.mp3",
+      "segments": [
+       {
+        "voice": "af_heart",
+        "who": "Student",
+        "text": "Hi, Professor Clark. Thanks for seeing me. I wanted to ask about the research methods course. I'm worried I won't finish the survey project on time."
+       },
+       {
+        "voice": "bm_george",
+        "who": "Professor",
+        "text": "I see. What's the main difficulty?"
+       },
+       {
+        "voice": "af_heart",
+        "who": "Student",
+        "text": "Well, I only have fifteen responses so far, and I need at least fifty. Most of my classmates are too busy to answer."
+       },
+       {
+        "voice": "bm_george",
+        "who": "Professor",
+        "text": "Have you considered sharing the survey with students in other departments? Many of them are happy to help if you keep it short."
+       },
+       {
+        "voice": "af_heart",
+        "who": "Student",
+        "text": "That's a good idea. But what about the deadline? It's next Friday."
+       },
+       {
+        "voice": "bm_george",
+        "who": "Professor",
+        "text": "I can give you an extension until Wednesday of the following week, but only if you send me a progress report by Monday."
+       },
+       {
+        "voice": "af_heart",
+        "who": "Student",
+        "text": "Great, I'll do that. Thank you so much."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "dg-l-cv1",
+       "type": "mcq",
+       "qtype": "speaker-purpose",
+       "q": "Why does the student visit the professor?",
+       "options": [
+        "To complain about the course schedule",
+        "To get help with a project that might be late",
+        "To ask for a better grade",
+        "To borrow research materials"
+       ],
+       "answer": 1,
+       "explain": "Dice «I'm worried I won't finish the survey project on time»."
+      },
+      {
+       "id": "dg-l-cv2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What does the professor suggest to get more responses?",
+       "options": [
+        "Make the survey longer",
+        "Ask classmates in the same course again",
+        "Share the survey with students from other departments",
+        "Interview people in person"
+       ],
+       "answer": 2,
+       "explain": "«Have you considered sharing the survey with students in other departments?»."
+      },
+      {
+       "id": "dg-l-cv3",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "What must the student do to receive an extension?",
+       "options": [
+        "Submit a progress report by Monday",
+        "Reach fifty responses by Friday",
+        "Meet the professor again on Wednesday",
+        "Write a new proposal"
+       ],
+       "answer": 0,
+       "explain": "«only if you send me a progress report by Monday» (condición)."
+      }
+     ]
+    },
+    {
+     "kind": "listening",
+     "id": "dg-l-b3",
+     "title": "Task 3 · Academic talk",
+     "timing": "≈ 7 min",
+     "audio": {
+      "file": "audio/dg-l-talk.mp3",
+      "segments": [
+       {
+        "voice": "bf_emma",
+        "text": "Today I'd like to talk about why sleep matters for memory. Researchers used to think that the brain simply rests during sleep. We now know that this is far from true. During deep sleep, the brain replays the events of the day, and this helps move information from short-term storage in the hippocampus to long-term storage in the cortex."
+       },
+       {
+        "voice": "bf_emma",
+        "text": "In one well-known experiment, students learned a list of word pairs in the evening. Half of them slept normally; the other half stayed awake all night. Two days later, both groups were tested. Surprisingly, the students who had slept remembered about twenty percent more pairs, even though the second group had two full nights to recover."
+       },
+       {
+        "voice": "bf_emma",
+        "text": "So what does this mean for you? If you are preparing for an exam, staying up all night to review is usually a poor strategy. It is better to study in the evening and then sleep, because sleep helps lock in what you have just learned."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "dg-l-t1",
+       "type": "mcq",
+       "qtype": "main-idea",
+       "q": "What is the main topic of the talk?",
+       "options": [
+        "How to prepare for exams quickly",
+        "The role of sleep in forming long-term memories",
+        "The structure of the hippocampus",
+        "Differences between day and night learning"
+       ],
+       "answer": 1,
+       "explain": "El tema central: el sueño ayuda a consolidar la memoria."
+      },
+      {
+       "id": "dg-l-t2",
+       "type": "mcq",
+       "qtype": "detail",
+       "q": "According to the speaker, what happens during deep sleep?",
+       "options": [
+        "The brain stops processing information",
+        "The brain replays the day and moves information to long-term storage",
+        "The brain forgets unimportant facts",
+        "The brain prepares new questions"
+       ],
+       "answer": 1,
+       "explain": "«the brain replays the events of the day, and this helps move information... to long-term storage»."
+      },
+      {
+       "id": "dg-l-t3",
+       "type": "mcq",
+       "qtype": "organization",
+       "q": "Why does the speaker describe the experiment with word pairs?",
+       "options": [
+        "To show that memory tests are unreliable",
+        "To provide evidence that sleep improves memory",
+        "To explain how students choose study methods",
+        "To criticize a common research method"
+       ],
+       "answer": 1,
+       "explain": "El experimento es la evidencia: quienes durmieron recordaron ~20 % más."
+      },
+      {
+       "id": "dg-l-t4",
+       "type": "mcq",
+       "qtype": "inference",
+       "q": "What would the speaker most likely recommend to a student the night before an exam?",
+       "options": [
+        "Study all night",
+        "Review in the evening and then sleep",
+        "Avoid reviewing at all",
+        "Sleep only two hours"
+       ],
+       "answer": 1,
+       "explain": "«It is better to study in the evening and then sleep»."
+      }
+     ]
+    }
+   ]
+  },
+  "writing": {
+   "title": "Writing",
+   "prefix": "dg-w-",
+   "minutes": 17,
+   "intro": "Build a Sentence, Write an Email y Write for an Academic Discussion. Escribe sin diccionario ni traductor.",
+   "blocks": [
+    {
+     "kind": "questions",
+     "id": "dg-w-b0",
+     "title": "Task 1 · Build a Sentence",
+     "timing": "≈ 2 min",
+     "intro": "Ordena los fragmentos para formar una respuesta gramaticalmente correcta a la pregunta.",
+     "items": [
+      {
+       "id": "dg-w-b1",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Did you finish the report?",
+       "words": [
+        "I",
+        "haven't",
+        "finished",
+        "it",
+        "yet."
+       ],
+       "answer": "I haven't finished it yet.",
+       "explain": "Present perfect negativo + yet al final: sujeto + haven't + participio + objeto + yet."
+      },
+      {
+       "id": "dg-w-b2",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Why was the lecture cancelled?",
+       "words": [
+        "feeling",
+        "unwell.",
+        "The",
+        "professor",
+        "was"
+       ],
+       "answer": "The professor was feeling unwell.",
+       "explain": "Sujeto (The professor) + verbo auxiliar was + feeling unwell."
+      },
+      {
+       "id": "dg-w-b3",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Could you tell me where the registration office is?",
+       "words": [
+        "next",
+        "It",
+        "is",
+        "to",
+        "the",
+        "main",
+        "library."
+       ],
+       "answer": "It is next to the main library.",
+       "explain": "Sujeto + is + frase preposicional de lugar (next to the main library)."
+      },
+      {
+       "id": "dg-w-b4",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "What did the researchers conclude?",
+       "words": [
+        "significantly.",
+        "They",
+        "that",
+        "improves",
+        "found",
+        "sleep",
+        "memory"
+       ],
+       "answer": "They found that sleep improves memory significantly.",
+       "explain": "found that + cláusula (sujeto + verbo + objeto) + adverbio al final."
+      },
+      {
+       "id": "dg-w-b5",
+       "type": "order",
+       "qtype": "build-sentence",
+       "context": "Do you know what time the seminar starts?",
+       "words": [
+        "when",
+        "it",
+        "not",
+        "sure",
+        "I'm",
+        "begins."
+       ],
+       "answer": "I'm not sure when it begins.",
+       "explain": "Pregunta indirecta: orden afirmativo (when it begins), no «when does it begin»."
+      }
+     ]
+    },
+    {
+     "kind": "writing",
+     "task": "email",
+     "id": "dg-w-email",
+     "title": "Task 2 · Write an Email",
+     "timing": "7 minutos · mínimo ≈ 70 palabras",
+     "minutes": 7,
+     "minWords": 70,
+     "prompt": "**Situation.** You are in a course where the final project is due in two weeks. You need to use special software that is only available in a computer lab, but the lab is closed on weekends.\n\n**Write an email to Ms. Brooks, the lab coordinator.** In your email:\n- Introduce yourself and explain what you need.\n- Say why weekday hours are difficult for you.\n- Ask whether the lab could open on one weekend day.",
+     "checklist": [
+      "Saludo y presentación breve",
+      "Expliqué qué necesito y por qué",
+      "Pregunta cortés (Would it be possible…?)",
+      "Cierre y despedida",
+      "Releí para corregir errores"
+     ],
+     "model": "Dear Ms. Brooks,\n\nMy name is Jorge Ramos, and I am a student in the Data Analysis course. I need to use the statistics software installed in your lab to finish my final project, which is due in two weeks.\n\nUnfortunately, I work on weekdays until 6:00 p.m., and the lab closes at 5:00 p.m., so I cannot use it during the week. Would it be possible for the lab to open on one weekend day, perhaps Saturday morning?\n\nI would be very grateful for your help.\n\nSincerely,\nJorge Ramos"
+    },
+    {
+     "kind": "writing",
+     "task": "discussion",
+     "id": "dg-w-disc",
+     "title": "Task 3 · Write for an Academic Discussion",
+     "timing": "8 minutos · mínimo ≈ 80 palabras",
+     "minutes": 8,
+     "minWords": 80,
+     "prompt": "**Professor Lee:** Should every university student be required to study a foreign language? Explain your view.\n\n**Maya:** Yes. Learning a language develops thinking skills and prepares students to work in international teams.\n\n**Ben:** I disagree. Students already have a heavy workload, and a language course should be a choice.\n\n**Write a response** with your opinion, at least one reason and an example (≈ 80+ words). Refer to Maya or Ben.",
+     "checklist": [
+      "Mi postura es clara",
+      "Al menos una razón y un ejemplo",
+      "Mencioné a Maya o Ben",
+      "Usé conectores (however, for example…)"
+     ],
+     "model": "I agree with Maya that students should study a foreign language, although the requirement should be flexible. First, language learning trains memory and attention. For example, when I started learning German, I noticed that I became better at organizing information.\n\nHowever, Ben is right that some programmes are very demanding. Therefore, universities could offer short, practical courses that students complete over two years, so the workload remains reasonable. In this way, everyone gains an international skill without being overloaded."
+    }
+   ]
+  },
+  "speaking": {
+   "title": "Speaking",
+   "prefix": "dg-s-",
+   "minutes": 9,
+   "maxPlays": 2,
+   "intro": "Necesitas un lugar silencioso. Si tu navegador permite el micrófono, se grabará solo en tu dispositivo.",
+   "blocks": [
+    {
+     "kind": "speaking",
+     "task": "repeat",
+     "id": "dg-s-repeat",
+     "title": "Task 1 · Listen and Repeat",
+     "timing": "≈ 3 min",
+     "intro": "Escucha cada oración (máx. 2 veces en el diagnóstico; en el examen es una vez), grábate repitiéndola **exactamente** y luego califica si dijiste todas las palabras.",
+     "items": [
+      {
+       "text": "The library closes at ten o'clock tonight.",
+       "audio": {
+        "file": "audio/dg-s-r1.mp3",
+        "segments": [
+         {
+          "voice": "am_michael",
+          "text": "The library closes at ten o'clock tonight."
+         }
+        ]
+       },
+       "seconds": 8
+      },
+      {
+       "text": "Please submit your application form before the end of the month.",
+       "audio": {
+        "file": "audio/dg-s-r2.mp3",
+        "segments": [
+         {
+          "voice": "af_sarah",
+          "text": "Please submit your application form before the end of the month."
+         }
+        ]
+       },
+       "seconds": 10
+      },
+      {
+       "text": "Researchers have discovered that sleeping well improves memory and concentration.",
+       "audio": {
+        "file": "audio/dg-s-r3.mp3",
+        "segments": [
+         {
+          "voice": "bf_isabella",
+          "text": "Researchers have discovered that sleeping well improves memory and concentration."
+         }
+        ]
+       },
+       "seconds": 12
+      },
+      {
+       "text": "If the weather is good, the field trip will take place on Saturday morning.",
+       "audio": {
+        "file": "audio/dg-s-r4.mp3",
+        "segments": [
+         {
+          "voice": "bm_daniel",
+          "text": "If the weather is good, the field trip will take place on Saturday morning."
+         }
+        ]
+       },
+       "seconds": 12
+      }
+     ]
+    },
+    {
+     "kind": "speaking",
+     "task": "interview",
+     "id": "dg-s-interview",
+     "title": "Task 2 · Take an Interview",
+     "timing": "≈ 5 min · 45 s por pregunta",
+     "seconds": 45,
+     "prep": 0,
+     "intro": "Responde como si fuera una entrevista: **respuesta directa + razón + ejemplo**. Tienes 45 segundos por pregunta, sin preparación. Graba tu respuesta y luego compárala con el modelo.",
+     "questions": [
+      {
+       "q": "Why do you want to study for a master's degree?",
+       "model": "I want to study a master's degree because I would like to specialize in sustainable energy. In my current job I noticed that many projects fail because of poor planning, and I want the technical knowledge to improve them. For example, last year I helped design a small solar system, and I realized how much more I need to learn."
+      },
+      {
+       "q": "Tell me about a challenge you faced and how you solved it.",
+       "model": "One challenge was learning to work in a team with people from other countries. At first, we misunderstood each other. To solve it, I started summarizing decisions in writing after every meeting, and communication improved a lot."
+      },
+      {
+       "q": "Do you think online classes are as effective as in-person classes? Why or why not?",
+       "model": "I think they are effective for explaining theory, but less effective for practice. For example, in labs you need to handle equipment. So a combination of both works best for me."
+      }
+     ],
+     "checklist": [
+      "Respondí directamente en la primera frase",
+      "Di una razón",
+      "Di un ejemplo concreto",
+      "Hablé hasta el final del tiempo",
+      "Evité silencios largos"
+     ]
+    }
+   ]
+  }
+ }
+}

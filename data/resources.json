@@ -1,0 +1,27 @@
+{
+ "note": "Los enlaces a podcasts y portales son páginas de inicio estables que conozco, pero NO pude abrirlas desde el entorno de desarrollo (red restringida): si alguno cambió, busca el nombre en tu buscador.",
+ "official": [
+  {"name": "ETS · Contenido del TOEFL iBT", "url": "https://www.ets.org/toefl/test-takers/ibt/about/content.html", "note": "Descripción oficial de secciones y tareas (aparece en resultados de búsqueda)."},
+  {"name": "ETS · Escala de puntajes 1-6", "url": "https://toeflaccess.ets.org/help/en/articles/11758616-toefl-ibt-score-scale-update-what-you-need-to-know", "note": "Qué cambió en la escala de puntajes."},
+  {"name": "Twente · Requisito de idioma (maestrías)", "url": "https://www.utwente.nl/en/education/master/admission-requirements/language-requirement", "note": "Fuente primaria del puntaje mínimo; confirma también la página de tu programa."},
+  {"name": "ETS · Práctica oficial gratuita", "url": "https://www.ets.org/toefl/test-takers/ibt/prepare.html", "note": "URL no verificada: busca «TOEFL iBT Free Practice Test» en ets.org para los simulacros y preguntas de muestra oficiales."}
+ ],
+ "authentic": [
+  {"id": "bbc6", "name": "BBC Learning English · 6 Minute English", "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english", "verified": false, "skills": "Listening · Speaking · vocabulario", "note": "Conversaciones de 6 minutos sobre ciencia, tecnología y sociedad, con transcripción y vocabulario.",
+   "steps": ["Elige un episodio que NO hayas escuchado antes.", "Escucha una vez sin leer y toma notas (idea principal + 3 detalles + 3 palabras nuevas).", "Escribe un resumen de 3 oraciones con tus palabras.", "Lee la transcripción y subraya lo que no entendiste; añade 3 palabras a tu repaso.", "Graba un resumen oral de 45 s y escúchalo."]},
+  {"id": "sciencefriday", "name": "Science Friday", "url": "https://www.sciencefriday.com/", "verified": false, "skills": "Listening (nivel alto) · vocabulario científico", "note": "Entrevistas y segmentos de ciencia; ideales para ritmo y vocabulario académico auténticos.",
+   "steps": ["Escoge un segmento corto (≤ 10 min).", "Primera escucha: solo idea general en una frase.", "Segunda escucha: toma notas de causa-efecto y ejemplos.", "Resume en 4 oraciones y comprueba tus datos con la transcripción si existe."]},
+  {"id": "ted", "name": "TED Talks (con transcripción)", "url": "https://www.ted.com/talks", "verified": false, "skills": "Listening · Reading · Speaking", "note": "Charlas con subtítulos y transcripción interactiva; filtra por duración corta.",
+   "steps": ["Elige una charla de menos de 12 minutos sobre ciencia, tecnología o educación.", "Mírala sin subtítulos y escribe 5 ideas clave.", "Vuélvela a ver con subtítulos en inglés y anota expresiones útiles.", "Resume en 60 s hablando, sin mirar las notas."]},
+  {"id": "ew", "name": "BBC Learning English · The English We Speak", "url": "https://www.bbc.co.uk/learningenglish/english/features/the-english-we-speak", "verified": false, "skills": "Listening · expresiones idiomáticas", "note": "Episodios de 3 minutos sobre expresiones cotidianas, útiles para conversaciones del campus.",
+   "steps": ["Escucha un episodio nuevo.", "Anota la expresión y su significado.", "Escribe 2 oraciones propias con ella.", "Úsala en una respuesta oral de 30 s."]},
+  {"id": "voa", "name": "VOA Learning English", "url": "https://learningenglish.voanews.com/", "verified": false, "skills": "Reading · Listening (nivel intermedio)", "note": "Noticias y artículos adaptados con audio a ritmo lento, útiles para ganar fluidez.",
+   "steps": ["Elige un artículo con audio.", "Escucha mientras lees, luego solo escucha.", "Resume en 3 oraciones.", "Subraya 5 colocaciones y úsalas en una oración."]},
+  {"id": "sciam", "name": "Scientific American · 60-Second Science", "url": "https://www.scientificamerican.com/podcast/60-second-science/", "verified": false, "skills": "Listening corto · vocabulario", "note": "Audios de ~1-2 minutos sobre hallazgos científicos: perfectos para notas rápidas.",
+   "steps": ["Escucha un episodio sin pausar.", "Anota palabras clave en 60 s.", "Reconstruye el mensaje en 3 oraciones.", "Repite: escúchalo otra vez y compara."]},
+  {"id": "npr-shortwave", "name": "NPR · Short Wave", "url": "https://www.npr.org/podcasts/402006654/short-wave", "verified": false, "skills": "Listening (nivel alto)", "note": "Ciencia explicada de forma conversacional en unos 10-15 minutos.",
+   "steps": ["Escoge un episodio breve.", "Toma notas con la estructura: tema – problema – explicación – conclusión.", "Escribe 3 preguntas tipo TOEFL sobre lo que escuchaste y respóndelas al día siguiente."]},
+  {"id": "ted-ed", "name": "TED-Ed (videos educativos cortos)", "url": "https://ed.ted.com/", "verified": false, "skills": "Listening · Reading · vocabulario", "note": "Lecciones animadas de 5 minutos con preguntas de comprensión; buenas para repasar temas académicos.",
+   "steps": ["Elige un video de ciencia o historia.", "Mira una vez y escribe la idea principal.", "Responde las preguntas de «Think» del video.", "Resume en 45 s hablando."]}
+ ]
+}
