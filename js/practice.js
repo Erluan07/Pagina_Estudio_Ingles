@@ -191,7 +191,7 @@ export function authenticBlock(b, ctx) {
   const key = 'a:' + b.id;
   const wrap = h('div');
   wrap.append(h('div', { class: 'card' }, h('h3', null, b.resource.name), b.resource.note ? h('p', { class: 'muted' }, b.resource.note) : null,
-    h('p', null, h('a', { href: b.resource.url, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir recurso ↗'), b.resource.verified === false ? h('span', { class: 'pill warn', style: 'margin-left:8px' }, 'URL de portada; busca el episodio indicado') : null),
+    h('p', null, h('a', { href: b.resource.url, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir recurso ↗'), b.resource.verified === true ? h('span', { class: 'pill good', style: 'margin-left:8px' }, 'enlace verificado (HTTP 200, 31-oct-2026)') : h('span', { class: 'pill warn', style: 'margin-left:8px' }, 'enlace no verificado')),
     h('ol', null, (b.steps || []).map((s) => h('li', null, s)))));
   const notes = h('textarea', { rows: 5, 'aria-label': 'Notas', placeholder: 'Notes: key ideas, numbers, examples…' });
   const sum = h('textarea', { rows: 4, 'aria-label': 'Resumen', placeholder: 'Summary (2-3 sentences in your own words)…' });

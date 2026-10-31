@@ -54,9 +54,9 @@ export function profile() {
   if (doneN < 4) card.append(h('div', { class: 'notice' }, `Perfil parcial: ${doneN}/4 partes. Completa las que faltan para ajustar el plan completo.`));
   else {
     const ov = S.overallBand();
-    card.append(h('p', null, h('strong', null, `Banda global estimada: ${ov.value} `), `(meta mínima de Twente que verificamos: ${s.settings.goal}; margen de seguridad recomendado: ${s.settings.goalSafe}).`));
-    const gap = round1(s.settings.goalSafe - ov.value);
-    card.append(h('p', null, gap > 0 ? `Distancia al margen recomendado: ${gap} bandas. ` : 'Ya estás en el nivel meta en esta estimación; el objetivo es consolidar. ', weak.length ? `Tu habilidad más débil es ${SKILL_SHORT[weak[0]]}${weak[1] ? ` y después ${SKILL_SHORT[weak[1]]}` : ''}: recibirán más tiempo de refuerzo en cada sesión diaria.` : ''));
+    card.append(h('p', null, h('strong', null, `Banda global estimada: ${ov.value} `), `(mínimo feb-2027: ${S.targets().minimum.total}; objetivo recomendado: ${S.targets().objective.total}).`));
+    const gap = round1(S.targets().objective.total - ov.value);
+    card.append(h('p', null, gap > 0 ? `Distancia al objetivo: ${gap} bandas. ` : 'Ya estás en el nivel meta en esta estimación; el objetivo es consolidar. ', weak.length ? `Tu habilidad más débil es ${SKILL_SHORT[weak[0]]}${weak[1] ? ` y después ${SKILL_SHORT[weak[1]]}` : ''}: recibirán más tiempo de refuerzo en cada sesión diaria.` : ''));
   }
   const byType = Object.values(s.diagnostic).filter(Boolean).flatMap((r) => Object.entries(r.byType || {}));
   const agg = {};

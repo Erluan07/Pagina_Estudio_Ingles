@@ -2,7 +2,10 @@
 import { h, fetchText, fetchJSON, today, fmtDate, setSimulatedToday, toast, dateStr } from '../util.js';
 import { renderMarkdown } from '../md.js';
 import * as store from '../store.js';
+import * as S from '../stats.js';
 import { videoCard } from '../practice.js';
+
+function pillV(v) { return v === true ? h('span', { class: 'pill good' }, 'verificado 31-oct-2026') : h('span', { class: 'pill warn' }, 'citado, no abierto'); }
 
 export async function viewExam() {
   const txt = await fetchText('data/exam.md');
@@ -19,9 +22,9 @@ export async function viewResources() {
     root.append(h('details', { class: 'reveal' }, h('summary', null, t), vids.filter((v) => v.topic === t).map(videoCard)));
   }
   root.append(h('h2', null, 'Material auténtico (podcasts, charlas, lecturas)'));
-  root.append(h('div', { class: 'grid' }, res.authentic.map((r) => h('div', { class: 'card' }, h('h3', null, r.name), h('p', { class: 'muted' }, r.note), h('p', null, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir ↗'), r.verified === false ? h('span', { class: 'pill warn', style: 'margin-left:8px' }, 'no verificado desde el entorno') : null), h('p', { class: 'small' }, r.skills)))));
+  root.append(h('div', { class: 'grid' }, res.authentic.map((r) => h('div', { class: 'card' }, h('h3', null, r.name), h('p', { class: 'muted' }, r.note), h('p', null, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir ↗'), pillV(r.verified)), h('p', { class: 'small' }, r.skills)))));
   root.append(h('h2', null, 'Oficial'));
-  root.append(h('ul', null, res.official.map((r) => h('li', null, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, r.name), ' — ', r.note))));
+  root.append(h('ul', null, res.official.map((r) => h('li', null, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, r.name), ' ', pillV(r.verified), ' — ', r.note)), (res.searches || []).map((r) => h('li', null, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, r.name), ' — ', r.note))));
   return root;
 }
 
@@ -37,9 +40,16 @@ export async function viewSettings() {
     h('label', { for: 'theme' }, 'Tema: '),
     h('select', { id: 'theme', onchange: (e) => { store.update((st) => { st.settings.theme = e.target.value; }); const t = e.target.value; if (t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t; try { if (t === 'auto') localStorage.removeItem('toefl-theme'); else localStorage.setItem('toefl-theme', t); } catch (er) {} } }, [['auto', 'Automático (sistema)'], ['light', 'Claro'], ['dark', 'Oscuro']].map(([v, l]) => h('option', { value: v, selected: s.settings.theme === v }, l)))));
 
-  root.append(h('div', { class: 'card' }, h('h2', null, 'Metas'),
-    h('p', null, 'Meta mínima (banda 1-6): ', h('input', { id: 'goal', type: 'number', step: '0.5', min: 1, max: 6, value: s.settings.goal, 'aria-label': 'Meta mínima', onchange: (e) => store.update((st) => { st.settings.goal = Number(e.target.value); }) }), ' · Margen recomendado: ', h('input', { id: 'goalSafe', type: 'number', step: '0.5', min: 1, max: 6, value: s.settings.goalSafe, 'aria-label': 'Margen recomendado', onchange: (e) => store.update((st) => { st.settings.goalSafe = Number(e.target.value); }) })),
-    h('p', { class: 'small muted' }, 'Por defecto 4.5 (mínimo general de Twente que encontramos tras enero de 2026) y 5.0 de margen. Verifica el requisito exacto de tu programa y ajusta aquí.')));
+  const t = S.targets();
+  const keys = [['total', 'Total'], ['reading', 'Reading'], ['listening', 'Listening'], ['writing', 'Writing'], ['speaking', 'Speaking']];
+  const numInput = (group, k) => h('input', { type: 'number', step: '0.5', min: 1, max: 6, value: t[group][k], 'aria-label': `${group === 'objective' ? 'Objetivo' : 'Mínimo'} ${k}`, onchange: (e) => store.update((st) => { st.settings.targets = st.settings.targets || {}; st.settings.targets[group] = { ...S.targets()[group], [k]: Number(e.target.value) }; }) });
+  root.append(h('div', { class: 'card' }, h('h2', null, 'Metas (banda 1-6)'),
+    h('p', { class: 'small muted' }, 'Twente aplica requisitos distintos según el intake: febrero 2027 → total 4.5, R/L/W ≥ 4.5, Speaking ≥ 4; septiembre 2027 en adelante → total 5, R/L/W ≥ 5, Speaking ≥ 4.5 (dato recibido de otra sesión que abrió la página de Twente el 31-oct-2026). Como aún no se conoce tu intake, el OBJETIVO cubre ambos y el MÍNIMO es el de febrero. Confirma intake y fecha límite en la página de tu programa.'),
+    h('table', { class: 'simple' }, h('thead', null, h('tr', null, [''].concat(keys.map((x) => x[1])).map((x) => h('th', null, x)))),
+      h('tbody', null, [['objective', 'Objetivo (sep-2027)'], ['minimum', 'Mínimo (feb-2027)']].map(([g, l]) => h('tr', null, h('td', null, l), keys.map(([k]) => h('td', null, numInput(g, k)))))))));
+
+  root.append(h('div', { class: 'card' }, h('h2', null, 'Audio en modo examen'),
+    h('label', null, h('input', { type: 'checkbox', id: 'exam-audio', checked: s.settings.examAudio, onchange: (e) => store.update((st) => { st.settings.examAudio = e.target.checked; }) }), ' Solo una reproducción por audio en todas las prácticas (como en el examen real; los simulacros siempre la limitan a una).')));
 
   const fileInput = h('input', { type: 'file', accept: 'application/json,.json', id: 'import-file', 'aria-label': 'Archivo de respaldo a importar' });
   fileInput.addEventListener('change', async () => {

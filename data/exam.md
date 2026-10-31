@@ -1,60 +1,77 @@
-> **Fecha de consulta: 31 de octubre de 2026.** Esta página resume lo que pude confirmar y deja explícito lo que **no** pude verificar en la fuente primaria. Antes de matricularte, revisa siempre las páginas oficiales enlazadas abajo: los requisitos de las universidades cambian.
+> **Fecha de consulta: 31 de octubre de 2026.** Los datos de esta página fueron consultados en las fuentes oficiales (PDFs de ETS y página de Twente) por **otra sesión de Claude con acceso externo** y recibidos aquí; la sesión que construyó esta app **no pudo abrir** ets.org ni utwente.nl. Aun así, **confirma siempre en las fuentes oficiales** enlazadas abajo antes de tomar decisiones.
 
 ## 1. Formato vigente del TOEFL iBT (desde el 21 de enero de 2026)
 
-Según las páginas de ETS que aparecieron en la búsqueda (contenido del examen, resumen del test y actualización de escala) y varias guías de terceros que coinciden entre sí, el examen tiene cuatro secciones con estas tareas:
+Según el documento oficial de ETS *«TOEFL iBT Test: 2026 Update – Test Blueprint and Specifications»*:
 
-| Sección | Tareas | Tiempo aproximado (ETS) |
-|---|---|---|
-| **Reading** | *Complete the Words* (completar palabras), *Read in Daily Life* (textos cotidianos), *Read an Academic Passage* (pasaje académico) | ≈ 30 min |
-| **Listening** | *Listen and Choose a Response*, conversaciones, anuncios y charlas académicas | ≈ 29 min |
-| **Writing** | *Build a Sentence*, *Write an Email*, *Write for an Academic Discussion* | ≈ 23 min |
-| **Speaking** | *Listen and Repeat*, *Take an Interview* | ≈ 8 min |
+| Sección | Ítems (puntos) | Tiempo | Tareas |
+|---|---|---|---|
+| **Reading** | 50 (35 pts) | ≈ 18-21 min | *Complete the Words* (30 ítems) · *Read in Daily Life* (5-15; sets de 2 y 3 ítems; textos cortos: cartel, menú, email, post) · *Read an Academic Passage* (5-15; hasta ≈ 200 palabras) |
+| **Listening** | 47 (35 pts) | ≈ 18 min | *Listen and Choose a Response* (15-19) · *Listen to a Conversation* (10) · *Listen to an Announcement* (6-10; aula/campus) · *Listen to an Academic Talk* (8-16; monólogo de hasta ≈ 250 palabras) |
+| **Writing** | 12 (20 pts) | 23 min | *Build a Sentence* (10 × 1 pt) · *Write an Email* (1 × 0-5) · *Write for an Academic Discussion* (1 × 0-5) |
+| **Speaking** | 11 (55 pts) | 8 min | *Listen and Repeat* (7 × 0-5; sin preparación, la frase se oye una vez) · *Take an Interview* (4 × 0-5) |
 
-- Reading y Listening son **adaptativos por etapas** (el segundo módulo depende de cómo te fue en el primero). Writing y Speaking no lo son.
-- La duración total ronda **menos de 90 minutos** (30 + 29 + 23 + 8).
-- Writing y Speaking se califican con una combinación de IA y evaluadores certificados por ETS (según las fuentes consultadas).
-- Los **números exactos de ítems** por sección varían entre fuentes (p. ej. una tabla de ETS indica 50/47/12/11 ítems para R/L/W/S, pero esas cifras podrían incluir ítems no puntuados). Por eso esta app **no** afirma cuántas preguntas tendrás: practica el formato de cada tarea, no un número.
+- Duración total: **1 h 23 min – 1 h 29 min**. Sin descanso ni vuelta atrás; hay ítems no puntuados.
+- **Reading y Listening son adaptativos en 2 etapas** (un módulo «router» y luego un módulo inferior o superior). Writing y Speaking son lineales.
+- **El audio de Listening se oye una sola vez.** Los acentos están balanceados entre Estados Unidos/Canadá, Australia y Reino Unido, con ritmo natural y modismos.
+- Las tareas largas de Writing y Speaking las puntúa IA (en Speaking: fluidez, coherencia, gramática, prosodia e inteligibilidad).
+- El blueprint **no** lista «Insert a Sentence» ni «Prose Summary», y ya no existen las tareas integradas antiguas. Si ves una pregunta de resumen en esta app (simulacro 1), es **práctica extra de comprensión, no formato oficial**.
 
 ## 2. Escala de puntaje
 
-- Desde enero de 2026 el informe de puntajes usa una **escala de 1 a 6 en pasos de 0.5**, alineada con el MCER/CEFR. El total es el promedio de las cuatro secciones, redondeado al 0.5 más cercano (según las guías consultadas).
-- La escala 0-120 anterior se está retirando; ETS indica que hay una equivalencia para quienes comparan con requisitos antiguos, **pero la relación no es lineal** (varios puntajes 0-120 corresponden a una misma media banda). Ejemplos citados por ETS en materiales de ayuda: una banda 5 equivale a ≈ 95-106; y ETS recomienda que una institución que pedía **90** use **4.5**.
-- No logré abrir la tabla oficial completa (ets.org no es accesible desde el entorno de desarrollo), así que **esta app no convierte** tus resultados a 0-120.
+- Cada sección y el total se reportan en **escala 1-6 en pasos de 0.5**. El total es el **promedio de las 4 secciones redondeado a 0.5**. Durante 2 años se informa también un equivalente en la escala 0-120.
+- Equivalencia aproximada banda ↔ escala antigua según la *Tabla 6* de *Score Scale Update 2026* (total 0-120):
+
+| Banda total | 0-120 equivalente |
+|---|---|
+| 6 | 114+ |
+| 5.5 | 107+ |
+| 5 | 95+ |
+| 4.5 | 86+ |
+| 4 | 72+ |
+| 3.5 | 58+ |
+| 3 | 44+ |
+
+- Por sección (escala 0-30): **banda 4.5** ≈ Reading 18-21, Listening 17-19, Writing 17-20, Speaking 20-22; **banda 4** ≈ Reading 12-17, Listening 13-16, Writing 15-16, Speaking 18-19. (Las filas del PDF salen desalineadas al extraer el texto; lo más fiable es la columna del total.)
+- **Cómo la usa esta app:** el % de acierto en Reading/Listening se escala a 0-30 y se convierte con estos umbrales. Los umbrales de banda ≥ 5 y ≤ 3.5 son una **extrapolación** de la app (no vienen de la tabla). Es una estimación: el material de esta app no está calibrado como el examen real.
 
 ## 3. Requisito de la Universidad de Twente (maestrías)
 
-Lo que muestran las páginas de admisión de utwente.nl en los resultados de búsqueda (consulta 31-oct-2026):
+Fuente: [página de requisito de idioma](https://www.utwente.nl/en/education/master/admission-requirements/language-requirement). Para un TOEFL hecho **después de enero de 2026** (escala 1-6):
 
-| Fecha del certificado | TOEFL iBT requerido |
-|---|---|
-| **Desde enero de 2026** (tu caso: examen el 15-ene-2027) | Certificado **no mayor de 2 años**; **total 4.5**, mínimo **4.5 en Reading, Listening y Writing** y **4 en Speaking** |
-| Antes de enero de 2026 | Total 90, mínimo 21 en cada sección |
+| Intake | Total | Reading / Listening / Writing | Speaking |
+|---|---|---|---|
+| **Febrero de 2027** | 4.5 | ≥ 4.5 | ≥ 4 |
+| **Septiembre de 2027 en adelante** | 5 | ≥ 5 | ≥ 4.5 |
 
-Notas importantes:
-- Twente indica que **no acepta los puntajes «MyBest»**; la versión *Home Edition* solo se acepta por excepción y en periodos concretos.
-- Los resultados de búsqueda también mostraron un texto que sugiere un umbral **más alto (5.0 total / 100 en la escala antigua) para algunas admisiones de septiembre de 2027**. El fragmento mezclaba varios bloques de requisitos, así que **no pude confirmar** si aplica a tu programa. Por prudencia, esta app usa **4.5 como meta mínima y 5.0 como margen recomendado**. Puedes cambiar ambos valores en *Ajustes*.
-- Cada programa de maestría puede tener su propia página con matices. **Confirma el requisito de tu programa y la fecha límite de entrega de resultados** (con examen el 15 de enero necesitas que el informe llegue a tiempo).
+(Escala antigua: feb-2027 → total 90 y ≥ 21 por sección; sep-2027 en adelante → total 100 y ≥ 25.)
 
-## 4. Qué verifiqué y qué no
+Condiciones adicionales:
+- **No aceptan puntajes «MyBest».**
+- Certificado **no mayor de 2 años** y vigente **al menos 1 mes** después de la solicitud.
+- El resultado oficial debe estar **antes de la fecha límite de solicitud**. No hay admisión condicional ni excepciones individuales.
 
-| Dato | Estado |
-|---|---|
-| Tareas por sección del formato 2026 | Confirmado en varios resultados de ETS y guías coincidentes (no pude abrir ets.org directamente) |
-| Duraciones aproximadas por sección | De la tabla de ETS vista en resultados de búsqueda; no abierta directamente |
-| Escala 1-6 con pasos de 0.5 | Confirmado en resultados de ETS (ayuda de TOEFL Access) |
-| Equivalencia 4.5 ↔ 90 | Recomendación de ETS vista en resultados de búsqueda; no hay equivalencia «oficial» de Twente |
-| Requisito de Twente 4.5/4.5/4.5/4 | Visto en resultados de la página de requisitos de lengua de utwente.nl; **no pude abrirla** (dominio bloqueado en el entorno) |
-| Posible umbral 5.0 para septiembre de 2027 | **No confirmado** |
-| Plazo de entrega de resultados de ETS | **No verificado**: consúltalo en ETS |
+**Aún no sabemos tu intake.** Por eso la app usa dos metas editables (*Ajustes*): **OBJETIVO** total 5.0 con R/L/W ≥ 5.0 y Speaking ≥ 4.5 (cubre ambos intakes), y **MÍNIMO febrero 2027** 4.5 / 4.5 / 4.5 / 4.5 / 4.0. **Confirma tu intake y la fecha límite en la página de tu programa.** Si tu intake es septiembre de 2027 y no alcanzas el 5 el 15 de enero, quizá te dé tiempo de repetir el examen antes de la fecha límite: averigua cuándo es.
+
+## 4. Qué viene verificado y de dónde
+
+| Dato | Fuente | Estado |
+|---|---|---|
+| Estructura de ítems, tiempos y reglas del audio | PDF *Test Blueprint and Specifications 2026* | Consultado por otra sesión (no abierto por mí) |
+| Escala 1-6 y equivalencia con 0-120 | PDF *Score Scale Update 2026*, Tabla 6 | Consultado por otra sesión; la tabla por sección es de lectura difícil |
+| Requisito de Twente (ambos intakes) | utwente.nl | Abierto por otra sesión el 31-oct-2026 |
+| Tareas del formato 2026 | Resultados de búsqueda de ETS y guías | Coincide con lo anterior |
+| Umbrales de banda ≥ 5 y ≤ 3.5 al convertir % de acierto | Extrapolación de la app | **No oficial** |
+| Plazo de entrega de resultados de ETS | — | **No verificado**: consúltalo en ETS |
 
 ## 5. Fuentes para verificar tú mismo/a
 
+- [ETS · Blueprint y especificaciones 2026 (PDF)](https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf)
+- [ETS · Score Scale Update 2026 (PDF)](https://www.mx.ets.org/content/dam/ets-org/pdfs/toefl/score-scale-update-2026.pdf)
 - [ETS · Contenido del TOEFL iBT](https://www.ets.org/toefl/test-takers/ibt/about/content.html)
-- [ETS · Sección Reading](https://www.ets.org/toefl/test-takers/ibt/about/content/reading.html) y [Speaking](https://www.ets.org/toefl/test-takers/ibt/about/content/speaking.html)
-- [ETS · Actualización de la escala de puntajes (TOEFL Access)](https://toeflaccess.ets.org/help/en/articles/11758616-toefl-ibt-score-scale-update-what-you-need-to-know)
+- [ETS · Actualización de la escala (TOEFL Access)](https://toeflaccess.ets.org/help/en/articles/11758616-toefl-ibt-score-scale-update-what-you-need-to-know)
 - [Universidad de Twente · Requisito de idioma para maestrías](https://www.utwente.nl/en/education/master/admission-requirements/language-requirement)
 
 ## 6. Cómo usa esta app las «bandas»
 
-Tus bandas estimadas se calculan así (todo local, sin servidor): para Reading/Listening, el porcentaje de acierto en el material de esta app se convierte linealmente a 1-6 (`banda ≈ 1 + 5 × acierto`, redondeada a 0.5); para Writing/Speaking, el promedio de tu autoevaluación con rúbrica (0-5) más 1. **Es una brújula, no un pronóstico oficial.** Las preguntas de esta app son originales y no tienen la misma dificultad calibrada que el examen real, y la autoevaluación suele ser optimista.
+Todo se calcula en tu navegador. Reading/Listening: acierto → escala 0-30 → banda (tabla de la sección 2). Writing/Speaking: promedio de tu autoevaluación con rúbrica (0-5) + 1. El total es el promedio de las secciones con datos, redondeado a 0.5, y la proyección extrapola linealmente (con un tope de +1.5 sobre tu nivel actual). **Es una brújula, no un pronóstico oficial.** La autoevaluación suele ser optimista.

@@ -4,8 +4,28 @@ import { SKILLS, clamp, roundHalf, round1, mean, today, addDays, diffDays } from
 import * as store from './store.js';
 import { isLearned } from './srs.js';
 
-/** Precisión (0-1) -> banda 1-6 (aprox. lineal). */
-export function bandFromAcc(a) { return clamp(roundHalf(1 + 5 * a), 1, 6); }
+/**
+ * Precisión (0-1) -> banda 1-6, usando como referencia la tabla de equivalencias de ETS para la escala
+ * 0-30 por sección (datos recibidos de otra sesión: banda 4 ≈ 12-17 en Reading y 13-16 en Listening;
+ * banda 4.5 ≈ 18-21 y 17-19). Los umbrales de banda ≥ 5 y ≤ 3.5 son una EXTRAPOLACIÓN mía.
+ * Es una estimación: este material no está calibrado como el examen real.
+ */
+const BAND_FLOORS = [[29, 6], [26, 5.5], [22, 5], [18, 4.5], [13, 4], [9, 3.5], [6, 3], [4, 2.5], [2, 2], [1, 1.5], [0, 1]];
+export function bandFromAcc(a) {
+  const scaled = clamp(a, 0, 1) * 30;
+  for (const [floor, band] of BAND_FLOORS) if (scaled >= floor) return band;
+  return 1;
+}
+
+export const DEFAULT_TARGETS = {
+  objective: { total: 5, reading: 5, listening: 5, writing: 5, speaking: 4.5 },
+  minimum: { total: 4.5, reading: 4.5, listening: 4.5, writing: 4.5, speaking: 4 },
+};
+/** Metas editables: OBJETIVO (cubre feb y sep 2027) y MÍNIMO (feb 2027). */
+export function targets() {
+  const t = store.get().settings.targets || {};
+  return { objective: { ...DEFAULT_TARGETS.objective, ...(t.objective || {}) }, minimum: { ...DEFAULT_TARGETS.minimum, ...(t.minimum || {}) } };
+}
 
 /** Eventos fechados por habilidad: {date, band, w} (w = peso). */
 function events(skill) {

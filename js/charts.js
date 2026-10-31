@@ -14,7 +14,7 @@ export const SKILL_COLOR = { reading: 'var(--c-reading)', listening: 'var(--c-li
  * Líneas de banda (1-6) en el tiempo.
  * series: { reading:[{date,band}], ..., overall:[...] }; goal: número (línea horizontal).
  */
-export function lineChart(series, { goal, startDate, endDate } = {}) {
+export function lineChart(series, { goals = [], startDate, endDate } = {}) {
   const W = 640, H = 300, L = 38, R = 12, T = 12, B = 30;
   const svg = s('svg', { viewBox: `0 0 ${W} ${H}`, class: 'chart', role: 'img', 'aria-label': 'Evolución de la banda estimada por habilidad' });
   const all = Object.values(series).flat();
@@ -33,10 +33,10 @@ export function lineChart(series, { goal, startDate, endDate } = {}) {
     const label = t.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
     svg.append(s('text', { x: L + ((W - L - R) * i) / ticks, y: H - 8, 'text-anchor': i === 0 ? 'start' : i === ticks ? 'end' : 'middle' }, label));
   }
-  if (goal) {
-    svg.append(s('line', { x1: L, x2: W - R, y1: y(goal), y2: y(goal), stroke: 'var(--good)', 'stroke-width': 2, 'stroke-dasharray': '6 4' }));
-    svg.append(s('text', { x: W - R, y: y(goal) - 5, 'text-anchor': 'end', style: 'fill:var(--good);font-weight:600' }, `Meta Twente ${goal}`));
-  }
+  goals.forEach(({ value, label, color }, i) => {
+    svg.append(s('line', { x1: L, x2: W - R, y1: y(value), y2: y(value), stroke: color, 'stroke-width': 2, 'stroke-dasharray': '6 4' }));
+    svg.append(s('text', { x: W - R, y: y(value) + (i ? 14 : -5), 'text-anchor': 'end', style: `fill:${color};font-weight:600` }, `${label} ${value}`));
+  });
   for (const key of [...SKILLS, 'overall']) {
     const pts = series[key] || [];
     if (!pts.length) continue;

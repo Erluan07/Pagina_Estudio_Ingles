@@ -198,7 +198,7 @@
     "name": "BBC Learning English · 6 Minute English",
     "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
     "note": "Elige un episodio sobre ciencia o tecnología.",
-    "verified": false
+    "verified": true
    },
    "steps": [
     "Escucha una vez sin pausar y toma notas con el formato de hoy (palabras clave, → y ↑↓).",

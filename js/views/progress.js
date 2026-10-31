@@ -22,26 +22,32 @@ export async function viewProgress() {
     tile(`${lw.learned}`, `palabras aprendidas (de ${lw.total} vistas)`, h('div', { class: 'small muted' }, 'Aprendida = 3 repasos correctos seguidos')),
     tile(errs.filter((e) => !e.resolved).length, `errores en el banco (${errs.filter((e) => e.resolved).length} resueltos)`)));
 
-  // Proyección
-  const goal = s.settings.goal, safe = s.settings.goalSafe;
+  // Proyección frente a las dos metas
+  const T = S.targets();
   const ov = S.overallBand(), proj = S.projection();
   const projCard = h('div', { class: 'card' }, h('h2', null, 'Puntaje estimado y proyección'));
   if (ov.value === null) projCard.append(h('p', null, 'Aún no hay datos. Haz el ', h('a', { href: '#/diagnostico' }, 'diagnóstico'), ' y tus primeras sesiones.'));
   else {
     projCard.append(h('p', null, h('strong', { style: 'font-size:1.4rem' }, `Banda global estimada hoy: ${ov.value}`), ov.complete ? '' : ' (parcial: faltan habilidades por medir)', ` — ${bandText(ov.value)}`));
-    projCard.append(h('p', null, proj ? `Proyección lineal al ${fmtDate(s.settings.examDate, { day: 'numeric', month: 'long' })}: ${proj.value} (tendencia ${proj.slopePerWeek >= 0 ? '+' : ''}${proj.slopePerWeek} bandas/semana, ${proj.points} mediciones). ` : 'Proyección disponible cuando haya al menos 3 días con datos de las 4 habilidades. ',
-      h('strong', null, `Meta mínima Twente: ${goal} · margen recomendado: ${safe}.`)));
+    projCard.append(h('p', null, proj ? `Proyección lineal al ${fmtDate(s.settings.examDate, { day: 'numeric', month: 'long' })}: ${proj.value} (tendencia ${proj.slopePerWeek >= 0 ? '+' : ''}${proj.slopePerWeek} bandas/semana, ${proj.points} mediciones). ` : 'Proyección disponible cuando haya al menos 3 días con datos de las 4 habilidades. '));
     const ref = proj ? proj.value : ov.value;
-    projCard.append(h('div', { class: `notice ${ref >= safe ? 'good' : ref >= goal ? 'info' : 'bad'}` }, ref >= safe ? 'Vas por encima del margen recomendado. Mantén la constancia y los simulacros.' : ref >= goal ? 'Estás en la meta mínima pero sin margen. Prioriza tus habilidades más bajas.' : `Por debajo de la meta mínima (${goal}). No te desanimes: refuerza las habilidades más bajas y usa el banco de errores a diario.`));
+    projCard.append(h('div', { class: `notice ${ref >= T.objective.total ? 'good' : ref >= T.minimum.total ? 'info' : 'bad'}` },
+      ref >= T.objective.total ? `Vas en el objetivo (${T.objective.total}), que cubre tanto el intake de febrero como el de septiembre de 2027. Mantén la constancia.`
+        : ref >= T.minimum.total ? `Alcanzas el mínimo de febrero 2027 (${T.minimum.total}) pero no el objetivo de septiembre 2027 (${T.objective.total}). Prioriza tus habilidades más bajas.`
+          : `Por debajo del mínimo (${T.minimum.total}). No te desanimes: refuerza las habilidades más bajas y usa el banco de errores a diario.`));
+    projCard.append(h('table', { class: 'simple' }, h('thead', null, h('tr', null, ['', 'Banda actual', `Mínimo feb-2027`, 'Objetivo (sep-2027)', 'Estado'].map((t) => h('th', null, t)))),
+      h('tbody', null, [['total', 'Total (promedio)', ov.value], ...SKILLS.map((k) => [k, SKILL_SHORT[k], S.skillBand(k)])].map(([k, label, b]) => h('tr', null,
+        h('td', null, label), h('td', null, b ?? '–'), h('td', null, T.minimum[k]), h('td', null, T.objective[k]),
+        h('td', null, b === null ? '–' : b >= T.objective[k] ? h('span', { class: 'pill good' }, 'objetivo') : b >= T.minimum[k] ? h('span', { class: 'pill warn' }, 'mínimo') : h('span', { class: 'pill bad' }, 'por debajo')))))));
   }
-  projCard.append(h('p', { class: 'small muted' }, 'Importante: es una estimación aproximada basada en tu acierto en este material (no oficial) y en tu autoevaluación en Writing/Speaking. ETS reporta en escala 1-6 y los requisitos de Twente deben confirmarse en su sitio (ver «Sobre el examen»).'));
+  projCard.append(h('p', { class: 'small muted' }, 'Estimación aproximada: la precisión en este material (no calibrado como el examen real) se convierte a banda con una tabla basada en la equivalencia de ETS, y Writing/Speaking usan tu autoevaluación. Confirma tu intake y la fecha límite de resultados en la página de tu programa (ver «Sobre el examen»).'));
   root.append(projCard);
 
   // Gráfica por habilidad
   const series = Object.fromEntries(SKILLS.map((k) => [k, S.skillSeries(k)]));
   series.overall = S.overallSeries();
   const gc = h('div', { class: 'card' }, h('h2', null, 'Banda estimada por habilidad en el tiempo'));
-  gc.append(lineChart(series, { goal, startDate: addDays(plan.meta.start, -2), endDate: plan.meta.exam }), chartLegend());
+  gc.append(lineChart(series, { goals: [{ value: T.objective.total, label: 'Objetivo', color: 'var(--good)' }, { value: T.minimum.total, label: 'Mínimo feb-27', color: 'var(--warn)' }], startDate: addDays(plan.meta.start, -2), endDate: plan.meta.exam }), chartLegend());
   gc.append(h('p', { class: 'small muted' }, 'Cada punto es el promedio del día (acierto en tests y autoevaluaciones).'));
   gc.append(h('table', { class: 'simple' }, h('thead', null, h('tr', null, ['Habilidad', 'Banda actual', 'Acierto acumulado'].map((t) => h('th', null, t)))),
     h('tbody', null, SKILLS.map((k) => { const a = S.accuracyBySkill()[k]; return h('tr', null, h('td', null, SKILL_ES[k]), h('td', null, S.skillBand(k) ?? '–'), h('td', null, a.max ? `${Math.round((100 * a.pts) / a.max)} % (${a.pts}/${a.max})` : 'sin tests')); }))));

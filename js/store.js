@@ -2,7 +2,7 @@
 const KEY = 'toefl-twente-v1';
 export const DEFAULTS = () => ({
   v: 1,
-  settings: { theme: 'auto', mode: 90, startDate: '2026-11-01', examDate: '2027-01-15', goal: 4.5, goalSafe: 5.0 },
+  settings: { theme: 'auto', mode: 90, startDate: '2026-11-01', examDate: '2027-01-15', goal: 4.5, goalSafe: 5.0, examAudio: false, targets: { objective: { total: 5, reading: 5, listening: 5, writing: 5, speaking: 4.5 }, minimum: { total: 4.5, reading: 4.5, listening: 4.5, writing: 4.5, speaking: 4 } } },
   diagnostic: { reading: null, listening: null, writing: null, speaking: null },
   days: {},
   minutesByDate: {},

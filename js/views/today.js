@@ -181,7 +181,7 @@ export async function viewDay(parts) {
   }
 
   const steps = h('div', { class: 'steps' });
-  const R = (extra) => ({ day: n, skill: d.skill, kind: 'practice', maxPlays: undefined, ...extra });
+  const R = (extra) => ({ day: n, skill: d.skill, kind: 'practice', maxPlays: s.settings.examAudio ? 1 : undefined, ...extra });
   const list = [];
 
   // 1. Calentamiento de vocabulario
